@@ -1,0 +1,34 @@
+.headingContainer {
+    width: 100%;
+    height: auto;
+    margin: auto;
+    background-color: #5083A5;
+    padding: 1em 0px;
+    font-family: 'Russo One', sans-serif;
+}
+
+.headingText {
+    font-size: 4rem;
+    color: #ffffff;
+}
+
+#navigation {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+#navigation li {
+    font-size: 2rem;
+    color: #b3b3b3;
+}
+
+#navigation li a {
+    color: white;
+}
+
+#navigation li a:hover {
+    color: #000000;
+    text-decoration: underline;
+}

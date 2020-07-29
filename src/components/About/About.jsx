@@ -7,33 +7,33 @@ function About() {
         <div className='container'>
             <div className='subContainer'>
                 <div className='textContainer'>
-                    <h1>About Me</h1>
-                    <p>
+                    <div className='subTitle'>About Me</div>
+                    <p className='subText'>
                         I build new projects just to tickle my
-                <br />
-                brain and push my limits as a developer.
-                <br /> <br />
-                While I do freelance work, I still take
-                <br />
-                interviews in search of a great team
-                <br />
-                and projects that interest me.
-                </p>
+                            <br />
+                            brain and push my limits as a developer.
+                            <br /> <br />
+                            While I do freelance work, I still take
+                            <br />
+                            interviews in search of a great team
+                            <br />
+                            and projects that interest me.
+                        </p>
 
-                    <h1>Skills</h1>
-                    <p>
+                    <div className='subTitle'>Skills</div>
+                    <p className='subText'>
                         React, HTML5, CSS, JavaScript,
-                <br />
-                Express, Node.js, Django, Mongoose,
-                <br />
-                MongoDB, Python, PostreSQL,
-                <br />
-                Git, GitHub, MongoDB Atlas, Postman,
-                <br />
-                Heroku, AWS, Third Party APIs,
-                <br />
-                Wireframing, Adobe Creative Suite
-            </p>
+                        <br />
+                        Express, Node.js, Django, Mongoose,
+                        <br />
+                        MongoDB, Python, PostreSQL,
+                        <br />
+                        Git, GitHub, MongoDB Atlas, Postman,
+                        <br />
+                        Heroku, AWS, Third Party APIs,
+                        <br />
+                        Wireframing, Adobe Creative Suite
+                    </p>
                 </div>
                 {/* SVG input below */}
                 <div className='svgContainer'>

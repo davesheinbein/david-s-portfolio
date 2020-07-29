@@ -1,7 +1,8 @@
 .container {
     width: 100%;
     height: auto;
-    background-color: aqua;
+    background-color: #459CF6;
+    color: #ffffff;
 }
 .subContainer {
     width: 100%;
@@ -15,7 +16,17 @@
     width: 50%;
 }
 
+.subTitle {
+    font-size: 3rem;
+    margin: .5em 0px;
+}
+
+.subText {
+    font-size: 1.5rem;
+}
+
 .resumeDlText {
+    font-size: 2rem;
     margin: 1em 0px;
     padding: 1em 0px;
 }

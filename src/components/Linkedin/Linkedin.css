@@ -1,0 +1,23 @@
+.linkedInContainer {
+    width: 100%;
+    background-color: var(--secondaryColor);
+    padding: 2em 0px;
+}
+
+#linkedInImage {
+    width: 80%;
+}
+
+.linkedInText {
+    font-size: 3rem;
+    color: var(--mainText);
+}
+
+.linkedInBtnText {
+    font-size: 2rem;
+    color: var(--TertiaryText);
+}
+
+.linkedInBtnText:hover {
+    color: var(--secondaryText);
+}

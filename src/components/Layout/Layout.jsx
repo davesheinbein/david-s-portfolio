@@ -2,6 +2,7 @@ import React, { Component } from "react";
 import Greeting from "../Greeting/Greeting";
 import Intro from "../Intro/Intro";
 import About from "../About/About";
+import Linkedin from "../Linkedin/Linkedin";
 import Projects from "../Projects/Projects";
 import Contact from "../Contact/Contact"
 import "./Layout.css";
@@ -19,6 +20,11 @@ export default class Layout extends Component {
         <section className="a">
           <div className="main-container">
             <About />
+          </div>
+        </section>
+        <section className="a">
+          <div className="main-container">
+            <Linkedin />
           </div>
         </section>
         <section className="a">

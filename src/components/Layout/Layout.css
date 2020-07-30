@@ -1,0 +1,21 @@
+.main-container {
+    width: 100%;
+    margin: 0px auto;
+}
+
+
+.s1 {
+    background-color: var(--mainColor);
+    overflow: auto;
+}
+  
+.s2 {
+    background-color: var(--secondaryColor);
+    overflow: auto;
+}
+  
+@media screen and (max-width: 1200px) {
+    .main-container {
+        width: 100%;
+    }
+}

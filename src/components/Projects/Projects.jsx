@@ -4,6 +4,7 @@ import steadfinder from "../../images/steadfinder.png";
 import inspirations from "../../images/inspirations.png";
 import twistsofrate from "../../images/twistsofrate.png";
 import wargame from "../../images/wargame.png";
+import neonstrobe from "../../images/neonstrobe.png";
 
 export default class Projects extends Component {
     render() {
@@ -20,12 +21,12 @@ export default class Projects extends Component {
                             </img>
                             <div className="post-preview">
                                 <div className="post-title">Stead Finder</div>
-                                <p className="post-intro">
+                                <div className="post-intro">
                                     A horse marketplace bulletin board. People can post horses
                                     they have for sale and conact people directly to inquire about
                                     buying a horse.
 
-                                </p>
+                                </div>
                                 <div className='viewMoreBtn'>
                                     <a
                                         href="https://github.com/davesheinbein/stead-finder-horse-buliten-board"
@@ -47,10 +48,10 @@ export default class Projects extends Component {
                             ></img>
                             <div className="post-preview">
                                 <div className="post-title">Inspirations</div>
-                                <p className="post-intro">
+                                <div className="post-intro">
                                     A repository of Gifs and Videos. People can post GIF, Videos,
                                     and comments. Utilizing full CRUD functionality.
-                                </p>
+                                </div>
                                 <div className='viewMoreBtn'>
                                     <a
                                         href="https://github.com/davesheinbein/full-stack-web-app"
@@ -72,11 +73,11 @@ export default class Projects extends Component {
                             ></img>
                             <div className="post-preview">
                                 <div className="post-title">TwistsOfRate</div>
-                                <p className="post-intro">
+                                <div className="post-intro">
                                     A site with detailed information about games, genres, consoles
                                     and the ability for users to blog about their favorite games.
 
-                                </p>
+                                </div>
                                 <div className='viewMoreBtn'>
                                     <a
                                         href="https://github.com/davesheinbein/TwistsOfRate"
@@ -98,14 +99,39 @@ export default class Projects extends Component {
                             ></img>
                             <div className="post-preview">
                                 <div className="post-title">War Game</div>
-                                <p className="post-intro">
+                                <div className="post-intro">
                                     A easy to play game based on the card game war. Face off
                                     against against a computer. May the odd be in your favor.
 
-                                </p>
+                                </div>
                                 <div className='viewMoreBtn'>
                                     <a
                                         href="https://github.com/davesheinbein/War-game"
+                                        target="_blank"
+                                        rel="noopener noreferrer"
+                                    >
+                                        View More!
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div>
+                        <div className="post">
+                            <img
+                                className="thumbnail"
+                                alt="pokemon-creations"
+                                src={neonstrobe}
+                            ></img>
+                            <div className="post-preview">
+                                <div className="post-title">Neon Strob animation</div>
+                                <div className="post-intro">
+                                    A simple css animation that creates a strobe effect on letters.
+                                    A flashy and easy to use animation for any situation.
+                                </div>
+                                <div className='viewMoreBtn'>
+                                    <a
+                                        href="https://github.com/davesheinbein/neon-strobe-animation"
                                         target="_blank"
                                         rel="noopener noreferrer"
                                     >

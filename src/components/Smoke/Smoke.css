@@ -1,4 +1,4 @@
-body {
+.videoContainer {
     margin: 0;
     padding: 0;
     height: 100vh;
@@ -15,7 +15,34 @@ video {
     width: 100%;
 }
 
-h1 {
+.NavLink {
+    color: whitesmoke;
+}
+
+.NavLink:hover {
+    color: red;
+    text-decoration: none;
+}
+
+.continueLink {
+    font-size: 1rem;
+    opacity: 0;
+    animation: continueAnimation 1s ease 4s forwards;
+    animation: name duration timing-function delay iteration-count direction fill-mode;
+}
+
+@keyframes continueAnimation {
+    0% {
+        opacity: 0;
+        filter: blur(10px);
+    }
+    100% {
+        opacity: 1;
+        filter: blur(0);
+    }
+}
+
+.overlayText {
     margin: 0;
     padding: 0;
     position: absolute;
@@ -25,12 +52,12 @@ h1 {
     text-align: center;
     color: #ddd;
     font-size: 4rem;
-    letter-spacing: 0.15em;
+    letter-spacing: 0.5em;
     font-family: monospace, 'Times New Roman', 'Times', 'serif';
     white-space: nowrap;
 }
 
-h1 span {
+.overlayText span {
     opacity: 0;
     display: inline-block;
     animation: textAnimate 1s linear forwards;
@@ -49,73 +76,73 @@ h1 span {
     }
 }
 
-h1 span:nth-child(1) {
+.overlayText span:nth-child(1) {
     animation-delay: .25s;
 }
 
-h1 span:nth-child(2) {
+.overlayText span:nth-child(2) {
     animation-delay: .5s;
 }
 
-h1 span:nth-child(3) {
+.overlayText span:nth-child(3) {
     animation-delay: .75s;
 }
  
-h1 span:nth-child(4) {
+.overlayText span:nth-child(4) {
     animation-delay: 1s;
 }
  
-h1 span:nth-child(5) {
+.overlayText span:nth-child(5) {
     animation-delay: 1.25s;
 } 
  
-h1 span:nth-child(7) {
+.overlayText span:nth-child(7) {
     animation-delay: 1.5s;
 }
 
-h1 span:nth-child(8) {
+.overlayText span:nth-child(8) {
     animation-delay: 1.75s;
 }
 
-h1 span:nth-child(9) {
+.overlayText span:nth-child(9) {
     animation-delay: 2s;
 }
  
-h1 span:nth-child(10) {
+.overlayText span:nth-child(10) {
     animation-delay: 2.25s;
 }
  
-h1 span:nth-child(11) {
+.overlayText span:nth-child(11) {
     animation-delay: 2.5s;
 }
  
-h1 span:nth-child(12) {
+.overlayText span:nth-child(12) {
     animation-delay: 3s;
 }
  
-h1 span:nth-child(13) {
+.overlayText span:nth-child(13) {
     animation-delay: 3.25s;
 }
  
-h1 span:nth-child(14) {
+.overlayText span:nth-child(14) {
     animation-delay: 3.75s;
 }
  
-h1 span:nth-child(15) {
+.overlayText span:nth-child(15) {
     animation-delay: 4s;
 }
  
 
 @media (min-width: 500px) and (max-width: 900px) {
-    h1 {
+    .overlayText {
         font-size: 2.25rem;
     }
      
-    h1 span:nth-child(14) {
+    .overlayText span:nth-child(14) {
         animation-delay: 3.5s;
     }
      
-    h1 span:nth-child(15) {
+    .overlayText span:nth-child(15) {
         animation-delay: 3.75s;
     }
     

@@ -1,30 +1,98 @@
 import React, { Component } from "react";
 import "./Smoke.css";
 import SmokeVideo from './smoke.mp4'
+import { Link } from 'react-router-dom';
 
 export default class Smoke extends Component {
     render() {
         return (
-            <div>
+            <div className='videoContainer'>
                 <section>
-                    <video src={SmokeVideo} autoplay muted></video>
-                    <h1>
-                        <span>D</span>
-                        <span>A</span>
-                        <span>V</span>
-                        <span>I</span>
-                        <span>D</span>
-                        <span>&nbsp;</span>
-                        <span>S</span>
-                        <span>H</span>
-                        <span>E</span>
-                        <span>I</span>
-                        <span>N</span>
-                        <span>B</span>
-                        <span>E</span>
-                        <span>I</span>
-                        <span>N</span>
-                    </h1>
+                    <video
+                        src={SmokeVideo}
+                        autoplay='autoplay'
+                        muted>
+                    </video>
+                    <div className='overlayText'>
+                        <span>
+                            <Link to='/main' className='NavLink'>
+                                D
+                            </Link>
+                        </span>
+                        <span>
+                            <Link to='/main' className='NavLink'>
+                                A
+                            </Link>
+                        </span>
+                        <span>
+                            <Link to='/main' className='NavLink'>
+                                V
+                            </Link>
+                        </span>
+                        <span>
+                            <Link to='/main' className='NavLink'>
+                                I
+                            </Link>
+                        </span>
+                        <span>
+                            <Link to='/main' className='NavLink'>
+                                D
+                            </Link>
+                        </span>
+                        <span>
+                            &nbsp;
+                        </span>
+                        <span>
+                            <Link to='/main' className='NavLink'>
+                                S
+                            </Link>
+                        </span>
+                        <span>
+                            <Link to='/main' className='NavLink'>
+                                H
+                            </Link>
+                        </span>
+                        <span>
+                            <Link to='/main' className='NavLink'>
+                                E
+                            </Link>
+                        </span>
+                        <span>
+                            <Link to='/main' className='NavLink'>
+                                I
+                            </Link>
+                        </span>
+                        <span>
+                            <Link to='/main' className='NavLink'>
+                                N
+                            </Link>
+                        </span>
+                        <span>
+                            <Link to='/main' className='NavLink'>
+                                B
+                            </Link>
+                        </span>
+                        <span>
+                            <Link to='/main' className='NavLink'>
+                                E
+                            </Link>
+                        </span>
+                        <span>
+                            <Link to='/main' className='NavLink'>
+                                I
+                            </Link>
+                        </span>
+                        <span>
+                            <Link to='/main' className='NavLink'>
+                                N
+                            </Link>
+                        </span>
+                        <div className='continueLink'>
+                            <Link to='/main' className='NavLink'>
+                                Click to continue
+                            </Link>
+                        </div>
+                    </div>
                 </section>
             </div>
         );

@@ -9,7 +9,7 @@ import neonstrobe from "../../images/neonstrobe.png";
 export default class Projects extends Component {
     render() {
         return (
-            <div className="projects">
+            <div className="projects" id='projects'>
                 <div className='projectTitle'>A few past projects</div>
                 <div className="post-wrapper">
                     <div>

@@ -27,7 +27,7 @@ export default class Contact extends Component {
 
         const { name, email, subject, message } = this.state
         
-        const form = await axios.post('/api/form', {
+         await axios.post('/api/form', {
             name,
             email,
             subject,
@@ -36,7 +36,8 @@ export default class Contact extends Component {
 
         axios({
             method: "POST",
-            url: "http://localhost:3001/send",
+            url: "http://localhost:3001/api/form",
+            headers:{"Access-Contol-Allow-Origin":"*"},
             data: {
                 name: name,
                 email: email,

@@ -8,7 +8,7 @@ export default class Greeting extends Component {
                 <div className='headingText'>Hello World, i'm David Sheinbein</div>
                 <ul id="navigation">
                     <li>
-                        <a href="#about">About Me</a>
+                        <a href="#aboutMe">About Me</a>
                     </li>
                     <li className='navLines'>&nbsp;&nbsp;|&nbsp;&nbsp;</li>
                     <li>

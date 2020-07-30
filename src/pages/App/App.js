@@ -1,7 +1,9 @@
 import React from "react";
 import "./App.css";
+import Smoke from "../../components/Smoke/Smoke";
 import Layout from "../../components/Layout/Layout";
 import { createGlobalStyle } from "styled-components";
+import { Route, Switch } from 'react-router-dom';
 
 const GlobalStyle = createGlobalStyle`
 ${(props) => {
@@ -100,8 +102,21 @@ class App extends React.Component {
   render() {
     return (
       <div className="App">
-        <GlobalStyle color={this.state.color} />
-        <Layout handleThemeChange={this.handleThemeChange} />
+        <Switch>
+          <Route exact path='/' render={() =>
+            <div>
+              <Smoke />
+            </div>
+          } />
+
+          <Route exact path='/main' render={() =>
+            <div>
+              <GlobalStyle color={this.state.color} />
+              <Layout handleThemeChange={this.handleThemeChange} />
+            </div>
+          } />
+
+        </Switch>
       </div>
     );
   }

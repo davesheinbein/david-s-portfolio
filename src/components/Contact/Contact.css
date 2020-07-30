@@ -1,0 +1,49 @@
+.contactTitle {
+    text-align: center;
+    font-size: 3rem;
+    padding: .5em 0px;
+}
+  
+#contact-form {
+    display: block;
+    max-width: 600px;
+    margin: 0 auto;
+    border: 1px solid var(--themeContainerDotBorder);
+    padding: 15px;
+    border-radius: 5px;
+    background-color: var(--formColor);
+    margin-bottom: 50px;
+}
+  
+.label {
+    font-size: 1.25rem;
+    line-height: 2.5em;
+    color: var(--secondaryText);
+}
+  
+#contact-form textarea {
+    min-height: 100px;
+    font-size: 14px;
+}
+
+.input-field {
+    width: 100%;
+    padding: 10px;
+    background-color: var(--formColor);
+    border-radius: 5px;
+    border: 1px solid var(--inputFieldBorder);
+    font-size: 14px;
+}
+  
+#submit-btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: .5em 0px;
+    width: 100%;
+    padding: 10px 0px;
+    color: #fff;
+    background-color: var(--buttonColor);
+    border: none;
+}

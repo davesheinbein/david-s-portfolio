@@ -11,28 +11,28 @@ export default class Layout extends Component {
   render() {
     return (
       <div>
-        <section className="s2">
+        <section className="side2">
           <div className="main-container">
             <Greeting />
             <Intro handleThemeChange={this.props.handleThemeChange} />
           </div>
         </section>
-        <section className="s1">
+        <section className="side1">
           <div className="main-container">
             <About />
           </div>
         </section>
-        <section className="s2">
+        <section className="side2">
           <div className="main-container">
             <Linkedin />
           </div>
         </section>
-        <section className="s1">
+        <section className="side1">
           <div className="main-container">
             <Projects />
           </div>
         </section>
-        <section className="s2">
+        <section className="side2">
           <div className="main-container">
             <Contact />
           </div>

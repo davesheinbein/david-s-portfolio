@@ -2,14 +2,14 @@
     width: 100%;
     height: auto;
     margin: auto;
-    background-color: #5083A5;
+    background-color: var(--HeadingColor);
     padding: 1em 0px;
     font-family: 'Russo One', sans-serif;
 }
 
 .headingText {
     font-size: 4rem;
-    color: #ffffff;
+    color: var(--mainText);
 }
 
 #navigation {
@@ -25,10 +25,10 @@
 }
 
 #navigation li a {
-    color: white;
+    color: var(--mainText);
 }
 
 #navigation li a:hover {
-    color: #000000;
+    color: var(--secondaryText);
     text-decoration: underline;
 }

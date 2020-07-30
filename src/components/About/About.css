@@ -1,8 +1,8 @@
 .container {
     width: 100%;
     height: auto;
-    background-color: #459CF6;
-    color: #ffffff;
+    background-color: var(--mainColor);
+    color: var(--mainText);
 }
 .subContainer {
     width: 100%;
@@ -26,13 +26,14 @@
 }
 
 .resumeDlText {
-    font-size: 2rem;
+    font-size: 1.5rem;
     margin: 1em 0px;
     padding: 1em 0px;
 }
 
 .resumeDlLink {
-    color: red;
+    color: var(--TertiaryText);
+    font-weight: bold;
 }
 
 
@@ -41,7 +42,6 @@ svg {
     height: 100%;
     width: 100%;
     margin: auto;
-    margin-left: 8em;
 }
 
 .cls-1 {

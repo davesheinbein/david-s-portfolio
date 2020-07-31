@@ -70,7 +70,6 @@
 }
 
 /* svg animations */
-
 #leftArm {
     animation: leftArmsAnim 1s ease-out infinite alternate;
     transform-origin: top right;
@@ -98,6 +97,51 @@
     }
     to {
         transform: rotateZ(0deg) translateY(0px);
+    }
+}
+
+#shirtLogo {
+    animation: shirtLogoAnim 2s ease-out infinite alternate;
+    transform-origin: top left;
+    transform-box: fill-box;
+}
+
+@keyframes shirtLogoAnim {
+    from {
+        transform: scale(1, 1) translateY(0px) translateX(-35px);
+    }
+    to {
+        transform: scale(1.20, 1.20) translateY(0px) translateX(-50px);
+    }
+}
+
+#computerLogoStar {
+    animation: computerLogoStarAnim 5s infinite linear;
+    transform-origin: center;
+    transform-box: fill-box;
+}
+
+@keyframes computerLogoStarAnim {
+    from {
+        transform: rotateZ(0deg);
+    }
+    to {
+        transform: rotateZ(360deg);
+    }
+}
+
+#computerLogoCircleGradient {
+    animation: computerLogoCircleGradientAnim 1.5s infinite linear;
+    transform-origin: center;
+    transform-box: fill-box;
+}
+
+@keyframes computerLogoCircleGradientAnim {
+    from {
+        transform: rotateZ(0deg);
+    }
+    to {
+        transform: rotateZ(360deg);
     }
 }
     
@@ -158,7 +202,7 @@
     
 @keyframes circlesAnim {
     0% {
-        transform: scale(0, 0) skew(0deg, 0deg) rotateZ(0deg);
+        transform: scale(0, 0) skew(0deg, 0deg);
     }
     25% {
         transform: scale(.5, .5) skew(-60deg, -60deg);
@@ -170,14 +214,14 @@
         transform: scale(1.5, 1.5) skew(-60deg, -60deg);
     }
     100% {
-        transform: scale(2, 2) skew(0deg, 0deg) rotateZ(-1080deg);
+        transform: scale(2, 2) skew(0deg, 0deg);
     }
 }
     
 #croxx_1,
 #croxx_2,
 #croxx_3 {
-    animation: croxxAnim 5s ease-out 1s infinite alternate;
+    animation: croxxAnim 4s ease-out 1s infinite alternate;
     transform-origin: center;
     transform-box: fill-box;
 }
@@ -196,7 +240,7 @@
 #stars_1,
 #stars_2,
 #stars_3 {
-    animation: starsAnim 4s ease-in-out 0.5s infinite alternate;
+    animation: starsAnim 4s ease-in-out 1s infinite alternate;
     transform-origin: center;
     transform-box: fill-box;
 }
@@ -209,6 +253,23 @@
     to {
         transform-origin: center;
         transform: scale(1.5, 1.5) rotateZ(1080deg);
+    }
+}
+      
+#treeA, #treeB {
+    animation: treesAnim 4s ease-in-out 1s infinite alternate;
+    /* transform-origin: center; */
+    transform-box: fill-box;
+}
+    
+@keyframes treesAnim {
+    from {
+        transform-origin: center;
+        transform: scale(1, 1) translateY(0px);
+    }
+    to {
+        transform-origin: center;
+        transform: scale(1.25, 1.25) translateY(-15px);
     }
 }
       

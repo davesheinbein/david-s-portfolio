@@ -5,6 +5,19 @@ function Computerguy() {
     return (
         <div>
             <svg id="computerGuy" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 733.13 679.89">
+                <defs>
+                    <linearGradient id="linear-gradient" x1="377.65" y1="484.15" x2="429.65" y2="484.15" gradientTransform="translate(-51.43 9.3) rotate(-1.29)" gradientUnits="userSpaceOnUse">
+                        <stop offset="0" stop-color="#00e1ff" />
+                        <stop offset="0.1" stop-color="#2ee6ff" stop-opacity="0.82" />
+                        <stop offset="0.23" stop-color="#65edff" stop-opacity="0.61" />
+                        <stop offset="0.37" stop-color="#94f2ff" stop-opacity="0.42" />
+                        <stop offset="0.5" stop-color="#bbf7ff" stop-opacity="0.27" />
+                        <stop offset="0.63" stop-color="#d8faff" stop-opacity="0.15" />
+                        <stop offset="0.76" stop-color="#eefdff" stop-opacity="0.07" />
+                        <stop offset="0.88" stop-color="#fbfeff" stop-opacity="0.02" />
+                        <stop offset="1" stop-color="#fff" stop-opacity="0" />
+                    </linearGradient>
+                </defs>
                 <g id="fullHead">
                     <circle id="neckGuy" class="colorClass-1" cx="375.42" cy="118.41" r="73.54" />
                     <path id="headGuy" class="colorClass-1" d="M361,155.17s13.85,104.45-7.46,116.17S480.4,284.13,480.4,284.13s-33-90.59-18.12-118.3Z" transform="translate(-40.5 0)" />
@@ -28,9 +41,9 @@ function Computerguy() {
                     <rect class="colorClass-5" y="671.33" width="733" height="2" />
                 </g>
                 <g id="computerLogo">
-                    <circle class="colorClass-8" cx="363.02" cy="484.23" r="25" />
-                    <circle class="colorClass-9" cx="363.02" cy="484.23" r="25" />
-                    <polygon class="colorClass-10" points="363 460.98 368.84 474.22 383.22 472.65 374.67 484.33 383.22 496 368.84 494.44 363 507.68 357.16 494.44 342.78 496 351.33 484.33 342.78 472.65 357.16 474.22 363 460.98" />
+                    <circle id="computerLogoCircle" class="colorClass-8" cx="363.02" cy="484.23" r="25" />
+                    <circle id="computerLogoCircleGradient" class="colorClass-9" cx="363.02" cy="484.23" r="25" />
+                    <polygon id="computerLogoStar" class="colorClass-10" points="363 460.98 368.84 474.22 383.22 472.65 374.67 484.33 383.22 496 368.84 494.44 363 507.68 357.16 494.44 342.78 496 351.33 484.33 342.78 472.65 357.16 474.22 363 460.98" />
                 </g>
                 <g id="treeB">
                     <path id="treePlanter" class="colorClass-6" d="M26.86,634.37H59.63a0,0,0,0,1,0,0v34a9.7,9.7,0,0,1-9.7,9.7H36.56a9.7,9.7,0,0,1-9.7-9.7v-34A0,0,0,0,1,26.86,634.37Z" />

@@ -1,0 +1,214 @@
+/* svg colors */
+.colorClass-1 {
+    fill: #a0616a;
+  }
+
+.colorClass-2 {
+    fill: #2f2e41;
+}
+
+.colorClass-3 {
+    fill: #ffbde8;
+}
+
+.colorClass-4 {
+    fill: #6cc5ff;
+}
+
+.colorClass-5 {
+    fill: #3f3d56;
+}
+
+.colorClass-6 {
+    fill: #e1c1a5;
+    stroke: #336;
+}
+
+.colorClass-6, .colorClass-8, .colorClass-9 {
+    stroke-miterlimit: 10;
+}
+
+.colorClass-7 {
+    fill: #79ff5a;
+}
+
+.colorClass-8, .colorClass-9 {
+    fill: none;
+    stroke-width: 2px;
+}
+
+.colorClass-8 {
+    stroke: #b1ffff;
+}
+
+.colorClass-9 {
+    stroke: url(#linear-gradient);
+}
+
+.colorClass-10 {
+    fill: #a9ffff;
+}
+
+.colorClass-11 {
+    fill: #f55f44;
+}
+
+.colorClass-11, .colorClass-12, .colorClass-13, .colorClass-14 {
+    opacity: 0.5;
+}
+
+.colorClass-11, .colorClass-12, .colorClass-13 {
+    isolation: isolate;
+}
+
+.colorClass-12 {
+    fill: #4d8af0;
+}
+
+.colorClass-13, .colorClass-15 {
+    fill: #00e699;
+}
+
+/* svg animations */
+
+#leftArm {
+    animation: leftArmsAnim 1s ease-out infinite alternate;
+    transform-origin: top right;
+    transform-box: fill-box;
+}
+
+@keyframes leftArmsAnim {
+    from {
+        transform: rotateZ(5deg) translateY(14px) ;
+    }
+    to {
+        transform: rotateZ(0deg) translateY(0px);
+    }
+}
+
+#rightArm {
+    animation: rightArmsAnim 2s ease-out infinite alternate;
+    transform-origin: top left;
+    transform-box: fill-box;
+}
+
+@keyframes rightArmsAnim {
+    from {
+        transform: rotateZ(-5deg) translateY(20px) ;
+    }
+    to {
+        transform: rotateZ(0deg) translateY(0px);
+    }
+}
+    
+#fullHead {
+    animation: headCircleAnim 1s ease-out infinite alternate;
+}
+
+@keyframes headCircleAnim {
+    from {
+        transform: translateY(4px);
+    }
+    to {
+        transform: translateY(-2px);
+    }
+}
+    
+#hairGuy {
+    animation: hairGuyAnim 2s ease-out infinite alternate;
+    transform: translateX(-40.5px);
+}
+    
+@keyframes hairGuyAnim {
+    from {
+        transform: translateX(-40.5px) translateY(6px);
+    }
+    to {
+        transform: translateX(-40.5px) translateY(-2px);
+    }
+}
+  
+    
+#specs_1,
+#specs_2,
+#specs_3 {
+    animation: specsAnim 1s ease-out .5s infinite alternate;
+    transform-origin: center;
+    transform-box: fill-box;
+}
+    
+@keyframes specsAnim {
+    from {
+        transform-origin: center;
+        transform: scale(0, 0) skew(60deg, 60deg);
+    }
+    to {
+        transform-origin: center;
+        transform: scale(1, 1) skew(0deg, 0deg);
+    }
+}
+    
+#circles_1,
+#circles_2,
+#circles_3 {
+    animation: circlesAnim 6s ease-out 1s infinite alternate;
+    transform-origin: center;
+    transform-box: fill-box;
+}
+    
+@keyframes circlesAnim {
+    0% {
+        transform: scale(0, 0) skew(0deg, 0deg) rotateZ(0deg);
+    }
+    25% {
+        transform: scale(.5, .5) skew(-60deg, -60deg);
+    }
+    50% {
+        transform: scale(1, 1) skew(60deg, 60deg);
+    }
+    75% {
+        transform: scale(1.5, 1.5) skew(-60deg, -60deg);
+    }
+    100% {
+        transform: scale(2, 2) skew(0deg, 0deg) rotateZ(-1080deg);
+    }
+}
+    
+#croxx_1,
+#croxx_2,
+#croxx_3 {
+    animation: croxxAnim 5s ease-out 1s infinite alternate;
+    transform-origin: center;
+    transform-box: fill-box;
+}
+    
+@keyframes croxxAnim {
+    from {
+        transform-origin: center;
+        transform: scale(0, 0) rotateZ(0deg);
+    }
+    to {
+        transform-origin: center;
+        transform: scale(2, 2) rotateZ(-1080deg);
+    }
+}
+    
+#stars_1,
+#stars_2,
+#stars_3 {
+    animation: starsAnim 4s ease-in-out 0.5s infinite alternate;
+    transform-origin: center;
+    transform-box: fill-box;
+}
+    
+@keyframes starsAnim {
+    from {
+        transform-origin: center;
+        transform: scale(0, 0) rotateZ(0deg);
+    }
+    to {
+        transform-origin: center;
+        transform: scale(1.5, 1.5) rotateZ(1080deg);
+    }
+}
+      

@@ -31,7 +31,6 @@
     padding: 10px;
     background-color: var(--formColor);
     border-radius: 5px;
-    border: 1px solid var(--inputFieldBorder);
     font-size: 14px;
 }
   

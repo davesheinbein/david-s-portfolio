@@ -1,13 +1,14 @@
 import React, { Component } from "react";
 import "./Intro.css";
 import headshot from '../../images/headshot.png'
+import Computerguy from '../ComputerGuy/Computerguy'
 
 export default class Intro extends Component {
 
     render() {
         return (
             <div className='introContainer' id='aboutMe'>
-                <div className='introHeading'>Bio</div>
+                <h1 className='introHeading'>Bio</h1>
                 <div className="intro-wrapper">
                     <div className="left-column">
                         <img
@@ -48,16 +49,19 @@ export default class Intro extends Component {
                         </div>
                     </div>
                     <div className="right-column">
-                        <div id="introTextContainer">
-                            <div id="corner-tl" className="corner"></div>
-                            <div id="corner-tr" className="corner"></div>
-                            <div className='boxTitle'>What I do</div>
-                            <div className='boxText'>
-                                I am a full-stack developer with a passion for designing modern
-                                highly responsive web-based user interfaces.
-                        </div>
-                            <div id="corner-br" className="corner"></div>
-                            <div id="corner-bl" className="corner"></div>
+                        <div>
+                            <Computerguy />
+                            <div id="introTextContainer">
+                                <div id="corner-tl" className="corner"></div>
+                                <div id="corner-tr" className="corner"></div>
+                                <div className='boxTitle'>What I do</div>
+                                <div className='boxText'>
+                                    I am a full-stack developer with a passion for designing modern
+                                    highly responsive web-based user interfaces.
+                            </div>
+                                <div id="corner-br" className="corner"></div>
+                                <div id="corner-bl" className="corner"></div>
+                            </div>
                         </div>
                     </div>
                 </div>

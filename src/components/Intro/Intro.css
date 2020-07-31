@@ -1,10 +1,5 @@
 .introContainer {
     background-color: var(--secondaryColor);
-    border: 1px solid var(--borderColor);
-    border-radius: 5px 5px 0 0;
-    -webkit-box-shadow: -1px 1px 3px -1px rgba(0, 0, 0, 0.75);
-    -moz-box-shadow: -1px 1px 3px -1px rgba(0, 0, 0, 0.75);
-    box-shadow: -1px 1px 3px -1px rgba(0, 0, 0, 0.75);
 }
 
 .intro-wrapper {
@@ -15,7 +10,7 @@
 }
 
 .introHeading {
-    margin-top: 1em;
+    padding: 1em 0px 0.5em;
     font-size: 3rem;
     color: var(--mainText);
 }
@@ -63,8 +58,6 @@
     display: block;
     margin: 0 auto;
     border-radius: 4px;
-    height: 100%;
-    width: 200px;
     object-fit: cover;
     border: 3px solid var(--themeContainerDotBorder);
     -webkit-box-shadow: -1px 1px 3px -1px rgba(0, 0, 0, 0.75);

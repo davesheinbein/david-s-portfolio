@@ -6,6 +6,8 @@
 
 #linkedInImage {
     width: 80%;
+    border-radius: 10px;
+    border: 1px solid var(--themeContainerDotBorder);
 }
 
 .linkedInText {

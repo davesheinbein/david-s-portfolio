@@ -1,0 +1,208 @@
+
+/* SVG styling */
+svg {
+    height: 100%;
+    width: 100%;
+    margin: auto;
+}
+
+.cls-1 {
+    fill: #63dbff;
+}
+
+.cls-2 {
+    fill: none;
+}
+
+.cls-3,
+.cls-4 {
+    opacity: 0.1;
+}
+
+.cls-10,
+.cls-3,
+.cls-8,
+.cls-9 {
+    isolation: isolate;
+}
+
+.cls-5 {
+    fill: #fdc0a4;
+}
+
+.cls-6 {
+    fill: #b9d2ca;
+}
+
+.cls-7 {
+    fill: #654321;
+}
+
+.cls-8 {
+    fill: #f55f44;
+}
+
+.cls-10,
+.cls-11,
+.cls-8,
+.cls-9 {
+    opacity: 0.5;
+}
+
+.cls-9 {
+    fill: #4d8af0;
+}
+
+.cls-10,
+.cls-12 {
+    fill: #00e699;
+}
+
+/* SVG animations */
+#back-cape {
+    animation: backCapeAnim 5s ease-out infinite alternate;
+    }
+    
+    @keyframes backCapeAnim {
+    from {
+        transform-origin: top left;
+        transform: translateX(60px) translateY(40px) scale(0.75, 0.75);
+    }
+    to {
+        transform-origin: top left;
+        transform: translateX(0px) translateY(0px) scale(1, 1);
+    }
+    }
+    
+    #cape-collar {
+    animation: collarAnim 3s ease-out infinite alternate;
+    }
+    
+    @keyframes collarAnim {
+    from {
+        transform: translateY(3px);
+    }
+    to {
+        transform: translateY(-2px);
+    }
+    }
+    
+    #left-arm {
+    animation: leftArmAnim 2s ease-out infinite alternate;
+    }
+    
+    @keyframes leftArmAnim {
+    from {
+        transform: translateX(12px) rotateZ(3deg) rotateY(10deg);
+    }
+    to {
+        transform: translateX(0px) rotateZ(0deg) rotateY(0deg);
+    }
+    }
+    
+    #head {
+    animation: headAnim 3s ease-out infinite alternate;
+    }
+    
+    @keyframes headAnim {
+    from {
+        transform: translateY(4px);
+    }
+    to {
+        transform: translateY(-5px);
+    }
+    }
+    
+    #hair {
+    animation: hairAnim 3s ease-out infinite alternate;
+    }
+    
+    @keyframes hairAnim {
+    from {
+        transform: translateY(10px);
+    }
+    to {
+        transform: translateY(-10px);
+    }
+    }
+    
+    #legs {
+    animation: legsAnim 3s ease-out 0.5s infinite alternate;
+    }
+    
+    @keyframes legsAnim {
+    from {
+        transform: translateY(1px);
+    }
+    to {
+        transform: translateY(-5px);
+    }
+    }
+    
+    #spec_1,
+    #spec_2,
+    #spec_3 {
+    animation: specAnim 1s ease-out .5s infinite alternate;
+    }
+    
+    @keyframes specAnim {
+    from {
+        transform-origin: center;
+        transform: scale(0, 0) skew(60deg, 60deg);
+    }
+    to {
+        transform-origin: center;
+        transform: scale(1, 1) skew(0deg, 0deg);
+    }
+    }
+    
+    #circle_1,
+    #circle_2,
+    #circle_3 {
+    animation: circleAnim 4s ease-out 1s infinite alternate;
+    }
+    
+    @keyframes circleAnim {
+    from {
+        transform-origin: center;
+        transform: scale(0, 0) skew(60deg, 60deg) rotateZ(0deg);
+    }
+    to {
+        transform-origin: center;
+        transform: scale(1, 1) skew(0deg, 0deg) rotateZ(-360deg);
+    }
+    }
+    
+    #cross_1,
+    #cross_2,
+    #cross_3 {
+    animation: crossAnim 2s ease-out 1s infinite alternate;
+    }
+    
+    @keyframes crossAnim {
+    from {
+        transform-origin: center;
+        transform: scale(0, 0) rotateZ(0deg);
+    }
+    to {
+        transform-origin: center;
+        transform: scale(1, 1) rotateZ(-360deg);
+    }
+    }
+    
+    #star_1,
+    #star_2 {
+    animation: starAnim 4s ease-in-out 0.5s infinite alternate;
+    }
+    
+    @keyframes starAnim {
+    from {
+        transform-origin: center;
+        transform: scale(0, 0) rotateZ(0deg);
+    }
+    to {
+        transform-origin: center;
+        transform: scale(1, 1) rotateZ(720deg);
+    }
+    }
+      

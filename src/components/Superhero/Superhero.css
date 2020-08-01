@@ -7,7 +7,7 @@ svg {
 }
 
 .cls-1 {
-    fill: #63dbff;
+    fill: var(--heroCape);
 }
 
 .cls-2 {
@@ -27,19 +27,19 @@ svg {
 }
 
 .cls-5 {
-    fill: #fdc0a4;
+    fill: var(--heroPants);
 }
 
 .cls-6 {
-    fill: #b9d2ca;
+    fill: var(--heroBody);
 }
 
 .cls-7 {
-    fill: #654321;
+    fill: var(--heroHair);
 }
 
 .cls-8 {
-    fill: #f55f44;
+    fill: var(--heroSpecs);
 }
 
 .cls-10,
@@ -50,12 +50,12 @@ svg {
 }
 
 .cls-9 {
-    fill: #4d8af0;
+    fill: var(--heroStars);
 }
 
 .cls-10,
 .cls-12 {
-    fill: #00e699;
+    fill: var(--heroCross);
 }
 
 /* SVG animations */

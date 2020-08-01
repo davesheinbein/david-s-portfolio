@@ -6,7 +6,7 @@ function Computerguy() {
         <div>
             <svg id="computerGuy" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 733.13 679.89">
                 <defs>
-                    <linearGradient id="linear-gradient" x1="377.65" y1="484.15" x2="429.65" y2="484.15" gradientTransform="translate(-51.43 9.3) rotate(-1.29)" gradientUnits="userSpaceOnUse">
+                    <linearGradient id="linear-gradient-A" x1="377.65" y1="484.15" x2="429.65" y2="484.15" gradientTransform="translate(-51.43 9.3) rotate(-1.29)" gradientUnits="userSpaceOnUse">
                         <stop offset="0" stop-color="#00e1ff" />
                         <stop offset="0.1" stop-color="#2ee6ff" stop-opacity="0.82" />
                         <stop offset="0.23" stop-color="#65edff" stop-opacity="0.61" />
@@ -15,6 +15,39 @@ function Computerguy() {
                         <stop offset="0.63" stop-color="#d8faff" stop-opacity="0.15" />
                         <stop offset="0.76" stop-color="#eefdff" stop-opacity="0.07" />
                         <stop offset="0.88" stop-color="#fbfeff" stop-opacity="0.02" />
+                        <stop offset="1" stop-color="#fff" stop-opacity="0" />
+                    </linearGradient>
+                    <linearGradient id="linear-gradient-B" x1="377.65" y1="484.15" x2="429.65" y2="484.15" gradientTransform="translate(-51.43 9.3) rotate(-1.29)" gradientUnits="userSpaceOnUse">
+                        <stop offset="0" stop-color="#ff82c9" />
+                        <stop offset="0.1" stop-color="#ff99d3" stop-opacity="0.82" />
+                        <stop offset="0.23" stop-color="#ffb3de" stop-opacity="0.61" />
+                        <stop offset="0.37" stop-color="#ffcbe8" stop-opacity="0.42" />
+                        <stop offset="0.5" stop-color="#ffddf0" stop-opacity="0.27" />
+                        <stop offset="0.63" stop-color="#ffecf7" stop-opacity="0.15" />
+                        <stop offset="0.76" stop-color="#fff7fb" stop-opacity="0.07" />
+                        <stop offset="0.88" stop-color="#fffdfe" stop-opacity="0.02" />
+                        <stop offset="1" stop-color="#fff" stop-opacity="0" />
+                    </linearGradient>
+                    <linearGradient id="linear-gradient-C" x1="377.65" y1="484.15" x2="429.65" y2="484.15" gradientTransform="translate(-51.43 9.3) rotate(-1.29)" gradientUnits="userSpaceOnUse">
+                        <stop offset="0" stop-color="#fff236" />
+                        <stop offset="0.1" stop-color="#fff45a" stop-opacity="0.82" />
+                        <stop offset="0.23" stop-color="#fff785" stop-opacity="0.61" />
+                        <stop offset="0.37" stop-color="#fffaab" stop-opacity="0.42" />
+                        <stop offset="0.5" stop-color="#fffcc9" stop-opacity="0.27" />
+                        <stop offset="0.63" stop-color="#fffde1" stop-opacity="0.15" />
+                        <stop offset="0.76" stop-color="#fffef1" stop-opacity="0.07" />
+                        <stop offset="0.88" stop-color="#fffffc" stop-opacity="0.02" />
+                        <stop offset="1" stop-color="#fff" stop-opacity="0" />
+                    </linearGradient>
+                    <linearGradient id="linear-gradient-D" x1="377.65" y1="484.15" x2="429.65" y2="484.15" gradientTransform="translate(-51.43 9.3) rotate(-1.29)" gradientUnits="userSpaceOnUse">
+                        <stop offset="0" stop-color="#58ff36" />
+                        <stop offset="0.1" stop-color="#76ff5a" stop-opacity="0.82" />
+                        <stop offset="0.23" stop-color="#9aff85" stop-opacity="0.61" />
+                        <stop offset="0.37" stop-color="#b9ffab" stop-opacity="0.42" />
+                        <stop offset="0.5" stop-color="#d2ffc9" stop-opacity="0.27" />
+                        <stop offset="0.63" stop-color="#e6ffe1" stop-opacity="0.15" />
+                        <stop offset="0.76" stop-color="#f4fff1" stop-opacity="0.07" />
+                        <stop offset="0.88" stop-color="#fcfffc" stop-opacity="0.02" />
                         <stop offset="1" stop-color="#fff" stop-opacity="0" />
                     </linearGradient>
                 </defs>

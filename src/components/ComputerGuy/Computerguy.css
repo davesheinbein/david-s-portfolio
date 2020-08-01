@@ -1,27 +1,27 @@
 /* svg colors */
 .colorClass-1 {
-    fill: #a0616a;
+    fill: var(--computerGuyskin);
   }
 
 .colorClass-2 {
-    fill: #2f2e41;
+    fill: var(--computerGuyHair);
 }
 
 .colorClass-3 {
-    fill: #ffbde8;
+    fill: var(--computerGuyShirt);
 }
 
 .colorClass-4 {
-    fill: #6cc5ff;
+    fill: var(--computerGuyShirtLogo);
 }
 
 .colorClass-5 {
-    fill: #3f3d56;
+    fill: var(--computerGuyTable);
 }
 
 .colorClass-6 {
-    fill: #e1c1a5;
-    stroke: #336;
+    fill: var(--computerGuyTreePlanter);
+    stroke: var(--computerGuyTreePlanterStroke);
 }
 
 .colorClass-6, .colorClass-8, .colorClass-9 {
@@ -29,7 +29,7 @@
 }
 
 .colorClass-7 {
-    fill: #79ff5a;
+    fill: var(--computerGuyTreeBush);
 }
 
 .colorClass-8, .colorClass-9 {
@@ -38,19 +38,19 @@
 }
 
 .colorClass-8 {
-    stroke: #b1ffff;
+    stroke: var(--computerLogoCircle);
 }
 
 .colorClass-9 {
-    stroke: url(#linear-gradient);
+    stroke: var(--computerLogoCircleGradient);
 }
 
 .colorClass-10 {
-    fill: #a9ffff;
+    fill: var(--computerSpecs);
 }
 
 .colorClass-11 {
-    fill: #f55f44;
+    fill: var(--computerStars);
 }
 
 .colorClass-11, .colorClass-12, .colorClass-13, .colorClass-14 {
@@ -62,11 +62,18 @@
 }
 
 .colorClass-12 {
-    fill: #4d8af0;
+    fill: var(--computerCircles);
 }
 
 .colorClass-13, .colorClass-15 {
-    fill: #00e699;
+    fill: var(--computerCrosses);
+}
+
+svg {
+    display: block;
+    height: auto;
+    width: 100%;
+    overflow: visible;
 }
 
 /* svg animations */

@@ -49,8 +49,10 @@ export default class Intro extends Component {
                         </div>
                     </div>
                     <div className="right-column">
-                        <div>
-                            <Computerguy />
+                        <div className='rightContainer'>
+                            <div className='computerGuySvgContainer'>
+                                <Computerguy />
+                            </div>
                             <div id="introTextContainer">
                                 <div id="corner-tl" className="corner"></div>
                                 <div id="corner-tr" className="corner"></div>

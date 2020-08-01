@@ -27,21 +27,6 @@
 .boxText {
     font-size: 1.5rem;
 }
-
-#navigation {
-    margin: 0;
-    padding: 10px;
-}
-  
-#navigation a {
-    color: var(--mainText);
-}
-  
-#navigation li {
-    display: inline-block;
-    margin-right: 5px;
-    margin-left: 5px;
-}
   
 .left-column {
     grid-area: left-column;
@@ -113,6 +98,17 @@
     padding-top: 50px;
     padding-bottom: 50px;
 }
+
+.rightContainer {
+    position: relative;
+    overflow: visible;
+}
+
+.computerGuySvgContainer {
+    overflow: visible;
+    margin: 0px auto;
+    width: 50%;
+}
   
 #introTextContainer {
     width: 85%;
@@ -121,7 +117,10 @@
     color: var(--mainText);
     background-color: var(--previewBg);
     padding: 15px;
-    position: relative;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
   
 .corner {

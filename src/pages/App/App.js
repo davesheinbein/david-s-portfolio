@@ -16,6 +16,7 @@ ${(props) => {
         --mainText: #FFE9F0;
         --secondaryText: #3d3d3d;
         --TertiaryText: red;
+        --TertiaryTextBtn: orange;
         --formColor: #ffdf5e;
         --themeDotBorder: #fff;
         --themeContainerDotBorder: #ffa45e;
@@ -55,6 +56,7 @@ ${(props) => {
           --mainText: #fff;
           --secondaryText: #eeeeee;
           --TertiaryText: red;
+          --TertiaryTextBtn: orange;
           --formColor: #ffffff;
           --themeDotBorder: #fff;
           --themeContainerDotBorder: #17a2b8;
@@ -94,6 +96,7 @@ ${(props) => {
           --mainText:#fff;
           --secondaryText:#eeeeee;
           --TertiaryText: red;
+          --TertiaryTextBtn: orange;
           --formColor: #ffffff;
           --themeDotBorder:#FFF;
           --themeContainerDotBorder: #17a2b8;
@@ -133,6 +136,7 @@ ${(props) => {
           --mainText: #ffffff;
           --secondaryText: #000000;
           --TertiaryText: red;
+          --TertiaryTextBtn: orange;
           --formColor: #ffffff;
           --themeDotBorder: #24292e;
           --themeContainerDotBorder: #db1a0f;

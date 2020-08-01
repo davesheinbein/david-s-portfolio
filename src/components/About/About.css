@@ -49,6 +49,10 @@
     font-weight: bold;
 }
 
+.resumeDlLink:hover {
+    color: var(--TertiaryTextBtn);
+}
+
 @media screen and (max-width: 1600px)  {
     .subContainer {
         width: 100%;

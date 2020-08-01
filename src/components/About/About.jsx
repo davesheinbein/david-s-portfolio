@@ -40,9 +40,9 @@ function About() {
                 <div className='svgContainer'>
                     <Superhero />
                 </div>
-            </div>
             <div className='resumeDlText'>Full-Stack Developer with primary focus on MERN Stack:
                 <a className='resumeDlLink' href={Pdf} target="_blank" rel="noopener noreferrer"> Download Resume</a>
+            </div>
             </div>
         </div>
     )

@@ -3,15 +3,18 @@
     height: auto;
     background-color: var(--mainColor);
     color: var(--mainText);
+    z-index: 2;
 }
+
 .subContainer {
     width: 100%;
     margin: auto;
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
     position: relative;
-    z-index: 2;
+    z-index: 3;
 }
 
 .svgContainer {
@@ -38,6 +41,7 @@
 .resumeDlText {
     font-size: 1.5rem;
     padding: 1.5em 0px;
+    z-index: 20;
 }
 
 .resumeDlLink {

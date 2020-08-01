@@ -1,5 +1,8 @@
 .introContainer {
     background-color: var(--secondaryColor);
+    width: 100%;
+    height: 100%;
+    padding-bottom: 3em;
 }
 
 .intro-wrapper {
@@ -95,19 +98,24 @@
     grid-area: right-column;
     display: grid;
     align-content: center;
-    padding-top: 50px;
-    padding-bottom: 50px;
+    height: 40vh;
+    padding: 50px 0px;
 }
 
 .rightContainer {
     position: relative;
     overflow: visible;
+    height: auto;
+    width: 100%;
 }
 
 .computerGuySvgContainer {
     overflow: visible;
     margin: 0px auto;
+    height: auto;
     width: 50%;
+    max-width: 20vw;
+    object-fit: contain;
 }
   
 #introTextContainer {
@@ -151,8 +159,52 @@
     bottom: -5px;
     left: -5px;
 }
-  
-@media screen and (max-width: 800px) {
+
+@media screen and (max-width: 1366px) {
+    .rightContainer {
+        width: 100%;
+    }
+
+    #introTextContainer {
+        margin: 1.5em auto;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+
+    .introHeading {
+        padding: .5em 0px 0px;
+    }    
+
+    .computerGuySvgContainer {
+        width: 100%;
+        max-width: 40vh;
+    }
+
+    .right-column {
+        padding: 1em 0px;
+    }
+
+    /* text */
+    .introHeading {
+        font-size: 3rem;
+    }
+    
+    .personalizedText {
+        font-size: 1.5rem;
+    }
+    
+    .boxTitle {
+        font-size: 1.5rem;
+    }
+    
+    .boxText {
+        font-size: 1rem;
+    }
+    
+}
+
+@media screen and (max-width: 812px) {
     .intro-wrapper {
         grid-template-columns: 1fr;
         grid-template-areas:
@@ -162,5 +214,48 @@
   
     .right-column {
         justify-content: center;
+    }
+
+    .rightContainer {
+        width: 90vw;
+    }
+
+    #introTextContainer {
+        width: 80vw;
+        height: auto;
+        margin: 1.5em auto;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+
+    .introHeading {
+        padding: .5em 0px 0px;
+    }    
+
+    .computerGuySvgContainer {
+        width: 100%;
+        max-width: 40vh;
+    }
+
+    .right-column {
+        padding: 1em 0px;
+    }
+
+     /* text */
+     .introHeading {
+        font-size: 2rem;
+    }
+    
+    .personalizedText {
+        font-size: 1rem;
+    }
+    
+    .boxTitle {
+        font-size: 1.5rem;
+    }
+    
+    .boxText {
+        font-size: 1rem;
     }
 }

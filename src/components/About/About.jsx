@@ -38,7 +38,7 @@ function About() {
                 </div>
                 {/* SVG input below */}
                 <div className='svgContainer'>
-                   <Superhero />
+                    <Superhero />
                 </div>
             </div>
             <div className='resumeDlText'>Full-Stack Developer with primary focus on MERN Stack:

@@ -26,6 +26,7 @@
 #navigation li {
     font-size: 2rem;
     color: #b3b3b3;
+    list-style-type: none;
 }
 
 #navigation li a {
@@ -35,4 +36,16 @@
 #navigation li a:hover {
     color: var(--secondaryText);
     text-decoration: underline;
+}
+
+@media screen and (max-width: 812px) {
+    .headingText {
+        font-size: 1.75rem;
+        color: var(--mainText);
+    }
+    
+    #navigation li {
+        font-size: 1rem;
+        color: #b3b3b3;
+    }
 }

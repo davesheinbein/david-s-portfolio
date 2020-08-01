@@ -3,7 +3,6 @@ import './Computerguy.css'
 
 function Computerguy() {
     return (
-        <div>
             <svg id="computerGuy" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 733.13 679.89">
                 <defs>
                     <linearGradient id="linear-gradient-A" x1="377.65" y1="484.15" x2="429.65" y2="484.15" gradientTransform="translate(-51.43 9.3) rotate(-1.29)" gradientUnits="userSpaceOnUse">
@@ -110,9 +109,6 @@ function Computerguy() {
                     <rect class="colorClass-14" x="578.39" y="112.68" width="19.65" height="3.47" />
                 </g>
             </svg>
-
-
-        </div >
     )
 }
 

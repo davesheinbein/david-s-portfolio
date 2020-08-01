@@ -10,10 +10,20 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    position: relative;
+    z-index: 2;
 }
 
 .svgContainer {
-    width: 50%;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    object-fit: contain;
+    object-position: right;
+    overflow: hidden;
+    position: absolute;
+    top: 10%;
+    left: 50%;
 }
 
 .subTitle {
@@ -33,4 +43,61 @@
 .resumeDlLink {
     color: var(--TertiaryText);
     font-weight: bold;
+}
+
+@media screen and (max-width: 1366px) {
+    .subTitle {
+        font-size: 2rem;
+    }
+    
+    .subText {
+        font-size: 1rem;
+    }
+    
+    .resumeDlText {
+        font-size: 1rem;
+    }
+    
+    .svgContainer {
+        width: 100%;
+        height: auto;
+        object-fit: contain;
+    }
+    
+    .svgContainer {
+        position: absolute;
+        width: calc();
+        height: auto;
+        object-fit: contain;
+    }
+}
+
+@media screen and (max-width: 812px) {
+    .subContainer {
+        width: 100%;
+        margin: auto;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position: relative;
+        z-index: 2;
+    }
+
+    .svgContainer {
+        width: 100vw;
+        height: 100%;
+        z-index: -1;
+        object-fit: contain;
+    }
+
+    .svgContainer {
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        z-index: -1;
+        object-fit: contain;
+    }
 }

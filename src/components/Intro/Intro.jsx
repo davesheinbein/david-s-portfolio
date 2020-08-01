@@ -16,7 +16,7 @@ export default class Intro extends Component {
                             src={headshot}
                             alt="headshot"
                         ></img>
-                        <div className='personalizedText'>Personalize Theme</div>
+                        <h3 className='personalizedText'>Personalize Theme</h3>
                         <div id="theme-options-wrapper">
                             <div
                                 id="light-mode"
@@ -56,11 +56,11 @@ export default class Intro extends Component {
                             <div id="introTextContainer">
                                 <div id="corner-tl" className="corner"></div>
                                 <div id="corner-tr" className="corner"></div>
-                                <div className='boxTitle'>What I do</div>
-                                <div className='boxText'>
+                                <h2 className='boxTitle'>What I do</h2>
+                                <p className='boxText'>
                                     I am a full-stack developer with a passion for designing modern
                                     highly responsive web-based user interfaces.
-                            </div>
+                                </p>
                                 <div id="corner-br" className="corner"></div>
                                 <div id="corner-bl" className="corner"></div>
                             </div>

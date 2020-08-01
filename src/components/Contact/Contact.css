@@ -1,4 +1,5 @@
 .contactTitle {
+    color: var(--mainText);
     text-align: center;
     font-size: 3rem;
     padding: .5em 0px;
@@ -45,4 +46,26 @@
     color: #fff;
     background-color: var(--buttonColor);
     border: none;
+}
+
+@media screen and (max-width: 1600px)  {
+    .contactTitle {
+        font-size: 3rem;
+    }
+}
+
+@media screen and (max-width: 1366px) {
+    .contactTitle {
+        font-size: 2rem;
+    }
+}
+
+@media screen and (max-width: 812px) {
+    .contactTitle {
+        font-size: 2rem;
+    }
+
+    .formContainer {
+        padding: 0px 2em;
+    }
 }

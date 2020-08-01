@@ -60,8 +60,8 @@ export default class Contact extends Component {
 
     render() {
         return (
-            <div>
-                <div className='contactTitle'>Lets Get In Touch</div>
+            <div className='formContainer'>
+                <h2 className='contactTitle'>Lets Get In Touch</h2>
                 <Form id="contact-form" onSubmit={this.handleSubmit}>
                     <FormGroup>
                         <Label

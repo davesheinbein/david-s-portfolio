@@ -38,14 +38,32 @@
     text-decoration: underline;
 }
 
+@media screen and (max-width: 1600px)  {
+    .headingText {
+        font-size: 4rem;
+    }
+    
+    #navigation li {
+        font-size: 3rem;
+    }
+}
+
+@media screen and (max-width: 1366px) {
+    .headingText {
+        font-size: 3rem;
+    }
+    
+    #navigation li {
+        font-size: 2rem;
+    }
+}
+
 @media screen and (max-width: 812px) {
     .headingText {
         font-size: 1.75rem;
-        color: var(--mainText);
     }
     
     #navigation li {
         font-size: 1rem;
-        color: #b3b3b3;
     }
 }

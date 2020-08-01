@@ -10,7 +10,7 @@ export default class Projects extends Component {
     render() {
         return (
             <div className="projects" id='projects'>
-                <div className='projectTitle'>A few past projects</div>
+                <h2 className='projectTitle'>A Few Past Projects</h2>
                 <div className="post-wrapper">
                     <div>
                         <div className="post">

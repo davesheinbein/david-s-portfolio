@@ -8,7 +8,7 @@ function About() {
         <div className='container'>
             <div className='subContainer'>
                 <div className='textContainer'>
-                    <div className='subTitle'>About Me</div>
+                    <h2 className='subTitle'>About Me</h2>
                     <p className='subText'>
                         I build new projects just to tickle my
                             <br />
@@ -21,7 +21,7 @@ function About() {
                             and projects that interest me.
                         </p>
 
-                    <div className='subTitle'>Skills</div>
+                    <h2 className='subTitle'>Skills</h2>
                     <p className='subText'>
                         React, HTML5, CSS, JavaScript,
                         <br />
@@ -40,9 +40,9 @@ function About() {
                 <div className='svgContainer'>
                     <Superhero />
                 </div>
-            <div className='resumeDlText'>Full-Stack Developer with primary focus on MERN Stack:
+            <h3 className='resumeDlText'>Full-Stack Developer with primary focus on MERN Stack:
                 <a className='resumeDlLink' href={Pdf} target="_blank" rel="noopener noreferrer"> Download Resume</a>
-            </div>
+            </h3>
             </div>
         </div>
     )

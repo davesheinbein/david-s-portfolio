@@ -13,6 +13,11 @@
 .linkedInText {
     font-size: 3rem;
     color: var(--mainText);
+    padding: 0px 0px .5em;
+}
+
+.linkedInBtnTextContainer {
+    padding: 1em 0px 0em;
 }
 
 .linkedInBtnText {
@@ -22,4 +27,34 @@
 
 .linkedInBtnText:hover {
     color: var(--secondaryText);
+}
+
+@media screen and (max-width: 1600px)  {
+    .linkedInText {
+        font-size: 3rem;
+    }
+
+    .linkedInBtnText {
+        font-size: 3rem;
+    }
+}
+
+@media screen and (max-width: 1366px) {
+    .linkedInText {
+        font-size: 2rem;
+    }
+
+    .linkedInBtnText {
+        font-size: 2rem;
+    }
+}
+
+@media screen and (max-width: 812px) {
+    .linkedInText {
+        font-size: 2rem;
+    }
+
+    .linkedInBtnText {
+        font-size: 2rem;
+    }
 }

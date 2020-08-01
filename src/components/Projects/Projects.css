@@ -46,6 +46,7 @@
 }
   
 .projectTitle{
+    color: var(--mainText);
     text-align: center;
     font-size: 3rem;
     padding: .5em 0px;
@@ -53,4 +54,22 @@
 
 .viewMoreBtn {
     padding: .5em 0px;
+}
+
+@media screen and (max-width: 1600px)  {
+    .projectTitle{
+        font-size: 3rem;
+    }
+}
+
+@media screen and (max-width: 1366px) {
+    .projectTitle{
+        font-size: 2rem;
+    }
+}
+
+@media screen and (max-width: 812px) {
+    .projectTitle{
+        font-size: 2rem;
+    }
 }

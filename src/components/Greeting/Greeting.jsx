@@ -5,7 +5,7 @@ export default class Greeting extends Component {
     render() {
         return (
             <div className="headingContainer">
-                <div className='headingText'>Hello World, i'm David Sheinbein</div>
+                <h1 className='headingText'>Hello World, i'm David Sheinbein</h1>
                 <ul id="navigation">
                     <li>
                         <a href="#aboutMe">About Me</a>

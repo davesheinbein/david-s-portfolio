@@ -49,6 +49,24 @@
     font-weight: bold;
 }
 
+@media screen and (max-width: 1600px)  {
+    .subContainer {
+        width: 100%;
+        margin: auto;
+    }
+
+    .svgContainer {
+        top: 0%;
+        position: absolute;
+        width: 80%;
+        height: 100%;
+    }
+
+    .resumeDlText {
+        font-size: 1.5rem;
+    }
+}
+
 @media screen and (max-width: 1366px) {
     .subTitle {
         font-size: 2rem;
@@ -63,15 +81,11 @@
     }
     
     .svgContainer {
-        width: 100%;
+        width: 90%;
         height: auto;
         object-fit: contain;
-    }
-    
-    .svgContainer {
+        top: 0%;
         position: absolute;
-        width: calc();
-        height: auto;
         object-fit: contain;
     }
 }
@@ -88,20 +102,18 @@
     }
 
     .svgContainer {
-        width: 100vw;
-        height: 100%;
+        height: auto;
         z-index: -1;
         object-fit: contain;
-    }
-
-    .svgContainer {
+        left: 50%;
         display: flex;
         justify-content: flex-end;
         align-items: center;
         position: absolute;
         width: 100%;
-        height: 100%;
-        z-index: -1;
-        object-fit: contain;
+    }
+
+    .resumeDlText {
+        font-size: .75rem;
     }
 }

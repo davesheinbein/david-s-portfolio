@@ -34,11 +34,13 @@
     font-size: 3rem;
     margin: .5em 0px;
     color: var(--mainText);
+    font-weight: 900;
 }
 
 .subText {
     font-size: 1.5rem;
     color: var(--subText);
+    font-weight: 600;
 }
 
 .resumeDlText {

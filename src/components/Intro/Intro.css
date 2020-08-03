@@ -18,11 +18,13 @@
     padding: 1em 0px 0.5em;
     font-size: 3rem;
     color: var(--mainText);
+    font-weight: 900;
 }
 
 .personalizedText {
     padding: .5rem 0px 0px;
     font-size: 1.25rem;
+    font-weight: 600;
 }
 
 .boxTitle {
@@ -30,11 +32,13 @@
     margin-bottom: 1em;
     color: var(--secondaryText);
     text-decoration: underline;
+    font-weight: 800;
 }
 
 .boxText {
     font-size: 1.5rem;
     color: var(--secondaryText);
+    font-weight: 600;
 }
   
 .left-column {

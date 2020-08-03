@@ -17,6 +17,13 @@
     z-index: 3;
 }
 
+.textContainer {
+    display: flex;
+    flex-direction: column;
+    justify-self: flex-start;
+    align-self: flex-start;
+}
+
 .svgContainer {
     width: 100%;
     height: 100%;
@@ -57,9 +64,9 @@
     font-size: 1.5rem;
     font-weight: bold;
     line-height: 2.5;
-    -moz-box-shadow: 0 4px 4px rgba(0, 0, 0, 0.4);
-    -webkit-box-shadow: 0 4px 4px rgba(0, 0, 0, 0.4);
-    box-shadow: 0 4px 4px rgba(0, 0, 0, 0.4);
+    -moz-box-shadow: 0 4px 4px var(--shadow);
+    -webkit-box-shadow: 0 4px 4px var(--shadow);
+    box-shadow: 0 4px 4px var(--shadow);
 }
 
 .resumeDlLink:hover {
@@ -141,10 +148,18 @@
         z-index: 2;
     }
 
+    .textContainer {
+        display: flex;
+        flex-direction: column;
+        justify-self: center;
+        align-self: center;
+    }
+
     .svgContainer {
         height: auto;
         z-index: -1;
         object-fit: contain;
+        top: 10%;
         left: 50%;
         display: flex;
         justify-content: flex-end;

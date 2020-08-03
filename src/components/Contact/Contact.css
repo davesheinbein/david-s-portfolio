@@ -2,6 +2,7 @@
     color: var(--mainText);
     text-align: center;
     font-size: 3rem;
+    font-weight: 600;
     padding: .5em 0px;
 }
   
@@ -14,13 +15,14 @@
     border-radius: 5px;
     background-color: var(--formColor);
     margin-bottom: 50px;
-    -webkit-box-shadow: -2px 7px 21px -9px rgba(0, 0, 0, 0.75);
-    -moz-box-shadow: -2px 7px 21px -9px rgba(0, 0, 0, 0.75);
-    box-shadow: -2px 7px 21px -9px rgba(0, 0, 0, 0.75);
+    -webkit-box-shadow: -2px 7px 21px -9px var(--shadow);
+    -moz-box-shadow: -2px 7px 21px -9px var(--shadow);
+    box-shadow: -2px 7px 21px -9px var(--shadow);
 }
   
 .label {
     font-size: 1.25rem;
+    font-weight: 600;
     line-height: 2.5em;
     color: var(--secondaryText);
 }
@@ -49,9 +51,9 @@
     color: #000000;
     background-color: var(--TertiaryTextBtn);
     border: none;
-    -moz-box-shadow: 0 4px 4px rgba(0, 0, 0, 0.4);
-    -webkit-box-shadow: 0 4px 4px rgba(0, 0, 0, 0.4);
-    box-shadow: 0 4px 4px rgba(0, 0, 0, 0.4);
+    -moz-box-shadow: 0 4px 4px var(--shadow);
+    -webkit-box-shadow: 0 4px 4px var(--shadow);
+    box-shadow: 0 4px 4px var(--shadow);
 }
 
 #submit-btn:hover {

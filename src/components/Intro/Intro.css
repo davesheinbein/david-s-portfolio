@@ -58,9 +58,9 @@
     border-radius: 4px;
     object-fit: cover;
     border: 3px solid var(--themeContainerDotBorder);
-    -moz-box-shadow: 0 4px 4px rgba(0, 0, 0, 0.4);
-    -webkit-box-shadow: 0 4px 4px rgba(0, 0, 0, 0.4);
-    box-shadow: 0 4px 4px rgba(0, 0, 0, 0.4);
+    -moz-box-shadow: 0 4px 4px var(--shadow);
+    -webkit-box-shadow: 0 4px 4px var(--shadow);
+    box-shadow: 0 4px 4px var(--shadow);
 }
   
 #theme-options-wrapper {
@@ -75,9 +75,9 @@
     border-radius: 50%;
     margin: 5px;
     border: 2px solid var(--themeDotBorder);
-    -webkit-box-shadow: -1px 1px 3px -1px rgba(0, 0, 0, 0.75);
-    -moz-box-shadow: -1px 1px 3px -1px rgba(0, 0, 0, 0.75);
-    box-shadow: -1px 1px 3px -1px rgba(0, 0, 0, 0.75);
+    -webkit-box-shadow: -1px 1px 3px -1px var(--shadow);
+    -moz-box-shadow: -1px 1px 3px -1px var(--shadow);
+    box-shadow: -1px 1px 3px -1px var(--shadow);
     cursor: pointer;
 }
   
@@ -87,6 +87,9 @@
   
 #light-mode {
     background-color: #ffffff; 
+}
+#black-mode {
+    background-color: #000000;
 }
 #red-mode {
     background-color: #db1a0f;

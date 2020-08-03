@@ -24,6 +24,7 @@ ${(props) => {
         --themeDotBorder: #fff;
         --themeContainerDotBorder: #231E6A;
         --previewBg: rgb(255, 255, 255, 0.75);
+        --shadow: rgb(0, 0, 0, 0.75);
                   
         --heroCape: #FF84B1;
         --heroSkin: #F9E699;
@@ -67,6 +68,7 @@ ${(props) => {
           --themeDotBorder: #fff;
           --themeContainerDotBorder: #17a2b8;
           --previewBg: rgb(0, 0, 0, 0.75);
+          --shadow: rgb(0, 0, 0, 0.75);
                     
           --heroCape: #FEDB2B;
           --heroSkin: #9F616A;
@@ -110,6 +112,7 @@ ${(props) => {
           --themeDotBorder: #24292e;
           --themeContainerDotBorder: #db1a0f;
           --previewBg: rgb(179, 179, 179, 0.5);
+          --shadow: rgb(0, 0, 0, 0.75);
           
           --heroCape: #80FF63;
           --heroSkin: #E0A387;
@@ -131,10 +134,53 @@ ${(props) => {
           --computerGuyTreeBush: #79ff5a;
           --computerLogoCircle: #b1ffff;
           --computerLogoCircleGradient: url(#linear-gradient-A);
-          --computerSpecs: #a9ffff;
+          --computerSpecs: #ffdede;
           --computerStars: #f55f44;
           --computerCircles: #4d8af0;
-          --computerCrosses: #00e699;
+          --computerCrosses: #00ff2a;
+          }`;
+      case "black":
+        return `:root{
+          --HeadingColor: #000000;
+          --mainColor: #141212;
+          --secondaryColor: #0B0A0A;
+          --mainText: #ffffff;
+          --subText: rgba(255, 255, 255, .85);
+          --secondaryText: #ffffff;
+          --TertiaryText: #ffffff;
+          --TertiaryTextBtn: #5E5E5E;
+          --TertiaryTextBtnHover: #ffffff;
+          --TertiaryTextBtnText: #000000;
+          --formColor: #b5b5b5;
+          --themeDotBorder: #CBD5E5;
+          --themeContainerDotBorder: #E0E4EA;
+          --previewBg: rgb(179, 179, 179, 0.5);
+          --shadow: rgb(255, 255, 255, 0.25);
+          
+          --heroCape: #80FF63;
+          --heroSkin: #EEC794;
+          --heroBody: #FA9455;
+          --heroPants: #6F7BD6;
+          --heroShoes: #00e699;
+          --heroHair: #654321;
+          --heroSpecs: #ff9214;
+          --heroStars: #fc7ec3;
+          --heroCross: #055b80;
+          
+          --computerGuyskin: #F3B767; 
+          --computerGuyHair: #FFF3C3;
+          --computerGuyShirt: #BDFFFF;
+          --computerGuyShirtLogo: #6cc5ff;
+          --computerGuyComputerTable: #62806C;
+          --computerGuyTreePlanter: #DFA777;
+          --computerGuyTreePlanterStroke: #506633;
+          --computerGuyTreeBush: #F1FF59;
+          --computerLogoCircle: #fcb97e;
+          --computerLogoCircleGradient: url(#linear-gradient-B);
+          --computerSpecs: #f5ea16;
+          --computerStars: #2eb83e;
+          --computerCircles: #864df0;
+          --computerCrosses: #00e613;
           }`;
       default:
         return `:root {
@@ -152,6 +198,7 @@ ${(props) => {
           --themeDotBorder: #787878;
           --themeContainerDotBorder: #787878;
           --previewBg:rgb(255, 255, 255, 0.75);
+          --shadow: rgb(0, 0, 0, 0.75);
                     
           --heroCape: #666666;
           --heroSkin: #fdc0a4;

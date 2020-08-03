@@ -1,5 +1,8 @@
 .projects {
     background-color: var(--mainColor);
+    width: 100%;
+    max-width: 1400px;
+    margin: 0px auto;
 }
 
 .post-wrapper {

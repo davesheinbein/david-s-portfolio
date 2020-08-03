@@ -10,32 +10,34 @@ ${(props) => {
     switch (props.color) {
       case "red":
         return `:root {
-        --HeadingColor: #db2d21;
-        --mainColor: #771811;
-        --secondaryColor: #992118;
+        --HeadingColor: #871a12;
+        --mainColor: #AA2319;
+        --secondaryColor: #B9271C;
         --mainText: #ffffff;
         --subText: rgba(255, 255, 255, .85);
         --secondaryText: rgba(0, 0, 0, 1);
-        --TertiaryText: red;
-        --TertiaryTextBtn: orange;
-        --formColor: #ffdf5e;
+        --TertiaryText: #000000;
+        --TertiaryTextBtn: #FFFFFF;
+        --TertiaryTextBtnHover: #ff8915;
+        --TertiaryTextBtnText: #FFFFFF;
+        --formColor: #e08d87;
         --themeDotBorder: #fff;
         --themeContainerDotBorder: #ffa45e;
         --previewBg: rgb(255, 255, 255, 0.75);
-        --previewShadow: #111921;
-        --buttonColor: #17a2b8;
                   
         --heroCape: #63dbff;
-        --heroPants: #fdc0a4;
+        --heroSkin: #fdc0a4;
         --heroBody: #b9d2ca;
+        --heroPants: #b9d2ca;
+        --heroShoes: #b9d2ca;
         --heroHair: #654321;
         --heroSpecs: #f55f44;
         --heroStars: #4d8af0;
         --heroCross: #00e699;
         
-        --computerGuyskin: #DAC09D;
-        --computerGuyHair: #654321;
-        --computerGuyShirt: #97EDBE;
+        --computerGuyskin: #EBD0AC; 
+        --computerGuyHair: #654321; 
+        --computerGuyShirt: #ff8915; 
         --computerGuyShirtLogo: #ffbde8;
         --computerGuyComputerTable: #767676;
         --computerGuyTreePlanter: #B79371;
@@ -59,23 +61,25 @@ ${(props) => {
           --secondaryText: #eeeeee;
           --TertiaryText: red;
           --TertiaryTextBtn: orange;
+          --TertiaryTextBtnHover: #ffffff
+          --TertiaryTextBtnText: orange;
           --formColor: #ffffff;
           --themeDotBorder: #fff;
           --themeContainerDotBorder: #17a2b8;
           --previewBg: rgb(81, 90, 72, 0.8);
-          --previewShadow: #2a2f25;
-          --buttonColor: #669966;
                     
           --heroCape: #63dbff;
-          --heroPants: #fdc0a4;
+          --heroSkin: #fdc0a4;
           --heroBody: #b9d2ca;
+          --heroPants: #b9d2ca;
+          --heroShoes: #b9d2ca;
           --heroHair: #654321;
           --heroSpecs: #f55f44;
           --heroStars: #4d8af0;
           --heroCross: #00e699;
           
-          --computerGuyskin: #a0616a;
-          --computerGuyHair: #2f2e41;
+          --computerGuyskin: #ffc791;
+          --computerGuyHair: #ff8915;
           --computerGuyShirt: #ffbde8;
           --computerGuyShirtLogo: #6cc5ff;
           --computerGuyComputerTable: #3f3d56;
@@ -90,73 +94,34 @@ ${(props) => {
           --computerCrosses: #00e699;
 
         }`;
-      case "yellow":
+      case "blue":
         return `:root{
-          --HeadingColor: #5083A5;
-          --mainColor:#46344E;
-          --secondaryColor:#382a3f;
-          --mainText:#fff;
-          --subText: rgba(255, 255, 255, .85);
-          --secondaryText:#eeeeee;
-          --TertiaryText: red;
-          --TertiaryTextBtn: orange;
-          --formColor: #ffffff;
-          --themeDotBorder:#FFF;
-          --themeContainerDotBorder: #17a2b8;
-          --previewBg:rgb(29, 21, 32, 0.8);
-          --previewShadow:#2b202f;
-          --buttonColor:#8534a3;
-                    
-          --heroCape: #63dbff;
-          --heroPants: #fdc0a4;
-          --heroBody: #b9d2ca;
-          --heroHair: #654321;
-          --heroSpecs: #f55f44;
-          --heroStars: #4d8af0;
-          --heroCross: #00e699;
-          
-          --computerGuyskin: #a0616a;
-          --computerGuyHair: #2f2e41;
-          --computerGuyShirt: #ffbde8;
-          --computerGuyShirtLogo: #6cc5ff;
-          --computerGuyComputerTable: #3f3d56;
-          --computerGuyTreePlanter: #e1c1a5;
-          --computerGuyTreePlanterStroke: #336;
-          --computerGuyTreeBush: #79ff5a;
-          --computerLogoCircle: #b1ffff;
-          --computerLogoCircleGradient: url(#linear-gradient-A);
-          --computerSpecs: #a9ffff;
-          --computerStars: #f55f44;
-          --computerCircles: #4d8af0;
-          --computerCrosses: #00e699;
-
-          }`;
-      default:
-        return `:root {
           --HeadingColor: #5083A5;
           --mainColor: #0D9DFD;
           --secondaryColor: #459CF6;
           --mainText: #ffffff;
           --subText: rgba(255, 255, 255, .85);
           --secondaryText: #000000;
-          --TertiaryText: #122D2B;
-          --TertiaryTextBtn: #0A9EFD;
+          --TertiaryText: #ffffff;
+          --TertiaryTextBtn: #61DBFF;
+          --TertiaryTextBtnHover: #FFBEE8;
+          --TertiaryTextBtnText: #000000;
           --formColor: #ffffff;
           --themeDotBorder: #24292e;
           --themeContainerDotBorder: #db1a0f;
           --previewBg: rgb(179, 179, 179, 0.5);
-          --previewShadow: #f0ead6;
-          --buttonColor: black;
           
           --heroCape: #63dbff;
-          --heroPants: #fdc0a4;
+          --heroSkin: #fdc0a4;
           --heroBody: #b9d2ca;
+          --heroPants: #b9d2ca;
+          --heroShoes: #b9d2ca;
           --heroHair: #654321;
           --heroSpecs: #f55f44;
           --heroStars: #4d8af0;
           --heroCross: #00e699;
           
-          --computerGuyskin: #a0616a;
+          --computerGuyskin: #a0616a; 
           --computerGuyHair: #2f2e41;
           --computerGuyShirt: #ffbde8;
           --computerGuyShirtLogo: #6cc5ff;
@@ -170,6 +135,48 @@ ${(props) => {
           --computerStars: #f55f44;
           --computerCircles: #4d8af0;
           --computerCrosses: #00e699;
+          }`;
+      default:
+        return `:root {
+          --HeadingColor: #F1F1F1;
+          --mainColor:#F3F3F3;
+          --secondaryColor:#FFFCFC;
+          --mainText:#000000;
+          --subText: rgba(0, 0, 0, .75);
+          --secondaryText:#084181;
+          --TertiaryText: #ffffff;
+          --TertiaryTextBtn: #084181;
+          --TertiaryTextBtnHover: #ffffff
+          --TertiaryTextBtnText: #63dbff;
+          --formColor: #ffffff;
+          --themeDotBorder: #787878;
+          --themeContainerDotBorder: #787878;
+          --previewBg:rgb(255, 255, 255, 0.75);
+                    
+          --heroCape: #666666;
+          --heroSkin: #fdc0a4;
+          --heroBody: #fa5757;
+          --heroPants: #fce3e3;
+          --heroShoes: #000000;
+          --heroHair: #654321;
+          --heroSpecs: #44f5d5;
+          --heroStars: #4df05d;
+          --heroCross: #7644c7;
+          
+          --computerGuyskin: #ebbe83; 
+          --computerGuyHair: #914236;
+          --computerGuyShirt: #7f8583;
+          --computerGuyShirtLogo: #faff6c;
+          --computerGuyComputerTable: #533d56;
+          --computerGuyTreePlanter: #e1aba5;
+          --computerGuyTreePlanterStroke: #336648;
+          --computerGuyTreeBush: #6cff96;
+          --computerLogoCircle: #fcffb1;
+          --computerLogoCircleGradient: url(#linear-gradient-D);
+          --computerSpecs: #b7a9ff;
+          --computerStars: #44ecf5;
+          --computerCircles: #f04daf;
+          --computerCrosses: #f54444;
         }`;
     }
   }}

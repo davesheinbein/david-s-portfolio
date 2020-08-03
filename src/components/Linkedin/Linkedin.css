@@ -6,8 +6,12 @@
 
 #linkedInImage {
     width: 80%;
+    max-width: 1400px;
     border-radius: 10px;
     border: 1px solid var(--themeContainerDotBorder);
+    -moz-box-shadow: 0 4px 4px rgba(0, 0, 0, 0.4);
+    -webkit-box-shadow: 0 4px 4px rgba(0, 0, 0, 0.4);
+    box-shadow: 0 4px 4px rgba(0, 0, 0, 0.4);
 }
 
 .linkedInText {
@@ -24,14 +28,17 @@
     font-size: 1.5rem;
     font-weight: bold;
     color: var(--TertiaryText);
-    background: var(--heroCape);
+    background: var(--TertiaryTextBtn);
     padding: .25em 2em;
     border-radius: 50px;
+    -moz-box-shadow: 0 4px 4px rgba(0, 0, 0, 0.4);
+    -webkit-box-shadow: 0 4px 4px rgba(0, 0, 0, 0.4);
+    box-shadow: 0 4px 4px rgba(0, 0, 0, 0.4);
 }
 
 .linkedInBtnText:hover {
-    color: var(--TertiaryTextBtn);
-    background: var(--computerGuyShirt);
+    color: var(--TertiaryTextBtnText);
+    background: var(--TertiaryTextBtnHover);
     text-decoration: none;
 }
 

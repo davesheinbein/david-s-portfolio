@@ -5,9 +5,6 @@
     background-color: var(--HeadingColor);
     padding: 1em 0px;
     font-family: 'Russo One', sans-serif;
-    -moz-box-shadow: 0 4px 4px rgba(0, 0, 0, 0.4);
-    -webkit-box-shadow: 0 4px 4px rgba(0, 0, 0, 0.4);
-    box-shadow: 0 4px 4px rgba(0, 0, 0, 0.4);
 }
 
 .headingText {

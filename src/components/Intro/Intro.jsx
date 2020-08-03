@@ -40,10 +40,10 @@ export default class Intro extends Component {
                                 }}
                             ></div>
                             <div
-                                id="yellow-mode"
+                                id="blue-mode"
                                 className="theme-dot"
                                 onClick={() => {
-                                    this.props.handleThemeChange("yellow");
+                                    this.props.handleThemeChange("blue");
                                 }}
                             ></div>
                         </div>

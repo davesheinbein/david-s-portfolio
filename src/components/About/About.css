@@ -49,17 +49,20 @@
 
 .resumeDlLink {
     color: var(--TertiaryText);
-    background: var(--heroCape);
+    background: var(--TertiaryTextBtn);
     padding: .25em .5em;
     border-radius: 50px;
     font-size: 1.5rem;
     font-weight: bold;
     line-height: 2.5;
+    -moz-box-shadow: 0 4px 4px rgba(0, 0, 0, 0.4);
+    -webkit-box-shadow: 0 4px 4px rgba(0, 0, 0, 0.4);
+    box-shadow: 0 4px 4px rgba(0, 0, 0, 0.4);
 }
 
 .resumeDlLink:hover {
-    color: var(--TertiaryTextBtn);
-    background: var(--computerGuyShirt);
+    color: var(--TertiaryTextBtnText);
+    background: var(--TertiaryTextBtnHover);
     text-decoration: none;
 }
 

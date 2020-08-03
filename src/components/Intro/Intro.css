@@ -1,7 +1,9 @@
 .introContainer {
     background-color: var(--secondaryColor);
     width: 100%;
+    max-width: 1400px;
     height: 100%;
+    margin: 0px auto;
     padding-bottom: 3em;
 }
 
@@ -19,6 +21,7 @@
 }
 
 .personalizedText {
+    padding: .5rem 0px 0px;
     font-size: 1.25rem;
 }
 
@@ -51,9 +54,9 @@
     border-radius: 4px;
     object-fit: cover;
     border: 3px solid var(--themeContainerDotBorder);
-    -webkit-box-shadow: -1px 1px 3px -1px rgba(0, 0, 0, 0.75);
-    -moz-box-shadow: -1px 1px 3px -1px rgba(0, 0, 0, 0.75);
-    box-shadow: -1px 1px 3px -1px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 0 4px 4px rgba(0, 0, 0, 0.4);
+    -webkit-box-shadow: 0 4px 4px rgba(0, 0, 0, 0.4);
+    box-shadow: 0 4px 4px rgba(0, 0, 0, 0.4);
 }
   
 #theme-options-wrapper {
@@ -79,7 +82,7 @@
 }
   
 #light-mode {
-    background-color: #459CF6;
+    background-color: #ffffff; 
 }
 #red-mode {
     background-color: #db1a0f;
@@ -87,8 +90,8 @@
 #green-mode {
     background-color: #0f9618;
 }
-#yellow-mode {
-    background-color: #f0c330;
+#blue-mode {
+    background-color: #459CF6;
 }
   
 #settings-note {
@@ -195,6 +198,7 @@
     
     .personalizedText {
         font-size: 1.5rem;
+        color: var(--subText);
     }
     
     .boxTitle {

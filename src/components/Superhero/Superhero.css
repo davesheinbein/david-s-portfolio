@@ -27,7 +27,7 @@ svg {
 }
 
 .cls-5 {
-    fill: var(--heroPants);
+    fill: var(--heroSkin);
 }
 
 .cls-6 {
@@ -58,12 +58,19 @@ svg {
     fill: var(--heroCross);
 }
 
+.cls-13 {
+    fill: var(--heroShoes);
+}
+.cls-14 {
+    fill: var(--heroPants);
+}
+
 /* SVG animations */
 #back-cape {
     animation: backCapeAnim 5s ease-out infinite alternate;
-    }
+}
     
-    @keyframes backCapeAnim {
+@keyframes backCapeAnim {
     from {
         transform-origin: top left;
         transform: translateX(60px) translateY(40px) scale(0.75, 0.75);
@@ -72,13 +79,13 @@ svg {
         transform-origin: top left;
         transform: translateX(0px) translateY(0px) scale(1, 1);
     }
-    }
+}
     
-    #cape-collar {
+#cape-collar {
     animation: collarAnim 3s ease-out infinite alternate;
-    }
+}
     
-    @keyframes collarAnim {
+@keyframes collarAnim {
     from {
         transform: translateY(3px);
     }
@@ -87,65 +94,66 @@ svg {
     }
     }
     
-    #left-arm {
+#left-arm {
     animation: leftArmAnim 2s ease-out infinite alternate;
-    }
+}
     
-    @keyframes leftArmAnim {
+@keyframes leftArmAnim {
     from {
         transform: translateX(12px) rotateZ(3deg) rotateY(10deg);
     }
     to {
         transform: translateX(0px) rotateZ(0deg) rotateY(0deg);
     }
-    }
+}
     
-    #head {
+#head {
     animation: headAnim 3s ease-out infinite alternate;
-    }
+}
     
-    @keyframes headAnim {
+@keyframes headAnim {
     from {
         transform: translateY(4px);
     }
     to {
         transform: translateY(-5px);
     }
-    }
+}
     
-    #hair {
+#hair {
     animation: hairAnim 3s ease-out infinite alternate;
-    }
+}
     
-    @keyframes hairAnim {
+@keyframes hairAnim {
     from {
         transform: translateY(10px);
     }
     to {
         transform: translateY(-10px);
     }
-    }
+}
     
-    #legs {
+#legs {
     animation: legsAnim 3s ease-out 0.5s infinite alternate;
-    }
+}
     
-    @keyframes legsAnim {
+@keyframes legsAnim {
     from {
         transform: translateY(1px);
     }
     to {
         transform: translateY(-5px);
     }
-    }
+}
     
-    #spec_1,
-    #spec_2,
-    #spec_3 {
-    animation: specAnim 1s ease-out .5s infinite alternate;
-    }
+#spec_1,
+#spec_2,
+#spec_3 {
+    animation: specAnim 1s ease-out 2s infinite alternate;
+    transform-box: fill-box;
+}
     
-    @keyframes specAnim {
+@keyframes specAnim {
     from {
         transform-origin: center;
         transform: scale(0, 0) skew(60deg, 60deg);
@@ -154,32 +162,34 @@ svg {
         transform-origin: center;
         transform: scale(1, 1) skew(0deg, 0deg);
     }
-    }
+}
     
-    #circle_1,
-    #circle_2,
-    #circle_3 {
+#circle_1,
+#circle_2,
+#circle_3 {
     animation: circleAnim 4s ease-out 1s infinite alternate;
-    }
+    transform-box: fill-box;
+}
     
-    @keyframes circleAnim {
+@keyframes circleAnim {
     from {
         transform-origin: center;
-        transform: scale(0, 0) skew(60deg, 60deg) rotateZ(0deg);
+        transform: scale(0, 0) skew(90deg, 90deg) rotateZ(0deg);
     }
     to {
         transform-origin: center;
-        transform: scale(1, 1) skew(0deg, 0deg) rotateZ(-360deg);
+        transform: scale(1, 1) skew(0deg, 0deg) rotateZ(-720deg);
     }
-    }
+}
     
-    #cross_1,
-    #cross_2,
-    #cross_3 {
-    animation: crossAnim 2s ease-out 1s infinite alternate;
-    }
+#cross_1,
+#cross_2,
+#cross_3 {
+    animation: crossAnim 2s ease-out 3s infinite alternate;
+    transform-box: fill-box;
+}
     
-    @keyframes crossAnim {
+@keyframes crossAnim {
     from {
         transform-origin: center;
         transform: scale(0, 0) rotateZ(0deg);
@@ -188,14 +198,15 @@ svg {
         transform-origin: center;
         transform: scale(1, 1) rotateZ(-360deg);
     }
-    }
+}
     
-    #star_1,
-    #star_2 {
+#star_1,
+#star_2 {
     animation: starAnim 4s ease-in-out 0.5s infinite alternate;
-    }
+    transform-box: fill-box;
+}
     
-    @keyframes starAnim {
+@keyframes starAnim {
     from {
         transform-origin: center;
         transform: scale(0, 0) rotateZ(0deg);
@@ -204,5 +215,5 @@ svg {
         transform-origin: center;
         transform: scale(1, 1) rotateZ(720deg);
     }
-    }
+}
       

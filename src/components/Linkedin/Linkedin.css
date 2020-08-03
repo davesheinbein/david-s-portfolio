@@ -21,20 +21,22 @@
 }
 
 .linkedInBtnText {
-    font-size: 2rem;
+    font-size: 1.5rem;
+    font-weight: bold;
     color: var(--TertiaryText);
+    background: var(--heroCape);
+    padding: .25em 2em;
+    border-radius: 50px;
 }
 
 .linkedInBtnText:hover {
     color: var(--TertiaryTextBtn);
+    background: var(--computerGuyShirt);
+    text-decoration: none;
 }
 
-@media screen and (max-width: 1600px)  {
+@media screen and (max-width: 1800px)  {
     .linkedInText {
-        font-size: 3rem;
-    }
-
-    .linkedInBtnText {
         font-size: 3rem;
     }
 }
@@ -43,18 +45,10 @@
     .linkedInText {
         font-size: 2rem;
     }
-
-    .linkedInBtnText {
-        font-size: 2rem;
-    }
 }
 
 @media screen and (max-width: 812px) {
     .linkedInText {
-        font-size: 2rem;
-    }
-
-    .linkedInBtnText {
         font-size: 2rem;
     }
 }

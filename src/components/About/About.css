@@ -27,15 +27,18 @@
     position: absolute;
     top: 10%;
     left: 50%;
+    transform: translateX(-50px, -50px);
 }
 
 .subTitle {
     font-size: 3rem;
     margin: .5em 0px;
+    color: var(--mainText);
 }
 
 .subText {
     font-size: 1.5rem;
+    color: var(--subText);
 }
 
 .resumeDlText {
@@ -46,14 +49,26 @@
 
 .resumeDlLink {
     color: var(--TertiaryText);
+    background: var(--heroCape);
+    padding: .25em .5em;
+    border-radius: 50px;
+    font-size: 1.5rem;
     font-weight: bold;
+    line-height: 2.5;
 }
 
 .resumeDlLink:hover {
     color: var(--TertiaryTextBtn);
+    background: var(--computerGuyShirt);
+    text-decoration: none;
 }
 
-@media screen and (max-width: 1600px)  {
+
+@media screen and (max-width: 1800px)  {
+    .resumeDlLink {
+        padding: .25em 2em;
+    }    
+
     .subContainer {
         width: 100%;
         margin: auto;
@@ -64,6 +79,8 @@
         position: absolute;
         width: 80%;
         height: 100%;
+        top: 0%;
+        left: 45%;
     }
 
     .resumeDlText {
@@ -83,12 +100,26 @@
     .resumeDlText {
         font-size: 1rem;
     }
+
+    .subContainer {
+        width: 100%;
+        max-width: 690px;
+        margin: auto;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position: relative;
+        z-index: 2;
+    }
     
     .svgContainer {
-        width: 90%;
+        width: 100%;
         height: auto;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: auto 0px;
         object-fit: contain;
-        top: 0%;
         position: absolute;
         object-fit: contain;
     }
@@ -115,9 +146,5 @@
         align-items: center;
         position: absolute;
         width: 100%;
-    }
-
-    .resumeDlText {
-        font-size: .75rem;
     }
 }

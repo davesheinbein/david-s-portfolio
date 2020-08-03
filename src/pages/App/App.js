@@ -13,14 +13,15 @@ ${(props) => {
         --HeadingColor: #db2d21;
         --mainColor: #771811;
         --secondaryColor: #992118;
-        --mainText: #FFE9F0;
-        --secondaryText: #3d3d3d;
+        --mainText: #ffffff;
+        --subText: rgba(255, 255, 255, .85);
+        --secondaryText: rgba(0, 0, 0, 1);
         --TertiaryText: red;
         --TertiaryTextBtn: orange;
         --formColor: #ffdf5e;
         --themeDotBorder: #fff;
         --themeContainerDotBorder: #ffa45e;
-        --previewBg: rgb(255, 231, 122, 0.5);
+        --previewBg: rgb(255, 255, 255, 0.75);
         --previewShadow: #111921;
         --buttonColor: #17a2b8;
                   
@@ -32,16 +33,16 @@ ${(props) => {
         --heroStars: #4d8af0;
         --heroCross: #00e699;
         
-        --computerGuyskin: #a0616a;
-        --computerGuyHair: #2f2e41;
-        --computerGuyShirt: #ffbde8;
-        --computerGuyShirtLogo: #6cc5ff;
-        --computerGuyTable: #3f3d56;
-        --computerGuyTreePlanter: #e1c1a5;
-        --computerGuyTreePlanterStroke: #336;
-        --computerGuyTreeBush: #79ff5a;
-        --computerLogoCircle: #b1ffff;
-        --computerLogoCircleGradient: url(#linear-gradient-A);
+        --computerGuyskin: #DAC09D;
+        --computerGuyHair: #654321;
+        --computerGuyShirt: #97EDBE;
+        --computerGuyShirtLogo: #ffbde8;
+        --computerGuyComputerTable: #767676;
+        --computerGuyTreePlanter: #B79371;
+        --computerGuyTreePlanterStroke: #664433;
+        --computerGuyTreeBush: #9FF239;
+        --computerLogoCircle: #FFD1CE;
+        --computerLogoCircleGradient: url(#linear-gradient-B);
         --computerSpecs: #a9ffff;
         --computerStars: #f55f44;
         --computerCircles: #4d8af0;
@@ -54,6 +55,7 @@ ${(props) => {
           --mainColor: #606b56;
           --secondaryColor: #515a48;
           --mainText: #fff;
+          --subText: rgba(255, 255, 255, .85);
           --secondaryText: #eeeeee;
           --TertiaryText: red;
           --TertiaryTextBtn: orange;
@@ -76,7 +78,7 @@ ${(props) => {
           --computerGuyHair: #2f2e41;
           --computerGuyShirt: #ffbde8;
           --computerGuyShirtLogo: #6cc5ff;
-          --computerGuyTable: #3f3d56;
+          --computerGuyComputerTable: #3f3d56;
           --computerGuyTreePlanter: #e1c1a5;
           --computerGuyTreePlanterStroke: #336;
           --computerGuyTreeBush: #79ff5a;
@@ -94,6 +96,7 @@ ${(props) => {
           --mainColor:#46344E;
           --secondaryColor:#382a3f;
           --mainText:#fff;
+          --subText: rgba(255, 255, 255, .85);
           --secondaryText:#eeeeee;
           --TertiaryText: red;
           --TertiaryTextBtn: orange;
@@ -116,7 +119,7 @@ ${(props) => {
           --computerGuyHair: #2f2e41;
           --computerGuyShirt: #ffbde8;
           --computerGuyShirtLogo: #6cc5ff;
-          --computerGuyTable: #3f3d56;
+          --computerGuyComputerTable: #3f3d56;
           --computerGuyTreePlanter: #e1c1a5;
           --computerGuyTreePlanterStroke: #336;
           --computerGuyTreeBush: #79ff5a;
@@ -134,9 +137,10 @@ ${(props) => {
           --mainColor: #0D9DFD;
           --secondaryColor: #459CF6;
           --mainText: #ffffff;
+          --subText: rgba(255, 255, 255, .85);
           --secondaryText: #000000;
-          --TertiaryText: red;
-          --TertiaryTextBtn: orange;
+          --TertiaryText: #122D2B;
+          --TertiaryTextBtn: #0A9EFD;
           --formColor: #ffffff;
           --themeDotBorder: #24292e;
           --themeContainerDotBorder: #db1a0f;
@@ -156,7 +160,7 @@ ${(props) => {
           --computerGuyHair: #2f2e41;
           --computerGuyShirt: #ffbde8;
           --computerGuyShirtLogo: #6cc5ff;
-          --computerGuyTable: #3f3d56;
+          --computerGuyComputerTable: #3f3d56;
           --computerGuyTreePlanter: #e1c1a5;
           --computerGuyTreePlanterStroke: #336;
           --computerGuyTreeBush: #79ff5a;

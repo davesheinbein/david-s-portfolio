@@ -25,10 +25,13 @@
 .boxTitle {
     font-size: 2rem;
     margin-bottom: 1em;
+    color: var(--secondaryText);
+    text-decoration: underline;
 }
 
 .boxText {
     font-size: 1.5rem;
+    color: var(--secondaryText);
 }
   
 .left-column {

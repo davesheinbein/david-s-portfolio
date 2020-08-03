@@ -8,7 +8,7 @@ export default class Intro extends Component {
     render() {
         return (
             <div className='introContainer' id='aboutMe'>
-                <h1 className='introHeading'>Bio</h1>
+                <h1 className='introHeading'>Hello World...</h1>
                 <div className="intro-wrapper">
                     <div className="left-column">
                         <img

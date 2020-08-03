@@ -16,7 +16,7 @@
 }
 
 .colorClass-5 {
-    fill: var(--computerGuyTable);
+    fill: var(--computerGuyComputerTable);
 }
 
 .colorClass-6 {
@@ -75,6 +75,11 @@
     width: 100%;
     overflow: visible;
     object-fit: contain;
+}
+
+/* hide hand */
+#leftHand {
+    fill: none;
 }
 
 /* svg animations */

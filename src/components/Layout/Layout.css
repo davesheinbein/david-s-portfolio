@@ -34,7 +34,6 @@
     background: url('../../images/backgroundWavesB.png');
     background-size: 10000px 500px;
     animation: backgroundAnimation 45s linear -5s alternate infinite;
-    background: fill;
 }
 
 @keyframes backgroundAnimation {

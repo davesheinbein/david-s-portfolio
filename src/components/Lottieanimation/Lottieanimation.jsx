@@ -1,6 +1,7 @@
 import React, { useEffect, useRef } from 'react';
 import lottie from 'lottie-web';
 
+
 function Lottieanimation() {
     const container = useRef(null)
 
@@ -10,7 +11,7 @@ function Lottieanimation() {
             render: 'svg',
             loop: true,
             autoPlay: true,
-            animationData: require('./lf30_editor_V4hAoy.json')
+            animationData: require('../../lf30_editor_V4hAoy.json')
         })
     }, [])
 

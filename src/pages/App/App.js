@@ -184,11 +184,11 @@ ${(props) => {
           }`;
       case "transparent":
         return `:root{
-          --HeadingColor: #000000;
-          --mainColor: #141212;
-          --secondaryColor: #0B0A0A;
-          --mainText: #ffffff;
-          --subText: rgba(255, 255, 255, .85);
+          --HeadingColor: transparent;
+          --mainColor: transparent;
+          --secondaryColor: transparent;
+          --mainText: #000000;
+          --subText: rgba(0, 0, 0, .85);
           --secondaryText: #ffffff;
           --TertiaryText: #ffffff;
           --TertiaryTextBtn: #5E5E5E;

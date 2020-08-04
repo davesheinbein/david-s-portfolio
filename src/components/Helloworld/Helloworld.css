@@ -104,7 +104,7 @@
     background-origin: content-box;
     background-repeat: no-repeat;
     background-size: 100px 20px;
-    animation: wavesIconAnimation 5s linear infinite alternate;
+    animation: wavesIconAnimation 5s linear -5s infinite alternate;
 }
 @keyframes wavesIconAnimation {
     0% {

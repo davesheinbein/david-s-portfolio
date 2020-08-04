@@ -17,6 +17,37 @@
     z-index: 3;
 }
 
+.skillContainer {
+    width: 100%;
+    font-size: 1rem;
+    display: grid;
+    grid-template-columns: 2fr 2fr 2fr 2fr;
+}
+
+.skills {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 5vw;
+    height: 5vh;
+    margin: .25em;
+    padding: 35px;
+    color: var(--TertiaryText);
+    background-color: var(--TertiaryTextBtn);
+    border: 1px solid var(--themeContainerDotBorder);
+    border-radius: 50%;
+    -moz-box-shadow: 0 2px 2px var(--shadow);
+    -webkit-box-shadow: 0 2px 2px var(--shadow);
+    box-shadow: 0 2px 2px var(--shadow);
+}
+
+.skill {
+    font-size: .6rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 .textContainer {
     display: flex;
     flex-direction: column;

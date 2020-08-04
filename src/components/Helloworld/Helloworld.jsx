@@ -1,9 +1,9 @@
 import React, { Component } from "react";
-import "./Intro.css";
+import "./Helloworld.css";
 import headshot from '../../images/headshot.png'
 import Computerguy from '../ComputerGuy/Computerguy'
 
-export default class Intro extends Component {
+export default class Helloworld extends Component {
 
     render() {
         return (

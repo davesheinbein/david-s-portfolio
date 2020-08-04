@@ -4,6 +4,18 @@
     padding: 2em 0px;
 }
 
+.imagesContainer {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0px auto;
+    display: grid;
+    grid-template-columns: 2fr 2fr;
+}
+
+.imgSubContainer {
+    padding: 1em 0px;
+}
+
 #linkedInImage {
     width: 80%;
     max-width: 1400px;
@@ -17,7 +29,33 @@
 .linkedInText {
     font-size: 3rem;
     color: var(--mainText);
+    margin-bottom: 0px;
+}
+
+.iconSymbols {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2rem;
+    margin: 0px auto;
     padding: 0px 0px .5em;
+}
+
+#linkedInSym {
+    padding: 0px .5em;
+    color: var(--TertiaryTextBtn);
+}
+
+#linkedInSym:hover {
+    color: var(--TertiaryTextBtnHover);
+}
+
+#gitHubSym {
+    padding: 0px .5em;
+    color: var(--TertiaryTextBtn);
+}
+#gitHubSym:hover {
+    color: var(--TertiaryTextBtnHover);
 }
 
 .linkedInBtnTextContainer {
@@ -57,5 +95,10 @@
 @media screen and (max-width: 812px) {
     .linkedInText {
         font-size: 2rem;
+    }
+
+    .imagesContainer {
+        display: grid;
+        grid-template-columns: 2fr;
     }
 }

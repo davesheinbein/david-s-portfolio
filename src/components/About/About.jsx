@@ -1,5 +1,6 @@
 import React from 'react'
 import './About.css'
+import skills from '../../constants/skills'
 import Superhero from '../Superhero/Superhero'
 import Pdf from '../../images/Full Stack Developer Resume.pdf'
 
@@ -22,27 +23,25 @@ function About() {
                         </p>
 
                     <h2 className='subTitle'>Skills</h2>
-                    <p className='subText'>
-                        React, HTML5, CSS, JavaScript,
-                        <br />
-                        Express, Node.js, Django, Mongoose,
-                        <br />
-                        MongoDB, Python, PostreSQL,
-                        <br />
-                        Git, GitHub, MongoDB Atlas, Postman,
-                        <br />
-                        Heroku, AWS, Third Party APIs,
-                        <br />
-                        Wireframing, Adobe Creative Suite
-                    </p>
+                    <div className='subText'>
+                        <div className='skillContainer'>
+                            {skills.map(skill =>
+                                <div className='skills' value={skill}>
+                                    <div className='skill'>
+                                        {skill}
+                                    </div>
+                                </div>)
+                            }
+                        </div>
+                    </div>
                 </div>
                 {/* SVG input below */}
                 <div className='svgContainer'>
                     <Superhero />
                 </div>
-            <h3 className='resumeDlText'>Full-Stack Developer with primary focus on MERN Stack <br></br>
-                <a className='resumeDlLink' href={Pdf} target="_blank" rel="noopener noreferrer"> Download Resume</a>
-            </h3>
+                <h3 className='resumeDlText'>Full-Stack Developer with primary focus on MERN Stack <br></br>
+                    <a className='resumeDlLink' href={Pdf} target="_blank" rel="noopener noreferrer"> Download Resume</a>
+                </h3>
             </div>
         </div>
     )

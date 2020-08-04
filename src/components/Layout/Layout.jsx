@@ -1,8 +1,8 @@
 import React, { Component } from "react";
 import Greeting from "../Greeting/Greeting";
-import Intro from "../Intro/Intro";
+import Helloworld from "../Helloworld/Helloworld";
 import About from "../About/About";
-import Linkedin from "../Linkedin/Linkedin";
+import Connections from "../Connections/Connections";
 import Projects from "../Projects/Projects";
 import Contact from "../Contact/Contact"
 import "./Layout.css";
@@ -14,7 +14,7 @@ export default class Layout extends Component {
         <section className="side2">
           <div className="main-container">
             <Greeting />
-            <Intro handleThemeChange={this.props.handleThemeChange} />
+            <Helloworld handleThemeChange={this.props.handleThemeChange} />
           </div>
         </section>
         <section className="side1">
@@ -24,7 +24,7 @@ export default class Layout extends Component {
         </section>
         <section className="side2">
           <div className="main-container">
-            <Linkedin />
+            <Connections />
           </div>
         </section>
         <section className="side1">

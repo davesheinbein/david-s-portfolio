@@ -6,7 +6,7 @@ function Computerguy() {
         <svg id="computerGuy"
             xmlns="http://www.w3.org/2000/svg"
             viewBox="0 0 733.13 679.89">
-            <defs>
+            {/* <defs>
                 <linearGradient id="linear-gradient-A" x1="377.65" y1="484.15" x2="429.65" y2="484.15" gradientTransform="translate(-51.43 9.3) rotate(-1.29)" gradientUnits="userSpaceOnUse">
                     <stop offset="0" stopColor="#00e1ff" />
                     <stop offset="0.1" stopColor="#2ee6ff" stopOpacity="0.82" />
@@ -51,7 +51,7 @@ function Computerguy() {
                     <stop offset="0.88" stopColor="#fcfffc" stopOpacity="0.02" />
                     <stop offset="1" stopColor="#fff" stopOpacity="0" />
                 </linearGradient>
-            </defs>
+            </defs> */}
             <g id="fullHead">
                 <circle id="neckGuy" className="colorClass-1" cx="375.42" cy="118.41" r="73.54" />
                 <path id="headGuy" className="colorClass-1" d="M361,155.17s13.85,104.45-7.46,116.17S480.4,284.13,480.4,284.13s-33-90.59-18.12-118.3Z" transform="translate(-40.5 0)" />

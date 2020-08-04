@@ -89,13 +89,13 @@
     background: radial-gradient(circle, rgba(255,255,255,1) 0%, rgba(0,0,0,1) 100%); 
     background-position: center;
     background-origin: content-box;
-    animation: IconsAnimation 5s linear infinite alternate;
+    animation: IconsAnimation 6s linear infinite alternate;
 }
 #black-mode {
     background: radial-gradient(circle, rgba(0,0,0,1) 0%, rgba(255,255,255,1) 100%);
     background-position: center;
     background-origin: content-box;
-    animation: IconsAnimation 5s linear infinite alternate;
+    animation: IconsAnimation 6s linear infinite alternate;
 }
 #transparent-mode {
     background: url('../../images/backgroundWavesMini.png');
@@ -121,19 +121,19 @@
     background: radial-gradient(circle, rgba(255,0,0,1) 0%, rgba(255,255,255,1) 100%);
     background-position: center;
     background-origin: content-box;
-    animation: IconsAnimation 5s linear infinite alternate;
+    animation: IconsAnimation 6s linear infinite alternate;
 }
 #green-mode {
     background: radial-gradient(circle, rgba(1,133,10,1) 0%, rgba(255,255,255,0) 100%);
     background-position: center;
     background-origin: content-box;
-    animation: IconsAnimation 5s linear infinite alternate;
+    animation: IconsAnimation 6s linear infinite alternate;
 }
 #blue-mode {
     background: radial-gradient(circle, rgba(0,62,255,1) 0%, rgba(255,255,255,0) 100%);
     background-position: center;
     background-origin: content-box;
-    animation: IconsAnimation 5s linear infinite alternate;
+    animation: IconsAnimation 6s linear infinite alternate;
 }
 
 @keyframes IconsAnimation {

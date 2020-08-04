@@ -64,7 +64,7 @@ ${(props) => {
           --TertiaryTextBtn: #FFBEE8;
           --TertiaryTextBtnHover: #ffffff;
           --TertiaryTextBtnText: #FFBEE8;
-          --formColor: #ffffff;
+          --formColor: #829174;
           --themeDotBorder: #fff;
           --themeContainerDotBorder: #17a2b8;
           --previewBg: rgb(0, 0, 0, 0.75);
@@ -108,7 +108,7 @@ ${(props) => {
           --TertiaryTextBtn: #61DBFF;
           --TertiaryTextBtnHover: #FFBEE8;
           --TertiaryTextBtnText: #000000;
-          --formColor: #ffffff;
+          --formColor: #73c9ff;
           --themeDotBorder: #24292e;
           --themeContainerDotBorder: #db1a0f;
           --previewBg: rgb(179, 179, 179, 0.5);
@@ -204,7 +204,7 @@ ${(props) => {
           --heroSkin: #fdc0a4;
           --heroBody: #fa5757;
           --heroPants: #fce3e3;
-          --heroShoes: #000000;
+          --heroShoes: #c44545;
           --heroHair: #654321;
           --heroSpecs: #44f5d5;
           --heroStars: #4df05d;

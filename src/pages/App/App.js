@@ -25,7 +25,7 @@ ${(props) => {
         --themeContainerDotBorder: #231E6A;
         --previewBg: rgb(255, 255, 255, 0.75);
         --shadow: rgb(0, 0, 0, 0.75);
-                  
+
         --heroCape: #FF84B1;
         --heroSkin: #F9E699;
         --heroBody: #B697BC;
@@ -69,7 +69,7 @@ ${(props) => {
           --themeContainerDotBorder: #17a2b8;
           --previewBg: rgb(0, 0, 0, 0.75);
           --shadow: rgb(0, 0, 0, 0.75);
-                    
+
           --heroCape: #FEDB2B;
           --heroSkin: #9F616A;
           --heroBody: #AA2319;
@@ -113,7 +113,7 @@ ${(props) => {
           --themeContainerDotBorder: #db1a0f;
           --previewBg: rgb(179, 179, 179, 0.5);
           --shadow: rgb(0, 0, 0, 0.75);
-          
+
           --heroCape: #80FF63;
           --heroSkin: #E0A387;
           --heroBody: #FAE754;
@@ -156,7 +156,7 @@ ${(props) => {
           --themeContainerDotBorder: #E0E4EA;
           --previewBg: rgb(179, 179, 179, 0.5);
           --shadow: rgb(255, 255, 255, 0.25);
-          
+
           --heroCape: #80FF63;
           --heroSkin: #EEC794;
           --heroBody: #FA9455;
@@ -199,7 +199,7 @@ ${(props) => {
           --themeContainerDotBorder: rgba(0, 0, 0, .5);
           --previewBg: rgb(255, 255, 255, 0.25);
           --shadow: rgb(0, 0, 0, 0.5);
-          
+
           --heroCape: #506633;
           --heroSkin: #F3B767;
           --heroBody: #6cc5ff;
@@ -242,7 +242,7 @@ ${(props) => {
           --themeContainerDotBorder: #787878;
           --previewBg:rgb(255, 255, 255, 0.75);
           --shadow: rgb(0, 0, 0, 0.75);
-                    
+
           --heroCape: #666666;
           --heroSkin: #fdc0a4;
           --heroBody: #fa5757;

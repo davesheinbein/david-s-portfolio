@@ -7,7 +7,7 @@
 .App {
   text-align: center;
   min-height: 100vh;
-  background: linear-gradient(180deg, rgba(0,243,255,0) 14%, rgba(0,243,255,1) 50%, rgba(0,243,255,0.25) 100%);
+  background: linear-gradient(180deg, rgba(0,243,255,0) 10%, rgba(0,243,255,1) 16%, rgba(0,243,255,0.5) 100%);
 }
 
 .App-header {

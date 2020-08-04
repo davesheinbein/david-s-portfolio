@@ -8,52 +8,6 @@ function Computerguy() {
             xmlns="http://www.w3.org/2000/svg"
             xmlnsXlink="http://www.w3.org/1999/xlink"
             viewBox="0 0 733.13 679.89">
-            <defs>
-                <linearGradient id="linear-gradient-A" x1="377.65" y1="484.15" x2="429.65" y2="484.15" gradientTransform="translate(-51.43 9.3) rotate(-1.29)" gradientUnits="userSpaceOnUse">
-                    <stop offset="0" stopColor="#00e1ff" />
-                    <stop offset="0.1" stopColor="#2ee6ff" stopOpacity="0.82" />
-                    <stop offset="0.23" stopColor="#65edff" stopOpacity="0.61" />
-                    <stop offset="0.37" stopColor="#94f2ff" stopOpacity="0.42" />
-                    <stop offset="0.5" stopColor="#bbf7ff" stopOpacity="0.27" />
-                    <stop offset="0.63" stopColor="#d8faff" stopOpacity="0.15" />
-                    <stop offset="0.76" stopColor="#eefdff" stopOpacity="0.07" />
-                    <stop offset="0.88" stopColor="#fbfeff" stopOpacity="0.02" />
-                    <stop offset="1" stopColor="#fff" stopOpacity="0" />
-                </linearGradient>
-                <linearGradient id="linear-gradient-B" x1="377.65" y1="484.15" x2="429.65" y2="484.15" gradientTransform="translate(-51.43 9.3) rotate(-1.29)" gradientUnits="userSpaceOnUse">
-                    <stop offset="0" stopColor="#ff82c9" />
-                    <stop offset="0.1" stopColor="#ff99d3" stopOpacity="0.82" />
-                    <stop offset="0.23" stopColor="#ffb3de" stopOpacity="0.61" />
-                    <stop offset="0.37" stopColor="#ffcbe8" stopOpacity="0.42" />
-                    <stop offset="0.5" stopColor="#ffddf0" stopOpacity="0.27" />
-                    <stop offset="0.63" stopColor="#ffecf7" stopOpacity="0.15" />
-                    <stop offset="0.76" stopColor="#fff7fb" stopOpacity="0.07" />
-                    <stop offset="0.88" stopColor="#fffdfe" stopOpacity="0.02" />
-                    <stop offset="1" stopColor="#fff" stopOpacity="0" />
-                </linearGradient>
-                <linearGradient id="linear-gradient-C" x1="377.65" y1="484.15" x2="429.65" y2="484.15" gradientTransform="translate(-51.43 9.3) rotate(-1.29)" gradientUnits="userSpaceOnUse">
-                    <stop offset="0" stopColor="#fff236" />
-                    <stop offset="0.1" stopColor="#fff45a" stopOpacity="0.82" />
-                    <stop offset="0.23" stopColor="#fff785" stopOpacity="0.61" />
-                    <stop offset="0.37" stopColor="#fffaab" stopOpacity="0.42" />
-                    <stop offset="0.5" stopColor="#fffcc9" stopOpacity="0.27" />
-                    <stop offset="0.63" stopColor="#fffde1" stopOpacity="0.15" />
-                    <stop offset="0.76" stopColor="#fffef1" stopOpacity="0.07" />
-                    <stop offset="0.88" stopColor="#fffffc" stopOpacity="0.02" />
-                    <stop offset="1" stopColor="#fff" stopOpacity="0" />
-                </linearGradient>
-                <linearGradient id="linear-gradient-D" x1="377.65" y1="484.15" x2="429.65" y2="484.15" gradientTransform="translate(-51.43 9.3) rotate(-1.29)" gradientUnits="userSpaceOnUse">
-                    <stop offset="0" stopColor="#58ff36" />
-                    <stop offset="0.1" stopColor="#76ff5a" stopOpacity="0.82" />
-                    <stop offset="0.23" stopColor="#9aff85" stopOpacity="0.61" />
-                    <stop offset="0.37" stopColor="#b9ffab" stopOpacity="0.42" />
-                    <stop offset="0.5" stopColor="#d2ffc9" stopOpacity="0.27" />
-                    <stop offset="0.63" stopColor="#e6ffe1" stopOpacity="0.15" />
-                    <stop offset="0.76" stopColor="#f4fff1" stopOpacity="0.07" />
-                    <stop offset="0.88" stopColor="#fcfffc" stopOpacity="0.02" />
-                    <stop offset="1" stopColor="#fff" stopOpacity="0" />
-                </linearGradient>
-            </defs>
             <g id="fullHead">
                 <circle id="neckGuy" className="colorClass-1" cx="375.42" cy="118.41" r="73.54" />
                 <path id="headGuy" className="colorClass-1" d="M361,155.17s13.85,104.45-7.46,116.17S480.4,284.13,480.4,284.13s-33-90.59-18.12-118.3Z" transform="translate(-40.5 0)" />

@@ -1,6 +1,6 @@
 import React, { Component } from "react";
-import Computerguy from "../Computerguy/Computerguy";
 import headshot from '../../images/headshot.png';
+import Computerguy from "../Computerguy/Computerguy";
 import "./Helloworld.css";
 
 

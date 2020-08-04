@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import "./Helloworld.css";
 import headshot from '../../images/headshot.png'
-import Computerguy from '../Computerguy/Computerguy'
+// import Computerguy from '../Computerguy/Computerguy'
 
 export default class Helloworld extends Component {
 
@@ -65,7 +65,7 @@ export default class Helloworld extends Component {
                     <div className="right-column">
                         <div className='rightContainer'>
                             <div className='computerGuySvgContainer'>
-                                <Computerguy />
+                                {/* <Computerguy /> */}
                             </div>
                             <div id="introTextContainer">
                                 <div id="corner-tl" className="corner"></div>

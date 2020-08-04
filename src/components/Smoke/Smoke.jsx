@@ -10,14 +10,18 @@ export default class Smoke extends Component {
             <div className='videoContainer'>
                 <video
                     src={SmokeVideo}
-                    autoplay='autoplay'
+                    autoPlay='autoPlay'
                     muted>
                 </video>
                 <div className='lottieAnimationContainerA'>
-                    <Lottieanimation />
+                    <Link to='/main' className='NavLink'>
+                        <Lottieanimation />
+                    </Link>
                 </div>
                 <div className='lottieAnimationContainerB'>
-                    <Lottieanimation />
+                    <Link to='/main' className='NavLink'>
+                        <Lottieanimation />
+                    </Link>
                 </div>
                 <div className='overlayText'>
                     <span>

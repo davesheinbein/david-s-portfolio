@@ -7,27 +7,44 @@ function Footer() {
             <div className='footerNav'>
                 <ul id="nav">
                     <li>
-                        <a href="/">Home</a>
+                        <div>
+                            <a href="/">Home</a>
+                        </div>
                     </li>
                     <li className='navLines'>&nbsp;&nbsp;|&nbsp;&nbsp;</li>
                     <li>
-                        <a href="#aboutMe">About Me</a>
+                        <div>
+                            <a href="#aboutMe">About Me</a>
+                        </div>
                     </li>
                     <li className='navLines'>&nbsp;&nbsp;|&nbsp;&nbsp;</li>
                     <li>
-                        <a href="#projects">Projects</a>
+                        <div>
+                            <a href="#projects">Projects</a>
+                        </div>
                     </li>
                     <li className='navLines'>&nbsp;&nbsp;|&nbsp;&nbsp;</li>
                     <li>
-                        <a href="#contact-form">Contact</a>
+                        <div>
+                            <a href="#contact-form">Contact</a>
+                        </div>
                     </li>
                     <li className='navLines'>&nbsp;&nbsp;|&nbsp;&nbsp;</li>
                     <li>
-                        <a href="https://www.linkedin.com/in/david-sheinbein/"><i className='fa fa-linkedin-square' id='linkedInFooterSym'></i></a>
+                        <div>
+                            <a href="https://www.linkedin.com/in/david-sheinbein/">
+                                <i className='fa fa-linkedin-square' id='linkedInFooterSym'></i>
+                            </a>
+                        </div>
                     </li>
                     <li className='navLines'>&nbsp;&nbsp;|&nbsp;&nbsp;</li>
                     <li>
-                        <a href="https://github.com/davesheinbein"><i className="fa fa-github" aria-hidden="true" id='gitHubFooterSym'></i></a>
+                        <div>
+                            <a href="https://github.com/davesheinbein">
+                                <i className="fa fa-github" aria-hidden="true" id='gitHubFooterSym'>
+                                </i>
+                            </a>
+                        </div>
                     </li>
                 </ul>
             </div>

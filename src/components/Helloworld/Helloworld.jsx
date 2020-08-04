@@ -33,6 +33,13 @@ export default class Helloworld extends Component {
                                 }}
                             ></div>
                             <div
+                                id="transparent-mode"
+                                className="theme-dot sampleName"
+                                onClick={() => {
+                                    this.props.handleThemeChange("transparent");
+                                }}
+                            ></div>
+                            <div
                                 id="red-mode"
                                 className="theme-dot sampleName"
                                 onClick={() => {

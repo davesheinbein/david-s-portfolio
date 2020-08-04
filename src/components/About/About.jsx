@@ -26,7 +26,7 @@ function About() {
                     <div className='subText'>
                         <div className='skillContainer'>
                             {skills.map(skill =>
-                                <div className='skills' value={skill}>
+                                <div className='skills' value={skill} key={skill}>
                                     <div className='skill'>
                                         {skill}
                                     </div>

@@ -9,8 +9,7 @@ function Lottieanimation() {
             container: container.current,
             render: 'svg',
             loop: true,
-            autoplay: true,
-            name: container,
+            autoPlay: true,
             animationData: require('./lf30_editor_V4hAoy.json')
         })
     }, [])

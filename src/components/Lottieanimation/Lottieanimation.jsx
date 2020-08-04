@@ -10,12 +10,13 @@ function Lottieanimation() {
             render: 'svg',
             loop: true,
             autoplay: true,
+            name: container,
             animationData: require('./lf30_editor_V4hAoy.json')
         })
     }, [])
 
     return (
-        <div className='lottieContainer' ref={container}></div>
+        <div className='container' ref={container}></div>
     )
 }
 

@@ -1,9 +1,34 @@
-.main-container {
+.main-container, .sub-container {
     width: 100%;
     height: 100%;
     margin: 0px auto;
 }
 
+.main-container {
+}
+
+/* .backgroundBox {
+    position: absolute;
+    top: 0%;
+    width: 100%;
+    height: 800px;
+    background: url('../../images/backgroundWaves.png');
+    background-position: center;
+    background-size: cover;
+    background-repeat: repeat-x;
+    animation: backgroundAnimation 20s linear infinite forwards;
+    overflow: hidden;
+    
+} */
+
+@keyframes backgroundAnimation {
+    to{
+        background-position: -50%, 0%;
+    }
+    from{
+        background-position: 50%, 0%;
+    }
+}
 
 .side1 {
     background-color: var(--mainColor);

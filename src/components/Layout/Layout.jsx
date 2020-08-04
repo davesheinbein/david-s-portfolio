@@ -16,30 +16,33 @@ export default class Layout extends Component {
           <div className="main-container">
             <Greeting />
             <Helloworld handleThemeChange={this.props.handleThemeChange} />
+            {/* <div className='backgroundBox'>
+              <img src="../../images/backgroundWaves.png" alt=""/>
+            </div> */}
           </div>
         </section>
         <section className="side1">
-          <div className="main-container">
+          <div className="sub-container">
             <About />
           </div>
         </section>
         <section className="side2">
-          <div className="main-container">
+          <div className="sub-container">
             <Connections />
           </div>
         </section>
         <section className="side1">
-          <div className="main-container">
+          <div className="sub-container">
             <Projects />
           </div>
         </section>
         <section className="side2">
-          <div className="main-container">
+          <div className="sub-container">
             <Contact />
           </div>
         </section>
         <section className="side2">
-          <div className="main-container">
+          <div className="sub-container">
             <Footer />
           </div>
         </section>

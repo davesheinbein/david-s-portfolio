@@ -1,11 +1,13 @@
-import React from "react";
-import Computerguy from "../Computerguy/Computerguy";
-import "./Helloworld.css";
+import React, { Component } from "react";
+import * as Computerguy from "../Computerguy/Computerguy";
 import headshot from '../../images/headshot.png';
+import "./Helloworld.css";
 
-function Helloworld() {
-    return (
-        <div>
+
+export default class Helloworld extends Component {
+
+    render() {
+        return (
             <div className='introContainer' id='aboutMe'>
                 <h1 className='introHeading'>Hello World...</h1>
                 <div className="intro-wrapper">
@@ -81,8 +83,6 @@ function Helloworld() {
                     </div>
                 </div>
             </div>
-        </div>
-    )
+        );
+    }
 }
-
-export default Helloworld

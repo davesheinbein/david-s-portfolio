@@ -5,6 +5,7 @@ import About from "../About/About";
 import Connections from "../Connections/Connections";
 import Projects from "../Projects/Projects";
 import Contact from "../Contact/Contact"
+import Footer from "../Footer/Footer"
 import "./Layout.css";
 
 export default class Layout extends Component {
@@ -35,6 +36,11 @@ export default class Layout extends Component {
         <section className="side2">
           <div className="main-container">
             <Contact />
+          </div>
+        </section>
+        <section className="side2">
+          <div className="main-container">
+            <Footer />
           </div>
         </section>
       </div>

@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import "./Helloworld.css";
 import headshot from '../../images/headshot.png'
-import Computerguy from '../ComputerGuy/Computerguy'
+import Computerguy from '../Computerguy/Computerguy'
 
 export default class Helloworld extends Component {
 

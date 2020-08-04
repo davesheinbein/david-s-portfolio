@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import headshot from '../../images/headshot.png';
-import Computerguy from "../Computerguy/Computerguy";
+import Computerguy from "../../components/Computerguy/Computerguy";
 import "./Helloworld.css";
 
 
@@ -65,6 +65,7 @@ export default class Helloworld extends Component {
                     </div>
                     <div className="right-column">
                         <div className='rightContainer'>
+                            {/* SVG input below */}
                             <div className='computerGuySvgContainer'>
                                 <Computerguy />
                             </div>

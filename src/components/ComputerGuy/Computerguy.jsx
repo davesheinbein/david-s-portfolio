@@ -21,7 +21,7 @@ function Computerguy() {
                     <stop offset="0.88" stopColor="#fbfeff" stopOpacity="0.02" />
                     <stop offset="1" stopColor="#fff" stopOpacity="0" />
                 </linearGradient>
-                {/* <linearGradient id="linear-gradient-B" x1="377.65" y1="484.15" x2="429.65" y2="484.15" gradientTransform="translate(-51.43 9.3) rotate(-1.29)" gradientUnits="userSpaceOnUse">
+                <linearGradient id="linear-gradient-B" x1="377.65" y1="484.15" x2="429.65" y2="484.15" gradientTransform="translate(-51.43 9.3) rotate(-1.29)" gradientUnits="userSpaceOnUse">
                     <stop offset="0" stopColor="#ff82c9" />
                     <stop offset="0.1" stopColor="#ff99d3" stopOpacity="0.82" />
                     <stop offset="0.23" stopColor="#ffb3de" stopOpacity="0.61" />
@@ -53,7 +53,7 @@ function Computerguy() {
                     <stop offset="0.76" stopColor="#f4fff1" stopOpacity="0.07" />
                     <stop offset="0.88" stopColor="#fcfffc" stopOpacity="0.02" />
                     <stop offset="1" stopColor="#fff" stopOpacity="0" />
-                </linearGradient> */}
+                </linearGradient>
             </defs>
             <g id="fullHead">
                 <circle id="neckGuy" className="colorClass-1" cx="375.42" cy="118.41" r="73.54" />

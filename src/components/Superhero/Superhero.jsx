@@ -3,8 +3,11 @@ import './Superhero.css'
 
 function Superhero() {
     return (
-        <svg id="_1cf4a4b6-30d3-491e-a53d-552d6204f4f6" data-name="1cf4a4b6-30d3-491e-a53d-552d6204f4f6"
-            xmlns="http://www.w3.org/2000/svg" viewBox="0 0 896.95 746.84">
+        <svg
+            id="_1cf4a4b6-30d3-491e-a53d-552d6204f4f6"
+            data-name="1cf4a4b6-30d3-491e-a53d-552d6204f4f6"
+            xxmlns="http://www.w3.org/2000/svg"
+            viewBox="0 0 896.95 746.84">
             <g id="back-cape">
                 <path id="_83eae6ee-46c5-4585-a2a2-a187faac01c1" data-name="83eae6ee-46c5-4585-a2a2-a187faac01c1"
                     className="cls-1"

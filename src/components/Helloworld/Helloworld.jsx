@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import Computerguy from "../../components/Computerguy/Computerguy";
+import Computerguy from "../Computerguy/Computerguy";
 import headshot from '../../images/headshot.png';
 import "./Helloworld.css";
 

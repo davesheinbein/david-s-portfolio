@@ -38,7 +38,7 @@ ${(props) => {
         
         --computerGuyskin: #EBD0AC; 
         --computerGuyHair: #654321; 
-        --computerGuyShirt: #ff8915; 
+        --computerGuyShirt: #8D58C6; 
         --computerGuyShirtLogo: #ffbde8;
         --computerGuyComputerTable: #767676;
         --computerGuyTreePlanter: #B79371;
@@ -54,10 +54,10 @@ ${(props) => {
       }`;
       case "green":
         return `:root {
-          --HeadingColor: #2F342A;
-          --mainColor: #606b56;
-          --secondaryColor: #515a48;
-          --mainText: #fff;
+          --HeadingColor: #326201;
+          --mainColor: #517c26;
+          --secondaryColor: #406f12;
+          --mainText: #ffffff;
           --subText: rgba(255, 255, 255, .85);
           --secondaryText: rgba(255, 255, 255, .75);
           --TertiaryText: #000000;
@@ -67,7 +67,7 @@ ${(props) => {
           --formColor: #829174;
           --themeDotBorder: #fff;
           --themeContainerDotBorder: #17a2b8;
-          --previewBg: rgb(0, 0, 0, 0.75);
+          --previewBg: rgb(70, 35, 25, 0.5);
           --shadow: rgb(0, 0, 0, 0.75);
 
           --heroCape: #FEDB2B;
@@ -82,7 +82,7 @@ ${(props) => {
           
           --computerGuyskin: #ffc791;
           --computerGuyHair: #ff8915;
-          --computerGuyShirt: #ffbde8;
+          --computerGuyShirt: #62BFED;
           --computerGuyShirtLogo: #6cc5ff;
           --computerGuyComputerTable: #3f3d56;
           --computerGuyTreePlanter: #e1c1a5;

@@ -22,7 +22,7 @@
     height: 500px;
     background: url('../../images/backgroundWavesA.png');
     background-size: 10000px 500px;
-    animation: backgroundAnimation 40s linear -5s infinite;
+    animation: backgroundAnimation 45s linear -5s infinite;
 }
 
 .waveB {
@@ -33,7 +33,7 @@
     height: 500px;
     background: url('../../images/backgroundWavesB.png');
     background-size: 10000px 500px;
-    animation: backgroundAnimation 40s linear -5s alternate infinite;
+    animation: backgroundAnimation 45s linear -5s alternate infinite;
     background: fill;
 }
 

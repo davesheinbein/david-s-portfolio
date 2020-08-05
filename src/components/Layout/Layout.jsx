@@ -12,7 +12,6 @@ console.log("Hello world...")
 console.log("If you're reading this then you're probable a programmer")
 console.log("Message me on LinkedIn: https:www.linkedin.comindavid-sheinbein and let me know if you find this!")
 
-console.log('Test')
 export default class Layout extends Component {
 	render() {
 		return (

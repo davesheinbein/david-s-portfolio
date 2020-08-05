@@ -8,6 +8,10 @@ import Contact from '../Contact/Contact';
 import Footer from '../Footer/Footer';
 import './Layout.css';
 
+console.log("Hello world...")
+console.log("If you're reading this then you're probable a programmer")
+console.log("Message me on LinkedIn: https:www.linkedin.comindavid-sheinbein and let me know if you find this!")
+
 export default class Layout extends Component {
 	render() {
 		return (

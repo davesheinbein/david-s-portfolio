@@ -23,7 +23,6 @@
 	height: 500px;
 	background: url('../../images/backgroundWavesA.png');
 	background-size: 5000px 500px;
-	/* background-repeat: repeat-x; */
 	overflow: visible;
 	animation: backgroundAnimationA;
 	animation-iteration-count: infinite;

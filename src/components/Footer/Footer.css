@@ -1,6 +1,6 @@
 .footerContainer {
     color: var(--mainText);
-    background: var(--mainColor);
+    background: var(--HeadingColor);
 }
 
 .footerSubContainer {
@@ -13,11 +13,7 @@
     margin: 0px auto;
     padding: 0px 1em;
     color: var(--mainText);
-    background: var(--HeadingColor);
-}
-
-.footerNav {
-    background-color: var(--HeadingColor);
+    background: rgba(255, 255, 255, 0.25);
 }
 
 #nav {
@@ -26,6 +22,7 @@
     align-items: center;
     text-align: center;
     margin: 0;
+    background-color: rgba(255, 255, 255, 0.5);
 }
 
 #nav li {
@@ -40,6 +37,12 @@
 #nav li a:hover {
     color: var(--secondaryText);
     text-decoration: none;
+}
+
+#footerline {
+    margin-top: 0px;
+    margin-bottom: 0px;
+    border-top: 1px solid var(--HeadingColor);
 }
 
 

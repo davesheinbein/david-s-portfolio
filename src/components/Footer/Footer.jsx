@@ -48,9 +48,10 @@ function Footer() {
                     </li>
                 </ul>
             </div>
+            <hr id='footerline' /> 
             <div className='footerSubContainer'>
                 <div className='leftFooter'>Created by D. Sheinbein</div>
-                <div className='rightFooter'>All Rights Reserved, &copy;2020 DavidSPortfolio</div>
+                <div className='rightFooter'>All Rights Reserved, &copy;2020</div>
             </div>
         </div>
     )

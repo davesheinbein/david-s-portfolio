@@ -1,53 +1,58 @@
 .footerContainer {
-    color: var(--mainText);
-    background: var(--HeadingColor);
+	color: var(--mainText);
+	background: var(--HeadingColor);
+	width: 100vw;
 }
 
 .footerSubContainer {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    text-align: center;
-    font-size: 1rem;
-    width: 100%;
-    margin: 0px auto;
-    padding: 0px 1em;
-    color: var(--mainText);
-    background: rgba(0, 0, 0, 0.5);
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	text-align: center;
+	font-size: 1rem;
+	width: 100vw;
+	margin: 0px auto;
+	padding: 0px 1em;
+	color: var(--mainText);
+	background: rgba(0, 0, 0, 0.5);
 }
 
 #nav {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-    margin: 0;
-    background-color: rgba(0, 0, 0, 0.25);
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+	margin: 0;
+	padding: 0.5em 1em;
+	background-color: rgba(0, 0, 0, 0.25);
 }
 
 #nav li {
-    color: #b3b3b3;
-    list-style-type: none;
+	color: #b3b3b3;
+	list-style-type: none;
 }
 
 #nav li a {
-    color: var(--mainText);
+	color: var(--mainText);
 }
 
 #nav li a:hover {
-    color: var(--secondaryText);
-    text-decoration: none;
+	color: var(--secondaryText);
+	text-decoration: none;
+}
+
+.navLinesBottom {
+	color: var(--mainText);
 }
 
 #footerline {
-    margin-top: 0px;
-    margin-bottom: 0px;
-    border-top: 1px solid var(--HeadingColor);
+	margin-top: 0px;
+	margin-bottom: 0px;
+	border-top: 1px solid var(--HeadingColor);
 }
 
-
 @media screen and (max-width: 812px) {
-    .footerSubContainer {
-        font-size: .75rem;
-    }
+	.footerSubContainer {
+		font-size: 0.75rem;
+	}
 }

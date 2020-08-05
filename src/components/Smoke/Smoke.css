@@ -1,221 +1,226 @@
 .videoContainer {
-    margin: 0;
-    padding: 0;
-    height: 100vh;
+	margin: 0;
+	padding: 0;
+	height: 100vh;
 }
 
 video {
-    object-fit: cover;
-    height: 100%;
-    width: 100%;
+	object-fit: cover;
+	height: 100%;
+	width: 100%;
 }
 
 .NavLink {
-    color: whitesmoke;
+	color: whitesmoke;
 }
 
 .NavLink:hover {
-    color: red;
-    text-decoration: none;
+	color: red;
+	text-decoration: none;
 }
 
 .continueLink {
-    font-size: 1rem;
-    opacity: 0;
-    animation: continueAnimation 3s ease 2s forwards;
+	font-size: 1rem;
+	opacity: 0;
+	animation: continueAnimation 3s ease 2s forwards;
 }
 
 @keyframes continueAnimation {
-    0% {
-        opacity: 0;
-        filter: blur(20px);
-    }
-    100% {
-        opacity: 1;
-        filter: blur(0);
-    }
+	0% {
+		opacity: 0;
+		filter: blur(20px);
+	}
+	100% {
+		opacity: 1;
+		filter: blur(0);
+	}
 }
 
 .lottieAnimationContainerA {
-    width: 100%;
-    max-width: 800px;
-    height: auto;
-    position: absolute;
-    top: 6%;
-    left: 50%;
-    transform: translate(-50%, -15%);
-    z-index: 1;
-    animation: lottieAnim 1.5s linear 6s forwards;
-    opacity: 0;
+	width: 100%;
+	max-width: 800px;
+	height: auto;
+	position: absolute;
+	top: 6%;
+	left: 50%;
+	transform: translate(-50%, -15%);
+	z-index: 1;
+	animation: lottieAnim 1.5s linear 6s forwards;
+	opacity: 0;
 }
 
 .lottieAnimationContainerB {
-    width: 100%;
-    max-width: 800px;
-    height: auto;
-    position: absolute;
-    top: 60%;
-    left: 50%;
-    z-index: 1;
-    animation: lottieAnim 1.5s linear 6s forwards;
-    opacity: 0;
-    transform: scaleY(-1) translate(-50%, 15%);
+	width: 100%;
+	max-width: 800px;
+	height: auto;
+	position: absolute;
+	top: 60%;
+	left: 50%;
+	z-index: 1;
+	animation: lottieAnim 1.5s linear 6s forwards;
+	opacity: 0;
+	transform: scaleY(-1) translate(-50%, 15%);
 }
 
 @keyframes lottieAnim {
-    0% {
-        opacity: 0;
-        filter: blur(20px);
-    }
-    100% {
-        opacity: 1;
-        filter: blur(0);
-    }
+	0% {
+		opacity: 0;
+		filter: blur(20px);
+	}
+	100% {
+		opacity: 1;
+		filter: blur(0);
+	}
 }
 
 .overlayText {
-    margin: 0;
-    padding: 0;
-    position: absolute;
-    top: 50%;
-    transform: translateY(-50%);
-    width: 100%;
-    text-align: center;
-    color: #ddd;
-    font-size: 4rem;
-    letter-spacing: 0.5em;
-    font-family: monospace, 'Times New Roman', 'Times', 'serif';
-    white-space: nowrap;
-    z-index: 2;
+	margin: 0;
+	padding: 0;
+	position: absolute;
+	top: 50%;
+	transform: translateY(-50%);
+	width: 100%;
+	text-align: center;
+	color: #ddd;
+	font-size: 4rem;
+	letter-spacing: 0.5em;
+	font-family: monospace, 'Times New Roman', 'Times',
+		'serif';
+	white-space: nowrap;
+	z-index: 2;
 }
 
 .overlayText span {
-    opacity: 0;
-    display: inline-block;
-    animation: textAnimate 1s linear forwards;
+	opacity: 0;
+	display: inline-block;
+	animation: textAnimate 1s linear forwards;
 }
 
 @keyframes textAnimate {
-    0% {
-        opacity: 0;
-        transform: rotateY(90deg);
-        filter: blur(10px);
-    }
-    100% {
-        opacity: 1;
-        transform: rotateY(0deg);
-        filter: blur(0);
-    }
+	0% {
+		opacity: 0;
+		transform: rotateY(90deg);
+		filter: blur(10px);
+	}
+	100% {
+		opacity: 1;
+		transform: rotateY(0deg);
+		filter: blur(0);
+	}
 }
 
 .overlayText span:nth-child(1) {
-    animation-delay: .25s;
+	animation-delay: 0.25s;
 }
 
 .overlayText span:nth-child(2) {
-    animation-delay: .5s;
+	animation-delay: 0.5s;
 }
 
 .overlayText span:nth-child(3) {
-    animation-delay: .75s;
+	animation-delay: 0.75s;
 }
- 
+
 .overlayText span:nth-child(4) {
-    animation-delay: 1s;
+	animation-delay: 1s;
 }
- 
+
 .overlayText span:nth-child(5) {
-    animation-delay: 1.25s;
-} 
- 
+	animation-delay: 1.25s;
+}
+
 .overlayText span:nth-child(7) {
-    animation-delay: 1.5s;
+	animation-delay: 1.5s;
 }
 
 .overlayText span:nth-child(8) {
-    animation-delay: 1.75s;
+	animation-delay: 1.75s;
 }
 
 .overlayText span:nth-child(9) {
-    animation-delay: 2s;
-}
- 
-.overlayText span:nth-child(10) {
-    animation-delay: 2.25s;
-}
- 
-.overlayText span:nth-child(11) {
-    animation-delay: 2.5s;
-}
- 
-.overlayText span:nth-child(12) {
-    animation-delay: 3s;
-}
- 
-.overlayText span:nth-child(13) {
-    animation-delay: 3.25s;
-}
- 
-.overlayText span:nth-child(14) {
-    animation-delay: 3.5s;
-}
- 
-.overlayText span:nth-child(15) {
-    animation-delay: 3.75s;
+	animation-delay: 2s;
 }
 
-@media screen and (max-width: 1800px)  {
-    .lottieAnimationContainerA {
-        top: 10%;
-    }
+.overlayText span:nth-child(10) {
+	animation-delay: 2.25s;
+}
+
+.overlayText span:nth-child(11) {
+	animation-delay: 2.5s;
+}
+
+.overlayText span:nth-child(12) {
+	animation-delay: 3s;
+}
+
+.overlayText span:nth-child(13) {
+	animation-delay: 3.25s;
+}
+
+.overlayText span:nth-child(14) {
+	animation-delay: 3.5s;
+}
+
+.overlayText span:nth-child(15) {
+	animation-delay: 3.75s;
+}
+
+@media screen and (max-width: 1800px) {
+	.lottieAnimationContainerA {
+		top: 10%;
+	}
 }
 
 @media screen and (max-width: 1366px) {
-    .overlayText {
-        font-size: 3rem;
-    }
+	.overlayText {
+		font-size: 3rem;
+	}
 
-    .overlayText span:nth-child(1) {
-        animation-delay: .5s;
-    }
-    
-    .overlayText span:nth-child(2) {
-        animation-delay: .75s;
-    }
-    
-    .overlayText span:nth-child(3) {
-        animation-delay: 1s;
-    }
+	.overlayText span:nth-child(1) {
+		animation-delay: 0.5s;
+	}
 
-    .lottieAnimationContainerA {
-        top: 10%;
-    }
+	.overlayText span:nth-child(2) {
+		animation-delay: 0.75s;
+	}
+
+	.overlayText span:nth-child(3) {
+		animation-delay: 1s;
+	}
+
+	.lottieAnimationContainerA {
+		top: 10%;
+	}
 }
 
 @media screen and (max-width: 812px) {
-    .overlayText {
-        font-size: 1.75rem;
-    }
-
-    .overlayText span:nth-child(1) {
-        animation-delay: .5s;
+	.overlayText {
+		font-size: 1.25rem;
     }
     
-    .overlayText span:nth-child(2) {
-        animation-delay: .6s;
-    }
-    
-    .overlayText span:nth-child(3) {
-        animation-delay: .75s;
+    .continueLink {
+        font-size: .75rem;
     }
 
-    .lottieAnimationContainerA {
-        top: 10%;
-    }
+	.overlayText span:nth-child(1) {
+		animation-delay: 0.5s;
+	}
+
+	.overlayText span:nth-child(2) {
+		animation-delay: 0.6s;
+	}
+
+	.overlayText span:nth-child(3) {
+		animation-delay: 0.75s;
+	}
+
+	.lottieAnimationContainerA {
+		top: 10%;
+	}
 }
 
 @media screen and (max-width: 500px) {
-    .lottieAnimationContainerA {
-        top: 24%;
-    }
+	.lottieAnimationContainerA {
+		top: 24%;
+	}
 }

@@ -11,25 +11,25 @@ function Footer() {
                             <a href="/">Home</a>
                         </div>
                     </li>
-                    <li className='navLines'>&nbsp;&nbsp;|&nbsp;&nbsp;</li>
+                    <div className='navLinesBottom'>&nbsp;&nbsp;|&nbsp;&nbsp;</div>
                     <li>
                         <div>
-                            <a href="#aboutMe">About Me</a>
+                            <a href="#aboutMe">About</a>
                         </div>
                     </li>
-                    <li className='navLines'>&nbsp;&nbsp;|&nbsp;&nbsp;</li>
+                    <div className='navLinesBottom'>&nbsp;&nbsp;|&nbsp;&nbsp;</div>
                     <li>
                         <div>
                             <a href="#projects">Projects</a>
                         </div>
                     </li>
-                    <li className='navLines'>&nbsp;&nbsp;|&nbsp;&nbsp;</li>
+                    <div className='navLinesBottom'>&nbsp;&nbsp;|&nbsp;&nbsp;</div>
                     <li>
                         <div>
                             <a href="#contact-form">Contact</a>
                         </div>
                     </li>
-                    <li className='navLines'>&nbsp;&nbsp;|&nbsp;&nbsp;</li>
+                    <div className='navLinesBottom'>&nbsp;&nbsp;|&nbsp;&nbsp;</div>
                     <li>
                         <div>
                             <a href="https://www.linkedin.com/in/david-sheinbein/">
@@ -37,7 +37,7 @@ function Footer() {
                             </a>
                         </div>
                     </li>
-                    <li className='navLines'>&nbsp;&nbsp;|&nbsp;&nbsp;</li>
+                    <div className='navLinesBottom'>&nbsp;&nbsp;|&nbsp;&nbsp;</div>
                     <li>
                         <div>
                             <a href="https://github.com/davesheinbein">

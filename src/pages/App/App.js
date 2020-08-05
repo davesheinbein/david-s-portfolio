@@ -1,15 +1,15 @@
-import React from "react";
-import "./App.css";
-import Smoke from "../../components/Smoke/Smoke";
-import Layout from "../../components/Layout/Layout";
-import { createGlobalStyle } from "styled-components";
+import React from 'react';
+import './App.css';
+import Smoke from '../../components/Smoke/Smoke';
+import Layout from '../../components/Layout/Layout';
+import { createGlobalStyle } from 'styled-components';
 import { Route, Switch } from 'react-router-dom';
 
 const GlobalStyle = createGlobalStyle`
 ${(props) => {
-    switch (props.color) {
-      case "red":
-        return `:root {
+	switch (props.color) {
+		case 'red':
+			return `:root {
         --HeadingColor: #871a12;
         --mainColor: #AA2319;
         --secondaryColor: #B9271C;
@@ -25,6 +25,8 @@ ${(props) => {
         --themeContainerDotBorder: #231E6A;
         --previewBg: rgb(255, 255, 255, 0.75);
         --shadow: rgb(0, 0, 0, 0.75);
+
+        --background: none;
 
         --heroCape: #FF84B1;
         --heroSkin: #F9E699;
@@ -52,8 +54,8 @@ ${(props) => {
         --computerCrosses: #2F1E0D;
 
       }`;
-      case "green":
-        return `:root {
+		case 'green':
+			return `:root {
           --HeadingColor: #326201;
           --mainColor: #517c26;
           --secondaryColor: #406f12;
@@ -69,6 +71,8 @@ ${(props) => {
           --themeContainerDotBorder: #17a2b8;
           --previewBg: rgb(70, 35, 25, 0.5);
           --shadow: rgb(0, 0, 0, 0.75);
+
+          --background: none;
 
           --heroCape: #FEDB2B;
           --heroSkin: #9F616A;
@@ -96,8 +100,8 @@ ${(props) => {
           --computerCrosses: #00e699;
 
         }`;
-      case "blue":
-        return `:root{
+		case 'blue':
+			return `:root{
           --HeadingColor: #5083A5;
           --mainColor: #0D9DFD;
           --secondaryColor: #459CF6;
@@ -113,6 +117,8 @@ ${(props) => {
           --themeContainerDotBorder: #db1a0f;
           --previewBg: rgb(179, 179, 179, 0.5);
           --shadow: rgb(0, 0, 0, 0.75);
+
+          --background: none;
 
           --heroCape: #80FF63;
           --heroSkin: #E0A387;
@@ -139,8 +145,8 @@ ${(props) => {
           --computerCircles: #4d8af0;
           --computerCrosses: #00ff2a;
           }`;
-      case "black":
-        return `:root{
+		case 'black':
+			return `:root{
           --HeadingColor: #000000;
           --mainColor: #141212;
           --secondaryColor: #0B0A0A;
@@ -156,6 +162,8 @@ ${(props) => {
           --themeContainerDotBorder: #E0E4EA;
           --previewBg: rgb(179, 179, 179, 0.5);
           --shadow: rgb(255, 255, 255, 0.25);
+
+          --background: none;
 
           --heroCape: #80FF63;
           --heroSkin: #EEC794;
@@ -182,8 +190,8 @@ ${(props) => {
           --computerCircles: #864df0;
           --computerCrosses: #00e613;
           }`;
-      case "transparent":
-        return `:root{
+		case 'transparent':
+			return `:root{
           --HeadingColor: transparent;
           --mainColor: transparent;
           --secondaryColor: transparent;
@@ -199,6 +207,8 @@ ${(props) => {
           --themeContainerDotBorder: rgba(0, 0, 0, .5);
           --previewBg: rgb(255, 255, 255, 0.25);
           --shadow: rgb(0, 0, 0, 0.5);
+
+          --background: linear-gradient(180deg, rgba(0,243,255,0) 10%, rgba(0,243,255,1) 12%, rgba(0,243,255,0.01) 100%);
 
           --heroCape: #506633;
           --heroSkin: #F3B767;
@@ -225,8 +235,8 @@ ${(props) => {
           --computerCircles: #f0504d;
           --computerCrosses: #a100e6;
           }`;
-      default:
-        return `:root {
+		default:
+			return `:root {
           --HeadingColor: #F1F1F1;
           --mainColor:#F3F3F3;
           --secondaryColor:#FFFCFC;
@@ -242,6 +252,8 @@ ${(props) => {
           --themeContainerDotBorder: #787878;
           --previewBg:rgb(255, 255, 255, 0.75);
           --shadow: rgb(0, 0, 0, 0.75);
+
+          --background: none;
 
           --heroCape: #666666;
           --heroSkin: #fdc0a4;
@@ -268,49 +280,60 @@ ${(props) => {
           --computerCircles: #f04daf;
           --computerCrosses: #f54444;
         }`;
-    }
-  }}
+	}
+}}
 `;
 
 class App extends React.Component {
-  constructor(props) {
-    super(props);
-    /*--- State ---*/
+	constructor(props) {
+		super(props);
+		/*--- State ---*/
 
-    this.state = {
-      color: 'default',
-    }
-    this.handleThemeChange = this.handleThemeChange.bind(this);
-  }
+		this.state = {
+			color: 'default',
+		};
+		this.handleThemeChange = this.handleThemeChange.bind(
+			this
+		);
+	}
 
-  /*--- Handle Methods ---*/
+	/*--- Handle Methods ---*/
 
-  handleThemeChange(color) {
-    this.setState({
-      color
-    })
-  }
-  /*--- Lifecycle Methods ---*/
-  render() {
-    return (
-      <div className="App">
-        <Switch>
-          <Route exact path='/' render={() =>
-            <div>
-              <Smoke />
-            </div>
-          } />
+	handleThemeChange(color) {
+		this.setState({
+			color,
+		});
+	}
+	/*--- Lifecycle Methods ---*/
+	render() {
+		return (
+			<div className='App'>
+				<Switch>
+					<Route
+						exact
+						path='/'
+						render={() => (
+							<div>
+								<Smoke />
+							</div>
+						)}
+					/>
 
-          <Route exact path='/main' render={() =>
-            <div>
-              <GlobalStyle color={this.state.color} />
-              <Layout handleThemeChange={this.handleThemeChange} />
-            </div>
-          } />
-
-        </Switch>
-      </div>
-    );
-  }
+					<Route
+						exact
+						path='/main'
+						render={() => (
+							<div>
+								<GlobalStyle color={this.state.color} />
+								<Layout
+									handleThemeChange={this.handleThemeChange}
+								/>
+							</div>
+						)}
+					/>
+				</Switch>
+			</div>
+		);
+	}
 }
 export default App;

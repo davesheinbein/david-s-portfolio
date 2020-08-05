@@ -28,7 +28,7 @@ export default class Helloworld extends Component {
                             <div
                                 id="black-mode"
                                 className="theme-dot sampleName"
-                                onClick={() => {
+                                 onClick={() => {
                                     this.props.handleThemeChange("black");
                                 }}
                             ></div>

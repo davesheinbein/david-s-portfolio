@@ -7,11 +7,9 @@ function Connections() {
     return (
         <div className='linkedInContainer'>
             <div className='iconSymbols'>
-            </div>
-            <a href="https://www.linkedin.com/in/david-sheinbein/">
-                <i className='fa fa-linkedin-square' id='linkedInSym'></i>
-            </a>
-            <div>
+                <a href="https://www.linkedin.com/in/david-sheinbein/">
+                    <i className='fa fa-linkedin-square' id='linkedInSym'></i>
+                </a>
                 <h2 className='linkedInText'>Connect With Me!</h2>
                 <div>
                     <a href="https://github.com/davesheinbein">

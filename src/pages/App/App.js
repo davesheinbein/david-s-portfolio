@@ -191,9 +191,9 @@ ${(props) => {
           --subText: rgba(0, 0, 0, .85);
           --secondaryText: rgba(0, 0, 0, .75);
           --TertiaryText: #ffffff;
-          --TertiaryTextBtn: rgba(0, 0, 0, .85);
-          --TertiaryTextBtnHover: #ffffff;
-          --TertiaryTextBtnText: rgba(255, 255, 255, .9);
+          --TertiaryTextBtn: rgba(0, 0, 0, .75);
+          --TertiaryTextBtnHover: rgba(0, 0, 0, 1);
+          --TertiaryTextBtnText: #51F5FF;
           --formColor: transparent;
           --themeDotBorder: rgba(0, 0, 0, .5);
           --themeContainerDotBorder: rgba(0, 0, 0, .5);

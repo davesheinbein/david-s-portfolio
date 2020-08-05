@@ -51,6 +51,18 @@
 	border-top: 1px solid var(--HeadingColor);
 }
 
+@media screen and (max-width: 1600px) {
+	#nav {
+		justify-content: space-evenly;
+	}
+}
+
+@media screen and (max-width: 1366px) {
+	#nav {
+		justify-content: space-evenly;
+	}
+}
+
 @media screen and (max-width: 812px) {
 	.footerSubContainer {
 		font-size: 0.75rem;

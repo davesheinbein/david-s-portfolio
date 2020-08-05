@@ -6,6 +6,7 @@
 }
 
 .backgroundBox {
+	/* display: var(--DisplayA); */
 	position: absolute;
 	top: 0%;
 	width: 100%;
@@ -15,7 +16,19 @@
 	z-index: -1;
 }
 
+#theme-options-wrapper {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+.themeOptionsSubContainer {
+	display: flex;
+}
+
 .waveA {
+	display: var(--DisplayA);
 	position: absolute;
 	top: 200px;
 	left: 0%;
@@ -32,16 +45,8 @@
 	animation-fill-mode: forwards;
 }
 
-@keyframes backgroundAnimationA {
-	0% {
-		background-position-x: 0;
-	}
-	100% {
-		background-position-x: -5000px;
-	}
-}
-
 .waveB {
+	display: var(--DisplayA);
 	position: absolute;
 	top: 200px;
 	left: 0%;
@@ -58,13 +63,15 @@
 	animation-fill-mode: forwards;
 }
 
-@keyframes backgroundAnimationB {
-	0% {
-		background-position-x: 0;
-	}
-	100% {
-		background-position-x: 5000px;
-	}
+.fireworks {
+	display: var(--DisplayB);
+	position: absolute;
+	top: 0%;
+	left: 0%;
+	width: 100%;
+	background-size: 5000px 500px;
+	overflow: hidden;
+	background-color: black;
 }
 
 .side1 {

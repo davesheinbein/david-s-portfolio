@@ -6,11 +6,16 @@ import Connections from '../Connections/Connections';
 import Projects from '../Projects/Projects';
 import Contact from '../Contact/Contact';
 import Footer from '../Footer/Footer';
+import fireworks from '../../images/fireworks.gif'
 import './Layout.css';
 
-console.log("Hello world...")
-console.log("If you're reading this then you're probable a programmer")
-console.log("Message me on LinkedIn: https:www.linkedin.comindavid-sheinbein and let me know if you find this!")
+console.log('Hello world...');
+console.log(
+	"If you're reading this then you're probable a programmer"
+);
+console.log(
+	'Message me on LinkedIn: https:www.linkedin.comindavid-sheinbein and let me know if you find this!'
+);
 
 export default class Layout extends Component {
 	render() {
@@ -25,8 +30,11 @@ export default class Layout extends Component {
 							}
 						/>
 						<div className='backgroundBox'>
-							<div className='waveA'></div>
 							<div className='waveB'></div>
+							<div className='waveA'></div>
+							<div className='fireworks'>
+								<img src={fireworks} alt="fireworks"/>
+							</div>
 						</div>
 					</div>
 				</section>

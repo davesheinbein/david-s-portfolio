@@ -4,7 +4,6 @@
 	max-width: 1400px;
 	height: 100%;
 	margin: 0px auto;
-	padding-bottom: 3em;
 }
 
 .intro-wrapper {
@@ -17,7 +16,7 @@
 	padding: 1em 0px 0.5em;
 	font-size: 3rem;
 	color: var(--mainText);
-	font-weight: 900;
+	font-weight: 600;
 }
 
 .personalizedText {
@@ -31,7 +30,7 @@
 	margin-bottom: 1em;
 	color: var(--secondaryText);
 	text-decoration: underline;
-	font-weight: 800;
+	font-weight: 600;
 }
 
 .boxText {
@@ -92,7 +91,6 @@
 	);
 	background-position: center;
 	background-origin: content-box;
-	animation: IconsAnimation 6s linear infinite alternate;
 }
 #black-mode {
 	background: radial-gradient(
@@ -102,16 +100,38 @@
 	);
 	background-position: center;
 	background-origin: content-box;
-	animation: IconsAnimation 6s linear infinite alternate;
 }
-#transparent-mode {
+
+#fire-mode {
+	background: url('../../images/fireworks.gif');
+	background-color: white;
+	background-position: center;
+	background-origin: content-box;
+	background-repeat: no-repeat;
+	background-size: 40px 40px;
+	animation: fireworkAnimation 6s linear 0s infinite alternate;
+}
+
+@keyframes fireworkAnimation {
+	0% {
+		background-position: center;
+		background-size: 140px 140px;
+	}
+	100% {
+		background-position: top;
+		background-size: 200px 200px;
+	}
+}
+
+
+#wave-mode {
 	background: url('../../images/backgroundWavesMini.png');
-	background-color: transparent;
+	background-color: white;
 	background-position: bottom right;
 	background-origin: content-box;
 	background-repeat: no-repeat;
 	background-size: 100px 20px;
-	animation: wavesIconAnimation 5s linear -5s infinite alternate;
+	animation: wavesIconAnimation 5s linear 0s infinite alternate;
 }
 @keyframes wavesIconAnimation {
 	0% {
@@ -132,7 +152,6 @@
 	);
 	background-position: center;
 	background-origin: content-box;
-	animation: IconsAnimation 6s linear infinite alternate;
 }
 #green-mode {
 	background: radial-gradient(
@@ -142,7 +161,6 @@
 	);
 	background-position: center;
 	background-origin: content-box;
-	animation: IconsAnimation 6s linear infinite alternate;
 }
 #blue-mode {
 	background: radial-gradient(
@@ -152,10 +170,34 @@
 	);
 	background-position: center;
 	background-origin: content-box;
-	animation: IconsAnimation 6s linear infinite alternate;
 }
 
-@keyframes IconsAnimation {
+#wave-mode:hover,
+#fire-mode:hover {
+	animation: IconsAnimationA 10s linear infinite alternate;
+}
+
+@keyframes IconsAnimationA {
+	0% {
+		background-size: 80px 80px;
+		background-position: center;
+	}
+	100% {
+		background-size: 100px 100px;
+		background-position: center;
+	}
+}
+
+
+#light-mode:hover,
+#black-mode:hover,
+#red-mode:hover,
+#green-mode:hover,
+#blue-mode:hover {
+	animation: IconsAnimationB 10s linear infinite alternate;
+}
+
+@keyframes IconsAnimationB {
 	0% {
 		background-size: 25px 25px;
 	}
@@ -286,6 +328,10 @@
 }
 
 @media screen and (max-width: 812px) {
+	.introContainer {
+		padding-bottom: 3em;
+	}
+
 	.intro-wrapper {
 		grid-template-columns: 1fr;
 		grid-template-areas:
@@ -295,12 +341,16 @@
 
 	.right-column {
 		justify-content: center;
-        padding: 1em 0px;
-        width: 100vw;
+		padding: 1em 0px;
+		width: 100vw;
 	}
 
 	.rightContainer {
 		width: 100%;
+	}
+
+	.left-column {
+		padding: 1em 0px 2em;
 	}
 
 	#introTextContainer {
@@ -309,7 +359,7 @@
 	}
 
 	.introHeading {
-		padding: 0.5em 0px 0px;
+		padding: 1em 0px 0px;
 	}
 
 	.computerGuySvgContainer {

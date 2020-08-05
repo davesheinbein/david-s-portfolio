@@ -73,7 +73,7 @@
 	font-size: 3rem;
 	margin: 0.5em 0px;
 	color: var(--mainText);
-	font-weight: 900;
+	font-weight: 600;
 }
 
 .subText {
@@ -84,6 +84,7 @@
 
 .resumeDlText {
 	font-size: 1.5rem;
+	font-weight: 600;
 	padding: 1.5em 0px;
 	z-index: 20;
 }
@@ -191,11 +192,23 @@
 		z-index: -1;
 		object-fit: contain;
 		top: 0%;
-		left: 25%;
+		left: 15%;
 		display: flex;
 		justify-content: flex-end;
 		align-items: center;
 		position: absolute;
-		width: 160%;
+		width: 250%;
+	}
+
+	.resumeDlText {
+		font-size: .75rem;
+	}
+
+	.subTitle {
+		font-size: 1.75rem;
+	}
+	
+	.subText {
+		font-size: 1rem;
 	}
 }

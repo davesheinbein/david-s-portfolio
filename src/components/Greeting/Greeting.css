@@ -9,6 +9,7 @@
 
 .headingText {
     font-size: 6rem;
+    font-weight: 900;
     color: var(--mainText);
 }
 
@@ -37,21 +38,21 @@
 
 @media screen and (max-width: 1600px)  {
     .headingText {
-        font-size: 7rem;
+        font-size: 9rem;
     }
     
     #navigation li {
-        font-size: 2.75rem;
+        font-size: 4rem;
     }
 }
 
 @media screen and (max-width: 1366px) {
     .headingText {
-        font-size: 4.5rem;
+        font-size: 6rem;
     }
     
     #navigation li {
-        font-size: 2rem;
+        font-size: 2.75rem;
     }
 }
 

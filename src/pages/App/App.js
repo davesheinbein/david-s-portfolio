@@ -27,6 +27,8 @@ ${(props) => {
         --shadow: rgb(0, 0, 0, 0.75);
 
         --background: none;
+        --backgroundNone: none;
+        --backgroundDisplay: none;
 
         --heroCape: #FF84B1;
         --heroSkin: #F9E699;
@@ -73,6 +75,8 @@ ${(props) => {
           --shadow: rgb(0, 0, 0, 0.75);
 
           --background: none;
+          --DisplayA: none;
+          --DisplayB: none;
 
           --heroCape: #FEDB2B;
           --heroSkin: #9F616A;
@@ -119,6 +123,8 @@ ${(props) => {
           --shadow: rgb(0, 0, 0, 0.75);
 
           --background: none;
+          --DisplayA: none;
+          --DisplayB: none;
 
           --heroCape: #80FF63;
           --heroSkin: #E0A387;
@@ -164,6 +170,8 @@ ${(props) => {
           --shadow: rgb(255, 255, 255, 0.25);
 
           --background: none;
+          --DisplayA: none;
+          --DisplayB: none;
 
           --heroCape: #80FF63;
           --heroSkin: #EEC794;
@@ -190,25 +198,27 @@ ${(props) => {
           --computerCircles: #864df0;
           --computerCrosses: #00e613;
           }`;
-		case 'transparent':
+		case 'wave':
 			return `:root{
           --HeadingColor: transparent;
           --mainColor: transparent;
           --secondaryColor: transparent;
           --mainText: #000000;
           --subText: rgba(0, 0, 0, .85);
-          --secondaryText: rgba(0, 0, 0, .75);
+          --secondaryText: rgba(0, 0, 0, .95);
           --TertiaryText: #ffffff;
           --TertiaryTextBtn: rgba(0, 0, 0, .75);
           --TertiaryTextBtnHover: rgba(0, 0, 0, 1);
           --TertiaryTextBtnText: #51F5FF;
-          --formColor: transparent;
-          --themeDotBorder: rgba(0, 0, 0, .5);
-          --themeContainerDotBorder: rgba(0, 0, 0, .5);
-          --previewBg: rgb(255, 255, 255, 0.25);
+          --formColor: #69FFFE;
+          --themeDotBorder: rgba(105, 255, 254, .5);
+          --themeContainerDotBorder: rgba(105, 255, 254, .5);
+          --previewBg: rgb(105, 255, 254, 0.25);
           --shadow: rgb(0, 0, 0, 0.5);
 
-          --background: linear-gradient(180deg, rgba(0,243,255,0) 10%, rgba(0,243,255,1) 12%, rgba(0,243,255,0.01) 100%);
+          --background: linear-gradient(180deg, rgba(0,243,255,0) 10%, rgba(0,243,255,1) 10%, rgba(0,243,255,0.5) 100%);
+          --DisplayA: block;
+          --DisplayB: none;
 
           --heroCape: #506633;
           --heroSkin: #F3B767;
@@ -235,6 +245,53 @@ ${(props) => {
           --computerCircles: #f0504d;
           --computerCrosses: #a100e6;
           }`;
+		case 'fire':
+			return `:root{
+          --HeadingColor: transparent;
+          --mainColor: transparent;
+          --secondaryColor: transparent;
+          --mainText: #ffffff;
+          --subText: rgba(255, 255, 255, .85);
+          --secondaryText: rgba(255, 255, 255, .75);
+          --TertiaryText: #ffffff;
+          --TertiaryTextBtn: rgba(235, 122, 21, .5);
+          --TertiaryTextBtnHover: rgba(255, 255, 255, 1);
+          --TertiaryTextBtnText: #000000;
+          --formColor: rgba(235, 122, 21, .5);
+          --themeDotBorder: rgba(255, 255, 255, .5);
+          --themeContainerDotBorder: rgba(255, 255, 255, .5);
+          --previewBg: rgb(255, 255, 255, 0.25);
+          --shadow: rgb(255, 255, 255, 0.5);
+
+          --background: linear-gradient(180deg, rgba(0,0,0,0) 0%, rgba(0,0,0,1) 5%, rgba(0,0,0,1) 100%);
+          --DisplayA: none;
+          --DisplayB: block;
+
+          --heroCape: #683878;
+          --heroSkin: #f5d376;
+          --heroBody: #ffba59;
+          --heroPants: #627080;
+          --heroShoes: #8377df;
+          --heroHair: #8c4a4f;
+          --heroSpecs: #4df0ba;
+          --heroStars: #f4fc7e;
+          --heroCross: #7e00e6;
+          
+          --computerGuyskin: #f5a06c; 
+          --computerGuyHair: #FFF3C3;
+          --computerGuyShirt: #627d7f;
+          --computerGuyShirtLogo: #03fcad;
+          --computerGuyComputerTable: #baa93c;
+          --computerGuyTreePlanter: #b57a55;
+          --computerGuyTreePlanterStroke: #664933;
+          --computerGuyTreeBush: #48cf51;
+          --computerLogoCircle: #ffa90a;
+          --computerLogoCircleGradient: url(#linear-gradient-C);
+          --computerSpecs: #fc8b35;
+          --computerStars: #35bdfc;
+          --computerCircles: #f04d83;
+          --computerCrosses: #8ee600;
+          }`;
 		default:
 			return `:root {
           --HeadingColor: #F1F1F1;
@@ -254,6 +311,8 @@ ${(props) => {
           --shadow: rgb(0, 0, 0, 0.75);
 
           --background: none;
+          --DisplayA: none;
+          --DisplayB: none;
 
           --heroCape: #666666;
           --heroSkin: #fdc0a4;

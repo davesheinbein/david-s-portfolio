@@ -493,23 +493,20 @@
 	}
 
 	.btnLinkedIn {
-		font-size: 1.25rem;
+		font-size: 1rem;
 	}
 
 	.btnGitHub {
-		font-size: 1.25rem;
+		font-size: 1rem;
 	}
 
 	.actionsContainer {
 		width: 100%;
 		display: block;
-		/* margin: auto; */
 	}
 
 	.picThemeContainer {
 		display: block;
-		/* margin: 0px auto; */
-		/* padding: 0px 1.5em; */
 	}
 
 	#profilePicture {
@@ -519,5 +516,10 @@
 	.theme-dot {
 		height: 50px;
 		width: 50px;
+	}
+
+	#gitHubBtnSym,
+	#linkedInBtnSym {
+		font-size: 1rem;
 	}
 }

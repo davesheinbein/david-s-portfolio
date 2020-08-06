@@ -109,7 +109,9 @@
 	background-origin: content-box;
 	background-repeat: no-repeat;
 	background-size: 40px 40px;
-	animation: fireworkAnimation 6s linear 0s infinite alternate;
+	animation: fireworkAnimation 6s alternate;
+	animation-timing-function: linear;
+	animation-iteration-count: infinite;
 }
 
 @keyframes fireworkAnimation {
@@ -123,7 +125,6 @@
 	}
 }
 
-
 #wave-mode {
 	background: url('../../images/backgroundWavesMini.png');
 	background-color: white;
@@ -131,7 +132,9 @@
 	background-origin: content-box;
 	background-repeat: no-repeat;
 	background-size: 100px 20px;
-	animation: wavesIconAnimation 5s linear 0s infinite alternate;
+	animation: wavesIconAnimation 5s alternate;
+	animation-timing-function: linear;
+	animation-iteration-count: infinite;
 }
 @keyframes wavesIconAnimation {
 	0% {
@@ -187,7 +190,6 @@
 		background-position: center;
 	}
 }
-
 
 #light-mode:hover,
 #black-mode:hover,

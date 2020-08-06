@@ -6,7 +6,7 @@ import Connections from '../Connections/Connections';
 import Projects from '../Projects/Projects';
 import Contact from '../Contact/Contact';
 import Footer from '../Footer/Footer';
-import fireworks from '../../images/fireworks.gif'
+import fireworks from '../../images/fireworks.gif';
 import './Layout.css';
 
 console.log('Hello world...');
@@ -33,7 +33,7 @@ export default class Layout extends Component {
 							<div className='waveB'></div>
 							<div className='waveA'></div>
 							<div className='fireworks'>
-								<img src={fireworks} alt="fireworks"/>
+								<img src={fireworks} alt='fireworks' />
 							</div>
 						</div>
 					</div>

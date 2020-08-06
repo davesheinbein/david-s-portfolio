@@ -1,67 +1,67 @@
 .headingContainer {
-    width: 100%;
-    height: auto;
-    margin: auto;
-    background-color: var(--HeadingColor);
-    padding: 1em 0px;
-    font-family: 'Russo One', sans-serif;
+	width: 100%;
+	height: auto;
+	margin: auto;
+	background-color: var(--HeadingColor);
+	padding: 1em 0px;
+	font-family: 'Russo One', sans-serif;
 }
 
 .headingText {
-    font-size: 6rem;
-    font-weight: 900;
-    color: var(--mainText);
+	font-size: 6rem;
+	font-weight: 900;
+	color: var(--mainText);
 }
 
 #navigation {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-    margin: 0;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+	margin: 0;
 }
 
 #navigation li {
-    font-size: 2rem;
-    color: #b3b3b3;
-    list-style-type: none;
+	font-size: 2rem;
+	color: #b3b3b3;
+	list-style-type: none;
 }
 
 #navigation li a {
-    color: var(--mainText);
+	color: var(--mainText);
 }
 
 #navigation li a:hover {
-    color: var(--secondaryText);
-    text-decoration: underline;
+	color: var(--secondaryText);
+	text-decoration: underline;
 }
 
-@media screen and (max-width: 1600px)  {
-    .headingText {
-        font-size: 9rem;
-    }
-    
-    #navigation li {
-        font-size: 4rem;
-    }
+@media screen and (max-width: 1600px) {
+	.headingText {
+		font-size: 9rem;
+	}
+
+	#navigation li {
+		font-size: 4rem;
+	}
 }
 
 @media screen and (max-width: 1366px) {
-    .headingText {
-        font-size: 6rem;
-    }
-    
-    #navigation li {
-        font-size: 2.75rem;
-    }
+	.headingText {
+		font-size: 6rem;
+	}
+
+	#navigation li {
+		font-size: 2.75rem;
+	}
 }
 
 @media screen and (max-width: 812px) {
-    .headingText {
-        font-size: 2.5rem;
-    }
-    
-    #navigation li {
-        font-size: 1rem;
-    }
+	.headingText {
+		font-size: 2.5rem;
+	}
+
+	#navigation li {
+		font-size: 1rem;
+	}
 }

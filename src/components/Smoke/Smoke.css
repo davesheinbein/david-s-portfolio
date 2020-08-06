@@ -196,11 +196,11 @@ video {
 @media screen and (max-width: 812px) {
 	.overlayText {
 		font-size: 1.25rem;
-    }
-    
-    .continueLink {
-        font-size: .75rem;
-    }
+	}
+
+	.continueLink {
+		font-size: 0.75rem;
+	}
 
 	.overlayText span:nth-child(1) {
 		animation-delay: 0.5s;

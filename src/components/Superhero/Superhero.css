@@ -1,219 +1,218 @@
-
 /* SVG styling */
 svg {
-    height: 100%;
-    width: 100%;
-    margin: auto;
+	height: 100%;
+	width: 100%;
+	margin: auto;
 }
 
 .cls-1 {
-    fill: var(--heroCape);
+	fill: var(--heroCape);
 }
 
 .cls-2 {
-    fill: none;
+	fill: none;
 }
 
 .cls-3,
 .cls-4 {
-    opacity: 0.1;
+	opacity: 0.1;
 }
 
 .cls-10,
 .cls-3,
 .cls-8,
 .cls-9 {
-    isolation: isolate;
+	isolation: isolate;
 }
 
 .cls-5 {
-    fill: var(--heroSkin);
+	fill: var(--heroSkin);
 }
 
 .cls-6 {
-    fill: var(--heroBody);
+	fill: var(--heroBody);
 }
 
 .cls-7 {
-    fill: var(--heroHair);
+	fill: var(--heroHair);
 }
 
 .cls-8 {
-    fill: var(--heroSpecs);
+	fill: var(--heroSpecs);
 }
 
 .cls-10,
 .cls-11,
 .cls-8,
 .cls-9 {
-    opacity: 0.5;
+	opacity: 0.5;
 }
 
 .cls-9 {
-    fill: var(--heroStars);
+	fill: var(--heroStars);
 }
 
 .cls-10,
 .cls-12 {
-    fill: var(--heroCross);
+	fill: var(--heroCross);
 }
 
 .cls-13 {
-    fill: var(--heroShoes);
+	fill: var(--heroShoes);
 }
 .cls-14 {
-    fill: var(--heroPants);
+	fill: var(--heroPants);
 }
 
 /* SVG animations */
 #back-cape {
-    animation: backCapeAnim 5s ease-out infinite alternate;
+	animation: backCapeAnim 5s ease-out infinite alternate;
 }
-    
+
 @keyframes backCapeAnim {
-    from {
-        transform-origin: top left;
-        transform: translateX(60px) translateY(40px) scale(0.75, 0.75);
-    }
-    to {
-        transform-origin: top left;
-        transform: translateX(0px) translateY(0px) scale(1, 1);
-    }
+	from {
+		transform-origin: top left;
+		transform: translateX(60px) translateY(40px)
+			scale(0.75, 0.75);
+	}
+	to {
+		transform-origin: top left;
+		transform: translateX(0px) translateY(0px) scale(1, 1);
+	}
 }
-    
+
 #cape-collar {
-    animation: collarAnim 3s ease-out infinite alternate;
+	animation: collarAnim 3s ease-out infinite alternate;
 }
-    
+
 @keyframes collarAnim {
-    from {
-        transform: translateY(3px);
-    }
-    to {
-        transform: translateY(-2px);
-    }
-    }
-    
+	from {
+		transform: translateY(3px);
+	}
+	to {
+		transform: translateY(-2px);
+	}
+}
+
 #left-arm {
-    animation: leftArmAnim 2s ease-out infinite alternate;
+	animation: leftArmAnim 2s ease-out infinite alternate;
 }
-    
+
 @keyframes leftArmAnim {
-    from {
-        transform: translateX(12px) rotateZ(3deg) rotateY(10deg);
-    }
-    to {
-        transform: translateX(0px) rotateZ(0deg) rotateY(0deg);
-    }
+	from {
+		transform: translateX(12px) rotateZ(3deg) rotateY(10deg);
+	}
+	to {
+		transform: translateX(0px) rotateZ(0deg) rotateY(0deg);
+	}
 }
-    
+
 #head {
-    animation: headAnim 3s ease-out infinite alternate;
+	animation: headAnim 3s ease-out infinite alternate;
 }
-    
+
 @keyframes headAnim {
-    from {
-        transform: translateY(4px);
-    }
-    to {
-        transform: translateY(-5px);
-    }
+	from {
+		transform: translateY(4px);
+	}
+	to {
+		transform: translateY(-5px);
+	}
 }
-    
+
 #hair {
-    animation: hairAnim 3s ease-out infinite alternate;
+	animation: hairAnim 3s ease-out infinite alternate;
 }
-    
+
 @keyframes hairAnim {
-    from {
-        transform: translateY(10px);
-    }
-    to {
-        transform: translateY(-10px);
-    }
+	from {
+		transform: translateY(10px);
+	}
+	to {
+		transform: translateY(-10px);
+	}
 }
-    
+
 #legs {
-    animation: legsAnim 3s ease-out 0.5s infinite alternate;
+	animation: legsAnim 3s ease-out 0.5s infinite alternate;
 }
-    
+
 @keyframes legsAnim {
-    from {
-        transform: translateY(1px);
-    }
-    to {
-        transform: translateY(-5px);
-    }
+	from {
+		transform: translateY(1px);
+	}
+	to {
+		transform: translateY(-5px);
+	}
 }
-    
+
 #spec_1,
 #spec_2,
 #spec_3 {
-    animation: specAnim 1s ease-out 2s infinite alternate;
-    transform-box: fill-box;
+	animation: specAnim 1s ease-out 2s infinite alternate;
+	transform-box: fill-box;
 }
-    
+
 @keyframes specAnim {
-    from {
-        transform-origin: center;
-        transform: scale(0, 0) skew(60deg, 60deg);
-    }
-    to {
-        transform-origin: center;
-        transform: scale(1, 1) skew(0deg, 0deg);
-    }
+	from {
+		transform-origin: center;
+		transform: scale(0, 0) skew(60deg, 60deg);
+	}
+	to {
+		transform-origin: center;
+		transform: scale(1, 1) skew(0deg, 0deg);
+	}
 }
-    
+
 #circle_1,
 #circle_2,
 #circle_3 {
-    animation: circleAnim 4s ease-out 1s infinite alternate;
-    transform-box: fill-box;
+	animation: circleAnim 4s ease-out 1s infinite alternate;
+	transform-box: fill-box;
 }
-    
+
 @keyframes circleAnim {
-    from {
-        transform-origin: center;
-        transform: scale(0, 0) skew(90deg, 90deg) rotateZ(0deg);
-    }
-    to {
-        transform-origin: center;
-        transform: scale(1, 1) skew(0deg, 0deg) rotateZ(-720deg);
-    }
+	from {
+		transform-origin: center;
+		transform: scale(0, 0) skew(90deg, 90deg) rotateZ(0deg);
+	}
+	to {
+		transform-origin: center;
+		transform: scale(1, 1) skew(0deg, 0deg) rotateZ(-720deg);
+	}
 }
-    
+
 #cross_1,
 #cross_2,
 #cross_3 {
-    animation: crossAnim 2s ease-out 3s infinite alternate;
-    transform-box: fill-box;
+	animation: crossAnim 2s ease-out 3s infinite alternate;
+	transform-box: fill-box;
 }
-    
+
 @keyframes crossAnim {
-    from {
-        transform-origin: center;
-        transform: scale(0, 0) rotateZ(0deg);
-    }
-    to {
-        transform-origin: center;
-        transform: scale(1, 1) rotateZ(-360deg);
-    }
+	from {
+		transform-origin: center;
+		transform: scale(0, 0) rotateZ(0deg);
+	}
+	to {
+		transform-origin: center;
+		transform: scale(1, 1) rotateZ(-360deg);
+	}
 }
-    
+
 #star_1,
 #star_2 {
-    animation: starAnim 4s ease-in-out 0.5s infinite alternate;
-    transform-box: fill-box;
+	animation: starAnim 4s ease-in-out 0.5s infinite alternate;
+	transform-box: fill-box;
 }
-    
+
 @keyframes starAnim {
-    from {
-        transform-origin: center;
-        transform: scale(0, 0) rotateZ(0deg);
-    }
-    to {
-        transform-origin: center;
-        transform: scale(1, 1) rotateZ(720deg);
-    }
+	from {
+		transform-origin: center;
+		transform: scale(0, 0) rotateZ(0deg);
+	}
+	to {
+		transform-origin: center;
+		transform: scale(1, 1) rotateZ(720deg);
+	}
 }
-      

@@ -1,288 +1,297 @@
 /* svg colors */
 .colorClass-1 {
-    fill: var(--computerGuyskin);
-  }
+	fill: var(--computerGuyskin);
+}
 
 .colorClass-2 {
-    fill: var(--computerGuyHair);
+	fill: var(--computerGuyHair);
 }
 
 .colorClass-3 {
-    fill: var(--computerGuyShirt);
+	fill: var(--computerGuyShirt);
 }
 
 .colorClass-4 {
-    fill: var(--computerGuyShirtLogo);
+	fill: var(--computerGuyShirtLogo);
 }
 
 .colorClass-5 {
-    fill: var(--computerGuyComputerTable);
+	fill: var(--computerGuyComputerTable);
 }
 
 .colorClass-6 {
-    fill: var(--computerGuyTreePlanter);
-    stroke: var(--computerGuyTreePlanterStroke);
+	fill: var(--computerGuyTreePlanter);
+	stroke: var(--computerGuyTreePlanterStroke);
 }
 
-.colorClass-6, .colorClass-8, .colorClass-9 {
-    stroke-miterlimit: 10;
+.colorClass-6,
+.colorClass-8,
+.colorClass-9 {
+	stroke-miterlimit: 10;
 }
 
 .colorClass-7 {
-    fill: var(--computerGuyTreeBush);
+	fill: var(--computerGuyTreeBush);
 }
 
-.colorClass-8, .colorClass-9 {
-    fill: none;
-    stroke-width: 2px;
+.colorClass-8,
+.colorClass-9 {
+	fill: none;
+	stroke-width: 2px;
 }
 
 .colorClass-8 {
-    stroke: var(--computerLogoCircle);
+	stroke: var(--computerLogoCircle);
 }
 
 .colorClass-9 {
-    stroke: var(--computerLogoCircleGradient);
+	stroke: var(--computerLogoCircleGradient);
 }
 
 .colorClass-10 {
-    fill: var(--computerSpecs);
+	fill: var(--computerSpecs);
 }
 
 .colorClass-11 {
-    fill: var(--computerStars);
+	fill: var(--computerStars);
 }
 
-.colorClass-11, .colorClass-12, .colorClass-13, .colorClass-14 {
-    opacity: 0.5;
+.colorClass-11,
+.colorClass-12,
+.colorClass-13,
+.colorClass-14 {
+	opacity: 0.5;
 }
 
-.colorClass-11, .colorClass-12, .colorClass-13 {
-    isolation: isolate;
+.colorClass-11,
+.colorClass-12,
+.colorClass-13 {
+	isolation: isolate;
 }
 
 .colorClass-12 {
-    fill: var(--computerCircles);
+	fill: var(--computerCircles);
 }
 
-.colorClass-13, .colorClass-15 {
-    fill: var(--computerCrosses);
+.colorClass-13,
+.colorClass-15 {
+	fill: var(--computerCrosses);
 }
 
 #computerGuy {
-    display: block;
-    height: auto;
-    width: 100%;
-    overflow: visible;
-    object-fit: contain;
+	display: block;
+	height: auto;
+	width: 100%;
+	overflow: visible;
+	object-fit: contain;
 }
 
 /* hide hand */
 #leftHand {
-    fill: none;
+	fill: none;
 }
 
 /* svg animations */
 #leftArm {
-    animation: leftArmsAnim 1s ease-out infinite alternate;
-    transform-origin: top right;
-    transform-box: fill-box;
+	animation: leftArmsAnim 1s ease-out infinite alternate;
+	transform-origin: top right;
+	transform-box: fill-box;
 }
 
 @keyframes leftArmsAnim {
-    from {
-        transform: rotateZ(5deg) translateY(14px) ;
-    }
-    to {
-        transform: rotateZ(0deg) translateY(0px);
-    }
+	from {
+		transform: rotateZ(5deg) translateY(14px);
+	}
+	to {
+		transform: rotateZ(0deg) translateY(0px);
+	}
 }
 
 #rightArm {
-    animation: rightArmsAnim 2s ease-out infinite alternate;
-    transform-origin: top left;
-    transform-box: fill-box;
+	animation: rightArmsAnim 2s ease-out infinite alternate;
+	transform-origin: top left;
+	transform-box: fill-box;
 }
 
 @keyframes rightArmsAnim {
-    from {
-        transform: rotateZ(-5deg) translateY(20px) ;
-    }
-    to {
-        transform: rotateZ(0deg) translateY(0px);
-    }
+	from {
+		transform: rotateZ(-5deg) translateY(20px);
+	}
+	to {
+		transform: rotateZ(0deg) translateY(0px);
+	}
 }
 
 #shirtLogo {
-    animation: shirtLogoAnim 2s ease-out infinite alternate;
-    transform-origin: top left;
-    transform-box: fill-box;
+	animation: shirtLogoAnim 2s ease-out infinite alternate;
+	transform-origin: top left;
+	transform-box: fill-box;
 }
 
 @keyframes shirtLogoAnim {
-    from {
-        transform: scale(1, 1) translateY(0px) translateX(-35px);
-    }
-    to {
-        transform: scale(1.20, 1.20) translateY(0px) translateX(-50px);
-    }
+	from {
+		transform: scale(1, 1) translateY(0px) translateX(-35px);
+	}
+	to {
+		transform: scale(1.2, 1.2) translateY(0px)
+			translateX(-50px);
+	}
 }
 
 #computerLogoStar {
-    animation: computerLogoStarAnim 5s infinite linear;
-    transform-origin: center;
-    transform-box: fill-box;
+	animation: computerLogoStarAnim 5s infinite linear;
+	transform-origin: center;
+	transform-box: fill-box;
 }
 
 @keyframes computerLogoStarAnim {
-    from {
-        transform: rotateZ(0deg);
-    }
-    to {
-        transform: rotateZ(360deg);
-    }
+	from {
+		transform: rotateZ(0deg);
+	}
+	to {
+		transform: rotateZ(360deg);
+	}
 }
 
 #computerLogoCircleGradient {
-    animation: computerLogoCircleGradientAnim 1.5s infinite linear;
-    transform-origin: center;
-    transform-box: fill-box;
+	animation: computerLogoCircleGradientAnim 1.5s infinite;
+	animation-timing-function: linear;
+	transform-origin: center;
+	transform-box: fill-box;
 }
 
 @keyframes computerLogoCircleGradientAnim {
-    from {
-        transform: rotateZ(0deg);
-    }
-    to {
-        transform: rotateZ(360deg);
-    }
+	from {
+		transform: rotateZ(0deg);
+	}
+	to {
+		transform: rotateZ(360deg);
+	}
 }
-    
+
 #fullHead {
-    animation: headCircleAnim 1s ease-out infinite alternate;
+	animation: headCircleAnim 1s ease-out infinite alternate;
 }
 
 @keyframes headCircleAnim {
-    from {
-        transform: translateY(4px);
-    }
-    to {
-        transform: translateY(-2px);
-    }
+	from {
+		transform: translateY(4px);
+	}
+	to {
+		transform: translateY(-2px);
+	}
 }
-    
+
 #hairGuy {
-    animation: hairGuyAnim 2s ease-out infinite alternate;
-    transform: translateX(-40.5px);
+	animation: hairGuyAnim 2s ease-out infinite alternate;
+	transform: translateX(-40.5px);
 }
-    
+
 @keyframes hairGuyAnim {
-    from {
-        transform: translateX(-40.5px) translateY(6px);
-    }
-    to {
-        transform: translateX(-40.5px) translateY(-2px);
-    }
+	from {
+		transform: translateX(-40.5px) translateY(6px);
+	}
+	to {
+		transform: translateX(-40.5px) translateY(-2px);
+	}
 }
-  
-    
+
 #specs_1,
 #specs_2,
 #specs_3 {
-    animation: specsAnim 1s ease-out .5s infinite alternate;
-    transform-origin: center;
-    transform-box: fill-box;
+	animation: specsAnim 1s ease-out 0.5s infinite alternate;
+	transform-origin: center;
+	transform-box: fill-box;
 }
-    
+
 @keyframes specsAnim {
-    from {
-        transform-origin: center;
-        transform: scale(0, 0) skew(60deg, 60deg);
-    }
-    to {
-        transform-origin: center;
-        transform: scale(1, 1) skew(0deg, 0deg);
-    }
+	from {
+		transform-origin: center;
+		transform: scale(0, 0) skew(60deg, 60deg);
+	}
+	to {
+		transform-origin: center;
+		transform: scale(1, 1) skew(0deg, 0deg);
+	}
 }
-    
+
 #circles_1,
 #circles_2,
 #circles_3 {
-    animation: circlesAnim 6s ease-out 1s infinite alternate;
-    transform-origin: center;
-    transform-box: fill-box;
+	animation: circlesAnim 6s ease-out 1s infinite alternate;
+	transform-origin: center;
+	transform-box: fill-box;
 }
-    
+
 @keyframes circlesAnim {
-    0% {
-        transform: scale(0, 0) skew(0deg, 0deg);
-    }
-    25% {
-        transform: scale(.5, .5) skew(-60deg, -60deg);
-    }
-    50% {
-        transform: scale(1, 1) skew(60deg, 60deg);
-    }
-    75% {
-        transform: scale(1.5, 1.5) skew(-60deg, -60deg);
-    }
-    100% {
-        transform: scale(2, 2) skew(0deg, 0deg);
-    }
+	0% {
+		transform: scale(0, 0) skew(0deg, 0deg);
+	}
+	25% {
+		transform: scale(0.5, 0.5) skew(-60deg, -60deg);
+	}
+	50% {
+		transform: scale(1, 1) skew(60deg, 60deg);
+	}
+	75% {
+		transform: scale(1.5, 1.5) skew(-60deg, -60deg);
+	}
+	100% {
+		transform: scale(2, 2) skew(0deg, 0deg);
+	}
 }
-    
+
 #croxx_1,
 #croxx_2,
 #croxx_3 {
-    animation: croxxAnim 4s ease-out 1s infinite alternate;
-    transform-origin: center;
-    transform-box: fill-box;
+	animation: croxxAnim 4s ease-out 1s infinite alternate;
+	transform-origin: center;
+	transform-box: fill-box;
 }
-    
+
 @keyframes croxxAnim {
-    from {
-        transform-origin: center;
-        transform: scale(0, 0) rotateZ(0deg);
-    }
-    to {
-        transform-origin: center;
-        transform: scale(2, 2) rotateZ(-1080deg);
-    }
+	from {
+		transform-origin: center;
+		transform: scale(0, 0) rotateZ(0deg);
+	}
+	to {
+		transform-origin: center;
+		transform: scale(2, 2) rotateZ(-1080deg);
+	}
 }
-    
+
 #stars_1,
 #stars_2,
 #stars_3 {
-    animation: starsAnim 4s ease-in-out 1s infinite alternate;
-    transform-origin: center;
-    transform-box: fill-box;
+	animation: starsAnim 4s ease-in-out 1s infinite alternate;
+	transform-origin: center;
+	transform-box: fill-box;
 }
-    
+
 @keyframes starsAnim {
-    from {
-        transform-origin: center;
-        transform: scale(0, 0) rotateZ(0deg);
-    }
-    to {
-        transform-origin: center;
-        transform: scale(1.5, 1.5) rotateZ(1080deg);
-    }
+	from {
+		transform-origin: center;
+		transform: scale(0, 0) rotateZ(0deg);
+	}
+	to {
+		transform-origin: center;
+		transform: scale(1.5, 1.5) rotateZ(1080deg);
+	}
 }
-      
-#treeA, #treeB {
-    animation: treesAnim 4s ease-in-out 1s infinite alternate;
-    /* transform-origin: center; */
-    transform-box: fill-box;
+
+#treeA,
+#treeB {
+	animation: treesAnim 4s ease-in-out 1s infinite alternate;
+	transform-box: fill-box;
 }
-    
+
 @keyframes treesAnim {
-    from {
-        transform-origin: center;
-        transform: scale(1, 1) translateY(0px);
-    }
-    to {
-        transform-origin: center;
-        transform: scale(1.25, 1.25) translateY(-15px);
-    }
+	from {
+		transform-origin: center;
+		transform: scale(1, 1) translateY(0px);
+	}
+	to {
+		transform-origin: center;
+		transform: scale(1.25, 1.25) translateY(-15px);
+	}
 }
-      

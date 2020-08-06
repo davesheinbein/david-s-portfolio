@@ -336,7 +336,7 @@
 
 	.computerGuySvgContainer {
 		width: 100vw;
-		min-width: 40vw;
+		min-width: 32vw;
 	}
 
 	.actionsContainer {
@@ -350,7 +350,7 @@
 		font-size: 2rem;
 		color: var(--subText);
 	}
-	
+
 	.picThemeContainer {
 		display: flex;
 		margin: 0px auto;
@@ -382,7 +382,7 @@
 
 	.computerGuySvgContainer {
 		width: 100vw;
-		min-width: 50vw;
+		min-width: 38vw;
 	}
 
 	.right-column {
@@ -507,7 +507,7 @@
 		display: block;
 		/* margin: auto; */
 	}
-	
+
 	.picThemeContainer {
 		display: block;
 		/* margin: 0px auto; */

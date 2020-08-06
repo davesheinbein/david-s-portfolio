@@ -105,11 +105,11 @@
 
 #fire-mode {
 	background: url('../../images/fireworks.gif');
-	background-color: white;
+	background-color: black;
 	background-position: center;
 	background-origin: content-box;
 	background-repeat: no-repeat;
-	background-size: 40px 40px;
+	background-size: 140px 140px;
 	animation: fireworkAnimation 6s alternate;
 	animation-timing-function: linear;
 	animation-iteration-count: infinite;
@@ -117,12 +117,10 @@
 
 @keyframes fireworkAnimation {
 	0% {
-		background-position: center;
-		background-size: 140px 140px;
+		background-position: top right;
 	}
 	100% {
-		background-position: top;
-		background-size: 200px 200px;
+		background-position: top left;
 	}
 }
 

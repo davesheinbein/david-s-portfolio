@@ -223,7 +223,7 @@ ${(props) => {
           --TertiaryTextBtnHover: rgba(0, 0, 0, 1);
           --TertiaryTextBtnText: #51F5FF;
 
-          --formColor: #69FFFE;
+          --formColor: rgba(107,255,253, 0.75);
           --themeDotBorder: rgba(105, 255, 254, .5);
           --themeContainerDotBorder: rgba(105, 255, 254, .5);
           --textBoxTextTitle: rgba(0, 0, 0, 1);

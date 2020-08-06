@@ -36,7 +36,7 @@
 	text-decoration: underline;
 }
 
-@media screen and (max-width: 1600px) {
+@media screen and (max-width: 1800px) {
 	.headingText {
 		font-size: 9rem;
 	}

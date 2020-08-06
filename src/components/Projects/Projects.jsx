@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import './Projects.css';
-import steadfinder from '../../images/steadfinder.png';
+import steedfinder from '../../images/steedfinder.png';
 import inspirations from '../../images/inspirations.png';
 import twistsofrate from '../../images/twistsofrate.png';
 import wargame from '../../images/wargame.png';
@@ -19,10 +19,10 @@ export default class Projects extends Component {
 							<img
 								className='thumbnail'
 								alt='checkers'
-								src={steadfinder}></img>
+								src={steedfinder}></img>
 							<div className='post-preview'>
 								<div className='post-title'>
-									Stead Finder
+									Steed Finder
 								</div>
 								<div className='post-intro'>
 									A horse marketplace bulletin board. People

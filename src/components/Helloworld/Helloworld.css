@@ -286,11 +286,12 @@
 	font-size: 1.5rem;
 }
 
-.btnLinkedIn {
+.btnLinkedIn,
+.btnGitHub {
 	margin: 0px 1em;
 	padding: 0.25em 1em;
 	border-radius: 50px;
-	color: var(--TertiaryTextBtnText);
+	color: var(--shadow);
 	border: 2px solid var(--TertiaryTextBtn);
 	background-color: var(--secondaryColor);
 	-moz-box-shadow: 0 2px 2px var(--shadow);
@@ -298,42 +299,27 @@
 	box-shadow: 0 2px 2px var(--shadow);
 }
 
-.btnLinkedIn:hover {
-	color: var(--secondaryColor);
+.btnLinkedIn {
+	border: 2px solid transparent;
+}
+
+.btnLinkedIn:hover,
+.btnGitHub:hover {
+	color: var(--shadow);
 	border: 2px solid var(--themeContainerDotBorder);
 	background-color: var(--TertiaryTextBtn);
 }
 
-.btnGitHub {
-	margin: 0px 1em;
-	padding: 0.25em 1em;
-	border-radius: 50px;
-	background-color: var(--TertiaryTextBtn);
-	-moz-box-shadow: 0 2px 2px var(--shadow);
-	-webkit-box-shadow: 0 2px 2px var(--shadow);
-	box-shadow: 0 2px 2px var(--shadow);
-	border: 2px solid var(--themeContainerDotBorder);
-}
-
-.btnGitHub a {
-	color: var(--secondaryColor);
-	text-decoration: none;
-}
-
+.btnLinkedIn a:hover,
 .btnGitHub a:hover {
-	color: var(--TertiaryTextBtnText);
-	border: 2px solid var(--TertiaryTextBtn);
-	background-color: var(--TertiaryTextBtnHover);
+	color: var(--shadow);
 	text-decoration: none;
 }
 
-.btnLinkedIn a {
-	color: var(--TertiaryTextBtn);
-}
-
-.btnLinkedIn a {
+.btnLinkedIn a,
+.btnGitHub a {
+	color: var(--shadow);
 	text-decoration: none;
-	color: var(--TertiaryText);
 }
 
 #gitHubBtnSym,
@@ -345,6 +331,11 @@
 @media screen and (max-width: 1800px) {
 	#introTextContainer {
 		min-width: 500px;
+	}
+
+	.computerGuySvgContainer {
+		width: 100vw;
+		min-width: 40vw;
 	}
 }
 
@@ -362,7 +353,8 @@
 	}
 
 	.computerGuySvgContainer {
-		width: 100%;
+		width: 100vw;
+		min-width: 50vw;
 	}
 
 	.right-column {
@@ -386,9 +378,25 @@
 	.boxText {
 		font-size: 1rem;
 	}
+
+	.ctaBtn {
+		margin: 1em 0px;
+	}
+
+	.btnLinkedIn {
+		font-size: 1.5rem;
+	}
+
+	.btnGitHub {
+		font-size: 1.5rem;
+	}
 }
 
 @media screen and (max-width: 812px) {
+	.introContainer {
+		margin: 0px auto 3em;
+	}
+
 	.intro-wrapper {
 		grid-template-columns: 1fr;
 		grid-template-areas:
@@ -421,6 +429,7 @@
 
 	.computerGuySvgContainer {
 		width: 100vw;
+		min-width: 100vw;
 	}
 
 	#computerGuy {
@@ -446,6 +455,14 @@
 	}
 
 	.ctaBtn {
-		margin: 3em 0px;
+		margin: 1em 0px;
+	}
+
+	.btnLinkedIn {
+		font-size: 1.25rem;
+	}
+
+	.btnGitHub {
+		font-size: 1.25rem;
 	}
 }

@@ -64,7 +64,12 @@
 }
 
 @media screen and (max-width: 812px) {
-	.footerSubContainer {
+	#nav {
 		font-size: 0.75rem;
+		justify-content: center;
+	}
+
+	.footerSubContainer {
+		font-size: 0.5rem;
 	}
 }

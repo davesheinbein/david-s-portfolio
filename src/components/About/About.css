@@ -83,6 +83,7 @@
 }
 
 .resumeDlText {
+	width: 100%;
 	font-size: 1.5rem;
 	font-weight: 600;
 	padding: 1.5em 0px;
@@ -201,11 +202,11 @@
 	}
 
 	.resumeDlText {
-		font-size: 0.75rem;
+		font-size: 0.65rem;
 	}
 
 	.subTitle {
-		font-size: 1.5rem;
+		font-size: 1.75rem;
 	}
 
 	.subText {

@@ -28,14 +28,14 @@
 .boxTitle {
 	font-size: 2rem;
 	margin-bottom: 1em;
-	color: var(--secondaryText);
+	color: var(--textBoxTextTitle);
 	text-decoration: underline;
 	font-weight: 600;
 }
 
 .boxText {
 	font-size: 1.5rem;
-	color: var(--secondaryText);
+	color: var(--textBoxText);
 	font-weight: 600;
 }
 
@@ -237,7 +237,7 @@
 	width: 85%;
 	margin: auto;
 	border: 1.5px solid var(--themeContainerDotBorder);
-	color: var(--mainText);
+	color: var(--textBoxText);
 	background-color: var(--previewBg);
 	padding: 15px;
 	position: absolute;

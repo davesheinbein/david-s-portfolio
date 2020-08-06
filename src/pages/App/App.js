@@ -20,10 +20,13 @@ ${(props) => {
         --TertiaryTextBtn: #FFFFFF;
         --TertiaryTextBtnHover: #ff8915;
         --TertiaryTextBtnText: #FFFFFF;
+
         --formColor: #e08d87;
         --themeDotBorder: #fff;
         --themeContainerDotBorder: #231E6A;
-        --previewBg: rgb(255, 255, 255, 0.75);
+        --textBoxTextTitle: rgba(255, 255, 255, 1);
+        --textBoxText: rgba(255, 255, 255, .95);
+        --previewBg: rgb(255, 137, 21, 0.75);
         --shadow: rgb(0, 0, 0, 0.75);
 
         --background: none;
@@ -68,10 +71,13 @@ ${(props) => {
           --TertiaryTextBtn: #FFBEE8;
           --TertiaryTextBtnHover: #ffffff;
           --TertiaryTextBtnText: #FFBEE8;
+
           --formColor: #829174;
           --themeDotBorder: #fff;
           --themeContainerDotBorder: #17a2b8;
-          --previewBg: rgb(70, 35, 25, 0.5);
+          --textBoxTextTitle: rgba(0, 0, 0, 1);
+          --textBoxText: rgba(0, 0, 0, .95);
+          --previewBg: rgb(255, 255, 255, 0.75);
           --shadow: rgb(0, 0, 0, 0.75);
 
           --background: none;
@@ -116,10 +122,13 @@ ${(props) => {
           --TertiaryTextBtn: #61DBFF;
           --TertiaryTextBtnHover: #FFBEE8;
           --TertiaryTextBtnText: #000000;
+
           --formColor: #73c9ff;
           --themeDotBorder: #24292e;
           --themeContainerDotBorder: #db1a0f;
-          --previewBg: rgb(179, 179, 179, 0.5);
+          --textBoxTextTitle: rgba(0, 0, 0, 1);
+          --textBoxText: rgba(0, 0, 0, .95);
+          --previewBg: rgb(251, 231, 84, 0.5);
           --shadow: rgb(0, 0, 0, 0.75);
 
           --background: none;
@@ -163,10 +172,13 @@ ${(props) => {
           --TertiaryTextBtn: #5E5E5E;
           --TertiaryTextBtnHover: #ffffff;
           --TertiaryTextBtnText: #000000;
+
           --formColor: #b5b5b5;
           --themeDotBorder: #CBD5E5;
           --themeContainerDotBorder: #E0E4EA;
-          --previewBg: rgb(179, 179, 179, 0.5);
+          --textBoxTextTitle: rgba(255, 255, 255, 1);
+          --textBoxText: rgba(255, 255, 255, .95);
+          --previewBg: rgb(94, 94, 94, 0.5);
           --shadow: rgb(255, 255, 255, 0.25);
 
           --background: none;
@@ -210,10 +222,13 @@ ${(props) => {
           --TertiaryTextBtn: rgba(0, 0, 0, .75);
           --TertiaryTextBtnHover: rgba(0, 0, 0, 1);
           --TertiaryTextBtnText: #51F5FF;
+
           --formColor: #69FFFE;
           --themeDotBorder: rgba(105, 255, 254, .5);
           --themeContainerDotBorder: rgba(105, 255, 254, .5);
-          --previewBg: rgb(105, 255, 254, 0.25);
+          --textBoxTextTitle: rgba(0, 0, 0, 1);
+          --textBoxText: rgba(0, 0, 0, 1);
+          --previewBg: rgb(255, 243, 195, 0.5);
           --shadow: rgb(0, 0, 0, 0.5);
 
           --background: linear-gradient(180deg, rgba(0,243,255,0) 10%, rgba(0,243,255,1) 10%, rgba(0,243,255,0.5) 100%);
@@ -257,10 +272,13 @@ ${(props) => {
           --TertiaryTextBtn: rgba(104, 55, 119, .75);
           --TertiaryTextBtnHover: rgba(255, 255, 255, 1);
           --TertiaryTextBtnText: #000000;
+
           --formColor: rgba(104, 55, 119, .5);
           --themeDotBorder: rgba(255, 255, 255, .5);
           --themeContainerDotBorder: rgba(255, 255, 255, .75);
-          --previewBg: rgb(255, 255, 255, 0.25);
+          --textBoxTextTitle: rgba(255, 255, 255, 1);
+          --textBoxText: rgba(255, 255, 255, .95);
+          --previewBg: rgb(255, 187, 89, 0.5);
           --shadow: rgb(255, 255, 255, 0.5);
 
           --background: linear-gradient(180deg, rgba(0,0,0,0) 0%, rgba(0,0,0,1) 5%, rgba(0,0,0,1) 100%);
@@ -304,9 +322,12 @@ ${(props) => {
           --TertiaryTextBtn: #084181;
           --TertiaryTextBtnHover: #ffffff
           --TertiaryTextBtnText: #63dbff;
+
           --formColor: #ffffff;
           --themeDotBorder: #787878;
           --themeContainerDotBorder: #787878;
+          --textBoxTextTitle: rgba(0, 0, 0, 1);
+          --textBoxText: rgba(0, 0, 0, 1);
           --previewBg:rgb(255, 255, 255, 0.75);
           --shadow: rgb(0, 0, 0, 0.75);
 

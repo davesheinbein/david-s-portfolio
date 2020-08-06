@@ -43,7 +43,6 @@
 
 .navLinesBottom {
 	color: var(--mainText);
-	margin: 0px 1em;
 }
 
 #footerline {
@@ -52,30 +51,39 @@
 	border-top: 1px solid var(--HeadingColor);
 }
 
-@media screen and (max-width: 1600px) {
+.fa-arrow-alt-circle-up {
+	color: red;
+}
+
+@media screen and (max-width: 1800px) {
 	#nav {
-		justify-content: space-evenly;
+		font-size: 2rem;
+	}
+	.navLinesBottom {
+		margin: 0px 3.5em;
 	}
 }
 
 @media screen and (max-width: 1366px) {
 	#nav {
-		justify-content: space-evenly;
+		font-size: 1.5rem;
+	}
+	.navLinesBottom {
+		margin: 0px 3em;
 	}
 }
 
 @media screen and (max-width: 812px) {
 	#nav {
-		font-size: 0.75rem;
+		font-size: 1rem;
 		justify-content: center;
 	}
 
 	.footerSubContainer {
-		font-size: 0.5rem;
+		font-size: 0.75rem;
 	}
 
 	.navLinesBottom {
-		color: var(--mainText);
-		margin: 0px 5px;
+		margin: 0px 2em;
 	}
 }

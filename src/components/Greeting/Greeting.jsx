@@ -10,7 +10,7 @@ export default class Greeting extends Component {
 				</h1>
 				<ul id='navigation'>
 					<li>
-						<a href='#aboutMe'>About Me</a>
+						<a href='#aboutMe'>About</a>
 					</li>
 					<li className='navLines'>
 						&nbsp;&nbsp;|&nbsp;&nbsp;

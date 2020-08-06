@@ -8,25 +8,25 @@ function Footer() {
 				<ul id='nav'>
 					<li>
 						<div>
-							<a href='/'>Home</a>
+							<a href='/'>
+								<i className='fas fa-home'></i>
+							</a>
 						</div>
 					</li>
 					<div className='navLinesBottom'>|</div>
 					<li>
 						<div>
-							<a href='#aboutMe'>About</a>
+							<a href='#navigation'>
+								<i className='fas fa-chevron-up'></i>
+							</a>
 						</div>
 					</li>
 					<div className='navLinesBottom'>|</div>
 					<li>
 						<div>
-							<a href='#projects'>Projects</a>
-						</div>
-					</li>
-					<div className='navLinesBottom'>|</div>
-					<li>
-						<div>
-							<a href='#contact-form'>Contact</a>
+							<a href='#projects'>
+								<i className='fas fa-file'></i>
+							</a>
 						</div>
 					</li>
 					<div className='navLinesBottom'>|</div>

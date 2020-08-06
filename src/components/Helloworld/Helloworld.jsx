@@ -97,6 +97,25 @@ export default class Helloworld extends Component {
 						</div>
 					</div>
 				</div>
+				<div className='ctaBtn'>
+					<button className='btnGitHub'>
+						<a href='https://github.com/davesheinbein'>
+							<i
+								className='fa fa-github'
+								aria-hidden='true'
+								id='gitHubBtnSym'></i>
+							GitHub
+						</a>
+					</button>
+					<button className='btnLinkedIn'>
+						<a href='https://www.linkedin.com/in/david-sheinbein/'>
+							<i
+								className='fa fa-linkedin-square'
+								id='linkedInBtnSym'></i>
+						</a>
+						LinkedIn
+					</button>
+				</div>
 			</div>
 		);
 	}

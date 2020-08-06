@@ -208,12 +208,6 @@
 	}
 }
 
-#settings-note {
-	font-size: 12px;
-	font-style: italic;
-	text-align: center;
-}
-
 .right-column {
 	grid-area: right-column;
 	display: grid;
@@ -283,6 +277,71 @@
 	left: -5px;
 }
 
+.ctaBtn {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin: 1em 0px;
+	font-weight: 600;
+	font-size: 1.5rem;
+}
+
+.btnLinkedIn {
+	margin: 0px 1em;
+	padding: 0.25em 1em;
+	border-radius: 50px;
+	color: var(--TertiaryTextBtnText);
+	border: 2px solid var(--TertiaryTextBtn);
+	background-color: var(--secondaryColor);
+	-moz-box-shadow: 0 2px 2px var(--shadow);
+	-webkit-box-shadow: 0 2px 2px var(--shadow);
+	box-shadow: 0 2px 2px var(--shadow);
+}
+
+.btnLinkedIn:hover {
+	color: var(--secondaryColor);
+	border: 2px solid var(--themeContainerDotBorder);
+	background-color: var(--TertiaryTextBtn);
+}
+
+.btnGitHub {
+	margin: 0px 1em;
+	padding: 0.25em 1em;
+	border-radius: 50px;
+	background-color: var(--TertiaryTextBtn);
+	-moz-box-shadow: 0 2px 2px var(--shadow);
+	-webkit-box-shadow: 0 2px 2px var(--shadow);
+	box-shadow: 0 2px 2px var(--shadow);
+	border: 2px solid var(--themeContainerDotBorder);
+}
+
+.btnGitHub a {
+	color: var(--secondaryColor);
+	text-decoration: none;
+}
+
+.btnGitHub a:hover {
+	color: var(--TertiaryTextBtnText);
+	border: 2px solid var(--TertiaryTextBtn);
+	background-color: var(--TertiaryTextBtnHover);
+	text-decoration: none;
+}
+
+.btnLinkedIn a {
+	color: var(--TertiaryTextBtn);
+}
+
+.btnLinkedIn a {
+	text-decoration: none;
+	color: var(--TertiaryText);
+}
+
+#gitHubBtnSym,
+#linkedInBtnSym {
+	padding-right: 0.25em;
+	color: var(--shadow);
+}
+
 @media screen and (max-width: 1800px) {
 	#introTextContainer {
 		min-width: 500px;
@@ -330,10 +389,6 @@
 }
 
 @media screen and (max-width: 812px) {
-	.introContainer {
-		padding-bottom: 3em;
-	}
-
 	.intro-wrapper {
 		grid-template-columns: 1fr;
 		grid-template-areas:
@@ -388,5 +443,9 @@
 
 	.boxText {
 		font-size: 1rem;
+	}
+
+	.ctaBtn {
+		margin: 3em 0px;
 	}
 }

@@ -95,7 +95,7 @@
 	padding: 0.25em 0.5em;
 	border-radius: 50px;
 	font-size: 1.5rem;
-	font-weight: bold;
+	font-weight: 600;
 	line-height: 2.5;
 	-moz-box-shadow: 0 4px 4px var(--shadow);
 	-webkit-box-shadow: 0 4px 4px var(--shadow);

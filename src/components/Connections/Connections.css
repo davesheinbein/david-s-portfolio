@@ -111,4 +111,8 @@
 	.linkedInText {
 		font-size: 1.75rem;
 	}
+
+	#linkedInSym, #gitHubSym {
+		display: none;
+	}
 }

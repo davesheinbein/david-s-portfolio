@@ -263,7 +263,7 @@ ${(props) => {
           --previewBg: rgb(255, 255, 255, 0.25);
           --shadow: rgb(255, 255, 255, 0.5);
 
-          --background: linear-gradient(0deg, rgba(0,0,0,0.25) 0%, rgba(0,0,0,0.75) 33%, rgba(0,0,0,.9) 40%, rgba(0,0,0,1) 100%);
+          --background: linear-gradient(180deg, rgba(0,0,0,0) 0%, rgba(0,0,0,1) 5%, rgba(0,0,0,1) 100%);
           --DisplayA: none;
           --DisplayB: block;
 

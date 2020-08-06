@@ -43,6 +43,7 @@
 
 .navLinesBottom {
 	color: var(--mainText);
+	margin: 0px 1em;
 }
 
 #footerline {
@@ -71,5 +72,10 @@
 
 	.footerSubContainer {
 		font-size: 0.5rem;
+	}
+
+	.navLinesBottom {
+		color: var(--mainText);
+		margin: 0px 5px;
 	}
 }

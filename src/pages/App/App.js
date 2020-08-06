@@ -254,12 +254,12 @@ ${(props) => {
           --subText: rgba(255, 255, 255, .85);
           --secondaryText: rgba(255, 255, 255, .75);
           --TertiaryText: #ffffff;
-          --TertiaryTextBtn: rgba(235, 122, 21, .5);
+          --TertiaryTextBtn: rgba(104, 55, 119, .75);
           --TertiaryTextBtnHover: rgba(255, 255, 255, 1);
           --TertiaryTextBtnText: #000000;
-          --formColor: rgba(235, 122, 21, .5);
+          --formColor: rgba(104, 55, 119, .5);
           --themeDotBorder: rgba(255, 255, 255, .5);
-          --themeContainerDotBorder: rgba(255, 255, 255, .5);
+          --themeContainerDotBorder: rgba(255, 255, 255, .75);
           --previewBg: rgb(255, 255, 255, 0.25);
           --shadow: rgb(255, 255, 255, 0.5);
 

@@ -5,7 +5,7 @@ import Superhero from '../Superhero/Superhero';
 import Pdf from '../../images/Full Stack Developer Resume.pdf';
 
 function About() {
-	return (
+	return ( 
 		<div className='container'>
 			<div className='subContainer'>
 				<div className='textContainer'>

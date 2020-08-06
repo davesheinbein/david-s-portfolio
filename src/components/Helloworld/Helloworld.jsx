@@ -10,61 +10,79 @@ export default class Helloworld extends Component {
 				<h1 className='introHeading'>Hello World...</h1>
 				<div className='intro-wrapper'>
 					<div className='left-column'>
-						<img
-							id='profilePicture'
-							src={headshot}
-							alt='headshot'></img>
-						<h3 className='personalizedText'>
-							Personalize Theme
-						</h3>
-						<div id='theme-options-wrapper'>
-							<div className='themeOptionsSubContainer'>
-								<div
-									id='light-mode'
-									className='theme-dot'
-									onClick={() => {
-										this.props.handleThemeChange('light');
-									}}></div>
-								<div
-									id='black-mode'
-									className='theme-dot sampleName'
-									onClick={() => {
-										this.props.handleThemeChange('black');
-									}}></div>
-							</div>
-							<div className='themeOptionsSubContainer'>
-								<div
-									id='red-mode'
-									className='theme-dot sampleName'
-									onClick={() => {
-										this.props.handleThemeChange('red');
-									}}></div>
-								<div
-									id='green-mode'
-									className='theme-dot'
-									onClick={() => {
-										this.props.handleThemeChange('green');
-									}}></div>
-								<div
-									id='blue-mode'
-									className='theme-dot'
-									onClick={() => {
-										this.props.handleThemeChange('blue');
-									}}></div>
-							</div>
-							<div className='themeOptionsSubContainer'>
-								<div
-									id='wave-mode'
-									className='theme-dot sampleName'
-									onClick={() => {
-										this.props.handleThemeChange('wave');
-									}}></div>
-								<div
-									id='fire-mode'
-									className='theme-dot sampleName'
-									onClick={() => {
-										this.props.handleThemeChange('fire');
-									}}></div>
+						<div className='actionsContainer'>
+							<div className='picThemeContainer'>
+								<div className='Profile'>
+									<img
+										id='profilePicture'
+										src={headshot}
+										alt='headshot'></img>
+								</div>
+								<div id='theme-options-wrapper'>
+									<h3 className='personalizedText'>
+										Choose Theme
+									</h3>
+									<div className='themeOptionsSubContainer'>
+										<div
+											id='light-mode'
+											className='theme-dot'
+											onClick={() => {
+												this.props.handleThemeChange(
+													'light'
+												);
+											}}></div>
+										<div
+											id='black-mode'
+											className='theme-dot sampleName'
+											onClick={() => {
+												this.props.handleThemeChange(
+													'black'
+												);
+											}}></div>
+									</div>
+									<div className='themeOptionsSubContainer'>
+										<div
+											id='red-mode'
+											className='theme-dot sampleName'
+											onClick={() => {
+												this.props.handleThemeChange('red');
+											}}></div>
+										<div
+											id='green-mode'
+											className='theme-dot'
+											onClick={() => {
+												this.props.handleThemeChange(
+													'green'
+												);
+											}}></div>
+										<div
+											id='blue-mode'
+											className='theme-dot'
+											onClick={() => {
+												this.props.handleThemeChange(
+													'blue'
+												);
+											}}></div>
+									</div>
+									<div className='themeOptionsSubContainer'>
+										<div
+											id='wave-mode'
+											className='theme-dot sampleName'
+											onClick={() => {
+												this.props.handleThemeChange(
+													'wave'
+												);
+											}}></div>
+										<div
+											id='fire-mode'
+											className='theme-dot sampleName'
+											onClick={() => {
+												this.props.handleThemeChange(
+													'fire'
+												);
+											}}></div>
+									</div>
+								</div>
 							</div>
 							<div className='ctaBtn'>
 								<button className='btnGitHub'>

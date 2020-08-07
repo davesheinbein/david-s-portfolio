@@ -59,11 +59,13 @@ function About() {
 						href={Pdf}
 						target='_blank'
 						rel='noopener noreferrer'>
-						Download Resume{' '}
 						<i
-							className='fa fa-file-o'
-							aria-hidden='true'
-							id='resumeIcon'></i>
+							class='fa fa-arrow-circle-o-down resumeIcon'
+							aria-hidden='true'></i>
+						Resume{' '}
+						<i
+							className='fa fa-file-o resumeIcon'
+							aria-hidden='true'></i>
 					</a>
 				</h3>
 			</div>

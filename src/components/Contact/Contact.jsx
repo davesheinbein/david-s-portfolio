@@ -72,7 +72,10 @@ export default class Contact extends Component {
 					onSubmit={this.handleSubmit}>
 					<FormGroup>
 						<Label for='name' className='label'>
-							Name
+							<div className='labelText'>Name</div>
+							<i
+								className='fas fa-signature iconSymbol'
+							></i>
 						</Label>
 						<Input
 							type='text'
@@ -83,7 +86,10 @@ export default class Contact extends Component {
 					</FormGroup>
 					<FormGroup>
 						<Label for='email' className='label'>
-							Email
+							<div className='labelText'>Email</div>
+							<i
+								className='fas fa-envelope iconSymbol'
+							></i>
 						</Label>
 						<Input
 							type='email'
@@ -94,7 +100,10 @@ export default class Contact extends Component {
 					</FormGroup>
 					<FormGroup>
 						<Label for='subject' className='label'>
-							Subject
+							<div className='labelText'>Subject</div>
+							<i
+								className='fas fa-info-circle iconSymbol'
+							></i>
 						</Label>
 						<Input
 							type='text'
@@ -105,7 +114,8 @@ export default class Contact extends Component {
 					</FormGroup>
 					<FormGroup>
 						<Label for='message' className='label'>
-							Message
+							<div className='labelText'>Message</div>
+							<i className='fas fa-pen iconSymbol'></i>
 						</Label>
 						<Input
 							type='textarea'

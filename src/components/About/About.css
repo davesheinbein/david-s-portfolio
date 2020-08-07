@@ -85,11 +85,26 @@
 	font-weight: 600;
 }
 
+#gaLink {
+	color: var(--subText);
+}
+
+#gaLink:hover {
+	color: var(--subText);
+	color: var(--mainText);
+	text-decoration: none;
+}
+
+.resumeDlContainer {
+	width: 100%;
+	padding: 0px 1em;
+	margin: 1em 0px;
+}
+
 .resumeDlText {
 	width: 100%;
 	font-size: 1.5rem;
 	font-weight: 600;
-	padding: 1.5em 0px;
 	z-index: 20;
 }
 
@@ -110,6 +125,10 @@
 	color: var(--TertiaryTextBtnText);
 	background: var(--TertiaryTextBtnHover);
 	text-decoration: none;
+}
+
+#resumeIcon {
+	font-size: 1.5rem;
 }
 
 @media screen and (max-width: 1800px) {
@@ -176,7 +195,8 @@
 	}
 
 	.svgContainer {
-		width: 120%;
+		left: 18%;
+		width: 160%;
 		height: auto;
 		display: flex;
 		justify-content: center;
@@ -189,6 +209,11 @@
 }
 
 @media screen and (max-width: 812px) {
+	.resumeDlContainer {
+		width: 100%;
+		padding: 0px;
+		margin: 1em 0px;
+	}
 	.subContainer {
 		width: 100%;
 		margin: auto;
@@ -200,7 +225,7 @@
 	}
 
 	.textContainer {
-		width: 80%;
+		width: 100%;
 		display: flex;
 		flex-direction: column;
 		justify-self: center;
@@ -212,22 +237,22 @@
 		z-index: -1;
 		object-fit: contain;
 		top: 0%;
-		left: 15%;
+		left: -15%;
 		display: flex;
 		justify-content: flex-end;
 		align-items: center;
 		position: absolute;
-		width: 250%;
+		width: 340%;
 	}
 
 	.resumeDlText {
-		font-size: 0.5rem;
+		font-size: 1rem;
 	}
 
 	.subTitle {
 		font-size: 1.75rem;
 	}
-
+	
 	.subText {
 		font-size: 1rem;
 	}

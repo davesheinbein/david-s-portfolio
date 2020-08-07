@@ -35,7 +35,8 @@ export default class Projects extends Component {
 										href='https://github.com/davesheinbein/stead-finder-horse-buliten-board'
 										target='_blank'
 										rel='noopener noreferrer'>
-										View More!
+										View More{' '}
+										<i className='fas fa-long-arrow-alt-right'></i>
 									</a>
 								</div>
 							</div>
@@ -53,7 +54,7 @@ export default class Projects extends Component {
 								</div>
 								<div className='post-intro'>
 									A repository of Gifs and Videos. People
-									can post GIF, Videos, and comments.
+									can post GIFs, Videos, and comments.
 									Utilizing full CRUD functionality.
 								</div>
 								<div className='viewMoreBtn'>
@@ -61,7 +62,8 @@ export default class Projects extends Component {
 										href='https://github.com/davesheinbein/full-stack-web-app'
 										target='_blank'
 										rel='noopener noreferrer'>
-										View More!
+										View More{' '}
+										<i className='fas fa-long-arrow-alt-right'></i>
 									</a>
 								</div>
 							</div>
@@ -75,7 +77,7 @@ export default class Projects extends Component {
 								src={twistsofrate}></img>
 							<div className='post-preview'>
 								<div className='post-title'>
-									TwistsOfRate
+									Twists Of Rate
 								</div>
 								<div className='post-intro'>
 									A site with detailed information about
@@ -88,7 +90,8 @@ export default class Projects extends Component {
 										href='https://github.com/davesheinbein/TwistsOfRate'
 										target='_blank'
 										rel='noopener noreferrer'>
-										View More!
+										View More{' '}
+										<i className='fas fa-long-arrow-alt-right'></i>
 									</a>
 								</div>
 							</div>
@@ -104,15 +107,16 @@ export default class Projects extends Component {
 								<div className='post-title'>War Game</div>
 								<div className='post-intro'>
 									A easy to play game based on the card game
-									war. Face off against against a computer.
-									May the odd be in your favor.
+									War. Face off against against a computer!
+									May the odds be in your favor!
 								</div>
 								<div className='viewMoreBtn'>
 									<a
 										href='https://github.com/davesheinbein/War-game'
 										target='_blank'
 										rel='noopener noreferrer'>
-										View More!
+										View More{' '}
+										<i className='fas fa-long-arrow-alt-right'></i>
 									</a>
 								</div>
 							</div>
@@ -138,7 +142,8 @@ export default class Projects extends Component {
 										href='https://github.com/davesheinbein/neon-strobe-animation'
 										target='_blank'
 										rel='noopener noreferrer'>
-										View More!
+										View More{' '}
+										<i className='fas fa-long-arrow-alt-right'></i>
 									</a>
 								</div>
 							</div>

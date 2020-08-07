@@ -5,18 +5,30 @@ import Superhero from '../Superhero/Superhero';
 import Pdf from '../../images/Full Stack Developer Resume.pdf';
 
 function About() {
-	return ( 
+	return (
 		<div className='container'>
 			<div className='subContainer'>
 				<div className='textContainer'>
 					<h2 className='subTitle'>About Me</h2>
 					<p className='subText'>
-						I build new projects just to tickle my
-						brain and push my limits as a developer.
-						<br /> <br />
-						While I do freelance work, I still take
-						interviews in search of a great team
-						and projects that interest me.
+						I build new projects in order to hone my skills
+						and expand my horizons as a front end developer.
+						<br />
+						<br />
+						My interest in programing began in college when
+						I was introduced to Python. Once out of college
+						I decided to take a programing boot camp to
+						expand my skills and pursue my interest in
+						development.
+						<br />
+						<br />
+						The skills I learned at{' '}
+						<a href='https://generalassemb.ly/' id='gaLink'>
+							General Assembly
+						</a>{' '}
+						gave me the ability pick up complicated
+						programmatic concepts in short periods of time
+						and take those concepts and build upon them.
 					</p>
 
 					<h2 className='subTitle'>Skills</h2>
@@ -37,16 +49,18 @@ function About() {
 				<div className='svgContainer'>
 					<Superhero />
 				</div>
-				<h3 className='resumeDlText'>
-					Full-Stack Developer with primary focus on MERN
-					Stack <br></br>
+				<h3 className='resumeDlContainer'>
+					<div className='resumeDlText'>
+						Full-Stack Developer primarily focused on MERN
+						Stack
+					</div>
 					<a
 						className='resumeDlLink'
 						href={Pdf}
 						target='_blank'
 						rel='noopener noreferrer'>
-						{' '}
-						Download Resume
+						Download Resume{' '}
+						<i className='far fa-file' id='resumeIcon'></i>
 					</a>
 				</h3>
 			</div>

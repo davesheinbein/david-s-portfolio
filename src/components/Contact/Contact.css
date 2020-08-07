@@ -24,11 +24,18 @@
 	font-size: 1.25rem;
 	font-weight: 500;
 	line-height: 2.5em;
-	text-decoration: dotted underline;
 	color: var(--secondaryText);
 	display: flex;
 	justify-content: center;
 	align-items: center;
+}
+
+.labelText {
+	text-decoration: underline;
+}
+
+.iconSymbol {
+	margin: 0px .5em;
 }
 
 #contact-form textarea {

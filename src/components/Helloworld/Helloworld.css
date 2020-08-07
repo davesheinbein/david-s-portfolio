@@ -247,6 +247,10 @@
 	margin: 1.5em auto;
 }
 
+.actionsContainer {
+	height: 100%;
+}
+
 .corner {
 	width: 7px;
 	height: 7px;
@@ -339,6 +343,7 @@
 
 	.actionsContainer {
 		width: 100%;
+		height: auto;
 		display: flex;
 		flex-direction: column;
 		margin: auto;
@@ -376,6 +381,7 @@
 
 	.introHeading {
 		padding: 0.5em 0px 0px;
+		font-size: 3rem;
 	}
 
 	.computerGuySvgContainer {
@@ -388,10 +394,6 @@
 	}
 
 	/* text */
-	.introHeading {
-		font-size: 3rem;
-	}
-
 	.personalizedText {
 		font-size: 1.5rem;
 		color: var(--subText);
@@ -403,6 +405,12 @@
 
 	.boxText {
 		font-size: 1rem;
+	}
+
+	.actionsContainer {
+		display: flex;
+		justify-content: center;
+		align-items: center;
 	}
 
 	.ctaBtn {

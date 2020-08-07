@@ -121,7 +121,7 @@ export default class Helloworld extends Component {
 								<h2 className='boxTitle'>What I do</h2>
 								<p className='boxText'>
 									I am a full-stack developer with a passion
-									for designing modern highly responsive
+									for designing modern, highly responsive,
 									web-based user interfaces.
 								</p>
 								<div

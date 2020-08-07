@@ -72,10 +72,10 @@ export default class Contact extends Component {
 					onSubmit={this.handleSubmit}>
 					<FormGroup>
 						<Label for='name' className='label'>
-							<div className='labelText'>Name</div>
 							<i
 								className='fa fa-user iconSymbol'
 								aria-hidden='true'></i>
+							<div className='labelText'>Name</div>
 						</Label>
 						<Input
 							type='text'
@@ -86,10 +86,10 @@ export default class Contact extends Component {
 					</FormGroup>
 					<FormGroup>
 						<Label for='email' className='label'>
-							<div className='labelText'>Email</div>
 							<i
 								className='fa fa-envelope iconSymbol'
 								aria-hidden='true'></i>
+							<div className='labelText'>Email</div>
 						</Label>
 						<Input
 							type='email'
@@ -100,8 +100,8 @@ export default class Contact extends Component {
 					</FormGroup>
 					<FormGroup>
 						<Label for='subject' className='label'>
-							<div className='labelText'>Subject</div>
 							<i className="fa fa-sticky-note iconSymbol" aria-hidden="true"></i>
+							<div className='labelText'>Subject</div>
 						</Label>
 						<Input
 							type='text'
@@ -112,8 +112,8 @@ export default class Contact extends Component {
 					</FormGroup>
 					<FormGroup>
 						<Label for='message' className='label'>
-							<div className='labelText'>Message</div>
 							<i className="fa fa-pencil iconSymbol" aria-hidden="true"></i>
+							<div className='labelText'>Message</div>
 						</Label>
 						<Input
 							type='textarea'

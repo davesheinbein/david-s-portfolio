@@ -33,10 +33,11 @@ function Connections() {
 						<a
 							className='linkedInBtnText'
 							href='https://www.linkedin.com/in/david-sheinbein/'>
-							LinkedIn{' '}
 							<i
 								className='fa fa-linkedin-square'
 								aria-hidden='true'></i>
+							{' '}
+							LinkedIn
 						</a>
 					</h3>
 				</div>
@@ -49,10 +50,11 @@ function Connections() {
 						<a
 							className='linkedInBtnText'
 							href='https://github.com/davesheinbein'>
-							Github{' '}
 							<i
 								className='fa fa-github'
 								aria-hidden='true'></i>
+							{' '}
+							Github
 						</a>
 					</h3>
 				</div>

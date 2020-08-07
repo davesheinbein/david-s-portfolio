@@ -30,12 +30,8 @@
 	align-items: center;
 }
 
-.labelText {
-	text-decoration: underline;
-}
-
 .iconSymbol {
-	margin: 0px .5em;
+	margin: 0px 0.5em;
 }
 
 #contact-form textarea {

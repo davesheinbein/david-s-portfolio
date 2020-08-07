@@ -59,12 +59,9 @@ function About() {
 						href={Pdf}
 						target='_blank'
 						rel='noopener noreferrer'>
+						Resume{' '}
 						<i
 							class='fa fa-arrow-circle-o-down resumeIcon'
-							aria-hidden='true'></i>
-						Resume
-						<i
-							className='fa fa-file-o resumeIcon'
 							aria-hidden='true'></i>
 					</a>
 				</h3>

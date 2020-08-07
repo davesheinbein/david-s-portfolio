@@ -281,7 +281,7 @@ ${(props) => {
           --previewBg: rgb(255, 187, 89, 0.5);
           --shadow: rgb(255, 255, 255, 0.5);
 
-          --background: linear-gradient(180deg, rgba(0,0,0,0) 0%, rgba(0,0,0,1) 5%, rgba(0,0,0,1) 100%);
+          --background: linear-gradient(0deg, rgba(228,198,133,1) 10%, rgba(105,73,164,1) 45%, rgba(168,127,38,1) 68%, rgba(41,20,82,1) 80%, rgba(0,0,0,1) 90%, rgba(0,0,0,0) 100%);
           --DisplayA: none;
           --DisplayB: block;
 
@@ -363,6 +363,7 @@ ${(props) => {
 	}
 }}
 `;
+
 
 class App extends React.Component {
 	constructor(props) {

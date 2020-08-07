@@ -9,7 +9,9 @@ function Footer() {
 					<li>
 						<div>
 							<a href='/'>
-								<i className='fas fa-home'></i>
+								<i
+									className='fa fa-home'
+									aria-hidden='true'></i>
 							</a>
 						</div>
 					</li>
@@ -17,7 +19,9 @@ function Footer() {
 					<li>
 						<div>
 							<a href='#navigation'>
-								<i className='fas fa-chevron-up'></i>
+								<i
+									className='fa fa-chevron-up'
+									aria-hidden='true'></i>
 							</a>
 						</div>
 					</li>
@@ -25,7 +29,9 @@ function Footer() {
 					<li>
 						<div>
 							<a href='#projects'>
-								<i className='fas fa-file'></i>
+								<i
+									className='fa fa-file'
+									aria-hidden='true'></i>
 							</a>
 						</div>
 					</li>
@@ -35,6 +41,7 @@ function Footer() {
 							<a href='https://www.linkedin.com/in/david-sheinbein/'>
 								<i
 									className='fa fa-linkedin-square'
+									aria-hidden="true"
 									id='linkedInFooterSym'></i>
 							</a>
 						</div>

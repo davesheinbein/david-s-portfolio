@@ -98,6 +98,7 @@ export default class Helloworld extends Component {
 									<a href='https://www.linkedin.com/in/david-sheinbein/'>
 										<i
 											className='fa fa-linkedin-square'
+											aria-hidden="true"
 											id='linkedInBtnSym'></i>
 									</a>
 									LinkedIn

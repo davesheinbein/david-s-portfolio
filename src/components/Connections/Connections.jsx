@@ -10,6 +10,7 @@ function Connections() {
 				<a href='https://www.linkedin.com/in/david-sheinbein/'>
 					<i
 						className='fa fa-linkedin-square'
+						aria-hidden='true'
 						id='linkedInSym'></i>
 				</a>
 				<h2 className='linkedInText'>Connect With Me!</h2>
@@ -33,7 +34,9 @@ function Connections() {
 							className='linkedInBtnText'
 							href='https://www.linkedin.com/in/david-sheinbein/'>
 							LinkedIn{' '}
-							<i className='fa fa-linkedin-square'></i>
+							<i
+								className='fa fa-linkedin-square'
+								aria-hidden='true'></i>
 						</a>
 					</h3>
 				</div>

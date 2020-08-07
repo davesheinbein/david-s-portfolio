@@ -60,7 +60,10 @@ function About() {
 						target='_blank'
 						rel='noopener noreferrer'>
 						Download Resume{' '}
-						<i className='far fa-file' id='resumeIcon'></i>
+						<i
+							className='fa fa-file-o'
+							aria-hidden='true'
+							id='resumeIcon'></i>
 					</a>
 				</h3>
 			</div>

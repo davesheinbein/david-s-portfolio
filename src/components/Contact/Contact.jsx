@@ -74,8 +74,8 @@ export default class Contact extends Component {
 						<Label for='name' className='label'>
 							<div className='labelText'>Name</div>
 							<i
-								className='fas fa-signature iconSymbol'
-							></i>
+								className='fa fa-user iconSymbol'
+								aria-hidden='true'></i>
 						</Label>
 						<Input
 							type='text'
@@ -88,8 +88,8 @@ export default class Contact extends Component {
 						<Label for='email' className='label'>
 							<div className='labelText'>Email</div>
 							<i
-								className='fas fa-envelope iconSymbol'
-							></i>
+								className='fa fa-envelope iconSymbol'
+								aria-hidden='true'></i>
 						</Label>
 						<Input
 							type='email'
@@ -101,9 +101,7 @@ export default class Contact extends Component {
 					<FormGroup>
 						<Label for='subject' className='label'>
 							<div className='labelText'>Subject</div>
-							<i
-								className='fas fa-info-circle iconSymbol'
-							></i>
+							<i className="fa fa-sticky-note iconSymbol" aria-hidden="true"></i>
 						</Label>
 						<Input
 							type='text'
@@ -115,7 +113,7 @@ export default class Contact extends Component {
 					<FormGroup>
 						<Label for='message' className='label'>
 							<div className='labelText'>Message</div>
-							<i className='fas fa-pen iconSymbol'></i>
+							<i className="fa fa-pencil iconSymbol" aria-hidden="true"></i>
 						</Label>
 						<Input
 							type='textarea'

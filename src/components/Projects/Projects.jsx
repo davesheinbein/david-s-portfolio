@@ -36,7 +36,7 @@ export default class Projects extends Component {
 										target='_blank'
 										rel='noopener noreferrer'>
 										View More{' '}
-										<i className='fas fa-long-arrow-alt-right'></i>
+										<i className="fa fa-long-arrow-right" aria-hidden="true"></i>
 									</a>
 								</div>
 							</div>
@@ -63,7 +63,7 @@ export default class Projects extends Component {
 										target='_blank'
 										rel='noopener noreferrer'>
 										View More{' '}
-										<i className='fas fa-long-arrow-alt-right'></i>
+										<i className="fa fa-long-arrow-right" aria-hidden="true"></i>
 									</a>
 								</div>
 							</div>
@@ -91,7 +91,7 @@ export default class Projects extends Component {
 										target='_blank'
 										rel='noopener noreferrer'>
 										View More{' '}
-										<i className='fas fa-long-arrow-alt-right'></i>
+										<i className="fa fa-long-arrow-right" aria-hidden="true"></i>
 									</a>
 								</div>
 							</div>
@@ -116,7 +116,7 @@ export default class Projects extends Component {
 										target='_blank'
 										rel='noopener noreferrer'>
 										View More{' '}
-										<i className='fas fa-long-arrow-alt-right'></i>
+										<i className="fa fa-long-arrow-right" aria-hidden="true"></i>
 									</a>
 								</div>
 							</div>
@@ -143,7 +143,7 @@ export default class Projects extends Component {
 										target='_blank'
 										rel='noopener noreferrer'>
 										View More{' '}
-										<i className='fas fa-long-arrow-alt-right'></i>
+										<i className="fa fa-long-arrow-right" aria-hidden="true"></i>
 									</a>
 								</div>
 							</div>

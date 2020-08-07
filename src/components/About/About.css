@@ -43,10 +43,11 @@
 }
 
 .skill {
-	font-size: 0.6rem;
+	font-size: 0.75rem;
 	display: flex;
 	justify-content: center;
 	align-items: center;
+	font-family: 'Cabin', sans-serif;
 }
 
 .textContainer {
@@ -75,7 +76,8 @@
 	font-size: 3rem;
 	margin: 0.5em 0px;
 	color: var(--mainText);
-	font-weight: 600;
+	font-weight: 400;
+	font-family: 'Modak', cursive;
 }
 
 .subText {
@@ -83,6 +85,7 @@
 	font-size: 1.5rem;
 	color: var(--subText);
 	font-weight: 600;
+	font-family: 'Cabin', sans-serif;
 }
 
 #gaLink {
@@ -106,6 +109,7 @@
 	font-size: 1.5rem;
 	font-weight: 600;
 	z-index: 20;
+	font-family: 'Cabin', sans-serif;
 }
 
 .resumeDlLink {
@@ -119,6 +123,7 @@
 	-moz-box-shadow: 0 4px 4px var(--shadow);
 	-webkit-box-shadow: 0 4px 4px var(--shadow);
 	box-shadow: 0 4px 4px var(--shadow);
+	font-family: 'Cabin', sans-serif;
 }
 
 .resumeDlLink:hover {

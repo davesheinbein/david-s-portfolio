@@ -2,8 +2,9 @@
 	color: var(--mainText);
 	text-align: center;
 	font-size: 3rem;
-	font-weight: 600;
+	font-weight: 400;
 	padding: 0.5em 0px;
+	font-family: 'Modak', cursive;
 }
 
 #contact-form {
@@ -28,6 +29,7 @@
 	display: flex;
 	justify-content: center;
 	align-items: center;
+	font-family: 'Cabin', sans-serif;
 }
 
 .iconSymbol {
@@ -45,6 +47,7 @@
 	background-color: var(--formColor);
 	border-radius: 5px;
 	font-size: 14px;
+	font-family: 'Cabin', sans-serif;
 }
 
 #submit-btn {
@@ -61,6 +64,7 @@
 	-moz-box-shadow: 0 4px 4px var(--shadow);
 	-webkit-box-shadow: 0 4px 4px var(--shadow);
 	box-shadow: 0 4px 4px var(--shadow);
+	font-family: 'Cabin', sans-serif;
 }
 
 #submit-btn:hover {

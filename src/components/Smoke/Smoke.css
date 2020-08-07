@@ -84,7 +84,7 @@ video {
 	color: #ddd;
 	font-size: 4rem;
 	letter-spacing: 0.5em;
-	font-family: monospace, 'Times New Roman', 'Times',
+	font-family: 'Cabin', sans-serif, monospace, 'Times New Roman', 'Times',
 		'serif';
 	white-space: nowrap;
 	z-index: 2;

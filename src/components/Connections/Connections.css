@@ -28,9 +28,10 @@
 
 .linkedInText {
 	font-size: 3rem;
-	font-weight: 600;
+	font-weight: 400;
 	color: var(--mainText);
 	margin-bottom: 0px;
+	font-family: 'Modak', cursive;
 }
 
 .iconSymbols {
@@ -67,6 +68,7 @@
 .linkedInBtnText {
 	font-size: 1.5rem;
 	font-weight: bold;
+	font-family: 'Cabin', sans-serif;
 	color: var(--TertiaryText);
 	background: var(--TertiaryTextBtn);
 	padding: 0.25em 2em;

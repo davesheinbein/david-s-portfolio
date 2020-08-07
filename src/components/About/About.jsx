@@ -61,7 +61,7 @@ function About() {
 						rel='noopener noreferrer'>
 						Resume{' '}
 						<i
-							class='fa fa-arrow-circle-o-down resumeIcon'
+							className='fa fa-arrow-circle-o-down resumeIcon'
 							aria-hidden='true'></i>
 					</a>
 				</h3>

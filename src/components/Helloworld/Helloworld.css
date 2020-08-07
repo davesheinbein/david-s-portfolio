@@ -16,13 +16,15 @@
 	padding: 1em 0px 0.5em;
 	font-size: 3rem;
 	color: var(--mainText);
-	font-weight: 600;
+	font-weight: 400;
+	font-family: 'Modak', cursive;
 }
 
 .personalizedText {
 	padding: 0.5rem 0px 0px;
 	font-size: 1.25rem;
 	font-weight: 600;
+	font-family: 'Cabin', sans-serif;
 }
 
 .boxTitle {
@@ -31,12 +33,14 @@
 	color: var(--textBoxTextTitle);
 	text-decoration: underline;
 	font-weight: 600;
+	font-family: 'Cabin', sans-serif;
 }
 
 .boxText {
 	font-size: 1.5rem;
 	color: var(--textBoxText);
 	font-weight: 600;
+	font-family: 'Cabin', sans-serif;
 }
 
 .left-column {
@@ -287,10 +291,12 @@
 	margin: 1em 0px;
 	font-weight: 600;
 	font-size: 1.5rem;
+	font-family: 'Cabin', sans-serif;
 }
 
 .btnLinkedIn,
 .btnGitHub {
+	font-family: 'Cabin', sans-serif;
 	margin: 0px 1em;
 	padding: 0.25em 1em;
 	border-radius: 50px;
@@ -323,6 +329,7 @@
 .btnGitHub a {
 	color: var(--shadow);
 	text-decoration: none;
+	font-family: 'Cabin', sans-serif;
 }
 
 #gitHubBtnSym,

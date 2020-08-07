@@ -7,7 +7,8 @@
 
 .projectTitle {
 	font-size: 3rem;
-	font-weight: 600;
+	font-weight: 400;
+	font-family: 'Modak', cursive;
 }
 
 .post-wrapper {
@@ -20,10 +21,11 @@
 
 .post-title {
 	font-size: 1.5rem;
-	font-weight: 600;
+	font-weight: 400;
 	padding: 0.5em 0px;
 	color: black;
 	margin: 0;
+	font-family: 'Modak', cursive;
 }
 
 .post {
@@ -48,6 +50,7 @@
 .post-intro {
 	color: #4b5156;
 	font-size: 14px;
+	font-family: 'Cabin', sans-serif;
 }
 
 .projectTitle {
@@ -59,6 +62,7 @@
 
 .viewMoreBtn {
 	padding: 0.5em 0px;
+	font-family: 'Cabin', sans-serif;
 }
 
 .viewMoreBtn:hover {

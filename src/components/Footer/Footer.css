@@ -2,6 +2,7 @@
 	color: var(--mainText);
 	background: var(--HeadingColor);
 	width: 100vw;
+	font-family: 'Cabin', sans-serif;
 }
 
 .footerSubContainer {
@@ -12,7 +13,7 @@
 	font-size: 1rem;
 	width: 100vw;
 	margin: 0px auto;
-	padding: 0px 1em;
+	padding: 0px 2em;
 	color: var(--mainText);
 	background: rgba(0, 0, 0, 0.5);
 }
@@ -80,7 +81,7 @@
 	}
 
 	.footerSubContainer {
-		font-size: 0.5rem;
+		font-size: 0.75rem;
 	}
 
 	.navLinesBottom {

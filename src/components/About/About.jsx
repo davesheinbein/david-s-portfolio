@@ -62,7 +62,7 @@ function About() {
 						<i
 							class='fa fa-arrow-circle-o-down resumeIcon'
 							aria-hidden='true'></i>
-						Resume{' '}
+						Resume
 						<i
 							className='fa fa-file-o resumeIcon'
 							aria-hidden='true'></i>

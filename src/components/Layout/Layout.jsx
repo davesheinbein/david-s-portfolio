@@ -8,6 +8,7 @@ import Contact from '../Contact/Contact';
 import Footer from '../Footer/Footer';
 import fireworks from '../../images/fireworks.gif';
 import './Layout.css';
+import { Spring } from 'react-spring/renderprops';
 
 console.log('Hello world...');
 console.log(
@@ -23,12 +24,30 @@ export default class Layout extends Component {
 			<div>
 				<section className='side2'>
 					<div className='main-container'>
-						<Greeting />
-						<Helloworld
-							handleThemeChange={
-								this.props.handleThemeChange
-							}
-						/>
+						<Spring
+							from={{ opacity: 0, marginTop: -500 }}
+							to={{ opacity: 1, marginTop: 0 }}
+							config={{ duration: 1000 }}>
+							{(props) => (
+								<div style={props}>
+									<Greeting />
+								</div>
+							)}
+						</Spring>
+						<Spring
+							from={{ opacity: 0 }}
+							to={{ opacity: 1 }}
+							config={{ delay: 1000, duration: 1000 }}>
+							{(props) => (
+								<div style={props}>
+									<Helloworld
+										handleThemeChange={
+											this.props.handleThemeChange
+										}
+									/>
+								</div>
+							)}
+						</Spring>
 						<div className='backgroundBox'>
 							<div className='waveB'></div>
 							<div className='waveA'></div>
@@ -40,27 +59,72 @@ export default class Layout extends Component {
 				</section>
 				<section className='side1'>
 					<div className='sub-container'>
-						<About />
+						<Spring
+							from={{ opacity: 0 }}
+							to={{ opacity: 1 }}
+							config={{ delay: 2000, duration: 1000 }}>
+							{(props) => (
+								<div style={props}>
+									<About />
+								</div>
+							)}
+						</Spring>
 					</div>
 				</section>
 				<section className='side2'>
 					<div className='sub-container'>
-						<Connections />
+						<Spring
+							from={{ opacity: 0 }}
+							to={{ opacity: 1 }}
+							config={{ delay: 3000, duration: 1000 }}>
+							{(props) => (
+								<div style={props}>
+									<Connections />
+								</div>
+							)}
+						</Spring>
 					</div>
 				</section>
 				<section className='side1'>
 					<div className='sub-container'>
-						<Projects />
+					<Spring
+							from={{ opacity: 0 }}
+							to={{ opacity: 1 }}
+							config={{ delay: 4000, duration: 1000 }}>
+							{(props) => (
+								<div style={props}>
+									<Projects />
+								</div>
+							)}
+						</Spring>
 					</div>
 				</section>
 				<section className='side2'>
 					<div className='sub-container'>
-						<Contact />
+						<Spring
+							from={{ opacity: 0 }}
+							to={{ opacity: 1 }}
+							config={{ delay: 5000, duration: 1000 }}>
+							{(props) => (
+								<div style={props}>
+								<Contact />
+								</div>
+							)}
+						</Spring>
 					</div>
 				</section>
 				<section className='side2'>
 					<div className='sub-container'>
-						<Footer />
+					<Spring
+							from={{ opacity: 0 }}
+							to={{ opacity: 1 }}
+							config={{ delay: 6000, duration: 1000 }}>
+							{(props) => (
+								<div style={props}>
+									<Footer />
+								</div>
+							)}
+						</Spring>
 					</div>
 				</section>
 			</div>

@@ -152,19 +152,19 @@ video {
 }
 
 .overlayText span:nth-child(12) {
-	animation-delay: 3.25s;
+	animation-delay: 3.35s;
 }
 
 .overlayText span:nth-child(13) {
-	animation-delay: 3.5s;
+	animation-delay: 3.45s;
 }
 
 .overlayText span:nth-child(14) {
-	animation-delay: 3.75s;
+	animation-delay: 3.65s;
 }
 
 .overlayText span:nth-child(15) {
-	animation-delay: 4s;
+	animation-delay: 3.75s;
 }
 
 @media screen and (max-width: 1800px) {

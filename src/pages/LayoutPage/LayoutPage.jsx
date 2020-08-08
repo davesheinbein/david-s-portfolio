@@ -1,13 +1,13 @@
 import React, { Component } from 'react';
-import Greeting from '../Greeting/Greeting';
-import Helloworld from '../Helloworld/Helloworld';
-import About from '../About/About';
-import Connections from '../Connections/Connections';
-import Projects from '../Projects/Projects';
-import Contact from '../Contact/Contact';
-import Footer from '../Footer/Footer';
+import Greeting from '../../components/Greeting/Greeting';
+import Helloworld from '../../components/Helloworld/Helloworld';
+import About from '../../components/About/About';
+import Connections from '../../components/Connections/Connections';
+import Projects from '../../components/Projects/Projects';
+import Contact from '../../components/Contact/Contact';
+import Footer from '../../components/Footer/Footer';
 import fireworks from '../../images/fireworks.gif';
-import './Layout.css';
+import './LayoutPage.css';
 import { Spring } from 'react-spring/renderprops';
 
 console.log('Hello world...');

@@ -1,10 +1,10 @@
 import React, { Component } from 'react';
-import './Smoke.css';
+import './SmokePage.css';
 import SmokeVideo from './smoke.mp4';
-import Lottieanimation from '../Lottieanimation/Lottieanimation';
+import Lottieanimation from '../../components/Lottieanimation/Lottieanimation';
 import { Link } from 'react-router-dom';
 
-export default class Smoke extends Component {
+export default class SmokePage extends Component {
 	render() {
 		return (
 			<div className='videoContainer'>

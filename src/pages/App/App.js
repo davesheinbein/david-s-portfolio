@@ -1,7 +1,7 @@
 import React from 'react';
 import './App.css';
-import Smoke from '../../components/Smoke/Smoke';
-import Layout from '../../components/Layout/Layout';
+import SmokePage from '../SmokePage/SmokePage';
+import Layout from '../LayoutPage/LayoutPage';
 import { createGlobalStyle } from 'styled-components';
 import { Route, Switch } from 'react-router-dom';
 
@@ -395,7 +395,7 @@ class App extends React.Component {
 						path='/'
 						render={() => (
 							<div>
-								<Smoke />
+								<SmokePage />
 							</div>
 						)}
 					/>

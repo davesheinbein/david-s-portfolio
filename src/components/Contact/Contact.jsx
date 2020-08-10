@@ -29,9 +29,7 @@ export default class Contact extends Component {
 
 	async handleSubmit(e) {
 		e.preventDefault();
-
 		const { name, email, subject, message } = this.state;
-
 		await axios.post('/api/form', {
 			name,
 			email,
@@ -100,7 +98,9 @@ export default class Contact extends Component {
 					</FormGroup>
 					<FormGroup>
 						<Label for='subject' className='label'>
-							<i className="fa fa-sticky-note iconSymbol" aria-hidden="true"></i>
+							<i
+								className='fa fa-sticky-note iconSymbol'
+								aria-hidden='true'></i>
 							<div className='labelText'>Subject</div>
 						</Label>
 						<Input
@@ -112,7 +112,9 @@ export default class Contact extends Component {
 					</FormGroup>
 					<FormGroup>
 						<Label for='message' className='label'>
-							<i className="fa fa-pencil iconSymbol" aria-hidden="true"></i>
+							<i
+								className='fa fa-pencil iconSymbol'
+								aria-hidden='true'></i>
 							<div className='labelText'>Message</div>
 						</Label>
 						<Input

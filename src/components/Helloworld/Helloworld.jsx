@@ -100,8 +100,8 @@ export default class Helloworld extends Component {
 											className='fa fa-linkedin-square'
 											aria-hidden='true'
 											id='linkedInBtnSym'></i>
+										LinkedIn
 									</a>
-									LinkedIn
 								</button>
 							</div>
 						</div>

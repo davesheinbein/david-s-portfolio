@@ -2,7 +2,6 @@ import React from 'react';
 import './App.css';
 import SmokePage from '../SmokePage/SmokePage';
 import Layout from '../LayoutPage/LayoutPage';
-import Fullpageloader from '../../components/FullPageLoader/FullPageLoader';
 import { createGlobalStyle } from 'styled-components';
 import { Route, Switch } from 'react-router-dom';
 
@@ -413,7 +412,6 @@ class App extends React.Component {
 						)}
 					/>
 				</Switch>
-				{/* <Fullpageloader /> */}
 			</div>
 		);
 	}

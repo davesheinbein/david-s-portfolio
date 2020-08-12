@@ -69,6 +69,15 @@
 	color: black;
 }
 
+.projectsATags {
+	text-decoration: none;
+}
+
+.projectsATags:hover {
+	text-decoration: none;
+	cursor: pointer;
+}
+
 @media screen and (max-width: 1600px) {
 	.projectTitle {
 		font-size: 3rem;

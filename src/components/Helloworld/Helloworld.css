@@ -294,70 +294,31 @@
 	font-family: 'Cabin', sans-serif;
 }
 
-.btnLinkedIn,
-.btnGitHub {
+.headingBtnContainer {
+	padding: 1em 0px 0em;
+}
+
+.headingBtn {
+	font-size: 1.5rem;
+	font-weight: bold;
 	font-family: 'Cabin', sans-serif;
-	margin: 0px 1em;
+	color: var(--TertiaryText);
+	background: var(--TertiaryTextBtn);
 	padding: 0.25em 1em;
+	margin: 0px 1em;
 	border-radius: 50px;
-	color: var(--shadow);
-	border: 2px solid var(--TertiaryTextBtn);
-	background-color: var(--secondaryColor);
-	-moz-box-shadow: 0 2px 2px var(--shadow);
-	-webkit-box-shadow: 0 2px 2px var(--shadow);
-	box-shadow: 0 2px 2px var(--shadow);
+	-moz-box-shadow: 0 4px 4px var(--shadow);
+	-webkit-box-shadow: 0 4px 4px var(--shadow);
+	box-shadow: 0 4px 4px var(--shadow);
 }
 
-.btnLinkedIn {
-	border: 2px solid transparent;
-}
-
-.btnLinkedIn:hover,
-.btnGitHub:hover {
-	color: var(--shadow);
-	border: 2px solid var(--themeContainerDotBorder);
-	background-color: var(--TertiaryTextBtn);
-}
-
-.btnLinkedIn a:hover,
-.btnGitHub a:hover {
-	color: var(--shadow);
+.headingBtn:hover {
+	color: var(--TertiaryTextBtnText);
+	background: var(--TertiaryTextBtnHover);
 	text-decoration: none;
 }
 
-.btnLinkedIn a,
-.btnGitHub a {
-	color: var(--shadow);
-	text-decoration: none;
-	font-family: 'Cabin', sans-serif;
-}
-
-#gitHubBtnSym,
-#linkedInBtnSym {
-	padding-right: 0.25em;
-	color: var(--shadow);
-}
-
-.loader-wrapper {
-	/* position: absolute; */
-	/* z-index: 10; */
-	margin: 0px;
-	padding: 0px;
-	/* width: 100%; */
-	/* height: 100%; */
-	background-color: #000000;
-}
-
-.loader {
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	width: 100%;
-	height: 100%;
-	margin: auto;
-}
-
-@media screen and (max-width: 1800px) {
+@media screen and (max-width: 2000px) {
 	#introTextContainer {
 		min-width: 500px;
 	}

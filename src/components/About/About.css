@@ -292,12 +292,12 @@
 		z-index: -1;
 		object-fit: contain;
 		top: 0%;
-		left: -5%;
+		left: 20%;
 		display: flex;
 		justify-content: flex-end;
 		align-items: center;
 		position: absolute;
-		width: 330%;
+		width: 250%;
 	}
 
 	.resumeDlText {
@@ -313,19 +313,7 @@
 	}
 
 	.skills{
-		width: 3em;
-		height: 3em;
-	}
-}
-
-@media only screen and (min-width: 768px) and (max-width: 1024px) {
-	.skills{
 		width: 6em;
 		height: 6em;
-	}
-
-	.svgContainer {
-		left: 45%;
-		width: 150%;
 	}
 }

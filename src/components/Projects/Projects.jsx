@@ -30,10 +30,10 @@ export default class Projects extends Component {
 									Steed Finder
 								</div>
 								<div className='post-intro'>
-									A horse marketplace bulletin board. People
-									can post horses they have for sale and
-									contact people directly to inquire about
-									buying a horse.
+									An online marketplace for horses. For
+									horse enthusiasts who are looking for a
+									new horse as well as owners who want to
+									place their horse in good hands.
 								</div>
 								<div className='viewMoreBtn'>
 									<a

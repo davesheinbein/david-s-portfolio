@@ -45,7 +45,7 @@ export default class Contact extends Component {
 				name: name,
 				email: email,
 				subject: subject,
-				messsage: message,
+				message: message,
 			},
 		}).then((response) => {
 			if (response.data.msg === 'success') {

@@ -77,6 +77,10 @@
 	.navLinesBottom {
 		margin: 0px 3.5em;
 	}
+
+	.footerSubContainer {
+		font-size: 1.5rem;
+	}
 }
 
 @media screen and (max-width: 1366px) {
@@ -85,6 +89,10 @@
 	}
 	.navLinesBottom {
 		margin: 0px 2.5em;
+	}
+
+	.footerSubContainer {
+		font-size: 1rem;
 	}
 }
 

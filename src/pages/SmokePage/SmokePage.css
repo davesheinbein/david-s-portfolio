@@ -167,15 +167,41 @@ video {
 	animation-delay: 3.75s;
 }
 
-@media screen and (max-width: 1800px) {
+@media screen and (max-width: 2555px) {
 	.lottieAnimationContainerA {
 		top: 10%;
+	}
+
+	.overlayText {
+		font-size: 5rem;
+	}
+
+	.continueLink {
+		font-size: 1.5rem;
+	}
+}
+
+@media screen and (max-width: 1800px) {
+	.lottieAnimationContainerA {
+		top: 7%;
+	}
+
+	.overlayText {
+		font-size: 4rem;
+	}
+
+	.continueLink {
+		font-size: 1rem;
 	}
 }
 
 @media screen and (max-width: 1366px) {
 	.overlayText {
 		font-size: 3.5rem;
+	}
+
+	.continueLink {
+		font-size: 1rem;
 	}
 
 	.lottieAnimationContainerA {

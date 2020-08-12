@@ -70,7 +70,27 @@
 }
 
 
-@media screen and (max-width: 1600px) {
+@media screen and (max-width: 2555px) {
+	.projectTitle {
+		font-size: 4.5rem;
+	}
+
+	.post-wrapper {
+		width: 1500px;
+		gap: 60px;
+		justify-content: center;
+		padding-bottom: 50px;
+	}
+
+	.projects {
+		width: 100%;
+		max-width: 1500px;
+		margin: 0px auto;
+	}
+	
+}
+
+@media screen and (max-width: 1800px) {
 	.projectTitle {
 		font-size: 3rem;
 	}

@@ -56,6 +56,20 @@
 	color: red;
 }
 
+@media screen and (max-width: 2555px) {
+	#nav {
+		font-size: 2rem;
+	}
+	.navLinesBottom {
+		margin: 0px 3.5em;
+	}
+
+	.footerSubContainer {
+		font-size: 2rem;
+	}
+
+}
+
 @media screen and (max-width: 1800px) {
 	#nav {
 		font-size: 2rem;

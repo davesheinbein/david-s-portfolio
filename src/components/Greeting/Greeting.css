@@ -40,6 +40,16 @@
 	text-decoration: underline;
 }
 
+@media screen and (max-width: 2555px) {
+	.headingText {
+		font-size: 10rem;
+	}
+
+	#navigation li {
+		font-size: 5rem;
+	}
+}
+
 @media screen and (max-width: 1800px) {
 	.headingText {
 		font-size: 9rem;

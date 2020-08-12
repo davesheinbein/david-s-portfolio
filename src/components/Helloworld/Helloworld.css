@@ -45,8 +45,6 @@
 
 .left-column {
 	grid-area: left-column;
-	padding-top: 50px;
-	padding-bottom: 50px;
 }
 
 .left-column h5 {
@@ -335,7 +333,6 @@
 
 	.actionsContainer {
 		width: 100%;
-		height: auto;
 		display: flex;
 		flex-direction: column;
 		margin: auto;
@@ -375,7 +372,6 @@
 
 	.actionsContainer {
 		width: 100%;
-		height: auto;
 		display: flex;
 		flex-direction: column;
 		margin: auto;
@@ -489,10 +485,6 @@
 		width: 100%;
 	}
 
-	.left-column {
-		padding: 1em 0px 2em;
-	}
-
 	#introTextContainer {
 		min-width: 200px;
 		height: auto;
@@ -531,6 +523,8 @@
 
 	.ctaBtn {
 		margin: 1em 0px;
+		display: flex;
+		flex-direction: column;
 	}
 
 	.btnLinkedIn {

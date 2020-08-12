@@ -86,11 +86,19 @@
 	.contactTitle {
 		font-size: 3rem;
 	}
+
+	#contact-form {
+		max-width: 1200px;
+	}
 }
 
 @media screen and (max-width: 1366px) {
 	.contactTitle {
 		font-size: 2rem;
+	}
+
+	#contact-form {
+		max-width: 700px;
 	}
 }
 
@@ -105,5 +113,9 @@
 
 	.label {
 		font-size: 1.25rem;
+	}
+
+	#contact-form {
+		max-width: 100vw;
 	}
 }

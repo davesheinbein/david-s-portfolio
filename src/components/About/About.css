@@ -256,6 +256,11 @@
 		position: absolute;
 		object-fit: contain;
 	}
+
+	.skills{
+		width: 4em;
+		height: 4em;
+	}
 }
 
 @media screen and (max-width: 812px) {
@@ -287,12 +292,12 @@
 		z-index: -1;
 		object-fit: contain;
 		top: 0%;
-		left: -15%;
+		left: -5%;
 		display: flex;
 		justify-content: flex-end;
 		align-items: center;
 		position: absolute;
-		width: 340%;
+		width: 330%;
 	}
 
 	.resumeDlText {
@@ -305,5 +310,22 @@
 	
 	.subText {
 		font-size: 1rem;
+	}
+
+	.skills{
+		width: 3em;
+		height: 3em;
+	}
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+	.skills{
+		width: 6em;
+		height: 6em;
+	}
+
+	.svgContainer {
+		left: 45%;
+		width: 150%;
 	}
 }

@@ -25,35 +25,37 @@ function Connections() {
 			</div>
 			<div className='imagesContainer'>
 				<div className='imgSubContainer'>
-					<img
-						src={linkedinImg}
-						alt='LinkedIn Headshot'
-						id='linkedInImage'></img>
+					<a href='https://www.linkedin.com/in/david-sheinbein/'>
+						<img
+							src={linkedinImg}
+							alt='LinkedIn Headshot'
+							id='linkedInImage'></img>
+					</a>
 					<h3 className='linkedInBtnTextContainer'>
 						<a
 							className='linkedInBtnText'
 							href='https://www.linkedin.com/in/david-sheinbein/'>
 							<i
 								className='fa fa-linkedin-square'
-								aria-hidden='true'></i>
-							{' '}
+								aria-hidden='true'></i>{' '}
 							LinkedIn
 						</a>
 					</h3>
 				</div>
 				<div className='imgSubContainer'>
-					<img
-						src={githubImg}
-						alt='LinkedIn Headshot'
-						id='linkedInImage'></img>
+					<a href='https://github.com/davesheinbein'>
+						<img
+							src={githubImg}
+							alt='LinkedIn Headshot'
+							id='linkedInImage'></img>
+					</a>
 					<h3 className='linkedInBtnTextContainer'>
 						<a
 							className='linkedInBtnText'
 							href='https://github.com/davesheinbein'>
 							<i
 								className='fa fa-github'
-								aria-hidden='true'></i>
-							{' '}
+								aria-hidden='true'></i>{' '}
 							Github
 						</a>
 					</h3>

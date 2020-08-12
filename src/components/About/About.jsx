@@ -12,7 +12,7 @@ function About() {
 					<h2 className='subTitle'>About Me</h2>
 					<p className='subText'>
 						I build new projects in order to hone my skills
-						and expand my horizons as a front end developer.
+						and expand my horizons as a front-end developer.
 						<br />
 						<br />
 						My interest in programing began in college when

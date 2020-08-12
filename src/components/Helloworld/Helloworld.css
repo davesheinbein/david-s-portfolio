@@ -349,6 +349,7 @@
 
 	#profilePicture {
 		width: 20vw;
+		max-width: 360px;
 	}
 
 	.theme-dot {

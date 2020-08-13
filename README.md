@@ -1,5 +1,9 @@
 # **David Sheinbein Portfolio**
 
+### Click the link to view the website
+[Portfolio Webstite](http://www.davidsheinbeinportfolio.com/) 
+
+### About Me
 I enjoy helping people discover and implement interesting ways to scale and grow their businesses and helping them reach their goals in a logical and creative way.
 
 Programming is one of the most versatile and important skills a person can have in today's business world. It enables developers to craft programs unique to any business' specific needs thus facilitating that business' growth.
@@ -20,9 +24,6 @@ Schedule and Timeline Management | Outreach Strategy and Management | Research |
 
 Creative Skills:
 Wireframing | Adobe Creative Suite | Photography | Videography | Canva | Web Design | Undraw | LottieFiles | Google Fonts
-
-### Click the link to view the website
-[Portfolio Webstite](http://www.davidsheinbeinportfolio.com/) 
 
 ## Screenshot:
 

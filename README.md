@@ -13,6 +13,9 @@ It excites me to work with established companies and contributing to collective 
 Project Work:
 https://github.com/davesheinbein
 
+LinkedIn:
+https://www.linkedin.com/in/david-sheinbein/
+
 Full-Stack Software Engineering Skills:
 HTML5 | CSS | JavaScript | Express | Node.js | Django | Mongoose | MongoDB | Python | PostreSQL | React | React-spring | Animations | Axios | Nodemailer
 

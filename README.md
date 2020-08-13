@@ -1,68 +1,52 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# **David Sheinbein Portfolio**
 
-## Available Scripts
+I enjoy helping people discover and implement interesting ways to scale and grow their businesses and helping them reach their goals in a logical and creative way.
 
-In the project directory, you can run:
+Programming is one of the most versatile and important skills a person can have in today's business world. It enables developers to craft programs unique to any business' specific needs thus facilitating that business' growth.
 
-### `npm start`
+It excites me to work with established companies and contributing to collective goals.  It excites me to work with startups, helping them from the ground up in  figuring what they are building and helping them do it. I enjoy solving challenges as they arise in the workplace and take pride in the work I accomplish.
 
-Runs the app in the development mode.<br />
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+Project Work:
+https://github.com/davesheinbein
 
-The page will reload if you make edits.<br />
-You will also see any lint errors in the console.
+Full-Stack Software Engineering Skills:
+HTML5 | CSS | JavaScript | Express | Node.js | Django | Mongoose | MongoDB | Python | PostreSQL | React | React-spring | Animations | Axios | Nodemailer
 
-### `npm test`
+Developer Tools:
+Git | GitHub | MongoDB Atlas | Postman | Heroku | Namecheap | AWS | Third Party APIs
 
-Launches the test runner in the interactive watch mode.<br />
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Project Management Skills:
+Schedule and Timeline Management | Outreach Strategy and Management | Research | Microsoft Office Suite | Teamwork | Marketing
 
-### `npm run build`
+Creative Skills:
+Wireframing | Adobe Creative Suite | Photography | Videography | Canva | Web Design | Undraw | LottieFiles | Google Fonts
 
-Builds the app for production to the `build` folder.<br />
-It correctly bundles React in production mode and optimizes the build for the best performance.
+### Click the link to view the website
+[Portfolio Webstite](http://www.davidsheinbeinportfolio.com/) 
 
-The build is minified and the filenames include the hashes.<br />
-Your app is ready to be deployed!
+## Screenshot:
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+![Introduction Page Sceenshot](screenshots/portfolio-intro-screenshot.png)
 
-### `npm run eject`
+[Introduction Page Sceenshot](https://imgur.com/jmH30xV)
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+![Home Page Sceenshot](screenshots/portfolio-screenshot.png)
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+[Home Page Sceenshot](https://imgur.com/UE1XA40)
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+## Technologies Used: 
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+#### 1. HTML5
+#### 2. CSS
+#### 3. JavaScript
+#### 4. React
+#### 5. React-spring
+#### 6. Node.js
+#### 7. Heroku
+#### 8. Namecheap
 
-## Learn More
+## Potential Next Steps: 
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
-
-### Analyzing the Bundle Size
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
-
-### Making a Progressive Web App
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
-
-### Advanced Configuration
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
-
-### Deployment
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
-
-### `npm run build` fails to minify
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
+##### - [] Use AWS to store data
+##### - [] Update CSS further for additional media queries
+##### - [] speed up animation animation

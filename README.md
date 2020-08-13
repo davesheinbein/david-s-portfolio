@@ -49,9 +49,14 @@ Wireframing | Adobe Creative Suite | Photography | Videography | Canva | Web Des
 #### 7. Heroku
 #### 8. Namecheap
 
+
 ## Potential Next Steps: 
 
 ##### - [] Play with css more to make colors pop even more
 ##### - [] Use AWS to store data
 ##### - [] Update CSS further for additional media queries
 ##### - [] speed up animation animation
+
+
+### Click the link to view the website
+[Portfolio Webstite](http://www.davidsheinbeinportfolio.com/) 

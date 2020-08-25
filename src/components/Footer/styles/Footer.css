@@ -1,3 +1,8 @@
+/**
+*
+* Testing
+*
+**/
 .footerContainer {
   color: var(--mainText);
   background: var(--HeadingColor);
@@ -5,7 +10,47 @@
   font-family: 'Cabin', sans-serif;
 }
 
-.footerSubContainer {
+.footerContainer .footerNav #nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+  margin: 0;
+  padding: 0.5em 1em;
+  background-color: rgba(0, 0, 0, 0.25);
+}
+
+.footerContainer .footerNav #nav li {
+  color: #b3b3b3;
+  list-style-type: none;
+}
+
+.footerContainer .footerNav #nav li a {
+  color: var(--mainText);
+}
+
+.footerContainer .footerNav #nav li a:hover {
+  color: var(--secondaryText);
+  text-decoration: none;
+}
+
+.footerContainer .footerNav #nav .navLinesBottom {
+  color: var(--mainText);
+}
+
+.footerContainer #footerline {
+  margin-top: 0px;
+  margin-bottom: 0px;
+  border-top: 1px solid var(--HeadingColor);
+}
+
+.footerContainer .footerSubContainer {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -24,98 +69,84 @@
   background: rgba(0, 0, 0, 0.5);
 }
 
-#nav {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  text-align: center;
-  margin: 0;
-  padding: 0.5em 1em;
-  background-color: rgba(0, 0, 0, 0.25);
-}
-
-#nav li {
-  color: #b3b3b3;
-  list-style-type: none;
-}
-
-#nav li a {
-  color: var(--mainText);
-}
-
-#nav li a:hover {
-  color: var(--secondaryText);
-  text-decoration: none;
-}
-
-.navLinesBottom {
-  color: var(--mainText);
-}
-
-#footerline {
-  margin-top: 0px;
-  margin-bottom: 0px;
-  border-top: 1px solid var(--HeadingColor);
-}
-
-.fa-arrow-alt-circle-up {
-  color: red;
-}
-
-@media screen and (max-width: 2555px) {
-  #nav {
-    font-size: 2rem;
-  }
-  .navLinesBottom {
-    margin: 0px 3.5em;
-  }
-  .footerSubContainer {
-    font-size: 2rem;
-  }
-}
-
-@media screen and (max-width: 1800px) {
-  #nav {
-    font-size: 2rem;
-  }
-  .navLinesBottom {
-    margin: 0px 3.5em;
-  }
-  .footerSubContainer {
-    font-size: 1.5rem;
-  }
-}
-
-@media screen and (max-width: 1366px) {
-  #nav {
-    font-size: 1.5rem;
-  }
-  .navLinesBottom {
-    margin: 0px 2.5em;
-  }
-  .footerSubContainer {
-    font-size: 1rem;
-  }
-}
-
-@media screen and (max-width: 812px) {
-  #nav {
+@media (max-width: 360px) {
+  .footerContainer .footerNav #nav {
     font-size: 1rem;
     -webkit-box-pack: center;
         -ms-flex-pack: center;
             justify-content: center;
   }
-  .footerSubContainer {
+  .footerContainer .footerNav #nav .navLinesBottom {
+    margin: 0px 1em;
+  }
+  .footerContainer .footerSubContainer {
     font-size: 0.75rem;
   }
-  .navLinesBottom {
+}
+
+@media (min-width: 361px) and (max-width: 425px) {
+  .footerContainer .footerNav #nav {
+    font-size: 1rem;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .footerContainer .footerNav #nav .navLinesBottom {
     margin: 0px 1em;
+  }
+  .footerContainer .footerSubContainer {
+    font-size: 0.75rem;
+  }
+}
+
+@media (min-width: 426px) and (max-width: 768px) {
+  .footerContainer .footerNav #nav {
+    font-size: 1rem;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .footerContainer .footerNav #nav .navLinesBottom {
+    margin: 0px 1em;
+  }
+  .footerContainer .footerSubContainer {
+    font-size: 0.75rem;
+  }
+}
+
+@media (min-width: 769px) and (max-width: 1365px) {
+  .footerContainer .footerNav #nav {
+    font-size: 1.5rem;
+  }
+  .footerContainer .footerNav #nav .navLinesBottom {
+    margin: 0px 2.5em;
+  }
+  .footerContainer .footerSubContainer {
+    font-size: 1rem;
+  }
+}
+
+@media (min-width: 1366px) {
+  .footerContainer .footerNav #nav {
+    font-size: 2rem;
+  }
+  .footerContainer .footerNav #nav .navLinesBottom {
+    margin: 0px 3.5em;
+  }
+  .footerContainer .footerSubContainer {
+    font-size: 1.5rem;
+  }
+}
+
+@media (min-width: 1920px) and (-webkit-min-device-pixel-ratio: 2), (min-width: 1920px) and (min-resolution: 192dpi) {
+  .footerContainer .footerNav #nav {
+    font-size: 2rem;
+  }
+  .footerContainer .footerNav #nav .navLinesBottom {
+    margin: 0px 3.5em;
+  }
+  .footerContainer .footerSubContainer {
+    font-size: 2rem;
   }
 }
 /*# sourceMappingURL=Footer.css.map */

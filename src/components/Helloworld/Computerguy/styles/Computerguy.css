@@ -1,83 +1,4 @@
 /* svg colors */
-.colorClass-1 {
-  fill: var(--computerGuyskin);
-}
-
-.colorClass-2 {
-  fill: var(--computerGuyHair);
-}
-
-.colorClass-3 {
-  fill: var(--computerGuyShirt);
-}
-
-.colorClass-4 {
-  fill: var(--computerGuyShirtLogo);
-}
-
-.colorClass-5 {
-  fill: var(--computerGuyComputerTable);
-}
-
-.colorClass-6 {
-  fill: var(--computerGuyTreePlanter);
-  stroke: var(--computerGuyTreePlanterStroke);
-}
-
-.colorClass-6,
-.colorClass-8,
-.colorClass-9 {
-  stroke-miterlimit: 10;
-}
-
-.colorClass-7 {
-  fill: var(--computerGuyTreeBush);
-}
-
-.colorClass-8,
-.colorClass-9 {
-  fill: none;
-  stroke-width: 2px;
-}
-
-.colorClass-8 {
-  stroke: var(--computerLogoCircle);
-}
-
-.colorClass-9 {
-  stroke: var(--computerLogoCircleGradient);
-}
-
-.colorClass-10 {
-  fill: var(--computerSpecs);
-}
-
-.colorClass-11 {
-  fill: var(--computerStars);
-}
-
-.colorClass-11,
-.colorClass-12,
-.colorClass-13,
-.colorClass-14 {
-  opacity: 0.5;
-}
-
-.colorClass-11,
-.colorClass-12,
-.colorClass-13 {
-  isolation: isolate;
-}
-
-.colorClass-12 {
-  fill: var(--computerCircles);
-}
-
-.colorClass-13,
-.colorClass-15 {
-  fill: var(--computerCrosses);
-}
-
 #computerGuy {
   display: block;
   height: auto;
@@ -85,20 +6,195 @@
   overflow: visible;
   -o-object-fit: contain;
      object-fit: contain;
+  /* hide hand */
 }
 
-/* hide hand */
-#leftHand {
-  fill: none;
+#computerGuy #fullHead {
+  -webkit-animation: headCircleAnim 1s ease-out infinite alternate;
+          animation: headCircleAnim 1s ease-out infinite alternate;
 }
 
-/* svg animations */
-#leftArm {
+#computerGuy #fullHead #hairGuy {
+  -webkit-animation: hairGuyAnim 2s ease-out infinite alternate;
+          animation: hairGuyAnim 2s ease-out infinite alternate;
+  -webkit-transform: translateX(-40.5px);
+          transform: translateX(-40.5px);
+}
+
+#computerGuy #shirtLogo {
+  -webkit-animation: shirtLogoAnim 2s ease-out infinite alternate;
+          animation: shirtLogoAnim 2s ease-out infinite alternate;
+  -webkit-transform-origin: top left;
+          transform-origin: top left;
+  transform-box: fill-box;
+}
+
+#computerGuy #entireBody {
+  /* svg animations */
+}
+
+#computerGuy #entireBody #leftArm {
   -webkit-animation: leftArmsAnim 1s ease-out infinite alternate;
           animation: leftArmsAnim 1s ease-out infinite alternate;
   -webkit-transform-origin: top right;
           transform-origin: top right;
   transform-box: fill-box;
+}
+
+#computerGuy #entireBody #leftArm #leftHand {
+  fill: none;
+}
+
+#computerGuy #entireBody #rightArm {
+  -webkit-animation: rightArmsAnim 2s ease-out infinite alternate;
+          animation: rightArmsAnim 2s ease-out infinite alternate;
+  -webkit-transform-origin: top left;
+          transform-origin: top left;
+  transform-box: fill-box;
+}
+
+#computerGuy #computerLogo #computerLogoStar {
+  -webkit-animation: computerLogoStarAnim 5s infinite linear;
+          animation: computerLogoStarAnim 5s infinite linear;
+  -webkit-transform-origin: center;
+          transform-origin: center;
+  transform-box: fill-box;
+}
+
+#computerGuy #computerLogo #computerLogoCircleGradient {
+  -webkit-animation: computerLogoCircleGradientAnim 1.5s infinite;
+          animation: computerLogoCircleGradientAnim 1.5s infinite;
+  -webkit-animation-timing-function: linear;
+          animation-timing-function: linear;
+  -webkit-transform-origin: center;
+          transform-origin: center;
+  transform-box: fill-box;
+}
+
+#computerGuy #treeA,
+#computerGuy #treeB {
+  -webkit-animation: treesAnim 4s ease-in-out 1s infinite alternate;
+          animation: treesAnim 4s ease-in-out 1s infinite alternate;
+  transform-box: fill-box;
+}
+
+#computerGuy #specs_1,
+#computerGuy #specs_2,
+#computerGuy #specs_3 {
+  -webkit-animation: specsAnim 1s ease-out 0.5s infinite alternate;
+          animation: specsAnim 1s ease-out 0.5s infinite alternate;
+  -webkit-transform-origin: center;
+          transform-origin: center;
+  transform-box: fill-box;
+}
+
+#computerGuy #stars_1,
+#computerGuy #stars_2,
+#computerGuy #stars_3 {
+  -webkit-animation: starsAnim 4s ease-in-out 1s infinite alternate;
+          animation: starsAnim 4s ease-in-out 1s infinite alternate;
+  -webkit-transform-origin: center;
+          transform-origin: center;
+  transform-box: fill-box;
+}
+
+#computerGuy #circles_1,
+#computerGuy #circles_2,
+#computerGuy #circles_3 {
+  -webkit-animation: circlesAnim 6s ease-out 1s infinite alternate;
+          animation: circlesAnim 6s ease-out 1s infinite alternate;
+  -webkit-transform-origin: center;
+          transform-origin: center;
+  transform-box: fill-box;
+}
+
+#computerGuy #croxx_1,
+#computerGuy #croxx_2,
+#computerGuy #croxx_3 {
+  -webkit-animation: croxxAnim 4s ease-out 1s infinite alternate;
+          animation: croxxAnim 4s ease-out 1s infinite alternate;
+  -webkit-transform-origin: center;
+          transform-origin: center;
+  transform-box: fill-box;
+}
+
+#computerGuy .colorClass-1 {
+  fill: var(--computerGuyskin);
+}
+
+#computerGuy .colorClass-2 {
+  fill: var(--computerGuyHair);
+}
+
+#computerGuy .colorClass-3 {
+  fill: var(--computerGuyShirt);
+}
+
+#computerGuy .colorClass-4 {
+  fill: var(--computerGuyShirtLogo);
+}
+
+#computerGuy .colorClass-5 {
+  fill: var(--computerGuyComputerTable);
+}
+
+#computerGuy .colorClass-6 {
+  fill: var(--computerGuyTreePlanter);
+  stroke: var(--computerGuyTreePlanterStroke);
+}
+
+#computerGuy .colorClass-6,
+#computerGuy .colorClass-8,
+#computerGuy .colorClass-9 {
+  stroke-miterlimit: 10;
+}
+
+#computerGuy .colorClass-7 {
+  fill: var(--computerGuyTreeBush);
+}
+
+#computerGuy .colorClass-8,
+#computerGuy .colorClass-9 {
+  fill: none;
+  stroke-width: 2px;
+}
+
+#computerGuy .colorClass-8 {
+  stroke: var(--computerLogoCircle);
+}
+
+#computerGuy .colorClass-9 {
+  stroke: var(--computerLogoCircleGradient);
+}
+
+#computerGuy .colorClass-10 {
+  fill: var(--computerSpecs);
+}
+
+#computerGuy .colorClass-11 {
+  fill: var(--computerStars);
+}
+
+#computerGuy .colorClass-12 {
+  fill: var(--computerCircles);
+}
+
+#computerGuy .colorClass-11,
+#computerGuy .colorClass-12,
+#computerGuy .colorClass-13,
+#computerGuy .colorClass-14 {
+  opacity: 0.5;
+}
+
+#computerGuy .colorClass-11,
+#computerGuy .colorClass-12,
+#computerGuy .colorClass-13 {
+  isolation: isolate;
+}
+
+#computerGuy .colorClass-13,
+#computerGuy .colorClass-15 {
+  fill: var(--computerCrosses);
 }
 
 @-webkit-keyframes leftArmsAnim {
@@ -123,14 +219,6 @@
   }
 }
 
-#rightArm {
-  -webkit-animation: rightArmsAnim 2s ease-out infinite alternate;
-          animation: rightArmsAnim 2s ease-out infinite alternate;
-  -webkit-transform-origin: top left;
-          transform-origin: top left;
-  transform-box: fill-box;
-}
-
 @-webkit-keyframes rightArmsAnim {
   from {
     -webkit-transform: rotateZ(-5deg) translateY(20px);
@@ -151,14 +239,6 @@
     -webkit-transform: rotateZ(0deg) translateY(0px);
             transform: rotateZ(0deg) translateY(0px);
   }
-}
-
-#shirtLogo {
-  -webkit-animation: shirtLogoAnim 2s ease-out infinite alternate;
-          animation: shirtLogoAnim 2s ease-out infinite alternate;
-  -webkit-transform-origin: top left;
-          transform-origin: top left;
-  transform-box: fill-box;
 }
 
 @-webkit-keyframes shirtLogoAnim {
@@ -183,14 +263,6 @@
   }
 }
 
-#computerLogoStar {
-  -webkit-animation: computerLogoStarAnim 5s infinite linear;
-          animation: computerLogoStarAnim 5s infinite linear;
-  -webkit-transform-origin: center;
-          transform-origin: center;
-  transform-box: fill-box;
-}
-
 @-webkit-keyframes computerLogoStarAnim {
   from {
     -webkit-transform: rotateZ(0deg);
@@ -211,16 +283,6 @@
     -webkit-transform: rotateZ(360deg);
             transform: rotateZ(360deg);
   }
-}
-
-#computerLogoCircleGradient {
-  -webkit-animation: computerLogoCircleGradientAnim 1.5s infinite;
-          animation: computerLogoCircleGradientAnim 1.5s infinite;
-  -webkit-animation-timing-function: linear;
-          animation-timing-function: linear;
-  -webkit-transform-origin: center;
-          transform-origin: center;
-  transform-box: fill-box;
 }
 
 @-webkit-keyframes computerLogoCircleGradientAnim {
@@ -245,11 +307,6 @@
   }
 }
 
-#fullHead {
-  -webkit-animation: headCircleAnim 1s ease-out infinite alternate;
-          animation: headCircleAnim 1s ease-out infinite alternate;
-}
-
 @-webkit-keyframes headCircleAnim {
   from {
     -webkit-transform: translateY(4px);
@@ -272,13 +329,6 @@
   }
 }
 
-#hairGuy {
-  -webkit-animation: hairGuyAnim 2s ease-out infinite alternate;
-          animation: hairGuyAnim 2s ease-out infinite alternate;
-  -webkit-transform: translateX(-40.5px);
-          transform: translateX(-40.5px);
-}
-
 @-webkit-keyframes hairGuyAnim {
   from {
     -webkit-transform: translateX(-40.5px) translateY(6px);
@@ -299,16 +349,6 @@
     -webkit-transform: translateX(-40.5px) translateY(-2px);
             transform: translateX(-40.5px) translateY(-2px);
   }
-}
-
-#specs_1,
-#specs_2,
-#specs_3 {
-  -webkit-animation: specsAnim 1s ease-out 0.5s infinite alternate;
-          animation: specsAnim 1s ease-out 0.5s infinite alternate;
-  -webkit-transform-origin: center;
-          transform-origin: center;
-  transform-box: fill-box;
 }
 
 @-webkit-keyframes specsAnim {
@@ -339,16 +379,6 @@
     -webkit-transform: scale(1, 1) skew(0deg, 0deg);
             transform: scale(1, 1) skew(0deg, 0deg);
   }
-}
-
-#circles_1,
-#circles_2,
-#circles_3 {
-  -webkit-animation: circlesAnim 6s ease-out 1s infinite alternate;
-          animation: circlesAnim 6s ease-out 1s infinite alternate;
-  -webkit-transform-origin: center;
-          transform-origin: center;
-  transform-box: fill-box;
 }
 
 @-webkit-keyframes circlesAnim {
@@ -397,16 +427,6 @@
   }
 }
 
-#croxx_1,
-#croxx_2,
-#croxx_3 {
-  -webkit-animation: croxxAnim 4s ease-out 1s infinite alternate;
-          animation: croxxAnim 4s ease-out 1s infinite alternate;
-  -webkit-transform-origin: center;
-          transform-origin: center;
-  transform-box: fill-box;
-}
-
 @-webkit-keyframes croxxAnim {
   from {
     -webkit-transform-origin: center;
@@ -437,16 +457,6 @@
   }
 }
 
-#stars_1,
-#stars_2,
-#stars_3 {
-  -webkit-animation: starsAnim 4s ease-in-out 1s infinite alternate;
-          animation: starsAnim 4s ease-in-out 1s infinite alternate;
-  -webkit-transform-origin: center;
-          transform-origin: center;
-  transform-box: fill-box;
-}
-
 @-webkit-keyframes starsAnim {
   from {
     -webkit-transform-origin: center;
@@ -475,13 +485,6 @@
     -webkit-transform: scale(1.5, 1.5) rotateZ(1080deg);
             transform: scale(1.5, 1.5) rotateZ(1080deg);
   }
-}
-
-#treeA,
-#treeB {
-  -webkit-animation: treesAnim 4s ease-in-out 1s infinite alternate;
-          animation: treesAnim 4s ease-in-out 1s infinite alternate;
-  transform-box: fill-box;
 }
 
 @-webkit-keyframes treesAnim {

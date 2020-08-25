@@ -1,41 +1,15 @@
+/**
+*
+* Testing
+*
+**/
 .linkedInContainer {
   width: 100%;
   background-color: var(--secondaryColor);
   padding: 2em 0px;
 }
 
-.imagesContainer {
-  width: 100%;
-  max-width: 1200px;
-  margin: 0px auto;
-  display: -ms-grid;
-  display: grid;
-  -ms-grid-columns: 2fr 2fr;
-      grid-template-columns: 2fr 2fr;
-}
-
-.imgSubContainer {
-  padding: 1em 0px;
-}
-
-#linkedInImage {
-  width: 80%;
-  max-width: 1400px;
-  border-radius: 10px;
-  border: 1px solid var(--themeContainerDotBorder);
-  -webkit-box-shadow: 0 4px 4px var(--shadow);
-  box-shadow: 0 4px 4px var(--shadow);
-}
-
-.linkedInText {
-  font-size: 3rem;
-  font-weight: 400;
-  color: var(--mainText);
-  margin-bottom: 0px;
-  font-family: 'Modak', cursive;
-}
-
-.iconSymbols {
+.linkedInContainer .iconSymbols {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -54,29 +28,60 @@
   padding: 0px 0px 0.5em;
 }
 
-#linkedInSym {
+.linkedInContainer .iconSymbols #linkedInSym {
   padding: 0px 0.5em;
   color: var(--TertiaryTextBtn);
 }
 
-#linkedInSym:hover {
+.linkedInContainer .iconSymbols #linkedInSym:hover {
   color: var(--TertiaryTextBtnHover);
 }
 
-#gitHubSym {
+.linkedInContainer .iconSymbols .linkedInText {
+  font-size: 3rem;
+  font-weight: 400;
+  color: var(--mainText);
+  margin-bottom: 0px;
+  font-family: 'Modak', cursive;
+}
+
+.linkedInContainer .iconSymbols #gitHubSym {
   padding: 0px 0.5em;
   color: var(--TertiaryTextBtn);
 }
 
-#gitHubSym:hover {
+.linkedInContainer .iconSymbols #gitHubSym:hover {
   color: var(--TertiaryTextBtnHover);
 }
 
-.linkedInBtnTextContainer {
+.linkedInContainer .imagesContainer {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0px auto;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 2fr 2fr;
+      grid-template-columns: 2fr 2fr;
+}
+
+.linkedInContainer .imagesContainer .imgSubContainer {
+  padding: 1em 0px;
+}
+
+.linkedInContainer .imagesContainer .imgSubContainer #linkedInImage {
+  width: 80%;
+  max-width: 1400px;
+  border-radius: 10px;
+  border: 1px solid var(--themeContainerDotBorder);
+  -webkit-box-shadow: 0 4px 4px var(--shadow);
+  box-shadow: 0 4px 4px var(--shadow);
+}
+
+.linkedInContainer .imagesContainer .linkedInBtnTextContainer {
   padding: 1em 0px 0em;
 }
 
-.linkedInBtnText {
+.linkedInContainer .imagesContainer .linkedInBtnTextContainer .linkedInBtnText {
   font-size: 1.5rem;
   font-weight: bold;
   font-family: 'Cabin', sans-serif;
@@ -88,52 +93,51 @@
   box-shadow: 0 4px 4px var(--shadow);
 }
 
-.linkedInBtnText:hover {
+.linkedInContainer .imagesContainer .linkedInBtnTextContainer .linkedInBtnText:hover {
   color: var(--TertiaryTextBtnText);
   background: var(--TertiaryTextBtnHover);
   text-decoration: none;
 }
 
-@media screen and (max-width: 2555px) {
-  .linkedInText {
-    font-size: 4.5rem;
+@media (min-width: 426px) and (max-width: 768px) {
+  .linkedInContainer .iconSymbols #linkedInSym {
+    display: none;
   }
-  .imagesContainer {
-    max-width: 1400px;
+  .linkedInContainer .iconSymbols .linkedInText {
+    font-size: 1.75rem;
   }
-}
-
-@media screen and (max-width: 1800px) {
-  .linkedInText {
-    font-size: 3rem;
+  .linkedInContainer .iconSymbols #gitHubSym {
+    display: none;
   }
-}
-
-@media screen and (max-width: 1366px) {
-  .linkedInText {
-    font-size: 2rem;
-  }
-  .imagesContainer {
-    max-width: 800px;
-  }
-}
-
-@media screen and (max-width: 812px) {
-  .linkedInText {
-    font-size: 2rem;
-  }
-  .imagesContainer {
+  .linkedInContainer .imagesContainer {
     display: -ms-grid;
     display: grid;
     -ms-grid-columns: 2fr;
         grid-template-columns: 2fr;
   }
-  .linkedInText {
-    font-size: 1.75rem;
+}
+
+@media (min-width: 769px) and (max-width: 1365px) {
+  .linkedInContainer .iconSymbols .linkedInText {
+    font-size: 2rem;
   }
-  #linkedInSym,
-  #gitHubSym {
-    display: none;
+  .linkedInContainer .imagesContainer {
+    max-width: 800px;
+  }
+}
+
+@media (min-width: 1366px) {
+  .linkedInContainer .iconSymbols .linkedInText {
+    font-size: 3rem;
+  }
+}
+
+@media (min-width: 1920px) and (-webkit-min-device-pixel-ratio: 2), (min-width: 1920px) and (min-resolution: 192dpi) {
+  .linkedInContainer .iconSymbols .linkedInText {
+    font-size: 4.5rem;
+  }
+  .linkedInContainer .imagesContainer {
+    max-width: 1400px;
   }
 }
 /*# sourceMappingURL=Connections.css.map */

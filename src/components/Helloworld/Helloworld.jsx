@@ -12,7 +12,7 @@ export default class Helloworld extends Component {
 					<div className='left-column'>
 						<div className='actionsContainer'>
 							<div className='picThemeContainer'>
-								<div className='Profile'>
+								<div className='profile'>
 									<img
 										id='profilePicture'
 										src={headshot}
@@ -95,7 +95,7 @@ export default class Helloworld extends Component {
 										Github
 									</a>
 								</h3>
-								<h3 className='linkedInBtnTextContainer'>
+								<h3 className='headingBtnContainer'>
 									<a
 										className='headingBtn'
 										href='https://www.linkedin.com/in/david-sheinbein/'>

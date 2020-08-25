@@ -1,3 +1,5 @@
+@import '../../../breakpoints/breakpoints.scss';
+
 .headingContainer {
 	width: 100%;
 	height: auto;
@@ -5,77 +7,129 @@
 	background-color: var(--HeadingColor);
 	padding: 1em 0px;
 	font-family: 'Modak', cursive, 'Russo One', sans-serif;
-}
-
-.headingText {
-	font-size: 6rem;
-	font-weight: 400;
-	color: var(--mainText);
-}
-
-.navLines {
-	padding: 0px 0.5em;
-}
-
-#navigation {
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	text-align: center;
-	margin: 0;
-}
-
-#navigation li {
-	font-size: 2rem;
-	color: var(--mainText);
-	list-style-type: none;
-}
-
-#navigation li a {
-	color: var(--mainText);
-}
-
-#navigation li a:hover {
-	color: var(--secondaryText);
-	text-decoration: underline;
-}
-
-@media screen and (max-width: 2555px) {
-	.headingText {
-		font-size: 10rem;
-	}
-
-	#navigation li {
-		font-size: 5rem;
-	}
-}
-
-@media screen and (max-width: 1800px) {
-	.headingText {
-		font-size: 9rem;
-	}
-
-	#navigation li {
-		font-size: 4rem;
-	}
-}
-
-@media screen and (max-width: 1366px) {
 	.headingText {
 		font-size: 6rem;
+		font-weight: 400;
+		color: var(--mainText);
+	}
+	#navigation {
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		text-align: center;
+		margin: 0;
+		li {
+			font-size: 2rem;
+			color: var(--mainText);
+			list-style-type: none;
+			a {
+				color: var(--mainText);
+				&:hover {
+					color: var(--secondaryText);
+					text-decoration: underline;
+				}
+			}
+		}
+		.navLines {
+			padding: 0px 0.5em;
+		}
 	}
 
-	#navigation li {
-		font-size: 2.75rem;
+	@include media('<=phone') {
+		.headingText {
+		}
+		#navigation {
+			li {
+				a {
+					&:hover {
+					}
+				}
+			}
+			.navLines {
+			}
+		}
 	}
-}
 
-@media screen and (max-width: 812px) {
-	.headingText {
-		font-size: 2.5rem;
+	@include media('>phone', '<=425px') {
+		.headingText {
+		}
+		#navigation {
+			li {
+				a {
+					&:hover {
+					}
+				}
+			}
+			.navLines {
+			}
+		}
 	}
 
-	#navigation li {
-		font-size: 1rem;
+	@include media('>425px', '<=tablet') {
+		.headingText {
+			font-size: 2.5rem;
+		}
+		#navigation {
+			li {
+				font-size: 1rem;
+				a {
+					&:hover {
+					}
+				}
+			}
+			.navLines {
+			}
+		}
+	}
+
+	@include media('>tablet', '<desktop') {
+		.headingText {
+			font-size: 6rem;
+		}
+		#navigation {
+			li {
+				font-size: 2.75rem;
+				a {
+					&:hover {
+					}
+				}
+			}
+			.navLines {
+			}
+		}
+	}
+
+	@include media('>=desktop') {
+		.headingText {
+			font-size: 9rem;
+		}
+		#navigation {
+			li {
+				font-size: 4rem;
+				a {
+					&:hover {
+					}
+				}
+			}
+			.navLines {
+			}
+		}
+	}
+
+	@include media('>=LGdesktop', 'retina2x') {
+		.headingText {
+			font-size: 10rem;
+		}
+		#navigation {
+			li {
+				font-size: 5rem;
+				a {
+					&:hover {
+					}
+				}
+			}
+			.navLines {
+			}
+		}
 	}
 }

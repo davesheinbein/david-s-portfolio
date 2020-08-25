@@ -1,4 +1,9 @@
-.contactTitle {
+/**
+*
+* Testing
+*
+**/
+.formContainer .contactTitle {
   color: var(--mainText);
   text-align: center;
   font-size: 3rem;
@@ -7,7 +12,7 @@
   font-family: 'Modak', cursive;
 }
 
-#contact-form {
+.formContainer #contact-form {
   display: block;
   max-width: 600px;
   margin: 0 auto;
@@ -20,7 +25,7 @@
   box-shadow: -2px 7px 21px -9px var(--shadow);
 }
 
-.label {
+.formContainer #contact-form .label {
   font-size: 1.25rem;
   font-weight: 500;
   line-height: 2.5em;
@@ -37,16 +42,11 @@
   font-family: 'Cabin', sans-serif;
 }
 
-.iconSymbol {
+.formContainer #contact-form .iconSymbol {
   margin: 0px 0.5em;
 }
 
-#contact-form textarea {
-  min-height: 100px;
-  font-size: 14px;
-}
-
-.input-field {
+.formContainer #contact-form .input-field {
   width: 100%;
   padding: 10px;
   background-color: var(--formColor);
@@ -55,7 +55,12 @@
   font-family: 'Cabin', sans-serif;
 }
 
-#submit-btn {
+.formContainer #contact-form textarea {
+  min-height: 100px;
+  font-size: 14px;
+}
+
+.formContainer #contact-form #submit-btn {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -77,50 +82,80 @@
   font-family: 'Cabin', sans-serif;
 }
 
-#submit-btn:hover {
+.formContainer #contact-form #submit-btn:hover {
   color: var(--TertiaryTextBtnText);
   background-color: var(--TertiaryTextBtnHover);
 }
 
-@media screen and (max-width: 2555px) {
-  #contact-form {
-    max-width: 1200px;
+@media (max-width: 360px) {
+  .formContainer {
+    padding: 0px 2em;
   }
-  .contactTitle {
-    font-size: 4.5rem;
+  .formContainer .contactTitle {
+    font-size: 1.75rem;
   }
-}
-
-@media screen and (max-width: 1800px) {
-  .contactTitle {
-    font-size: 3rem;
+  .formContainer #contact-form {
+    max-width: 100vw;
   }
-  #contact-form {
-    max-width: 1200px;
+  .formContainer #contact-form .label {
+    font-size: 1.25rem;
   }
 }
 
-@media screen and (max-width: 1366px) {
-  .contactTitle {
+@media (min-width: 361px) and (max-width: 425px) {
+  .formContainer {
+    padding: 0px 2em;
+  }
+  .formContainer .contactTitle {
+    font-size: 1.75rem;
+  }
+  .formContainer #contact-form {
+    max-width: 100vw;
+  }
+  .formContainer #contact-form .label {
+    font-size: 1.25rem;
+  }
+}
+
+@media (min-width: 426px) and (max-width: 768px) {
+  .formContainer {
+    padding: 0px 2em;
+  }
+  .formContainer .contactTitle {
+    font-size: 1.75rem;
+  }
+  .formContainer #contact-form {
+    max-width: 100vw;
+  }
+  .formContainer #contact-form .label {
+    font-size: 1.25rem;
+  }
+}
+
+@media (min-width: 769px) and (max-width: 1365px) {
+  .formContainer .contactTitle {
     font-size: 2rem;
   }
-  #contact-form {
+  .formContainer #contact-form {
     max-width: 700px;
   }
 }
 
-@media screen and (max-width: 812px) {
-  .contactTitle {
-    font-size: 1.75rem;
+@media (min-width: 1366px) {
+  .formContainer .contactTitle {
+    font-size: 3rem;
   }
-  .formContainer {
-    padding: 0px 2em;
+  .formContainer #contact-form {
+    max-width: 1200px;
   }
-  .label {
-    font-size: 1.25rem;
+}
+
+@media (min-width: 1920px) and (-webkit-min-device-pixel-ratio: 2), (min-width: 1920px) and (min-resolution: 192dpi) {
+  .formContainer .contactTitle {
+    font-size: 4.5rem;
   }
-  #contact-form {
-    max-width: 100vw;
+  .formContainer #contact-form {
+    max-width: 1200px;
   }
 }
 /*# sourceMappingURL=Contact.css.map */

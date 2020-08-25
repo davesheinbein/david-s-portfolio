@@ -1,5 +1,5 @@
 import React from 'react';
-import './Footer.css';
+import './styles/Footer.css';
 
 function Footer() {
 	return (
@@ -41,7 +41,7 @@ function Footer() {
 							<a href='https://www.linkedin.com/in/david-sheinbein/'>
 								<i
 									className='fa fa-linkedin-square'
-									aria-hidden="true"
+									aria-hidden='true'
 									id='linkedInFooterSym'></i>
 							</a>
 						</div>

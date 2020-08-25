@@ -1,5 +1,5 @@
 import React from 'react';
-import './About.css';
+import './styles/About.css';
 import skills from '../../constants/skills';
 import Superhero from './Superhero/Superhero';
 import Pdf from '../../images/Full Stack Developer Resume.pdf';

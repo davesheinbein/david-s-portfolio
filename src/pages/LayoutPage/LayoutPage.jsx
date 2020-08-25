@@ -7,7 +7,7 @@ import Projects from '../../components/Projects/Projects';
 import Contact from '../../components/Contact/Contact';
 import Footer from '../../components/Footer/Footer';
 import fireworks from '../../images/fireworks.gif';
-import './LayoutPage.css';
+import './styles/LayoutPage.css';
 import { Spring } from 'react-spring/renderprops';
 
 console.log('Hello world...');
@@ -87,7 +87,7 @@ export default class Layout extends Component {
 				</section>
 				<section className='side1'>
 					<div className='sub-container'>
-					<Spring
+						<Spring
 							from={{ opacity: 0 }}
 							to={{ opacity: 1 }}
 							config={{ delay: 4000, duration: 1000 }}>
@@ -107,7 +107,7 @@ export default class Layout extends Component {
 							config={{ delay: 5000, duration: 1000 }}>
 							{(props) => (
 								<div style={props}>
-								<Contact />
+									<Contact />
 								</div>
 							)}
 						</Spring>
@@ -115,7 +115,7 @@ export default class Layout extends Component {
 				</section>
 				<section className='side2'>
 					<div className='sub-container'>
-					<Spring
+						<Spring
 							from={{ opacity: 0 }}
 							to={{ opacity: 1 }}
 							config={{ delay: 6000, duration: 1000 }}>

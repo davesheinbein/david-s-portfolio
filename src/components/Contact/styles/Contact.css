@@ -1,0 +1,126 @@
+.contactTitle {
+  color: var(--mainText);
+  text-align: center;
+  font-size: 3rem;
+  font-weight: 400;
+  padding: 0.5em 0px;
+  font-family: 'Modak', cursive;
+}
+
+#contact-form {
+  display: block;
+  max-width: 600px;
+  margin: 0 auto;
+  border: 1px solid var(--themeContainerDotBorder);
+  padding: 15px;
+  border-radius: 5px;
+  background-color: var(--formColor);
+  margin-bottom: 50px;
+  -webkit-box-shadow: -2px 7px 21px -9px var(--shadow);
+  box-shadow: -2px 7px 21px -9px var(--shadow);
+}
+
+.label {
+  font-size: 1.25rem;
+  font-weight: 500;
+  line-height: 2.5em;
+  color: var(--secondaryText);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-family: 'Cabin', sans-serif;
+}
+
+.iconSymbol {
+  margin: 0px 0.5em;
+}
+
+#contact-form textarea {
+  min-height: 100px;
+  font-size: 14px;
+}
+
+.input-field {
+  width: 100%;
+  padding: 10px;
+  background-color: var(--formColor);
+  border-radius: 5px;
+  font-size: 14px;
+  font-family: 'Cabin', sans-serif;
+}
+
+#submit-btn {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+  margin: 0.5em 0px;
+  width: 100%;
+  padding: 10px 0px;
+  color: var(--TertiaryText);
+  background-color: var(--TertiaryTextBtn);
+  border: none;
+  -webkit-box-shadow: 0 4px 4px var(--shadow);
+  box-shadow: 0 4px 4px var(--shadow);
+  font-family: 'Cabin', sans-serif;
+}
+
+#submit-btn:hover {
+  color: var(--TertiaryTextBtnText);
+  background-color: var(--TertiaryTextBtnHover);
+}
+
+@media screen and (max-width: 2555px) {
+  #contact-form {
+    max-width: 1200px;
+  }
+  .contactTitle {
+    font-size: 4.5rem;
+  }
+}
+
+@media screen and (max-width: 1800px) {
+  .contactTitle {
+    font-size: 3rem;
+  }
+  #contact-form {
+    max-width: 1200px;
+  }
+}
+
+@media screen and (max-width: 1366px) {
+  .contactTitle {
+    font-size: 2rem;
+  }
+  #contact-form {
+    max-width: 700px;
+  }
+}
+
+@media screen and (max-width: 812px) {
+  .contactTitle {
+    font-size: 1.75rem;
+  }
+  .formContainer {
+    padding: 0px 2em;
+  }
+  .label {
+    font-size: 1.25rem;
+  }
+  #contact-form {
+    max-width: 100vw;
+  }
+}
+/*# sourceMappingURL=Contact.css.map */

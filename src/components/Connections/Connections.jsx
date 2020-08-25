@@ -1,7 +1,7 @@
 import React from 'react';
 import linkedinImg from '../../images/linkedinScreenshot.png';
 import githubImg from '../../images/github.png';
-import './Connections.css';
+import './styles/Connections.css';
 
 function Connections() {
 	return (

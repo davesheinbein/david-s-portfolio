@@ -1,0 +1,294 @@
+.videoContainer {
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+}
+
+video {
+  -o-object-fit: cover;
+     object-fit: cover;
+  height: 100%;
+  width: 100%;
+}
+
+.NavLink {
+  color: whitesmoke;
+}
+
+.NavLink:hover {
+  color: red;
+  text-decoration: none;
+}
+
+.continueLink {
+  font-size: 1rem;
+  opacity: 0;
+  -webkit-animation: continueAnimation 3s ease 2s forwards;
+          animation: continueAnimation 3s ease 2s forwards;
+  font-family: 'Cabin', sans-serif, monospace, 'Times New Roman', 'Times', 'serif';
+}
+
+@-webkit-keyframes continueAnimation {
+  0% {
+    opacity: 0;
+    -webkit-filter: blur(20px);
+            filter: blur(20px);
+  }
+  100% {
+    opacity: 1;
+    -webkit-filter: blur(0);
+            filter: blur(0);
+  }
+}
+
+@keyframes continueAnimation {
+  0% {
+    opacity: 0;
+    -webkit-filter: blur(20px);
+            filter: blur(20px);
+  }
+  100% {
+    opacity: 1;
+    -webkit-filter: blur(0);
+            filter: blur(0);
+  }
+}
+
+.lottieAnimationContainerA {
+  width: 100%;
+  max-width: 800px;
+  height: auto;
+  position: absolute;
+  top: 6%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -15%);
+          transform: translate(-50%, -15%);
+  z-index: 1;
+  -webkit-animation: lottieAnim 1.5s linear 6s forwards;
+          animation: lottieAnim 1.5s linear 6s forwards;
+  opacity: 0;
+}
+
+.lottieAnimationContainerB {
+  width: 100%;
+  max-width: 800px;
+  height: auto;
+  position: absolute;
+  top: 60%;
+  left: 50%;
+  z-index: 1;
+  -webkit-animation: lottieAnim 1.5s linear 6s forwards;
+          animation: lottieAnim 1.5s linear 6s forwards;
+  opacity: 0;
+  -webkit-transform: scaleY(-1) translate(-50%, 15%);
+          transform: scaleY(-1) translate(-50%, 15%);
+}
+
+@-webkit-keyframes lottieAnim {
+  0% {
+    opacity: 0;
+    -webkit-filter: blur(20px);
+            filter: blur(20px);
+  }
+  100% {
+    opacity: 1;
+    -webkit-filter: blur(0);
+            filter: blur(0);
+  }
+}
+
+@keyframes lottieAnim {
+  0% {
+    opacity: 0;
+    -webkit-filter: blur(20px);
+            filter: blur(20px);
+  }
+  100% {
+    opacity: 1;
+    -webkit-filter: blur(0);
+            filter: blur(0);
+  }
+}
+
+.overlayText {
+  margin: 0;
+  padding: 0;
+  position: absolute;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+          transform: translateY(-50%);
+  width: 100%;
+  text-align: center;
+  color: #ddd;
+  font-size: 4rem;
+  letter-spacing: 0.5em;
+  font-family: 'Modak', cursive, 'Cabin', sans-serif, monospace, 'Times New Roman', 'Times', 'serif';
+  white-space: nowrap;
+  z-index: 2;
+}
+
+.overlayText span {
+  opacity: 0;
+  display: inline-block;
+  -webkit-animation: textAnimate 1s linear forwards;
+          animation: textAnimate 1s linear forwards;
+}
+
+@-webkit-keyframes textAnimate {
+  0% {
+    opacity: 0;
+    -webkit-transform: rotateY(90deg);
+            transform: rotateY(90deg);
+    -webkit-filter: blur(10px);
+            filter: blur(10px);
+  }
+  100% {
+    opacity: 1;
+    -webkit-transform: rotateY(0deg);
+            transform: rotateY(0deg);
+    -webkit-filter: blur(0);
+            filter: blur(0);
+  }
+}
+
+@keyframes textAnimate {
+  0% {
+    opacity: 0;
+    -webkit-transform: rotateY(90deg);
+            transform: rotateY(90deg);
+    -webkit-filter: blur(10px);
+            filter: blur(10px);
+  }
+  100% {
+    opacity: 1;
+    -webkit-transform: rotateY(0deg);
+            transform: rotateY(0deg);
+    -webkit-filter: blur(0);
+            filter: blur(0);
+  }
+}
+
+.overlayText span:nth-child(1) {
+  -webkit-animation-delay: 0.75s;
+          animation-delay: 0.75s;
+}
+
+.overlayText span:nth-child(2) {
+  -webkit-animation-delay: 1s;
+          animation-delay: 1s;
+}
+
+.overlayText span:nth-child(3) {
+  -webkit-animation-delay: 1.25s;
+          animation-delay: 1.25s;
+}
+
+.overlayText span:nth-child(4) {
+  -webkit-animation-delay: 1.25s;
+          animation-delay: 1.25s;
+}
+
+.overlayText span:nth-child(5) {
+  -webkit-animation-delay: 1.75s;
+          animation-delay: 1.75s;
+}
+
+.overlayText span:nth-child(7) {
+  -webkit-animation-delay: 2s;
+          animation-delay: 2s;
+}
+
+.overlayText span:nth-child(8) {
+  -webkit-animation-delay: 2.25s;
+          animation-delay: 2.25s;
+}
+
+.overlayText span:nth-child(9) {
+  -webkit-animation-delay: 2.5s;
+          animation-delay: 2.5s;
+}
+
+.overlayText span:nth-child(10) {
+  -webkit-animation-delay: 2.75s;
+          animation-delay: 2.75s;
+}
+
+.overlayText span:nth-child(11) {
+  -webkit-animation-delay: 3s;
+          animation-delay: 3s;
+}
+
+.overlayText span:nth-child(12) {
+  -webkit-animation-delay: 3.35s;
+          animation-delay: 3.35s;
+}
+
+.overlayText span:nth-child(13) {
+  -webkit-animation-delay: 3.45s;
+          animation-delay: 3.45s;
+}
+
+.overlayText span:nth-child(14) {
+  -webkit-animation-delay: 3.65s;
+          animation-delay: 3.65s;
+}
+
+.overlayText span:nth-child(15) {
+  -webkit-animation-delay: 3.75s;
+          animation-delay: 3.75s;
+}
+
+@media screen and (max-width: 2555px) {
+  .lottieAnimationContainerA {
+    top: 10%;
+  }
+  .overlayText {
+    font-size: 5rem;
+  }
+  .continueLink {
+    font-size: 1.5rem;
+  }
+}
+
+@media screen and (max-width: 1800px) {
+  .lottieAnimationContainerA {
+    top: 7%;
+  }
+  .overlayText {
+    font-size: 4rem;
+  }
+  .continueLink {
+    font-size: 1rem;
+  }
+}
+
+@media screen and (max-width: 1366px) {
+  .overlayText {
+    font-size: 3.5rem;
+  }
+  .continueLink {
+    font-size: 1rem;
+  }
+  .lottieAnimationContainerA {
+    top: 10%;
+  }
+}
+
+@media screen and (max-width: 812px) {
+  .overlayText {
+    font-size: 1.25rem;
+  }
+  .continueLink {
+    font-size: 0.75rem;
+  }
+  .lottieAnimationContainerA {
+    top: 10%;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .lottieAnimationContainerA {
+    top: 24%;
+  }
+}
+/*# sourceMappingURL=SmokePage.css.map */

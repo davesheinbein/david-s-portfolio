@@ -1,0 +1,139 @@
+.linkedInContainer {
+  width: 100%;
+  background-color: var(--secondaryColor);
+  padding: 2em 0px;
+}
+
+.imagesContainer {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0px auto;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 2fr 2fr;
+      grid-template-columns: 2fr 2fr;
+}
+
+.imgSubContainer {
+  padding: 1em 0px;
+}
+
+#linkedInImage {
+  width: 80%;
+  max-width: 1400px;
+  border-radius: 10px;
+  border: 1px solid var(--themeContainerDotBorder);
+  -webkit-box-shadow: 0 4px 4px var(--shadow);
+  box-shadow: 0 4px 4px var(--shadow);
+}
+
+.linkedInText {
+  font-size: 3rem;
+  font-weight: 400;
+  color: var(--mainText);
+  margin-bottom: 0px;
+  font-family: 'Modak', cursive;
+}
+
+.iconSymbols {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-size: 2rem;
+  margin: 0px auto;
+  padding: 0px 0px 0.5em;
+}
+
+#linkedInSym {
+  padding: 0px 0.5em;
+  color: var(--TertiaryTextBtn);
+}
+
+#linkedInSym:hover {
+  color: var(--TertiaryTextBtnHover);
+}
+
+#gitHubSym {
+  padding: 0px 0.5em;
+  color: var(--TertiaryTextBtn);
+}
+
+#gitHubSym:hover {
+  color: var(--TertiaryTextBtnHover);
+}
+
+.linkedInBtnTextContainer {
+  padding: 1em 0px 0em;
+}
+
+.linkedInBtnText {
+  font-size: 1.5rem;
+  font-weight: bold;
+  font-family: 'Cabin', sans-serif;
+  color: var(--TertiaryText);
+  background: var(--TertiaryTextBtn);
+  padding: 0.25em 2em;
+  border-radius: 50px;
+  -webkit-box-shadow: 0 4px 4px var(--shadow);
+  box-shadow: 0 4px 4px var(--shadow);
+}
+
+.linkedInBtnText:hover {
+  color: var(--TertiaryTextBtnText);
+  background: var(--TertiaryTextBtnHover);
+  text-decoration: none;
+}
+
+@media screen and (max-width: 2555px) {
+  .linkedInText {
+    font-size: 4.5rem;
+  }
+  .imagesContainer {
+    max-width: 1400px;
+  }
+}
+
+@media screen and (max-width: 1800px) {
+  .linkedInText {
+    font-size: 3rem;
+  }
+}
+
+@media screen and (max-width: 1366px) {
+  .linkedInText {
+    font-size: 2rem;
+  }
+  .imagesContainer {
+    max-width: 800px;
+  }
+}
+
+@media screen and (max-width: 812px) {
+  .linkedInText {
+    font-size: 2rem;
+  }
+  .imagesContainer {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: 2fr;
+        grid-template-columns: 2fr;
+  }
+  .linkedInText {
+    font-size: 1.75rem;
+  }
+  #linkedInSym,
+  #gitHubSym {
+    display: none;
+  }
+}
+/*# sourceMappingURL=Connections.css.map */

@@ -7,7 +7,7 @@ import {
 	Button,
 } from 'reactstrap';
 import axios from 'axios';
-import './Contact.css';
+import './styles/Contact.css';
 
 export default class Contact extends Component {
 	constructor() {

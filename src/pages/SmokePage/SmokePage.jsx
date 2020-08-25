@@ -1,8 +1,8 @@
 import React, { Component } from 'react';
-import './SmokePage.css';
 import SmokeVideo from './smoke.mp4';
 import Lottieanimation from '../../components/Lottieanimation/Lottieanimation';
 import { Link } from 'react-router-dom';
+import './styles/SmokePage.css';
 
 export default class SmokePage extends Component {
 	render() {

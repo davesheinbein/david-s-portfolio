@@ -1,5 +1,5 @@
 import React from 'react';
-import './Computerguy.css';
+import './styles/Computerguy.css';
 
 function Computerguy() {
 	return (

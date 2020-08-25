@@ -1,5 +1,5 @@
 import React from 'react';
-import './App.css';
+import './styles/App.css';
 import SmokePage from '../SmokePage/SmokePage';
 import Layout from '../LayoutPage/LayoutPage';
 import { createGlobalStyle } from 'styled-components';

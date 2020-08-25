@@ -1,5 +1,5 @@
 import React from 'react';
-import './Superhero.css';
+import './styles/Superhero.css';
 
 function Superhero() {
 	return (

@@ -108,7 +108,7 @@
 }
 
 #fire-mode {
-	background: url('../../images/fireworksSmall.gif');
+	background: url('../../../images/fireworksSmall.gif');
 	background-color: black;
 	background-position: center;
 	background-origin: content-box;
@@ -129,7 +129,7 @@
 }
 
 #wave-mode {
-	background: url('../../images/backgroundWavesMini.png');
+	background: url('../../../images/backgroundWavesMini.png');
 	background-color: white;
 	background-position: bottom right;
 	background-origin: content-box;
@@ -504,7 +504,7 @@
 		width: 100vw;
 		min-width: 100vw;
 	}
-	
+
 	#computerGuy {
 		width: 90%;
 		margin: 0px auto;
@@ -532,7 +532,7 @@
 		display: flex;
 		flex-direction: column;
 	}
-	
+
 	.btnLinkedIn {
 		font-size: 1rem;
 	}

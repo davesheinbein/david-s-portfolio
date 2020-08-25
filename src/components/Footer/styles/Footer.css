@@ -1,0 +1,121 @@
+.footerContainer {
+  color: var(--mainText);
+  background: var(--HeadingColor);
+  width: 100vw;
+  font-family: 'Cabin', sans-serif;
+}
+
+.footerSubContainer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+  font-size: 1rem;
+  width: 100vw;
+  margin: 0px auto;
+  padding: 0px 2em;
+  color: var(--mainText);
+  background: rgba(0, 0, 0, 0.5);
+}
+
+#nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+  margin: 0;
+  padding: 0.5em 1em;
+  background-color: rgba(0, 0, 0, 0.25);
+}
+
+#nav li {
+  color: #b3b3b3;
+  list-style-type: none;
+}
+
+#nav li a {
+  color: var(--mainText);
+}
+
+#nav li a:hover {
+  color: var(--secondaryText);
+  text-decoration: none;
+}
+
+.navLinesBottom {
+  color: var(--mainText);
+}
+
+#footerline {
+  margin-top: 0px;
+  margin-bottom: 0px;
+  border-top: 1px solid var(--HeadingColor);
+}
+
+.fa-arrow-alt-circle-up {
+  color: red;
+}
+
+@media screen and (max-width: 2555px) {
+  #nav {
+    font-size: 2rem;
+  }
+  .navLinesBottom {
+    margin: 0px 3.5em;
+  }
+  .footerSubContainer {
+    font-size: 2rem;
+  }
+}
+
+@media screen and (max-width: 1800px) {
+  #nav {
+    font-size: 2rem;
+  }
+  .navLinesBottom {
+    margin: 0px 3.5em;
+  }
+  .footerSubContainer {
+    font-size: 1.5rem;
+  }
+}
+
+@media screen and (max-width: 1366px) {
+  #nav {
+    font-size: 1.5rem;
+  }
+  .navLinesBottom {
+    margin: 0px 2.5em;
+  }
+  .footerSubContainer {
+    font-size: 1rem;
+  }
+}
+
+@media screen and (max-width: 812px) {
+  #nav {
+    font-size: 1rem;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .footerSubContainer {
+    font-size: 0.75rem;
+  }
+  .navLinesBottom {
+    margin: 0px 1em;
+  }
+}
+/*# sourceMappingURL=Footer.css.map */

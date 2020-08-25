@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAAA,AAAA,UAAU,CAAC;EACV,KAAK,EAAE,IAAI;EACX,MAAM,EAAE,IAAI;EACZ,MAAM,EAAE,GAAG;EACX,OAAO,EAAE,GAAG;EACZ,OAAO,EAAE,CAAC;CACV",
+    "sources": [
+        "Lottieanimation.scss"
+    ],
+    "names": [],
+    "file": "Lottieanimation.css"
+}

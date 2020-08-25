@@ -1,10 +1,10 @@
 import React, { Component } from 'react';
-import './Projects.css';
 import steedfinder from '../../images/steedfinder.png';
 import inspirations from '../../images/inspirations.png';
 import twistsofrate from '../../images/twistsofrate.png';
 import wargame from '../../images/wargame.png';
 import neonstrobe from '../../images/neonstrobe.png';
+import './styles/Projects.css';
 
 export default class Projects extends Component {
 	render() {

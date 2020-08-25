@@ -1,0 +1,84 @@
+.headingContainer {
+  width: 100%;
+  height: auto;
+  margin: auto;
+  background-color: var(--HeadingColor);
+  padding: 1em 0px;
+  font-family: 'Modak', cursive, 'Russo One', sans-serif;
+}
+
+.headingText {
+  font-size: 6rem;
+  font-weight: 400;
+  color: var(--mainText);
+}
+
+.navLines {
+  padding: 0px 0.5em;
+}
+
+#navigation {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+  margin: 0;
+}
+
+#navigation li {
+  font-size: 2rem;
+  color: var(--mainText);
+  list-style-type: none;
+}
+
+#navigation li a {
+  color: var(--mainText);
+}
+
+#navigation li a:hover {
+  color: var(--secondaryText);
+  text-decoration: underline;
+}
+
+@media screen and (max-width: 2555px) {
+  .headingText {
+    font-size: 10rem;
+  }
+  #navigation li {
+    font-size: 5rem;
+  }
+}
+
+@media screen and (max-width: 1800px) {
+  .headingText {
+    font-size: 9rem;
+  }
+  #navigation li {
+    font-size: 4rem;
+  }
+}
+
+@media screen and (max-width: 1366px) {
+  .headingText {
+    font-size: 6rem;
+  }
+  #navigation li {
+    font-size: 2.75rem;
+  }
+}
+
+@media screen and (max-width: 812px) {
+  .headingText {
+    font-size: 2.5rem;
+  }
+  #navigation li {
+    font-size: 1rem;
+  }
+}
+/*# sourceMappingURL=Greeting.css.map */

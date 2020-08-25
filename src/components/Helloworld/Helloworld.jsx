@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import headshot from '../../images/headshot.png';
 import Computerguy from './Computerguy/Computerguy';
-import './Helloworld.css';
+import './styles/Helloworld.css';
 
 export default class Helloworld extends Component {
 	render() {

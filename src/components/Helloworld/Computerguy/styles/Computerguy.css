@@ -1,0 +1,516 @@
+/* svg colors */
+.colorClass-1 {
+  fill: var(--computerGuyskin);
+}
+
+.colorClass-2 {
+  fill: var(--computerGuyHair);
+}
+
+.colorClass-3 {
+  fill: var(--computerGuyShirt);
+}
+
+.colorClass-4 {
+  fill: var(--computerGuyShirtLogo);
+}
+
+.colorClass-5 {
+  fill: var(--computerGuyComputerTable);
+}
+
+.colorClass-6 {
+  fill: var(--computerGuyTreePlanter);
+  stroke: var(--computerGuyTreePlanterStroke);
+}
+
+.colorClass-6,
+.colorClass-8,
+.colorClass-9 {
+  stroke-miterlimit: 10;
+}
+
+.colorClass-7 {
+  fill: var(--computerGuyTreeBush);
+}
+
+.colorClass-8,
+.colorClass-9 {
+  fill: none;
+  stroke-width: 2px;
+}
+
+.colorClass-8 {
+  stroke: var(--computerLogoCircle);
+}
+
+.colorClass-9 {
+  stroke: var(--computerLogoCircleGradient);
+}
+
+.colorClass-10 {
+  fill: var(--computerSpecs);
+}
+
+.colorClass-11 {
+  fill: var(--computerStars);
+}
+
+.colorClass-11,
+.colorClass-12,
+.colorClass-13,
+.colorClass-14 {
+  opacity: 0.5;
+}
+
+.colorClass-11,
+.colorClass-12,
+.colorClass-13 {
+  isolation: isolate;
+}
+
+.colorClass-12 {
+  fill: var(--computerCircles);
+}
+
+.colorClass-13,
+.colorClass-15 {
+  fill: var(--computerCrosses);
+}
+
+#computerGuy {
+  display: block;
+  height: auto;
+  width: 100%;
+  overflow: visible;
+  -o-object-fit: contain;
+     object-fit: contain;
+}
+
+/* hide hand */
+#leftHand {
+  fill: none;
+}
+
+/* svg animations */
+#leftArm {
+  -webkit-animation: leftArmsAnim 1s ease-out infinite alternate;
+          animation: leftArmsAnim 1s ease-out infinite alternate;
+  -webkit-transform-origin: top right;
+          transform-origin: top right;
+  transform-box: fill-box;
+}
+
+@-webkit-keyframes leftArmsAnim {
+  from {
+    -webkit-transform: rotateZ(5deg) translateY(14px);
+            transform: rotateZ(5deg) translateY(14px);
+  }
+  to {
+    -webkit-transform: rotateZ(0deg) translateY(0px);
+            transform: rotateZ(0deg) translateY(0px);
+  }
+}
+
+@keyframes leftArmsAnim {
+  from {
+    -webkit-transform: rotateZ(5deg) translateY(14px);
+            transform: rotateZ(5deg) translateY(14px);
+  }
+  to {
+    -webkit-transform: rotateZ(0deg) translateY(0px);
+            transform: rotateZ(0deg) translateY(0px);
+  }
+}
+
+#rightArm {
+  -webkit-animation: rightArmsAnim 2s ease-out infinite alternate;
+          animation: rightArmsAnim 2s ease-out infinite alternate;
+  -webkit-transform-origin: top left;
+          transform-origin: top left;
+  transform-box: fill-box;
+}
+
+@-webkit-keyframes rightArmsAnim {
+  from {
+    -webkit-transform: rotateZ(-5deg) translateY(20px);
+            transform: rotateZ(-5deg) translateY(20px);
+  }
+  to {
+    -webkit-transform: rotateZ(0deg) translateY(0px);
+            transform: rotateZ(0deg) translateY(0px);
+  }
+}
+
+@keyframes rightArmsAnim {
+  from {
+    -webkit-transform: rotateZ(-5deg) translateY(20px);
+            transform: rotateZ(-5deg) translateY(20px);
+  }
+  to {
+    -webkit-transform: rotateZ(0deg) translateY(0px);
+            transform: rotateZ(0deg) translateY(0px);
+  }
+}
+
+#shirtLogo {
+  -webkit-animation: shirtLogoAnim 2s ease-out infinite alternate;
+          animation: shirtLogoAnim 2s ease-out infinite alternate;
+  -webkit-transform-origin: top left;
+          transform-origin: top left;
+  transform-box: fill-box;
+}
+
+@-webkit-keyframes shirtLogoAnim {
+  from {
+    -webkit-transform: scale(1, 1) translateY(0px) translateX(-35px);
+            transform: scale(1, 1) translateY(0px) translateX(-35px);
+  }
+  to {
+    -webkit-transform: scale(1.2, 1.2) translateY(0px) translateX(-50px);
+            transform: scale(1.2, 1.2) translateY(0px) translateX(-50px);
+  }
+}
+
+@keyframes shirtLogoAnim {
+  from {
+    -webkit-transform: scale(1, 1) translateY(0px) translateX(-35px);
+            transform: scale(1, 1) translateY(0px) translateX(-35px);
+  }
+  to {
+    -webkit-transform: scale(1.2, 1.2) translateY(0px) translateX(-50px);
+            transform: scale(1.2, 1.2) translateY(0px) translateX(-50px);
+  }
+}
+
+#computerLogoStar {
+  -webkit-animation: computerLogoStarAnim 5s infinite linear;
+          animation: computerLogoStarAnim 5s infinite linear;
+  -webkit-transform-origin: center;
+          transform-origin: center;
+  transform-box: fill-box;
+}
+
+@-webkit-keyframes computerLogoStarAnim {
+  from {
+    -webkit-transform: rotateZ(0deg);
+            transform: rotateZ(0deg);
+  }
+  to {
+    -webkit-transform: rotateZ(360deg);
+            transform: rotateZ(360deg);
+  }
+}
+
+@keyframes computerLogoStarAnim {
+  from {
+    -webkit-transform: rotateZ(0deg);
+            transform: rotateZ(0deg);
+  }
+  to {
+    -webkit-transform: rotateZ(360deg);
+            transform: rotateZ(360deg);
+  }
+}
+
+#computerLogoCircleGradient {
+  -webkit-animation: computerLogoCircleGradientAnim 1.5s infinite;
+          animation: computerLogoCircleGradientAnim 1.5s infinite;
+  -webkit-animation-timing-function: linear;
+          animation-timing-function: linear;
+  -webkit-transform-origin: center;
+          transform-origin: center;
+  transform-box: fill-box;
+}
+
+@-webkit-keyframes computerLogoCircleGradientAnim {
+  from {
+    -webkit-transform: rotateZ(0deg);
+            transform: rotateZ(0deg);
+  }
+  to {
+    -webkit-transform: rotateZ(360deg);
+            transform: rotateZ(360deg);
+  }
+}
+
+@keyframes computerLogoCircleGradientAnim {
+  from {
+    -webkit-transform: rotateZ(0deg);
+            transform: rotateZ(0deg);
+  }
+  to {
+    -webkit-transform: rotateZ(360deg);
+            transform: rotateZ(360deg);
+  }
+}
+
+#fullHead {
+  -webkit-animation: headCircleAnim 1s ease-out infinite alternate;
+          animation: headCircleAnim 1s ease-out infinite alternate;
+}
+
+@-webkit-keyframes headCircleAnim {
+  from {
+    -webkit-transform: translateY(4px);
+            transform: translateY(4px);
+  }
+  to {
+    -webkit-transform: translateY(-2px);
+            transform: translateY(-2px);
+  }
+}
+
+@keyframes headCircleAnim {
+  from {
+    -webkit-transform: translateY(4px);
+            transform: translateY(4px);
+  }
+  to {
+    -webkit-transform: translateY(-2px);
+            transform: translateY(-2px);
+  }
+}
+
+#hairGuy {
+  -webkit-animation: hairGuyAnim 2s ease-out infinite alternate;
+          animation: hairGuyAnim 2s ease-out infinite alternate;
+  -webkit-transform: translateX(-40.5px);
+          transform: translateX(-40.5px);
+}
+
+@-webkit-keyframes hairGuyAnim {
+  from {
+    -webkit-transform: translateX(-40.5px) translateY(6px);
+            transform: translateX(-40.5px) translateY(6px);
+  }
+  to {
+    -webkit-transform: translateX(-40.5px) translateY(-2px);
+            transform: translateX(-40.5px) translateY(-2px);
+  }
+}
+
+@keyframes hairGuyAnim {
+  from {
+    -webkit-transform: translateX(-40.5px) translateY(6px);
+            transform: translateX(-40.5px) translateY(6px);
+  }
+  to {
+    -webkit-transform: translateX(-40.5px) translateY(-2px);
+            transform: translateX(-40.5px) translateY(-2px);
+  }
+}
+
+#specs_1,
+#specs_2,
+#specs_3 {
+  -webkit-animation: specsAnim 1s ease-out 0.5s infinite alternate;
+          animation: specsAnim 1s ease-out 0.5s infinite alternate;
+  -webkit-transform-origin: center;
+          transform-origin: center;
+  transform-box: fill-box;
+}
+
+@-webkit-keyframes specsAnim {
+  from {
+    -webkit-transform-origin: center;
+            transform-origin: center;
+    -webkit-transform: scale(0, 0) skew(60deg, 60deg);
+            transform: scale(0, 0) skew(60deg, 60deg);
+  }
+  to {
+    -webkit-transform-origin: center;
+            transform-origin: center;
+    -webkit-transform: scale(1, 1) skew(0deg, 0deg);
+            transform: scale(1, 1) skew(0deg, 0deg);
+  }
+}
+
+@keyframes specsAnim {
+  from {
+    -webkit-transform-origin: center;
+            transform-origin: center;
+    -webkit-transform: scale(0, 0) skew(60deg, 60deg);
+            transform: scale(0, 0) skew(60deg, 60deg);
+  }
+  to {
+    -webkit-transform-origin: center;
+            transform-origin: center;
+    -webkit-transform: scale(1, 1) skew(0deg, 0deg);
+            transform: scale(1, 1) skew(0deg, 0deg);
+  }
+}
+
+#circles_1,
+#circles_2,
+#circles_3 {
+  -webkit-animation: circlesAnim 6s ease-out 1s infinite alternate;
+          animation: circlesAnim 6s ease-out 1s infinite alternate;
+  -webkit-transform-origin: center;
+          transform-origin: center;
+  transform-box: fill-box;
+}
+
+@-webkit-keyframes circlesAnim {
+  0% {
+    -webkit-transform: scale(0, 0) skew(0deg, 0deg);
+            transform: scale(0, 0) skew(0deg, 0deg);
+  }
+  25% {
+    -webkit-transform: scale(0.5, 0.5) skew(-60deg, -60deg);
+            transform: scale(0.5, 0.5) skew(-60deg, -60deg);
+  }
+  50% {
+    -webkit-transform: scale(1, 1) skew(60deg, 60deg);
+            transform: scale(1, 1) skew(60deg, 60deg);
+  }
+  75% {
+    -webkit-transform: scale(1.5, 1.5) skew(-60deg, -60deg);
+            transform: scale(1.5, 1.5) skew(-60deg, -60deg);
+  }
+  100% {
+    -webkit-transform: scale(2, 2) skew(0deg, 0deg);
+            transform: scale(2, 2) skew(0deg, 0deg);
+  }
+}
+
+@keyframes circlesAnim {
+  0% {
+    -webkit-transform: scale(0, 0) skew(0deg, 0deg);
+            transform: scale(0, 0) skew(0deg, 0deg);
+  }
+  25% {
+    -webkit-transform: scale(0.5, 0.5) skew(-60deg, -60deg);
+            transform: scale(0.5, 0.5) skew(-60deg, -60deg);
+  }
+  50% {
+    -webkit-transform: scale(1, 1) skew(60deg, 60deg);
+            transform: scale(1, 1) skew(60deg, 60deg);
+  }
+  75% {
+    -webkit-transform: scale(1.5, 1.5) skew(-60deg, -60deg);
+            transform: scale(1.5, 1.5) skew(-60deg, -60deg);
+  }
+  100% {
+    -webkit-transform: scale(2, 2) skew(0deg, 0deg);
+            transform: scale(2, 2) skew(0deg, 0deg);
+  }
+}
+
+#croxx_1,
+#croxx_2,
+#croxx_3 {
+  -webkit-animation: croxxAnim 4s ease-out 1s infinite alternate;
+          animation: croxxAnim 4s ease-out 1s infinite alternate;
+  -webkit-transform-origin: center;
+          transform-origin: center;
+  transform-box: fill-box;
+}
+
+@-webkit-keyframes croxxAnim {
+  from {
+    -webkit-transform-origin: center;
+            transform-origin: center;
+    -webkit-transform: scale(0, 0) rotateZ(0deg);
+            transform: scale(0, 0) rotateZ(0deg);
+  }
+  to {
+    -webkit-transform-origin: center;
+            transform-origin: center;
+    -webkit-transform: scale(2, 2) rotateZ(-1080deg);
+            transform: scale(2, 2) rotateZ(-1080deg);
+  }
+}
+
+@keyframes croxxAnim {
+  from {
+    -webkit-transform-origin: center;
+            transform-origin: center;
+    -webkit-transform: scale(0, 0) rotateZ(0deg);
+            transform: scale(0, 0) rotateZ(0deg);
+  }
+  to {
+    -webkit-transform-origin: center;
+            transform-origin: center;
+    -webkit-transform: scale(2, 2) rotateZ(-1080deg);
+            transform: scale(2, 2) rotateZ(-1080deg);
+  }
+}
+
+#stars_1,
+#stars_2,
+#stars_3 {
+  -webkit-animation: starsAnim 4s ease-in-out 1s infinite alternate;
+          animation: starsAnim 4s ease-in-out 1s infinite alternate;
+  -webkit-transform-origin: center;
+          transform-origin: center;
+  transform-box: fill-box;
+}
+
+@-webkit-keyframes starsAnim {
+  from {
+    -webkit-transform-origin: center;
+            transform-origin: center;
+    -webkit-transform: scale(0, 0) rotateZ(0deg);
+            transform: scale(0, 0) rotateZ(0deg);
+  }
+  to {
+    -webkit-transform-origin: center;
+            transform-origin: center;
+    -webkit-transform: scale(1.5, 1.5) rotateZ(1080deg);
+            transform: scale(1.5, 1.5) rotateZ(1080deg);
+  }
+}
+
+@keyframes starsAnim {
+  from {
+    -webkit-transform-origin: center;
+            transform-origin: center;
+    -webkit-transform: scale(0, 0) rotateZ(0deg);
+            transform: scale(0, 0) rotateZ(0deg);
+  }
+  to {
+    -webkit-transform-origin: center;
+            transform-origin: center;
+    -webkit-transform: scale(1.5, 1.5) rotateZ(1080deg);
+            transform: scale(1.5, 1.5) rotateZ(1080deg);
+  }
+}
+
+#treeA,
+#treeB {
+  -webkit-animation: treesAnim 4s ease-in-out 1s infinite alternate;
+          animation: treesAnim 4s ease-in-out 1s infinite alternate;
+  transform-box: fill-box;
+}
+
+@-webkit-keyframes treesAnim {
+  from {
+    -webkit-transform-origin: center;
+            transform-origin: center;
+    -webkit-transform: scale(1, 1) translateY(0px);
+            transform: scale(1, 1) translateY(0px);
+  }
+  to {
+    -webkit-transform-origin: center;
+            transform-origin: center;
+    -webkit-transform: scale(1.25, 1.25) translateY(-15px);
+            transform: scale(1.25, 1.25) translateY(-15px);
+  }
+}
+
+@keyframes treesAnim {
+  from {
+    -webkit-transform-origin: center;
+            transform-origin: center;
+    -webkit-transform: scale(1, 1) translateY(0px);
+            transform: scale(1, 1) translateY(0px);
+  }
+  to {
+    -webkit-transform-origin: center;
+            transform-origin: center;
+    -webkit-transform: scale(1.25, 1.25) translateY(-15px);
+            transform: scale(1.25, 1.25) translateY(-15px);
+  }
+}
+/*# sourceMappingURL=Computerguy.css.map */

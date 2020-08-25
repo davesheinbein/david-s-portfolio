@@ -3,71 +3,123 @@ svg {
 	height: 100%;
 	width: 100%;
 	margin: auto;
-}
 
-.cls-1 {
-	fill: var(--heroCape);
-}
+	// Shapes
+	#hair {
+		animation: hairAnim 3s ease-out infinite alternate;
+	}
 
-.cls-2 {
-	fill: none;
-}
+	#head {
+		animation: headAnim 3s ease-out infinite alternate;
+	}
 
-.cls-3,
-.cls-4 {
-	opacity: 0.1;
-}
+	#back-cape {
+		animation: backCapeAnim 5s ease-out infinite alternate;
+	}
 
-.cls-10,
-.cls-3,
-.cls-8,
-.cls-9 {
-	isolation: isolate;
-}
+	#cape-collar {
+		animation: collarAnim 3s ease-out infinite alternate;
+	}
 
-.cls-5 {
-	fill: var(--heroSkin);
-}
+	#left-arm {
+		animation: leftArmAnim 2s ease-out infinite alternate;
+	}
 
-.cls-6 {
-	fill: var(--heroBody);
-}
+	#legs {
+		animation: legsAnim 3s ease-out 0.5s infinite alternate;
+	}
 
-.cls-7 {
-	fill: var(--heroHair);
-}
+	#spec_1,
+	#spec_2,
+	#spec_3 {
+		animation: specAnim 1s ease-out 2s infinite alternate;
+		transform-box: fill-box;
+	}
 
-.cls-8 {
-	fill: var(--heroSpecs);
-}
+	#circle_1,
+	#circle_2,
+	#circle_3 {
+		animation: circleAnim 4s ease-out 1s infinite alternate;
+		transform-box: fill-box;
+	}
 
-.cls-10,
-.cls-11,
-.cls-8,
-.cls-9 {
-	opacity: 0.5;
-}
+	#cross_1,
+	#cross_2,
+	#cross_3 {
+		animation: crossAnim 2s ease-out 3s infinite alternate;
+		transform-box: fill-box;
+	}
 
-.cls-9 {
-	fill: var(--heroStars);
-}
+	#star_1,
+	#star_2 {
+		animation: starAnim 4s ease-in-out 0.5s infinite
+			alternate;
+		transform-box: fill-box;
+	}
 
-.cls-10,
-.cls-12 {
-	fill: var(--heroCross);
-}
+	// Colors
 
-.cls-13 {
-	fill: var(--heroShoes);
-}
-.cls-14 {
-	fill: var(--heroPants);
+	.cls-1 {
+		fill: var(--heroCape);
+	}
+
+	.cls-2 {
+		fill: none;
+	}
+
+	.cls-3,
+	.cls-4 {
+		opacity: 0.1;
+	}
+
+	.cls-5 {
+		fill: var(--heroSkin);
+	}
+
+	.cls-6 {
+		fill: var(--heroBody);
+	}
+
+	.cls-7 {
+		fill: var(--heroHair);
+	}
+
+	.cls-8 {
+		fill: var(--heroSpecs);
+	}
+
+	.cls-9 {
+		fill: var(--heroStars);
+	}
+
+	.cls-3,
+	.cls-8,
+	.cls-9,
+	.cls-10 {
+		isolation: isolate;
+	}
+	.cls-8,
+	.cls-9,
+	.cls-10,
+	.cls-11 {
+		opacity: 0.5;
+	}
+
+	.cls-10,
+	.cls-12 {
+		fill: var(--heroCross);
+	}
+
+	.cls-13 {
+		fill: var(--heroShoes);
+	}
+
+	.cls-14 {
+		fill: var(--heroPants);
+	}
 }
 
 /* SVG animations */
-#back-cape {
-	animation: backCapeAnim 5s ease-out infinite alternate;
-}
 
 @keyframes backCapeAnim {
 	from {
@@ -81,10 +133,6 @@ svg {
 	}
 }
 
-#cape-collar {
-	animation: collarAnim 3s ease-out infinite alternate;
-}
-
 @keyframes collarAnim {
 	from {
 		transform: translateY(3px);
@@ -92,10 +140,6 @@ svg {
 	to {
 		transform: translateY(-2px);
 	}
-}
-
-#left-arm {
-	animation: leftArmAnim 2s ease-out infinite alternate;
 }
 
 @keyframes leftArmAnim {
@@ -107,10 +151,6 @@ svg {
 	}
 }
 
-#head {
-	animation: headAnim 3s ease-out infinite alternate;
-}
-
 @keyframes headAnim {
 	from {
 		transform: translateY(4px);
@@ -118,10 +158,6 @@ svg {
 	to {
 		transform: translateY(-5px);
 	}
-}
-
-#hair {
-	animation: hairAnim 3s ease-out infinite alternate;
 }
 
 @keyframes hairAnim {
@@ -133,10 +169,6 @@ svg {
 	}
 }
 
-#legs {
-	animation: legsAnim 3s ease-out 0.5s infinite alternate;
-}
-
 @keyframes legsAnim {
 	from {
 		transform: translateY(1px);
@@ -144,13 +176,6 @@ svg {
 	to {
 		transform: translateY(-5px);
 	}
-}
-
-#spec_1,
-#spec_2,
-#spec_3 {
-	animation: specAnim 1s ease-out 2s infinite alternate;
-	transform-box: fill-box;
 }
 
 @keyframes specAnim {
@@ -164,13 +189,6 @@ svg {
 	}
 }
 
-#circle_1,
-#circle_2,
-#circle_3 {
-	animation: circleAnim 4s ease-out 1s infinite alternate;
-	transform-box: fill-box;
-}
-
 @keyframes circleAnim {
 	from {
 		transform-origin: center;
@@ -182,13 +200,6 @@ svg {
 	}
 }
 
-#cross_1,
-#cross_2,
-#cross_3 {
-	animation: crossAnim 2s ease-out 3s infinite alternate;
-	transform-box: fill-box;
-}
-
 @keyframes crossAnim {
 	from {
 		transform-origin: center;
@@ -198,12 +209,6 @@ svg {
 		transform-origin: center;
 		transform: scale(1, 1) rotateZ(-360deg);
 	}
-}
-
-#star_1,
-#star_2 {
-	animation: starAnim 4s ease-in-out 0.5s infinite alternate;
-	transform-box: fill-box;
 }
 
 @keyframes starAnim {

@@ -5,72 +5,128 @@ svg {
   margin: auto;
 }
 
-.cls-1 {
-  fill: var(--heroCape);
+svg #hair {
+  -webkit-animation: hairAnim 3s ease-out infinite alternate;
+          animation: hairAnim 3s ease-out infinite alternate;
 }
 
-.cls-2 {
-  fill: none;
+svg #head {
+  -webkit-animation: headAnim 3s ease-out infinite alternate;
+          animation: headAnim 3s ease-out infinite alternate;
 }
 
-.cls-3,
-.cls-4 {
-  opacity: 0.1;
-}
-
-.cls-10,
-.cls-3,
-.cls-8,
-.cls-9 {
-  isolation: isolate;
-}
-
-.cls-5 {
-  fill: var(--heroSkin);
-}
-
-.cls-6 {
-  fill: var(--heroBody);
-}
-
-.cls-7 {
-  fill: var(--heroHair);
-}
-
-.cls-8 {
-  fill: var(--heroSpecs);
-}
-
-.cls-10,
-.cls-11,
-.cls-8,
-.cls-9 {
-  opacity: 0.5;
-}
-
-.cls-9 {
-  fill: var(--heroStars);
-}
-
-.cls-10,
-.cls-12 {
-  fill: var(--heroCross);
-}
-
-.cls-13 {
-  fill: var(--heroShoes);
-}
-
-.cls-14 {
-  fill: var(--heroPants);
-}
-
-/* SVG animations */
-#back-cape {
+svg #back-cape {
   -webkit-animation: backCapeAnim 5s ease-out infinite alternate;
           animation: backCapeAnim 5s ease-out infinite alternate;
 }
 
+svg #cape-collar {
+  -webkit-animation: collarAnim 3s ease-out infinite alternate;
+          animation: collarAnim 3s ease-out infinite alternate;
+}
+
+svg #left-arm {
+  -webkit-animation: leftArmAnim 2s ease-out infinite alternate;
+          animation: leftArmAnim 2s ease-out infinite alternate;
+}
+
+svg #legs {
+  -webkit-animation: legsAnim 3s ease-out 0.5s infinite alternate;
+          animation: legsAnim 3s ease-out 0.5s infinite alternate;
+}
+
+svg #spec_1,
+svg #spec_2,
+svg #spec_3 {
+  -webkit-animation: specAnim 1s ease-out 2s infinite alternate;
+          animation: specAnim 1s ease-out 2s infinite alternate;
+  transform-box: fill-box;
+}
+
+svg #circle_1,
+svg #circle_2,
+svg #circle_3 {
+  -webkit-animation: circleAnim 4s ease-out 1s infinite alternate;
+          animation: circleAnim 4s ease-out 1s infinite alternate;
+  transform-box: fill-box;
+}
+
+svg #cross_1,
+svg #cross_2,
+svg #cross_3 {
+  -webkit-animation: crossAnim 2s ease-out 3s infinite alternate;
+          animation: crossAnim 2s ease-out 3s infinite alternate;
+  transform-box: fill-box;
+}
+
+svg #star_1,
+svg #star_2 {
+  -webkit-animation: starAnim 4s ease-in-out 0.5s infinite alternate;
+          animation: starAnim 4s ease-in-out 0.5s infinite alternate;
+  transform-box: fill-box;
+}
+
+svg .cls-1 {
+  fill: var(--heroCape);
+}
+
+svg .cls-2 {
+  fill: none;
+}
+
+svg .cls-3,
+svg .cls-4 {
+  opacity: 0.1;
+}
+
+svg .cls-5 {
+  fill: var(--heroSkin);
+}
+
+svg .cls-6 {
+  fill: var(--heroBody);
+}
+
+svg .cls-7 {
+  fill: var(--heroHair);
+}
+
+svg .cls-8 {
+  fill: var(--heroSpecs);
+}
+
+svg .cls-9 {
+  fill: var(--heroStars);
+}
+
+svg .cls-3,
+svg .cls-8,
+svg .cls-9,
+svg .cls-10 {
+  isolation: isolate;
+}
+
+svg .cls-8,
+svg .cls-9,
+svg .cls-10,
+svg .cls-11 {
+  opacity: 0.5;
+}
+
+svg .cls-10,
+svg .cls-12 {
+  fill: var(--heroCross);
+}
+
+svg .cls-13 {
+  fill: var(--heroShoes);
+}
+
+svg .cls-14 {
+  fill: var(--heroPants);
+}
+
+/* SVG animations */
 @-webkit-keyframes backCapeAnim {
   from {
     -webkit-transform-origin: top left;
@@ -85,7 +141,6 @@ svg {
             transform: translateX(0px) translateY(0px) scale(1, 1);
   }
 }
-
 @keyframes backCapeAnim {
   from {
     -webkit-transform-origin: top left;
@@ -99,11 +154,6 @@ svg {
     -webkit-transform: translateX(0px) translateY(0px) scale(1, 1);
             transform: translateX(0px) translateY(0px) scale(1, 1);
   }
-}
-
-#cape-collar {
-  -webkit-animation: collarAnim 3s ease-out infinite alternate;
-          animation: collarAnim 3s ease-out infinite alternate;
 }
 
 @-webkit-keyframes collarAnim {
@@ -128,11 +178,6 @@ svg {
   }
 }
 
-#left-arm {
-  -webkit-animation: leftArmAnim 2s ease-out infinite alternate;
-          animation: leftArmAnim 2s ease-out infinite alternate;
-}
-
 @-webkit-keyframes leftArmAnim {
   from {
     -webkit-transform: translateX(12px) rotateZ(3deg) rotateY(10deg);
@@ -153,11 +198,6 @@ svg {
     -webkit-transform: translateX(0px) rotateZ(0deg) rotateY(0deg);
             transform: translateX(0px) rotateZ(0deg) rotateY(0deg);
   }
-}
-
-#head {
-  -webkit-animation: headAnim 3s ease-out infinite alternate;
-          animation: headAnim 3s ease-out infinite alternate;
 }
 
 @-webkit-keyframes headAnim {
@@ -182,11 +222,6 @@ svg {
   }
 }
 
-#hair {
-  -webkit-animation: hairAnim 3s ease-out infinite alternate;
-          animation: hairAnim 3s ease-out infinite alternate;
-}
-
 @-webkit-keyframes hairAnim {
   from {
     -webkit-transform: translateY(10px);
@@ -209,11 +244,6 @@ svg {
   }
 }
 
-#legs {
-  -webkit-animation: legsAnim 3s ease-out 0.5s infinite alternate;
-          animation: legsAnim 3s ease-out 0.5s infinite alternate;
-}
-
 @-webkit-keyframes legsAnim {
   from {
     -webkit-transform: translateY(1px);
@@ -234,14 +264,6 @@ svg {
     -webkit-transform: translateY(-5px);
             transform: translateY(-5px);
   }
-}
-
-#spec_1,
-#spec_2,
-#spec_3 {
-  -webkit-animation: specAnim 1s ease-out 2s infinite alternate;
-          animation: specAnim 1s ease-out 2s infinite alternate;
-  transform-box: fill-box;
 }
 
 @-webkit-keyframes specAnim {
@@ -274,14 +296,6 @@ svg {
   }
 }
 
-#circle_1,
-#circle_2,
-#circle_3 {
-  -webkit-animation: circleAnim 4s ease-out 1s infinite alternate;
-          animation: circleAnim 4s ease-out 1s infinite alternate;
-  transform-box: fill-box;
-}
-
 @-webkit-keyframes circleAnim {
   from {
     -webkit-transform-origin: center;
@@ -312,14 +326,6 @@ svg {
   }
 }
 
-#cross_1,
-#cross_2,
-#cross_3 {
-  -webkit-animation: crossAnim 2s ease-out 3s infinite alternate;
-          animation: crossAnim 2s ease-out 3s infinite alternate;
-  transform-box: fill-box;
-}
-
 @-webkit-keyframes crossAnim {
   from {
     -webkit-transform-origin: center;
@@ -348,13 +354,6 @@ svg {
     -webkit-transform: scale(1, 1) rotateZ(-360deg);
             transform: scale(1, 1) rotateZ(-360deg);
   }
-}
-
-#star_1,
-#star_2 {
-  -webkit-animation: starAnim 4s ease-in-out 0.5s infinite alternate;
-          animation: starAnim 4s ease-in-out 0.5s infinite alternate;
-  transform-box: fill-box;
 }
 
 @-webkit-keyframes starAnim {

@@ -1,3 +1,8 @@
+/**
+*
+* Testing
+*
+**/
 .container {
   width: 100%;
   height: auto;
@@ -167,147 +172,8 @@
   font-size: 1.5rem;
 }
 
-@media screen and (max-width: 2555px) {
-  .textContainer {
-    width: 65%;
-  }
-  .resumeDlLink {
-    padding: 0.25em 2em;
-  }
-  .subTitle {
-    font-size: 4.5rem;
-  }
-  .subText {
-    font-size: 2rem;
-  }
-  .subContainer {
-    width: 100%;
-    margin: auto;
-  }
-  .skills {
-    width: 6em;
-    height: 6em;
-    margin: 0.5em auto;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
-  }
-  .svgContainer {
-    top: 0%;
-    position: absolute;
-    width: 160%;
-    height: 100%;
-    top: 0%;
-    left: 25%;
-  }
-  .resumeDlText {
-    font-size: 2rem;
-  }
-}
-
-@media screen and (max-width: 1800px) {
-  .textContainer {
-    width: 65%;
-  }
-  .resumeDlLink {
-    padding: 0.25em 2em;
-  }
-  .subContainer {
-    width: 100%;
-    margin: auto;
-  }
-  .skills {
-    margin: 0.5em auto;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
-  }
-  .svgContainer {
-    top: 0%;
-    position: absolute;
-    width: 160%;
-    height: 100%;
-    top: 0%;
-    left: 15%;
-  }
-  .resumeDlText {
-    font-size: 1.5rem;
-  }
-}
-
-@media screen and (max-width: 1366px) {
-  .textContainer {
-    width: 60%;
-  }
-  .subTitle {
-    font-size: 2rem;
-  }
-  .subText {
-    font-size: 1rem;
-  }
-  .resumeDlText {
-    font-size: 1rem;
-  }
-  .subContainer {
-    width: 100%;
-    max-width: 690px;
-    margin: auto;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
-    position: relative;
-    z-index: 2;
-  }
-  .svgContainer {
-    left: 18%;
-    width: 160%;
-    height: auto;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
-    margin: auto 0px;
-    -o-object-fit: contain;
-       object-fit: contain;
-    position: absolute;
-    object-fit: contain;
-  }
-  .skills {
-    width: 4em;
-    height: 4em;
-  }
-}
-
-@media screen and (max-width: 812px) {
-  .resumeDlContainer {
-    width: 100%;
-    padding: 0px;
-    margin: 1em 0px;
-  }
-  .subContainer {
+@media (min-width: 426px) and (max-width: 768px) {
+  .container .subContainer {
     width: 100%;
     margin: auto;
     display: -webkit-box;
@@ -322,7 +188,7 @@
     position: relative;
     z-index: 2;
   }
-  .textContainer {
+  .container .subContainer .textContainer {
     width: 100%;
     display: -webkit-box;
     display: -ms-flexbox;
@@ -335,7 +201,17 @@
     -ms-flex-item-align: center;
         align-self: center;
   }
-  .svgContainer {
+  .container .subContainer .textContainer .subTitle {
+    font-size: 1.75rem;
+  }
+  .container .subContainer .textContainer .subText {
+    font-size: 1rem;
+  }
+  .container .subContainer .textContainer .subText .skillContainer .skills {
+    width: 6em;
+    height: 6em;
+  }
+  .container .subContainer .svgContainer {
     height: auto;
     z-index: -1;
     -o-object-fit: contain;
@@ -354,18 +230,153 @@
     position: absolute;
     width: 250%;
   }
-  .resumeDlText {
+  .container .subContainer .resumeDlContainer {
+    width: 100%;
+    padding: 0px;
+    margin: 1em 0px;
+  }
+  .container .subContainer .resumeDlContainer .resumeDlText {
     font-size: 1rem;
   }
-  .subTitle {
-    font-size: 1.75rem;
+}
+
+@media (min-width: 769px) and (max-width: 1365px) {
+  .container .subContainer {
+    width: 100%;
+    max-width: 690px;
+    margin: auto;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    position: relative;
+    z-index: 2;
   }
-  .subText {
+  .container .subContainer .textContainer {
+    width: 60%;
+  }
+  .container .subContainer .textContainer .subTitle {
+    font-size: 2rem;
+  }
+  .container .subContainer .textContainer .subText {
     font-size: 1rem;
   }
-  .skills {
+  .container .subContainer .textContainer .subText .skillContainer .skills {
+    width: 4em;
+    height: 4em;
+  }
+  .container .subContainer .svgContainer {
+    left: 18%;
+    width: 160%;
+    height: auto;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    margin: auto 0px;
+    -o-object-fit: contain;
+       object-fit: contain;
+    position: absolute;
+    object-fit: contain;
+  }
+  .container .subContainer .resumeDlContainer .resumeDlText {
+    font-size: 1rem;
+  }
+}
+
+@media (min-width: 1366px) {
+  .container .subContainer {
+    width: 100%;
+    margin: auto;
+  }
+  .container .subContainer .textContainer {
+    width: 65%;
+  }
+  .container .subContainer .textContainer .subTitle {
+    font-size: 4.5rem;
+  }
+  .container .subContainer .textContainer .subText {
+    font-size: 2rem;
+  }
+  .container .subContainer .textContainer .subText .skillContainer .skills {
+    margin: 0.5em auto;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .container .subContainer .svgContainer {
+    top: 0%;
+    position: absolute;
+    width: 160%;
+    height: 100%;
+    top: 0%;
+    left: 15%;
+  }
+  .container .subContainer .resumeDlContainer .resumeDlText {
+    font-size: 1.5rem;
+  }
+  .container .subContainer .resumeDlContainer .resumeDlText .resumeDlLink {
+    padding: 0.25em 2em;
+  }
+}
+
+@media (min-width: 1920px) and (-webkit-min-device-pixel-ratio: 2), (min-width: 1920px) and (min-resolution: 192dpi) {
+  .container .subContainer {
+    width: 100%;
+    margin: auto;
+  }
+  .container .subContainer .textContainer {
+    width: 65%;
+  }
+  .container .subContainer .textContainer .subTitle {
+    font-size: 4.5rem;
+  }
+  .container .subContainer .textContainer .subText {
+    font-size: 2rem;
+  }
+  .container .subContainer .textContainer .subText .skillContainer .skills {
     width: 6em;
     height: 6em;
+    margin: 0.5em auto;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .container .subContainer .svgContainer {
+    top: 0%;
+    position: absolute;
+    width: 160%;
+    height: 100%;
+    top: 0%;
+    left: 25%;
+  }
+  .container .subContainer .resumeDlContainer .resumeDlText {
+    font-size: 2rem;
+  }
+  .container .subContainer .resumeDlContainer .resumeDlText .resumeDlLink {
+    padding: 0.25em 2em;
   }
 }
 /*# sourceMappingURL=About.css.map */

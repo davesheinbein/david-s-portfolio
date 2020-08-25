@@ -48,7 +48,7 @@ Wireframing | Adobe Creative Suite | Photography | Videography | Canva | Web Des
 #### 6. Node.js
 #### 7. Heroku
 #### 8. Namecheap
-#### 8. Git
+#### 9. Git
 
 
 ## Potential Next Steps: 

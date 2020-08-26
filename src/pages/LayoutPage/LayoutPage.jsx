@@ -7,8 +7,8 @@ import Projects from '../../components/Projects/Projects';
 import Contact from '../../components/Contact/Contact';
 import Footer from '../../components/Footer/Footer';
 import fireworks from '../../images/fireworks.gif';
-import './styles/LayoutPage.css';
 import { Spring } from 'react-spring/renderprops';
+import './styles/LayoutPage.css';
 
 console.log('Hello world...');
 console.log(
@@ -37,7 +37,10 @@ export default class Layout extends Component {
 						<Spring
 							from={{ opacity: 0 }}
 							to={{ opacity: 1 }}
-							config={{ delay: 1000, duration: 1000 }}>
+							config={{
+								delay: 1000,
+								duration: 1000,
+							}}>
 							{(props) => (
 								<div style={props}>
 									<Helloworld
@@ -49,8 +52,42 @@ export default class Layout extends Component {
 							)}
 						</Spring>
 						<div className='backgroundBox'>
-							<div className='waveB'></div>
-							<div className='waveA'></div>
+							<Spring
+								from={{
+									transform: 'translateX(-100px)',
+								}}
+								to={{
+									transform: 'translateX(0px)',
+								}}
+								config={{
+									reset: true,
+									delay: 1000,
+									duration: 10000,
+								}}>
+								{(props) => (
+									<div
+										style={props}
+										className='waveB'></div>
+								)}
+							</Spring>
+							<Spring
+								from={{
+									transform: 'translateX(100px)',
+								}}
+								to={{
+									transform: 'translateX(0px)',
+								}}
+								config={{
+									reset: true,
+									delay: 1000,
+									duration: 10000,
+								}}>
+								{(props) => (
+									<div
+										style={props}
+										className='waveA'></div>
+								)}
+							</Spring>
 							<div className='fireworks'>
 								<img src={fireworks} alt='fireworks' />
 							</div>

@@ -39,6 +39,7 @@
 					}
 					#theme-options-wrapper {
 						@include flexCenter(column, center, center);
+
 						margin: 0px 2em;
 						.personalizedText {
 							text-align: center;
@@ -49,6 +50,7 @@
 							font-family: 'Cabin', sans-serif;
 						}
 						.themeOptionsSubContainer {
+							@include flexCenter(row, center, center);
 							.theme-dot {
 								@include heightWidth(30px, 30px);
 								background-color: black;

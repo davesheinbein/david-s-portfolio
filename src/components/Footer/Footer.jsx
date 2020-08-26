@@ -10,7 +10,7 @@ function Footer() {
 						<div>
 							<a href='/'>
 								<i
-									className='fa fa-home'
+									className='fa fa-home selectA'
 									aria-hidden='true'></i>
 							</a>
 						</div>
@@ -20,7 +20,7 @@ function Footer() {
 						<div>
 							<a href='#navigation'>
 								<i
-									className='fa fa-chevron-up'
+									className='fa fa-chevron-up selectB'
 									aria-hidden='true'></i>
 							</a>
 						</div>
@@ -30,7 +30,7 @@ function Footer() {
 						<div>
 							<a href='#projects'>
 								<i
-									className='fa fa-file'
+									className='fa fa-file selectC'
 									aria-hidden='true'></i>
 							</a>
 						</div>
@@ -40,7 +40,7 @@ function Footer() {
 						<div>
 							<a href='https://www.linkedin.com/in/david-sheinbein/'>
 								<i
-									className='fa fa-linkedin-square'
+									className='fa fa-linkedin-square selectD'
 									aria-hidden='true'
 									id='linkedInFooterSym'></i>
 							</a>
@@ -51,7 +51,7 @@ function Footer() {
 						<div>
 							<a href='https://github.com/davesheinbein'>
 								<i
-									className='fa fa-github'
+									className='fa fa-github selectE'
 									aria-hidden='true'
 									id='gitHubFooterSym'></i>
 							</a>

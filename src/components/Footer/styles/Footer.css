@@ -31,15 +31,19 @@
 }
 
 .footerContainer .footerNav #nav li {
+  list-style: none;
+}
+
+.footerContainer .footerNav #nav li div {
   color: #b3b3b3;
   list-style-type: none;
 }
 
-.footerContainer .footerNav #nav li a {
+.footerContainer .footerNav #nav li div a {
   color: var(--mainText);
 }
 
-.footerContainer .footerNav #nav li a:hover {
+.footerContainer .footerNav #nav li div a:hover {
   color: var(--secondaryText);
   text-decoration: none;
 }
@@ -82,7 +86,7 @@
   .footerContainer .footerNav #nav {
     font-size: 1rem;
   }
-  .footerContainer .footerNav #nav .navLinesBottom {
+  .footerContainer .footerNav #nav li .navLinesBottom {
     margin: 0px 1em;
   }
   .footerContainer .footerSubContainer {
@@ -95,7 +99,7 @@
     font-size: 1rem;
     padding: 0.25em;
   }
-  .footerContainer .footerNav #nav .navLinesBottom {
+  .footerContainer .footerNav #nav li .navLinesBottom {
     margin: 0px 1em;
   }
   .footerContainer .footerSubContainer {
@@ -110,7 +114,7 @@
     font-size: 1.5rem;
     padding: 0px 0.75em;
   }
-  .footerContainer .footerNav #nav .navLinesBottom {
+  .footerContainer .footerNav #nav li .navLinesBottom {
     margin: 0px 1em;
   }
   .footerContainer .footerSubContainer {
@@ -123,7 +127,32 @@
     font-size: 1.5rem;
     padding: 0px 2em;
   }
-  .footerContainer .footerNav #nav .navLinesBottom {
+  .footerContainer .footerNav #nav li div a .selectA::after {
+    font-family: 'Cabin', sans-serif;
+    margin: 0.5em;
+    content: "Home";
+  }
+  .footerContainer .footerNav #nav li div a .selectB::after {
+    font-family: 'Cabin', sans-serif;
+    margin: 0.5em;
+    content: "Top";
+  }
+  .footerContainer .footerNav #nav li div a .selectC::after {
+    font-family: 'Cabin', sans-serif;
+    margin: 0.5em;
+    content: "Project";
+  }
+  .footerContainer .footerNav #nav li div a .selectD::after {
+    font-family: 'Cabin', sans-serif;
+    margin: 0.5em;
+    content: "Linkedin";
+  }
+  .footerContainer .footerNav #nav li div a .selectE::after {
+    font-family: 'Cabin', sans-serif;
+    margin: 0.5em;
+    content: "Github";
+  }
+  .footerContainer .footerNav #nav li .navLinesBottom {
     margin: 0px 2em;
   }
   .footerContainer .footerSubContainer {
@@ -135,7 +164,32 @@
   .footerContainer .footerNav #nav {
     font-size: 2rem;
   }
-  .footerContainer .footerNav #nav .navLinesBottom {
+  .footerContainer .footerNav #nav li div a .selectA::after {
+    font-family: 'Cabin', sans-serif;
+    margin: 0.5em;
+    content: "Home";
+  }
+  .footerContainer .footerNav #nav li div a .selectB::after {
+    font-family: 'Cabin', sans-serif;
+    margin: 0.5em;
+    content: "Top";
+  }
+  .footerContainer .footerNav #nav li div a .selectC::after {
+    font-family: 'Cabin', sans-serif;
+    margin: 0.5em;
+    content: "Project";
+  }
+  .footerContainer .footerNav #nav li div a .selectD::after {
+    font-family: 'Cabin', sans-serif;
+    margin: 0.5em;
+    content: "Linkedin";
+  }
+  .footerContainer .footerNav #nav li div a .selectE::after {
+    font-family: 'Cabin', sans-serif;
+    margin: 0.5em;
+    content: "Github";
+  }
+  .footerContainer .footerNav #nav li .navLinesBottom {
     margin: 0px 3.5em;
   }
   .footerContainer .footerSubContainer {
@@ -147,11 +201,33 @@
   .footerContainer .footerNav #nav {
     font-size: 2rem;
   }
-  .footerContainer .footerNav #nav li a::after {
-    content: 'Click';
-  }
-  .footerContainer .footerNav #nav .navLinesBottom {
+  .footerContainer .footerNav #nav li {
     margin: 0px 3.5em;
+  }
+  .footerContainer .footerNav #nav li div a .selectA::after {
+    font-family: 'Cabin', sans-serif;
+    margin: 0.5em;
+    content: "Home";
+  }
+  .footerContainer .footerNav #nav li div a .selectB::after {
+    font-family: 'Cabin', sans-serif;
+    margin: 0.5em;
+    content: "Top";
+  }
+  .footerContainer .footerNav #nav li div a .selectC::after {
+    font-family: 'Cabin', sans-serif;
+    margin: 0.5em;
+    content: "Project";
+  }
+  .footerContainer .footerNav #nav li div a .selectD::after {
+    font-family: 'Cabin', sans-serif;
+    margin: 0.5em;
+    content: "Linkedin";
+  }
+  .footerContainer .footerNav #nav li div a .selectE::after {
+    font-family: 'Cabin', sans-serif;
+    margin: 0.5em;
+    content: "Github";
   }
   .footerContainer .footerSubContainer {
     font-size: 2rem;

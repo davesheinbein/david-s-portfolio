@@ -13,13 +13,16 @@
 			padding: 0.5em 1em;
 			background-color: rgba(0, 0, 0, 0.25);
 			li {
-				color: #b3b3b3;
-				list-style-type: none;
-				a {
-					color: var(--mainText);
-					&:hover {
-						color: var(--secondaryText);
-						text-decoration: none;
+				list-style: none;
+				div {
+					color: #b3b3b3;
+					list-style-type: none;
+					a {
+						color: var(--mainText);
+						&:hover {
+							color: var(--secondaryText);
+							text-decoration: none;
+						}
 					}
 				}
 			}
@@ -53,13 +56,15 @@
 			#nav {
 				font-size: 1rem;
 				li {
-					a {
-						&:hover {
+					div {
+						a {
+							&:hover {
+							}
 						}
 					}
-				}
-				.navLinesBottom {
-					margin: 0px 1em;
+					.navLinesBottom {
+						margin: 0px 1em;
+					}
 				}
 			}
 		}
@@ -81,13 +86,15 @@
 
 				padding: 0.25em;
 				li {
-					a {
-						&:hover {
+					div {
+						a {
+							&:hover {
+							}
 						}
 					}
-				}
-				.navLinesBottom {
-					margin: 0px 1em;
+					.navLinesBottom {
+						margin: 0px 1em;
+					}
 				}
 			}
 		}
@@ -111,13 +118,15 @@
 
 				padding: 0px 0.75em;
 				li {
-					a {
-						&:hover {
+					div {
+						a {
+							&:hover {
+							}
 						}
 					}
-				}
-				.navLinesBottom {
-					margin: 0px 1em;
+					.navLinesBottom {
+						margin: 0px 1em;
+					}
 				}
 			}
 		}
@@ -139,13 +148,40 @@
 
 				padding: 0px 2em;
 				li {
-					a {
-						&:hover {
+					div {
+						a {
+							&:hover {
+							}
+							.selectA {
+								&::after {
+									@include contentMix('Home');
+								}
+							}
+							.selectB {
+								&::after {
+									@include contentMix('Top');
+								}
+							}
+							.selectC {
+								&::after {
+									@include contentMix('Project');
+								}
+							}
+							.selectD {
+								&::after {
+									@include contentMix('Linkedin');
+								}
+							}
+							.selectE {
+								&::after {
+									@include contentMix('Github');
+								}
+							}
 						}
 					}
-				}
-				.navLinesBottom {
-					margin: 0px 2em;
+					.navLinesBottom {
+						margin: 0px 2em;
+					}
 				}
 			}
 		}
@@ -165,13 +201,40 @@
 			#nav {
 				font-size: 2rem;
 				li {
-					a {
-						&:hover {
+					div {
+						a {
+							&:hover {
+							}
+							.selectA {
+								&::after {
+									@include contentMix('Home');
+								}
+							}
+							.selectB {
+								&::after {
+									@include contentMix('Top');
+								}
+							}
+							.selectC {
+								&::after {
+									@include contentMix('Project');
+								}
+							}
+							.selectD {
+								&::after {
+									@include contentMix('Linkedin');
+								}
+							}
+							.selectE {
+								&::after {
+									@include contentMix('Github');
+								}
+							}
 						}
 					}
-				}
-				.navLinesBottom {
-					margin: 0px 3.5em;
+					.navLinesBottom {
+						margin: 0px 3.5em;
+					}
 				}
 			}
 		}
@@ -192,15 +255,39 @@
 				font-size: 2rem;
 
 				li {
-					a {
-						&:hover {
-						}
-						&::after {
-							content: 'Click';
+					div {
+						a {
+							&:hover {
+							}
+							.selectA {
+								&::after {
+									@include contentMix('Home');
+								}
+							}
+							.selectB {
+								&::after {
+									@include contentMix('Top');
+								}
+							}
+							.selectC {
+								&::after {
+									@include contentMix('Project');
+								}
+							}
+							.selectD {
+								&::after {
+									@include contentMix('Linkedin');
+								}
+							}
+							.selectE {
+								&::after {
+									@include contentMix('Github');
+								}
+							}
 						}
 					}
-				}
-				.navLinesBottom {
+					.navLinesBottom {
+					}
 					margin: 0px 3.5em;
 				}
 			}

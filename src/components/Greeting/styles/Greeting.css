@@ -4,86 +4,105 @@
 *
 **/
 .headingContainer {
-  width: 100%;
-  height: auto;
-  margin: auto;
-  background-color: var(--HeadingColor);
-  padding: 1em 0px;
-  font-family: 'Modak', cursive, 'Russo One', sans-serif;
+	width: 100%;
+	height: auto;
+	margin: auto;
+	background-color: var(--HeadingColor);
+	padding: 1em 0px;
+	font-family: 'Modak', cursive, 'Russo One', sans-serif;
 }
 
 .headingContainer .headingText {
-  font-size: 6rem;
-  font-weight: 400;
-  color: var(--mainText);
+	font-size: 6rem;
+	font-weight: 400;
+	color: var(--mainText);
 }
 
 .headingContainer #navigation {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  text-align: center;
-  margin: 0;
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-pack: center;
+	-ms-flex-pack: center;
+	justify-content: center;
+	-webkit-box-align: center;
+	-ms-flex-align: center;
+	align-items: center;
+	text-align: center;
+	margin: 0;
 }
 
 .headingContainer #navigation li {
-  font-size: 2rem;
-  color: var(--mainText);
-  list-style-type: none;
+	font-size: 2rem;
+	color: var(--mainText);
+	list-style-type: none;
 }
 
 .headingContainer #navigation li a {
-  color: var(--mainText);
+	color: var(--mainText);
 }
 
 .headingContainer #navigation li a:hover {
-  color: var(--secondaryText);
-  text-decoration: underline;
+	color: var(--secondaryText);
+	text-decoration: underline;
 }
 
 .headingContainer #navigation .navLines {
-  padding: 0px 0.5em;
+	padding: 0px 0.5em;
+}
+
+@media (max-width: 360px) {
+	.headingContainer .headingText {
+		font-size: 2.5rem;
+	}
+	.headingContainer #navigation li {
+		font-size: 1.25rem;
+	}
+}
+
+@media (min-width: 361px) and (max-width: 425px) {
+	.headingContainer .headingText {
+		font-size: 3rem;
+	}
+	.headingContainer #navigation li {
+		font-size: 1.5rem;
+	}
 }
 
 @media (min-width: 426px) and (max-width: 768px) {
-  .headingContainer .headingText {
-    font-size: 2.5rem;
-  }
-  .headingContainer #navigation li {
-    font-size: 1rem;
-  }
+	.headingContainer .headingText {
+		font-size: 4rem;
+	}
+	.headingContainer #navigation li {
+		font-size: 2rem;
+	}
 }
 
 @media (min-width: 769px) and (max-width: 1365px) {
-  .headingContainer .headingText {
-    font-size: 6rem;
-  }
-  .headingContainer #navigation li {
-    font-size: 2.75rem;
-  }
+	.headingContainer .headingText {
+		font-size: 6rem;
+	}
+	.headingContainer #navigation li {
+		font-size: 3rem;
+	}
 }
 
 @media (min-width: 1366px) {
-  .headingContainer .headingText {
-    font-size: 9rem;
-  }
-  .headingContainer #navigation li {
-    font-size: 4rem;
-  }
+	.headingContainer .headingText {
+		font-size: 8rem;
+	}
+	.headingContainer #navigation li {
+		font-size: 4rem;
+	}
 }
 
-@media (min-width: 1920px) and (-webkit-min-device-pixel-ratio: 2), (min-width: 1920px) and (min-resolution: 192dpi) {
-  .headingContainer .headingText {
-    font-size: 10rem;
-  }
-  .headingContainer #navigation li {
-    font-size: 5rem;
-  }
+@media (min-width: 1920px) and (-webkit-min-device-pixel-ratio: 2),
+	(min-width: 1920px) and (min-resolution: 192dpi) {
+	.headingContainer .headingText {
+		font-size: 12rem;
+	}
+	.headingContainer #navigation li {
+		font-size: 6rem;
+	}
 }
 /*# sourceMappingURL=Greeting.css.map */

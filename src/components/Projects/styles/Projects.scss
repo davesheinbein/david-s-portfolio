@@ -1,135 +1,249 @@
+@import '../../../breakpoints/breakpoints.scss';
+
 .projects {
 	background-color: var(--mainColor);
 	width: 100%;
 	max-width: 1400px;
 	margin: 0px auto;
-}
-
-.projectTitle {
-	font-size: 3rem;
-	font-weight: 400;
-	font-family: 'Modak', cursive;
-}
-
-.post-wrapper {
-	display: grid;
-	grid-template-columns: repeat(auto-fit, 350px);
-	gap: 20px;
-	justify-content: center;
-	padding-bottom: 50px;
-}
-
-.post-title {
-	font-size: 1.5rem;
-	font-weight: 400;
-	padding: 0.5em 0px;
-	color: black;
-	margin: 0;
-	font-family: 'Modak', cursive;
-}
-
-.post {
-	border: 1px solid var(--themeContainerDotBorder);
-	-webkit-box-shadow: -2px 7px 21px -9px var(--shadow);
-	-moz-box-shadow: -2px 7px 21px -9px var(--shadow);
-	box-shadow: -2px 7px 21px -9px var(--shadow);
-}
-
-.thumbnail {
-	display: block;
-	width: 100%;
-	height: 270px;
-	object-fit: cover;
-}
-
-.post-preview {
-	background-color: #fff;
-	padding: 15px;
-}
-
-.post-intro {
-	color: #4b5156;
-	font-size: 14px;
-	font-family: 'Cabin', sans-serif;
-}
-
-.projectTitle {
-	color: var(--mainText);
-	text-align: center;
-	font-size: 3rem;
-	padding: 0.5em 0px;
-}
-
-.viewMoreBtn {
-	padding: 0.5em 0px;
-	font-family: 'Cabin', sans-serif;
-}
-
-.viewMoreBtn:hover {
-	color: black;
-}
-
-@media screen and (max-width: 2555px) {
 	.projectTitle {
-		font-size: 4.5rem;
+		font-size: 3rem;
+		font-weight: 400;
+		font-family: 'Modak', cursive;
+		text-align: center;
+		color: var(--mainText);
+		margin: 0px;
+		padding: 0.5em 0px;
 	}
-
 	.post-wrapper {
-		width: 1500px;
-		gap: 60px;
+		display: grid;
+		grid-template-columns: repeat(auto-fit, 350px);
+		gap: 20px;
 		justify-content: center;
 		padding-bottom: 50px;
+		div {
+			.post {
+				border: 1px solid var(--themeContainerDotBorder);
+				-webkit-box-shadow: -2px 7px 21px -9px var(--shadow);
+				-moz-box-shadow: -2px 7px 21px -9px var(--shadow);
+				box-shadow: -2px 7px 21px -9px var(--shadow);
+				a {
+					.thumbnail {
+						display: block;
+						width: 100%;
+						height: 270px;
+						object-fit: cover;
+					}
+				}
+				.post-preview {
+					background-color: #fff;
+					padding: 15px;
+					.post-title {
+						font-size: 1.5rem;
+						font-weight: 400;
+						padding: 0.5em 0px;
+						color: black;
+						margin: 0;
+						font-family: 'Modak', cursive;
+					}
+					.post-intro {
+						color: #4b5156;
+						font-size: 14px;
+						font-family: 'Cabin', sans-serif;
+					}
+					.viewMoreBtn {
+						padding: 0.5em 0px;
+						font-family: 'Cabin', sans-serif;
+						&:hover {
+							color: black;
+						}
+					}
+				}
+			}
+		}
 	}
 
-	.projects {
+	@include media('<=phone') {
+		width: 100%;
+		padding: 0px;
+		.projectTitle {
+			font-size: 1.75rem;
+		}
+		.post-wrapper {
+			width: 100vw;
+			gap: 20px;
+			div {
+				.post {
+					margin: 0px 1.5em;
+					a {
+						.thumbnail {
+						}
+					}
+					.post-preview {
+						.post-title {
+							font-size: 1.5rem;
+						}
+						.post-intro {
+						}
+						.viewMoreBtn {
+							&:hover {
+							}
+						}
+					}
+				}
+			}
+		}
+	}
+
+	@include media('>phone', '<=425px') {
+		width: 100%;
+		margin: 0px auto;
+		.projectTitle {
+			font-size: 2.25rem;
+		}
+		.post-wrapper {
+			width: 100vw;
+			gap: 20px;
+			div {
+				.post {
+					margin: 0px 0.5em;
+					a {
+						.thumbnail {
+						}
+					}
+					.post-preview {
+						.post-title {
+							font-size: 1.5rem;
+						}
+						.post-intro {
+						}
+						.viewMoreBtn {
+							&:hover {
+							}
+						}
+					}
+				}
+			}
+		}
+	}
+
+	@include media('>425px', '<=tablet') {
+		width: 100%;
+		margin: 0px auto;
+		.projectTitle {
+			font-size: 2.5rem;
+		}
+		.post-wrapper {
+			width: 100vw;
+			gap: 20px;
+			div {
+				.post {
+					margin: 0px 1em;
+					a {
+						.thumbnail {
+						}
+					}
+					.post-preview {
+						.post-title {
+							font-size: 1.5rem;
+						}
+						.post-intro {
+						}
+						.viewMoreBtn {
+							&:hover {
+							}
+						}
+					}
+				}
+			}
+		}
+	}
+
+	@include media('>tablet', '<desktop') {
+		width: 100%;
+		margin: 0px auto;
+		.projectTitle {
+			font-size: 4rem;
+		}
+		.post-wrapper {
+			width: 100vw;
+			gap: 20px;
+			div {
+				.post {
+					a {
+						.thumbnail {
+						}
+					}
+					.post-preview {
+						.post-title {
+						}
+						.post-intro {
+						}
+						.viewMoreBtn {
+							&:hover {
+							}
+						}
+					}
+				}
+			}
+		}
+	}
+
+	@include media('>=desktop') {
+		.projectTitle {
+			font-size: 4.5rem;
+		}
+		.post-wrapper {
+			div {
+				.post {
+					a {
+						.thumbnail {
+						}
+					}
+					.post-preview {
+						.post-title {
+						}
+						.post-intro {
+						}
+						.viewMoreBtn {
+							&:hover {
+							}
+						}
+					}
+				}
+			}
+		}
+	}
+
+	@include media('>=LGdesktop', 'retina2x') {
 		width: 100%;
 		max-width: 1500px;
 		margin: 0px auto;
-	}
-}
-
-@media screen and (max-width: 1800px) {
-	.projectTitle {
-		font-size: 3rem;
-	}
-}
-
-@media screen and (max-width: 1366px) {
-	.projectTitle {
-		font-size: 2rem;
-	}
-
-	.post-wrapper {
-		width: 100vw;
-		gap: 20px;
-	}
-
-	.projects {
-		width: 100%;
-		margin: 0px auto;
-	}
-}
-
-@media screen and (max-width: 812px) {
-	.projectTitle {
-		font-size: 1.5rem;
-	}
-
-	.post-title {
-		font-size: 1.5rem;
-	}
-
-	.post {
-		margin: 0px 1em;
-	}
-
-	.post-wrapper {
-		width: 100vw;
-		gap: 20px;
-	}
-
-	.projects {
-		width: 100%;
-		margin: 0px auto;
+		.projectTitle {
+			font-size: 7rem;
+		}
+		.post-wrapper {
+			width: 1500px;
+			gap: 60px;
+			justify-content: center;
+			padding-bottom: 50px;
+			div {
+				.post {
+					a {
+						.thumbnail {
+						}
+					}
+					.post-preview {
+						.post-title {
+						}
+						.post-intro {
+						}
+						.viewMoreBtn {
+							&:hover {
+							}
+						}
+					}
+				}
+			}
+		}
 	}
 }

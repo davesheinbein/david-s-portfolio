@@ -4,14 +4,15 @@
 *
 **/
 .container {
-  width: 100%;
   height: auto;
+  width: 100%;
   background-color: var(--mainColor);
   color: var(--mainText);
   z-index: 2;
 }
 
 .container .subContainer {
+  height: auto;
   width: 100%;
   margin: auto;
   display: -webkit-box;
@@ -32,6 +33,7 @@
 }
 
 .container .subContainer .textContainer {
+  height: auto;
   width: 100%;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -40,13 +42,15 @@
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  justify-self: flex-start;
-  -ms-flex-item-align: start;
-      align-self: flex-start;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
 .container .subContainer .textContainer .subTitle {
-  /* width: 80%; */
   font-size: 3rem;
   margin: 0.5em 0px;
   color: var(--mainText);
@@ -55,7 +59,6 @@
 }
 
 .container .subContainer .textContainer .subText {
-  /* width: 80%; */
   font-size: 1.5rem;
   color: var(--subText);
   font-weight: 600;
@@ -73,6 +76,7 @@
 }
 
 .container .subContainer .textContainer .subText .skillContainer {
+  height: auto;
   width: 100%;
   font-size: 1rem;
   display: -ms-grid;
@@ -87,14 +91,18 @@
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  width: 5vw;
   height: 5vh;
+  width: 5vw;
   margin: 0.25em;
   padding: 40px;
   color: var(--TertiaryText);
@@ -110,6 +118,10 @@
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
@@ -120,8 +132,8 @@
 }
 
 .container .subContainer .svgContainer {
-  width: 100%;
   height: 100%;
+  width: 100%;
   z-index: -1;
   -o-object-fit: contain;
      object-fit: contain;
@@ -136,12 +148,14 @@
 }
 
 .container .subContainer .resumeDlContainer {
+  height: auto;
   width: 100%;
   padding: 0px 1em;
   margin: 1em 0px;
 }
 
 .container .subContainer .resumeDlContainer .resumeDlText {
+  height: auto;
   width: 100%;
   font-size: 1.5rem;
   font-weight: 600;
@@ -172,23 +186,9 @@
   font-size: 1.5rem;
 }
 
-@media (min-width: 426px) and (max-width: 768px) {
+@media (max-width: 360px) {
   .container .subContainer {
-    width: 100%;
-    margin: auto;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
-    position: relative;
-    z-index: 2;
-  }
-  .container .subContainer .textContainer {
+    height: auto;
     width: 100%;
     display: -webkit-box;
     display: -ms-flexbox;
@@ -197,9 +197,32 @@
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
             flex-direction: column;
-    justify-self: center;
-    -ms-flex-item-align: center;
-        align-self: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    margin: auto;
+    position: relative;
+    z-index: 2;
+  }
+  .container .subContainer .textContainer {
+    height: auto;
+    width: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
   }
   .container .subContainer .textContainer .subTitle {
     font-size: 1.75rem;
@@ -207,61 +230,272 @@
   .container .subContainer .textContainer .subText {
     font-size: 1rem;
   }
+  .container .subContainer .textContainer .subText .skillContainer {
+    height: auto;
+    width: 100%;
+    margin: auto;
+    padding: 0px;
+    -webkit-transform: scale(0.9, 0.9);
+            transform: scale(0.9, 0.9);
+  }
   .container .subContainer .textContainer .subText .skillContainer .skills {
-    width: 6em;
-    height: 6em;
+    height: 4em;
+    width: 4em;
   }
   .container .subContainer .svgContainer {
     height: auto;
     z-index: -1;
     -o-object-fit: contain;
        object-fit: contain;
+    position: absolute;
     top: 0%;
-    left: 20%;
+    left: -10%;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
     -webkit-box-pack: end;
         -ms-flex-pack: end;
             justify-content: flex-end;
     -webkit-box-align: center;
         -ms-flex-align: center;
             align-items: center;
-    position: absolute;
-    width: 250%;
+    height: auto;
+    width: 400%;
   }
   .container .subContainer .resumeDlContainer {
+    height: auto;
     width: 100%;
     padding: 0px;
     margin: 1em 0px;
   }
   .container .subContainer .resumeDlContainer .resumeDlText {
+    font-size: 0.75rem;
+  }
+  .container .subContainer .resumeDlContainer .resumeDlLink {
+    font-size: 1rem;
+  }
+  .container .subContainer .resumeDlContainer .resumeDlLink .resumeIcon {
     font-size: 1rem;
   }
 }
 
-@media (min-width: 769px) and (max-width: 1365px) {
+@media (min-width: 361px) and (max-width: 425px) {
   .container .subContainer {
+    height: auto;
     width: 100%;
-    max-width: 690px;
-    margin: auto;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
     -webkit-box-pack: center;
         -ms-flex-pack: center;
             justify-content: center;
     -webkit-box-align: center;
         -ms-flex-align: center;
             align-items: center;
+    margin: auto;
     position: relative;
     z-index: 2;
   }
   .container .subContainer .textContainer {
-    width: 60%;
+    height: auto;
+    width: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
   }
   .container .subContainer .textContainer .subTitle {
-    font-size: 2rem;
+    font-size: 2.5rem;
+  }
+  .container .subContainer .textContainer .subText {
+    font-size: 1rem;
+  }
+  .container .subContainer .textContainer .subText .skillContainer {
+    height: auto;
+    width: 100%;
+    margin: auto;
+    padding: 0px;
+    -webkit-transform: scale(0.9, 0.9);
+            transform: scale(0.9, 0.9);
+  }
+  .container .subContainer .textContainer .subText .skillContainer .skills {
+    height: 6em;
+    width: 6em;
+  }
+  .container .subContainer .svgContainer {
+    height: auto;
+    z-index: -1;
+    -o-object-fit: contain;
+       object-fit: contain;
+    position: absolute;
+    top: 0%;
+    left: -10%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    height: auto;
+    width: 350%;
+  }
+  .container .subContainer .resumeDlContainer {
+    height: auto;
+    width: 100%;
+    padding: 0px;
+    margin: 1em 0px;
+  }
+  .container .subContainer .resumeDlContainer .resumeDlText {
+    font-size: 0.9rem;
+  }
+  .container .subContainer .resumeDlContainer .resumeDlLink {
+    font-size: 1.5rem;
+  }
+  .container .subContainer .resumeDlContainer .resumeDlLink .resumeIcon {
+    font-size: 1.5rem;
+  }
+}
+
+@media (min-width: 426px) and (max-width: 768px) {
+  .container .subContainer {
+    height: auto;
+    width: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: flex-start;
+    margin: auto;
+    position: relative;
+    z-index: 2;
+  }
+  .container .subContainer .textContainer {
+    height: auto;
+    width: 65%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .container .subContainer .textContainer .subTitle {
+    font-size: 2.5rem;
+  }
+  .container .subContainer .textContainer .subText {
+    font-size: 1rem;
+  }
+  .container .subContainer .textContainer .subText .skillContainer .skills {
+    height: 6em;
+    width: 6em;
+  }
+  .container .subContainer .svgContainer {
+    z-index: -1;
+    -o-object-fit: contain;
+       object-fit: contain;
+    position: absolute;
+    top: 0%;
+    left: 15%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: end;
+        -ms-flex-pack: end;
+            justify-content: flex-end;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    height: auto;
+    width: 170%;
+  }
+  .container .subContainer .resumeDlContainer {
+    height: auto;
+    width: 100%;
+    padding: 0px;
+    margin: 1em 0px;
+  }
+  .container .subContainer .resumeDlContainer .resumeDlText {
+    font-size: 1.25rem;
+  }
+  .container .subContainer .resumeDlContainer .resumeDlLink {
+    font-size: 1.5rem;
+  }
+  .container .subContainer .resumeDlContainer .resumeDlLink .resumeIcon {
+    font-size: 1.5rem;
+  }
+}
+
+@media (min-width: 769px) and (max-width: 1365px) {
+  .container .subContainer {
+    height: auto;
+    width: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: flex-start;
+    max-width: 690px;
+    margin: auto;
+    position: relative;
+    z-index: 2;
+  }
+  .container .subContainer .textContainer {
+    height: auto;
+    width: 65%;
+  }
+  .container .subContainer .textContainer .subTitle {
+    font-size: 4rem;
   }
   .container .subContainer .textContainer .subText {
     font-size: 1rem;
@@ -269,14 +503,22 @@
   .container .subContainer .textContainer .subText .skillContainer .skills {
     width: 4em;
     height: 4em;
+    height: 4em;
+    width: 4em;
   }
   .container .subContainer .svgContainer {
-    left: 18%;
-    width: 160%;
+    position: absolute;
+    top: 0%;
+    left: 20%;
     height: auto;
+    width: 180%;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
     -webkit-box-pack: center;
         -ms-flex-pack: center;
             justify-content: center;
@@ -286,20 +528,39 @@
     margin: auto 0px;
     -o-object-fit: contain;
        object-fit: contain;
-    position: absolute;
-    object-fit: contain;
   }
   .container .subContainer .resumeDlContainer .resumeDlText {
-    font-size: 1rem;
+    font-size: 1.5rem;
+  }
+  .container .subContainer .resumeDlContainer .resumeDlLink {
+    font-size: 1.75rem;
+  }
+  .container .subContainer .resumeDlContainer .resumeDlLink .resumeIcon {
+    font-size: 1.75rem;
   }
 }
 
 @media (min-width: 1366px) {
   .container .subContainer {
+    height: auto;
     width: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: flex-start;
     margin: auto;
   }
   .container .subContainer .textContainer {
+    height: auto;
     width: 65%;
   }
   .container .subContainer .textContainer .subTitle {
@@ -309,10 +570,16 @@
     font-size: 2rem;
   }
   .container .subContainer .textContainer .subText .skillContainer .skills {
+    height: 7em;
+    width: 7em;
     margin: 0.5em auto;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
     -webkit-box-pack: center;
         -ms-flex-pack: center;
             justify-content: center;
@@ -320,24 +587,44 @@
         -ms-flex-align: center;
             align-items: center;
   }
+  .container .subContainer .textContainer .subText .skillContainer .skills .skill {
+    font-size: 1rem;
+  }
   .container .subContainer .svgContainer {
-    top: 0%;
     position: absolute;
-    width: 160%;
-    height: 100%;
     top: 0%;
     left: 15%;
+    height: auto;
+    width: 160%;
   }
   .container .subContainer .resumeDlContainer .resumeDlText {
     font-size: 1.5rem;
   }
-  .container .subContainer .resumeDlContainer .resumeDlText .resumeDlLink {
+  .container .subContainer .resumeDlContainer .resumeDlLink {
     padding: 0.25em 2em;
+    font-size: 2rem;
+  }
+  .container .subContainer .resumeDlContainer .resumeDlLink .resumeIcon {
+    font-size: 2rem;
   }
 }
 
 @media (min-width: 1920px) and (-webkit-min-device-pixel-ratio: 2), (min-width: 1920px) and (min-resolution: 192dpi) {
   .container .subContainer {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: flex-start;
+    height: auto;
     width: 100%;
     margin: auto;
   }
@@ -345,38 +632,48 @@
     width: 65%;
   }
   .container .subContainer .textContainer .subTitle {
-    font-size: 4.5rem;
+    font-size: 7rem;
   }
   .container .subContainer .textContainer .subText {
     font-size: 2rem;
   }
   .container .subContainer .textContainer .subText .skillContainer .skills {
-    width: 6em;
-    height: 6em;
-    margin: 0.5em auto;
+    height: 8em;
+    width: 8em;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
     -webkit-box-pack: center;
         -ms-flex-pack: center;
             justify-content: center;
     -webkit-box-align: center;
         -ms-flex-align: center;
             align-items: center;
+    margin: 0.5em;
+  }
+  .container .subContainer .textContainer .subText .skillContainer .skills .skill {
+    font-size: 1.25rem;
   }
   .container .subContainer .svgContainer {
-    top: 0%;
     position: absolute;
-    width: 160%;
-    height: 100%;
     top: 0%;
-    left: 25%;
+    left: 10%;
+    height: auto;
+    width: 200%;
   }
   .container .subContainer .resumeDlContainer .resumeDlText {
-    font-size: 2rem;
+    font-size: 2.5rem;
   }
-  .container .subContainer .resumeDlContainer .resumeDlText .resumeDlLink {
+  .container .subContainer .resumeDlContainer .resumeDlLink {
     padding: 0.25em 2em;
+    font-size: 2.5rem;
+  }
+  .container .subContainer .resumeDlContainer .resumeDlLink .resumeIcon {
+    font-size: 2.5rem;
   }
 }
 /*# sourceMappingURL=About.css.map */

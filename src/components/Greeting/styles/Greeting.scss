@@ -37,9 +37,11 @@
 
 	@include media('<=phone') {
 		.headingText {
+			font-size: 2.5rem;
 		}
 		#navigation {
 			li {
+				font-size: 1.25rem;
 				a {
 					&:hover {
 					}
@@ -52,9 +54,11 @@
 
 	@include media('>phone', '<=425px') {
 		.headingText {
+			font-size: 3rem;
 		}
 		#navigation {
 			li {
+				font-size: 1.5rem;
 				a {
 					&:hover {
 					}
@@ -67,11 +71,11 @@
 
 	@include media('>425px', '<=tablet') {
 		.headingText {
-			font-size: 2.5rem;
+			font-size: 4rem;
 		}
 		#navigation {
 			li {
-				font-size: 1rem;
+				font-size: 2rem;
 				a {
 					&:hover {
 					}
@@ -88,7 +92,7 @@
 		}
 		#navigation {
 			li {
-				font-size: 2.75rem;
+				font-size: 3rem;
 				a {
 					&:hover {
 					}
@@ -101,7 +105,7 @@
 
 	@include media('>=desktop') {
 		.headingText {
-			font-size: 9rem;
+			font-size: 8rem;
 		}
 		#navigation {
 			li {

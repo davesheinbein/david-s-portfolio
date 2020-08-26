@@ -6,6 +6,7 @@
 .footerContainer {
   color: var(--mainText);
   background: var(--HeadingColor);
+  height: auto;
   width: 100vw;
   font-family: 'Cabin', sans-serif;
 }
@@ -14,13 +15,16 @@
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  text-align: center;
   margin: 0;
   padding: 0.5em 1em;
   background-color: rgba(0, 0, 0, 0.25);
@@ -54,15 +58,20 @@
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  height: auto;
+  width: 100vw;
   text-align: center;
   font-size: 1rem;
-  width: 100vw;
   margin: 0px auto;
   padding: 0px 2em;
   color: var(--mainText);
@@ -72,54 +81,50 @@
 @media (max-width: 360px) {
   .footerContainer .footerNav #nav {
     font-size: 1rem;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
   }
   .footerContainer .footerNav #nav .navLinesBottom {
     margin: 0px 1em;
   }
   .footerContainer .footerSubContainer {
-    font-size: 0.75rem;
+    font-size: 0.5rem;
   }
 }
 
 @media (min-width: 361px) and (max-width: 425px) {
   .footerContainer .footerNav #nav {
     font-size: 1rem;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
+    padding: 0.25em;
   }
   .footerContainer .footerNav #nav .navLinesBottom {
     margin: 0px 1em;
   }
   .footerContainer .footerSubContainer {
     font-size: 0.75rem;
+    margin: 0px;
+    padding: 0px 1em;
   }
 }
 
 @media (min-width: 426px) and (max-width: 768px) {
   .footerContainer .footerNav #nav {
-    font-size: 1rem;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
+    font-size: 1.5rem;
+    padding: 0px 0.75em;
   }
   .footerContainer .footerNav #nav .navLinesBottom {
     margin: 0px 1em;
   }
   .footerContainer .footerSubContainer {
-    font-size: 0.75rem;
+    font-size: 1rem;
   }
 }
 
 @media (min-width: 769px) and (max-width: 1365px) {
   .footerContainer .footerNav #nav {
     font-size: 1.5rem;
+    padding: 0px 2em;
   }
   .footerContainer .footerNav #nav .navLinesBottom {
-    margin: 0px 2.5em;
+    margin: 0px 2em;
   }
   .footerContainer .footerSubContainer {
     font-size: 1rem;
@@ -134,13 +139,16 @@
     margin: 0px 3.5em;
   }
   .footerContainer .footerSubContainer {
-    font-size: 1.5rem;
+    font-size: 1rem;
   }
 }
 
 @media (min-width: 1920px) and (-webkit-min-device-pixel-ratio: 2), (min-width: 1920px) and (min-resolution: 192dpi) {
   .footerContainer .footerNav #nav {
     font-size: 2rem;
+  }
+  .footerContainer .footerNav #nav li a::after {
+    content: 'Click';
   }
   .footerContainer .footerNav #nav .navLinesBottom {
     margin: 0px 3.5em;

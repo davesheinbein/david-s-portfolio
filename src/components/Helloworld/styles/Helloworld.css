@@ -5,9 +5,9 @@
 **/
 .introContainer {
   background-color: var(--secondaryColor);
+  height: 100%;
   width: 100%;
   max-width: 1400px;
-  height: 100%;
   margin: 0px auto;
   padding-bottom: 1em;
 }
@@ -54,9 +54,16 @@
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   margin: 0px 2em;
 }
 
@@ -184,6 +191,10 @@
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
@@ -251,6 +262,7 @@
 }
 
 .introContainer .intro-wrapper .right-column .rightContainer #introTextContainer {
+  height: auto;
   width: 85%;
   margin: auto;
   border: 1.5px solid var(--themeContainerDotBorder);
@@ -282,8 +294,8 @@
 }
 
 .introContainer .intro-wrapper .right-column .rightContainer #introTextContainer .corner {
-  width: 7px;
   height: 7px;
+  width: 7px;
   border-radius: 50%;
   border: 1.5px solid var(--themeContainerDotBorder);
   background-color: #fff;
@@ -327,6 +339,7 @@
     z-index: 2;
   }
   .introContainer .intro-wrapper .left-column .actionsContainer {
+    height: 100%;
     width: 100%;
     display: block;
   }
@@ -334,6 +347,7 @@
     display: block;
   }
   .introContainer .intro-wrapper .left-column .actionsContainer .picThemeContainer .profile #profilePicture {
+    height: auto;
     width: 70vw;
   }
   .introContainer .intro-wrapper .left-column .actionsContainer .picThemeContainer #theme-options-wrapper .personalizedText {
@@ -353,13 +367,22 @@
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
             flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    height: auto;
     width: 100%;
   }
   .introContainer .intro-wrapper .left-column .actionsContainer .ctaBtn .headingBtnContainer {
+    height: auto;
     width: 100%;
     margin: 0px 0px 0.5em;
   }
   .introContainer .intro-wrapper .left-column .actionsContainer .ctaBtn .headingBtnContainer .headingBtn {
+    height: auto;
     width: 100%;
     font-size: 1.5rem;
   }
@@ -368,23 +391,23 @@
         -ms-flex-pack: center;
             justify-content: center;
     padding: 1em 0px;
+    height: auto;
     width: 100vw;
     z-index: 1;
   }
   .introContainer .intro-wrapper .right-column .rightContainer {
+    height: auto;
     width: 100%;
   }
   .introContainer .intro-wrapper .right-column .rightContainer .computerGuySvgContainer {
+    height: auto;
     width: 100%;
     min-width: 95vw;
   }
-  .introContainer .intro-wrapper .right-column .rightContainer .computerGuySvgContainer #computerGuy {
-    -webkit-transform: scale(1.5, 1.5);
-            transform: scale(1.5, 1.5);
-  }
   .introContainer .intro-wrapper .right-column .rightContainer #introTextContainer {
-    min-width: 200px;
     height: auto;
+    width: 100%;
+    min-width: 200px;
   }
   .introContainer .intro-wrapper .right-column .rightContainer #introTextContainer .boxTitle {
     font-size: 1.5rem;
@@ -409,6 +432,7 @@
     z-index: 2;
   }
   .introContainer .intro-wrapper .left-column .actionsContainer {
+    height: 100%;
     width: 100%;
     display: block;
   }
@@ -416,6 +440,7 @@
     display: block;
   }
   .introContainer .intro-wrapper .left-column .actionsContainer .picThemeContainer .profile #profilePicture {
+    height: auto;
     width: 70vw;
   }
   .introContainer .intro-wrapper .left-column .actionsContainer .picThemeContainer #theme-options-wrapper .personalizedText {
@@ -427,7 +452,6 @@
     width: 50px;
   }
   .introContainer .intro-wrapper .left-column .actionsContainer .ctaBtn {
-    margin: 0px;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -435,33 +459,48 @@
     -webkit-box-direction: normal;
         -ms-flex-direction: row;
             flex-direction: row;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    height: auto;
     width: 100%;
+    margin: 0 auto;
+    padding: 0;
   }
   .introContainer .intro-wrapper .left-column .actionsContainer .ctaBtn .headingBtnContainer {
+    height: auto;
     width: 100%;
   }
   .introContainer .intro-wrapper .left-column .actionsContainer .ctaBtn .headingBtnContainer .headingBtn {
+    height: auto;
     width: 100%;
-    font-size: 1.5rem;
+    font-size: 1.25rem;
   }
   .introContainer .intro-wrapper .right-column {
     -webkit-box-pack: center;
         -ms-flex-pack: center;
             justify-content: center;
     padding: 1em 0px;
+    height: auto;
     width: 100vw;
     z-index: 1;
   }
   .introContainer .intro-wrapper .right-column .rightContainer {
+    height: auto;
     width: 100%;
   }
   .introContainer .intro-wrapper .right-column .rightContainer .computerGuySvgContainer {
+    height: auto;
     width: 100%;
     min-width: 95vw;
   }
   .introContainer .intro-wrapper .right-column .rightContainer #introTextContainer {
-    min-width: 200px;
     height: auto;
+    width: 100%;
+    min-width: 200px;
   }
   .introContainer .intro-wrapper .right-column .rightContainer #introTextContainer .boxTitle {
     font-size: 1.5rem;
@@ -489,6 +528,7 @@
     z-index: 2;
   }
   .introContainer .intro-wrapper .left-column .actionsContainer {
+    height: 100%;
     width: 100%;
     display: block;
   }
@@ -496,6 +536,7 @@
     display: block;
   }
   .introContainer .intro-wrapper .left-column .actionsContainer .picThemeContainer .profile #profilePicture {
+    height: auto;
     width: 70vw;
   }
   .introContainer .intro-wrapper .left-column .actionsContainer .picThemeContainer #theme-options-wrapper .personalizedText {
@@ -515,6 +556,12 @@
     -webkit-box-direction: normal;
         -ms-flex-direction: row;
             flex-direction: row;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
   }
   .introContainer .intro-wrapper .left-column .actionsContainer .ctaBtn .headingBtnContainer .headingBtn {
     font-size: 1.5rem;
@@ -525,25 +572,29 @@
         -ms-flex-pack: center;
             justify-content: center;
     padding: 1em 0px;
+    height: auto;
     width: 100vw;
     z-index: 1;
   }
   .introContainer .intro-wrapper .right-column .rightContainer {
+    height: auto;
     width: 100%;
   }
   .introContainer .intro-wrapper .right-column .rightContainer .computerGuySvgContainer {
+    height: auto;
     width: 100%;
     min-width: 80vw;
   }
   .introContainer .intro-wrapper .right-column .rightContainer #introTextContainer {
-    min-width: 200px;
     height: auto;
+    width: 100%;
+    min-width: 200px;
   }
   .introContainer .intro-wrapper .right-column .rightContainer #introTextContainer .boxTitle {
-    font-size: 1.5rem;
+    font-size: 2.5rem;
   }
   .introContainer .intro-wrapper .right-column .rightContainer #introTextContainer .boxText {
-    font-size: 1rem;
+    font-size: 2rem;
   }
 }
 
@@ -562,6 +613,8 @@
   }
   .introContainer .intro-wrapper .left-column .actionsContainer {
     margin: 0px;
+    height: 100%;
+    width: 100%;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -580,8 +633,19 @@
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
   }
   .introContainer .intro-wrapper .left-column .actionsContainer .picThemeContainer .profile #profilePicture {
+    height: auto;
     width: 100%;
     max-width: 24vw;
   }
@@ -595,13 +659,16 @@
     width: 50px;
   }
   .introContainer .intro-wrapper .left-column .actionsContainer .ctaBtn {
+    height: auto;
     width: 100%;
   }
   .introContainer .intro-wrapper .left-column .actionsContainer .ctaBtn .headingBtnContainer {
+    height: auto;
     width: 100%;
     min-width: 16vw;
   }
   .introContainer .intro-wrapper .left-column .actionsContainer .ctaBtn .headingBtnContainer .headingBtn {
+    height: auto;
     width: 100%;
     margin: 0px;
     font-size: 2rem;
@@ -611,20 +678,22 @@
   }
   .introContainer .intro-wrapper .right-column .rightContainer {
     margin: 0px;
+    height: auto;
     width: 100%;
   }
   .introContainer .intro-wrapper .right-column .rightContainer .computerGuySvgContainer {
-    width: 100vw;
-    min-width: 48vw;
+    height: auto;
+    width: auto;
+    min-width: 40vw;
   }
   .introContainer .intro-wrapper .right-column .rightContainer #introTextContainer {
     min-width: 400px;
   }
   .introContainer .intro-wrapper .right-column .rightContainer #introTextContainer .boxTitle {
-    font-size: 1.5rem;
+    font-size: 2rem;
   }
   .introContainer .intro-wrapper .right-column .rightContainer #introTextContainer .boxText {
-    font-size: 1rem;
+    font-size: 1.5rem;
   }
 }
 
@@ -651,6 +720,7 @@
     -webkit-box-align: center;
         -ms-flex-align: center;
             align-items: center;
+    height: 100%;
     width: 100%;
     margin: auto;
   }
@@ -658,10 +728,21 @@
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
     margin: 0px auto;
     padding: 0px 1.5em;
   }
   .introContainer .intro-wrapper .left-column .actionsContainer .picThemeContainer .profile #profilePicture {
+    height: auto;
     width: 100%;
     max-width: 360px;
   }
@@ -675,22 +756,27 @@
     width: 50px;
   }
   .introContainer .intro-wrapper .left-column .actionsContainer .ctaBtn {
+    height: auto;
     width: 100%;
     margin: 1em 0px;
   }
   .introContainer .intro-wrapper .left-column .actionsContainer .ctaBtn .headingBtnContainer {
+    height: auto;
     width: 100%;
     min-width: 16vw;
   }
   .introContainer .intro-wrapper .left-column .actionsContainer .ctaBtn .headingBtnContainer .headingBtn {
+    height: auto;
     width: 100%;
     margin: 0px;
     font-size: 2rem;
   }
   .introContainer .intro-wrapper .right-column .rightContainer {
+    height: auto;
     width: 100%;
   }
   .introContainer .intro-wrapper .right-column .rightContainer .computerGuySvgContainer {
+    height: auto;
     width: 100vw;
     min-width: 38vw;
   }
@@ -728,6 +814,7 @@
     -webkit-box-align: center;
         -ms-flex-align: center;
             align-items: center;
+    height: 100%;
     width: 100%;
     margin: auto;
   }
@@ -735,12 +822,23 @@
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
     margin: 0px auto;
     padding: 0px 1.5em;
   }
   .introContainer .intro-wrapper .left-column .actionsContainer .picThemeContainer .profile #profilePicture {
+    height: auto;
     width: 100%;
-    max-width: 360px;
+    max-width: 400px;
   }
   .introContainer .intro-wrapper .left-column .actionsContainer .picThemeContainer #theme-options-wrapper .personalizedText {
     margin: 1em 0px;
@@ -748,37 +846,42 @@
     color: var(--subText);
   }
   .introContainer .intro-wrapper .left-column .actionsContainer .picThemeContainer #theme-options-wrapper .themeOptionsSubContainer .theme-dot {
-    height: 60px;
-    width: 60px;
+    height: 70px;
+    width: 70px;
   }
   .introContainer .intro-wrapper .left-column .actionsContainer .ctaBtn {
+    height: auto;
     width: 100%;
     margin: 1em 0px;
   }
   .introContainer .intro-wrapper .left-column .actionsContainer .ctaBtn .headingBtnContainer {
+    height: auto;
     width: 100%;
     min-width: 16vw;
   }
   .introContainer .intro-wrapper .left-column .actionsContainer .ctaBtn .headingBtnContainer .headingBtn {
+    height: auto;
     width: 100%;
     margin: 0px;
     font-size: 2.5rem;
   }
   .introContainer .intro-wrapper .right-column .rightContainer {
+    height: auto;
     width: 100%;
   }
   .introContainer .intro-wrapper .right-column .rightContainer .computerGuySvgContainer {
-    width: 100vw;
-    min-width: 30vw;
+    height: auto;
+    width: auto;
+    min-width: 38vw;
   }
   .introContainer .intro-wrapper .right-column .rightContainer #introTextContainer {
     min-width: 500px;
   }
   .introContainer .intro-wrapper .right-column .rightContainer #introTextContainer .boxTitle {
-    font-size: 1.5rem;
+    font-size: 2.5rem;
   }
   .introContainer .intro-wrapper .right-column .rightContainer #introTextContainer .boxText {
-    font-size: 1rem;
+    font-size: 2rem;
   }
 }
 

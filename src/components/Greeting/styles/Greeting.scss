@@ -1,8 +1,8 @@
 @import '../../../breakpoints/breakpoints.scss';
+@import '../../../mixins/mixins.scss';
 
 .headingContainer {
-	width: 100%;
-	height: auto;
+	@include heightWidth(auto, 100%);
 	margin: auto;
 	background-color: var(--HeadingColor);
 	padding: 1em 0px;

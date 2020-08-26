@@ -4,6 +4,7 @@
 *
 **/
 .linkedInContainer {
+  height: auto;
   width: 100%;
   background-color: var(--secondaryColor);
   padding: 2em 0px;
@@ -55,6 +56,7 @@
 }
 
 .linkedInContainer .imagesContainer {
+  height: auto;
   width: 100%;
   max-width: 1200px;
   margin: 0px auto;
@@ -69,6 +71,7 @@
 }
 
 .linkedInContainer .imagesContainer .imgSubContainer #linkedInImage {
+  height: auto;
   width: 80%;
   max-width: 1400px;
   border-radius: 10px;
@@ -99,12 +102,66 @@
   text-decoration: none;
 }
 
-@media (min-width: 426px) and (max-width: 768px) {
+@media (max-width: 360px) {
   .linkedInContainer .iconSymbols #linkedInSym {
     display: none;
   }
   .linkedInContainer .iconSymbols .linkedInText {
     font-size: 1.75rem;
+  }
+  .linkedInContainer .iconSymbols #gitHubSym {
+    display: none;
+  }
+  .linkedInContainer .imagesContainer {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+}
+
+@media (min-width: 361px) and (max-width: 425px) {
+  .linkedInContainer .iconSymbols #linkedInSym {
+    display: none;
+  }
+  .linkedInContainer .iconSymbols .linkedInText {
+    font-size: 2.25rem;
+  }
+  .linkedInContainer .iconSymbols #gitHubSym {
+    display: none;
+  }
+  .linkedInContainer .imagesContainer {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+}
+
+@media (min-width: 426px) and (max-width: 768px) {
+  .linkedInContainer .iconSymbols #linkedInSym {
+    display: none;
+  }
+  .linkedInContainer .iconSymbols .linkedInText {
+    font-size: 2.5rem;
   }
   .linkedInContainer .iconSymbols #gitHubSym {
     display: none;
@@ -118,8 +175,14 @@
 }
 
 @media (min-width: 769px) and (max-width: 1365px) {
+  .linkedInContainer .iconSymbols #linkedInSym {
+    font-size: 4rem;
+  }
   .linkedInContainer .iconSymbols .linkedInText {
-    font-size: 2rem;
+    font-size: 4rem;
+  }
+  .linkedInContainer .iconSymbols #gitHubSym {
+    font-size: 4rem;
   }
   .linkedInContainer .imagesContainer {
     max-width: 800px;
@@ -127,17 +190,32 @@
 }
 
 @media (min-width: 1366px) {
+  .linkedInContainer .iconSymbols #linkedInSym {
+    font-size: 4.5rem;
+  }
   .linkedInContainer .iconSymbols .linkedInText {
-    font-size: 3rem;
+    font-size: 4.5rem;
+  }
+  .linkedInContainer .iconSymbols #gitHubSym {
+    font-size: 4.5rem;
   }
 }
 
 @media (min-width: 1920px) and (-webkit-min-device-pixel-ratio: 2), (min-width: 1920px) and (min-resolution: 192dpi) {
+  .linkedInContainer .iconSymbols #linkedInSym {
+    font-size: 7rem;
+  }
   .linkedInContainer .iconSymbols .linkedInText {
-    font-size: 4.5rem;
+    font-size: 7rem;
+  }
+  .linkedInContainer .iconSymbols #gitHubSym {
+    font-size: 7rem;
   }
   .linkedInContainer .imagesContainer {
-    max-width: 1400px;
+    max-width: 1800px;
+  }
+  .linkedInContainer .imagesContainer .linkedInBtnTextContainer .linkedInBtnText {
+    font-size: 2.5rem;
   }
 }
 /*# sourceMappingURL=Connections.css.map */

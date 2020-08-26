@@ -1,8 +1,9 @@
 @import '../../../breakpoints/breakpoints.scss';
+@import '../../../mixins/mixins.scss';
 
 .projects {
 	background-color: var(--mainColor);
-	width: 100%;
+	@include heightWidth(auto, 100%);
 	max-width: 1400px;
 	margin: 0px auto;
 	.projectTitle {
@@ -29,8 +30,7 @@
 				a {
 					.thumbnail {
 						display: block;
-						width: 100%;
-						height: 270px;
+						@include heightWidth(270px, 100%);
 						object-fit: cover;
 					}
 				}
@@ -63,13 +63,13 @@
 	}
 
 	@include media('<=phone') {
-		width: 100%;
+		@include heightWidth(auto, 100%);
 		padding: 0px;
 		.projectTitle {
 			font-size: 1.75rem;
 		}
 		.post-wrapper {
-			width: 100vw;
+			@include heightWidth(auto, 100vw);
 			gap: 20px;
 			div {
 				.post {
@@ -95,13 +95,13 @@
 	}
 
 	@include media('>phone', '<=425px') {
-		width: 100%;
+		@include heightWidth(auto, 100%);
 		margin: 0px auto;
 		.projectTitle {
 			font-size: 2.25rem;
 		}
 		.post-wrapper {
-			width: 100vw;
+			@include heightWidth(auto, 100vw);
 			gap: 20px;
 			div {
 				.post {
@@ -127,13 +127,13 @@
 	}
 
 	@include media('>425px', '<=tablet') {
-		width: 100%;
+		@include heightWidth(auto, 100%);
 		margin: 0px auto;
 		.projectTitle {
 			font-size: 2.5rem;
 		}
 		.post-wrapper {
-			width: 100vw;
+			@include heightWidth(auto, 100vw);
 			gap: 20px;
 			div {
 				.post {
@@ -159,13 +159,13 @@
 	}
 
 	@include media('>tablet', '<desktop') {
-		width: 100%;
+		@include heightWidth(auto, 100%);
 		margin: 0px auto;
 		.projectTitle {
 			font-size: 4rem;
 		}
 		.post-wrapper {
-			width: 100vw;
+			@include heightWidth(auto, 100vw);
 			gap: 20px;
 			div {
 				.post {
@@ -215,14 +215,14 @@
 	}
 
 	@include media('>=LGdesktop', 'retina2x') {
-		width: 100%;
-		max-width: 1500px;
+		@include heightWidth(auto, 100%);
+		max-width: 1600px;
 		margin: 0px auto;
 		.projectTitle {
 			font-size: 7rem;
 		}
 		.post-wrapper {
-			width: 1500px;
+			@include heightWidth(auto, 1600px);
 			gap: 60px;
 			justify-content: center;
 			padding-bottom: 50px;

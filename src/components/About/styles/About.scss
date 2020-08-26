@@ -1,22 +1,5 @@
 @import '../../../breakpoints/breakpoints.scss';
-
-@mixin heightWidth($hei, $wei) {
-	height: $hei;
-	width: $wei;
-}
-
-@mixin topLeftAbsolute($top, $left) {
-	position: absolute;
-	top: $top;
-	left: $left;
-}
-
-@mixin flexCenter($direction, $justified, $alignment) {
-	display: flex;
-	flex-direction: $direction;
-	justify-content: $justified;
-	align-items: $alignment;
-}
+@import '../../../mixins/mixins.scss';
 
 .container {
 	@include heightWidth(auto, 100%);
@@ -414,11 +397,11 @@
 					}
 					.skillContainer {
 						.skills {
-							@include heightWidth(8em, 8em);
+							@include heightWidth(9em, 9em);
 							@include flexCenter(column, center, center);
 							margin: 0.5em;
 							.skill {
-								font-size: 1.25rem;
+								font-size: 1.5rem;
 							}
 						}
 					}

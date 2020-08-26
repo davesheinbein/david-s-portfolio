@@ -1,4 +1,5 @@
 @import '../../../breakpoints/breakpoints.scss';
+@import '../../../mixins/mixins.scss';
 
 .formContainer {
 	.contactTitle {
@@ -26,16 +27,14 @@
 			font-weight: 500;
 			line-height: 2.5em;
 			color: var(--secondaryText);
-			display: flex;
-			justify-content: center;
-			align-items: center;
+			@include flexCenter(row, center, center);
 			font-family: 'Cabin', sans-serif;
 		}
 		.iconSymbol {
 			margin: 0px 0.5em;
 		}
 		.input-field {
-			width: 100%;
+			@include heightWidth(auto, 100%);
 			padding: 10px;
 			background-color: var(--formColor);
 			border-radius: 5px;
@@ -47,12 +46,9 @@
 			font-size: 14px;
 		}
 		#submit-btn {
-			display: flex;
-			justify-content: center;
-			align-items: center;
-			text-align: center;
+			@include flexCenter(row, center, center);
+			@include heightWidth(auto, 100%);
 			margin: 0.5em 0px;
-			width: 100%;
 			padding: 10px 0px;
 			color: var(--TertiaryText);
 			background-color: var(--TertiaryTextBtn);

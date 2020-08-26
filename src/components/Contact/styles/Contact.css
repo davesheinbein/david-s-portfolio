@@ -33,6 +33,10 @@
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
@@ -47,6 +51,7 @@
 }
 
 .formContainer #contact-form .input-field {
+  height: auto;
   width: 100%;
   padding: 10px;
   background-color: var(--formColor);
@@ -64,15 +69,19 @@
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  text-align: center;
-  margin: 0.5em 0px;
+  height: auto;
   width: 100%;
+  margin: 0.5em 0px;
   padding: 10px 0px;
   color: var(--TertiaryText);
   background-color: var(--TertiaryTextBtn);

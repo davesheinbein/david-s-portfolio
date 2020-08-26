@@ -638,8 +638,8 @@
     font-size: 2rem;
   }
   .container .subContainer .textContainer .subText .skillContainer .skills {
-    height: 8em;
-    width: 8em;
+    height: 9em;
+    width: 9em;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -656,7 +656,7 @@
     margin: 0.5em;
   }
   .container .subContainer .textContainer .subText .skillContainer .skills .skill {
-    font-size: 1.25rem;
+    font-size: 1.5rem;
   }
   .container .subContainer .svgContainer {
     position: absolute;

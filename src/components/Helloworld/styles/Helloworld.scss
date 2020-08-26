@@ -1,10 +1,10 @@
 @import '../../../breakpoints/breakpoints.scss';
+@import '../../../mixins/mixins.scss';
 
 .introContainer {
 	background-color: var(--secondaryColor);
-	width: 100%;
+	@include heightWidth(100%, 100%);
 	max-width: 1400px;
-	height: 100%;
 	margin: 0px auto;
 	padding-bottom: 1em;
 	.introHeading {
@@ -38,8 +38,7 @@
 						}
 					}
 					#theme-options-wrapper {
-						display: flex;
-						justify-content: center;
+						@include flexCenter(column, center, center);
 						margin: 0px 2em;
 						.personalizedText {
 							text-align: center;
@@ -51,8 +50,7 @@
 						}
 						.themeOptionsSubContainer {
 							.theme-dot {
-								height: 30px;
-								width: 30px;
+								@include heightWidth(30px, 30px);
 								background-color: black;
 								border-radius: 50%;
 								margin: 5px;
@@ -168,9 +166,7 @@
 					}
 				}
 				.ctaBtn {
-					display: flex;
-					justify-content: center;
-					align-items: center;
+					@include flexCenter(row, center, center);
 					margin: 1em 0px;
 					font-weight: 600;
 					font-size: 1.5rem;
@@ -209,29 +205,25 @@
 			.rightContainer {
 				position: relative;
 				overflow: visible;
-				height: auto;
-				width: 100%;
+				@include heightWidth(auto, 100%);
 				.computerGuySvgContainer {
 					overflow: visible;
 					margin: auto;
 					#computerGuy {
 					}
-					height: auto;
-					width: 50%;
+					@include heightWidth(auto, 50%);
 					min-width: 400px;
 					max-width: 20vw;
 					object-fit: contain;
 				}
 				#introTextContainer {
-					width: 85%;
+					@include heightWidth(auto, 85%);
 					margin: auto;
 					border: 1.5px solid var(--themeContainerDotBorder);
 					color: var(--textBoxText);
 					background-color: var(--previewBg);
 					padding: 15px;
-					position: absolute;
-					top: 50%;
-					left: 50%;
+					@include topLeftAbsolute(50%, 50%);
 					transform: translate(-50%, -50%);
 					margin: 1.5em auto;
 
@@ -251,8 +243,7 @@
 						font-family: 'Cabin', sans-serif;
 					}
 					.corner {
-						width: 7px;
-						height: 7px;
+						@include heightWidth(7px, 7px);
 						border-radius: 50%;
 						border: 1.5px solid
 							var(--themeContainerDotBorder);
@@ -298,13 +289,13 @@
 			.left-column {
 				z-index: 2;
 				.actionsContainer {
-					width: 100%;
+					@include heightWidth(100%, 100%);
 					display: block;
 					.picThemeContainer {
 						display: block;
 						.profile {
 							#profilePicture {
-								width: 70vw;
+								@include heightWidth(auto, 70vw);
 							}
 						}
 						#theme-options-wrapper {
@@ -314,8 +305,7 @@
 							}
 							.themeOptionsSubContainer {
 								.theme-dot {
-									height: 50px;
-									width: 50px;
+									@include heightWidth(50px, 50px);
 									&:hover {
 									}
 								}
@@ -356,14 +346,13 @@
 					}
 					.ctaBtn {
 						margin: 0px;
-						display: flex;
-						flex-direction: column;
-						width: 100%;
+						@include flexCenter(column, center, center);
+						@include heightWidth(auto, 100%);
 						.headingBtnContainer {
-							width: 100%;
+							@include heightWidth(auto, 100%);
 							margin: 0px 0px 0.5em;
 							.headingBtn {
-								width: 100%;
+								@include heightWidth(auto, 100%);
 								font-size: 1.5rem;
 								&:hover {
 								}
@@ -375,20 +364,17 @@
 			.right-column {
 				justify-content: center;
 				padding: 1em 0px;
-				width: 100vw;
+				@include heightWidth(auto, 100vw);
 				z-index: 1;
 				.rightContainer {
-					width: 100%;
+					@include heightWidth(auto, 100%);
 					.computerGuySvgContainer {
-						width: 100%;
+						@include heightWidth(auto, 100%);
 						min-width: 95vw;
-						#computerGuy {
-							transform: scale(1.5, 1.5);
-						}
 					}
 					#introTextContainer {
+						@include heightWidth(auto, 100%);
 						min-width: 200px;
-						height: auto;
 						.boxTitle {
 							font-size: 1.5rem;
 						}
@@ -429,13 +415,13 @@
 			.left-column {
 				z-index: 2;
 				.actionsContainer {
-					width: 100%;
+					@include heightWidth(100%, 100%);
 					display: block;
 					.picThemeContainer {
 						display: block;
 						.profile {
 							#profilePicture {
-								width: 70vw;
+								@include heightWidth(auto, 70vw);
 							}
 						}
 						#theme-options-wrapper {
@@ -445,8 +431,7 @@
 							}
 							.themeOptionsSubContainer {
 								.theme-dot {
-									height: 50px;
-									width: 50px;
+									@include heightWidth(50px, 50px);
 									&:hover {
 									}
 								}
@@ -486,15 +471,15 @@
 						}
 					}
 					.ctaBtn {
-						margin: 0px;
-						display: flex;
-						flex-direction: row;
-						width: 100%;
+						@include flexCenter(row, center, center);
+						@include heightWidth(auto, 100%);
+						margin: 0 auto;
+						padding: 0;
 						.headingBtnContainer {
-							width: 100%;
+							@include heightWidth(auto, 100%);
 							.headingBtn {
-								width: 100%;
-								font-size: 1.5rem;
+								@include heightWidth(auto, 100%);
+								font-size: 1.25rem;
 								&:hover {
 								}
 							}
@@ -505,19 +490,19 @@
 			.right-column {
 				justify-content: center;
 				padding: 1em 0px;
-				width: 100vw;
+				@include heightWidth(auto, 100vw);
 				z-index: 1;
 				.rightContainer {
-					width: 100%;
+					@include heightWidth(auto, 100%);
 					.computerGuySvgContainer {
-						width: 100%;
+						@include heightWidth(auto, 100%);
 						min-width: 95vw;
 						#computerGuy {
 						}
 					}
 					#introTextContainer {
+						@include heightWidth(auto, 100%);
 						min-width: 200px;
-						height: auto;
 						.boxTitle {
 							font-size: 1.5rem;
 						}
@@ -559,13 +544,13 @@
 			.left-column {
 				z-index: 2;
 				.actionsContainer {
-					width: 100%;
+					@include heightWidth(100%, 100%);
 					display: block;
 					.picThemeContainer {
 						display: block;
 						.profile {
 							#profilePicture {
-								width: 70vw;
+								@include heightWidth(auto, 70vw);
 							}
 						}
 						#theme-options-wrapper {
@@ -575,8 +560,7 @@
 							}
 							.themeOptionsSubContainer {
 								.theme-dot {
-									height: 50px;
-									width: 50px;
+									@include heightWidth(50px, 50px);
 									&:hover {
 									}
 								}
@@ -617,8 +601,7 @@
 					}
 					.ctaBtn {
 						margin: 0.5em 0px;
-						display: flex;
-						flex-direction: row;
+						@include flexCenter(row, center, center);
 						.headingBtnContainer {
 							.headingBtn {
 								font-size: 1.5rem;
@@ -633,22 +616,22 @@
 				margin: 3em 0px 0px;
 				justify-content: center;
 				padding: 1em 0px;
-				width: 100vw;
+				@include heightWidth(auto, 100vw);
 				z-index: 1;
 				.rightContainer {
-					width: 100%;
+					@include heightWidth(auto, 100%);
 					.computerGuySvgContainer {
-						width: 100%;
+						@include heightWidth(auto, 100%);
 						min-width: 80vw;
 					}
 					#introTextContainer {
+						@include heightWidth(auto, 100%);
 						min-width: 200px;
-						height: auto;
 						.boxTitle {
-							font-size: 1.5rem;
+							font-size: 2.5rem;
 						}
 						.boxText {
-							font-size: 1rem;
+							font-size: 2rem;
 						}
 						.corner {
 						}
@@ -683,15 +666,13 @@
 				margin: 0px;
 				.actionsContainer {
 					margin: 0px;
-					display: flex;
-					flex-direction: column;
-					justify-content: center;
-					align-items: center;
+					@include heightWidth(100%, 100%);
+					@include flexCenter(column, center, center);
 					.picThemeContainer {
-						display: flex;
+						@include flexCenter(row, center, center);
 						.profile {
 							#profilePicture {
-								width: 100%;
+								@include heightWidth(auto, 100%);
 								max-width: 24vw;
 							}
 						}
@@ -703,8 +684,7 @@
 							}
 							.themeOptionsSubContainer {
 								.theme-dot {
-									height: 50px;
-									width: 50px;
+									@include heightWidth(50px, 50px);
 									&:hover {
 									}
 								}
@@ -744,12 +724,12 @@
 						}
 					}
 					.ctaBtn {
-						width: 100%;
+						@include heightWidth(auto, 100%);
 						.headingBtnContainer {
-							width: 100%;
+							@include heightWidth(auto, 100%);
 							min-width: 16vw;
 							.headingBtn {
-								width: 100%;
+								@include heightWidth(auto, 100%);
 								margin: 0px;
 								font-size: 2rem;
 								&:hover {
@@ -763,21 +743,21 @@
 				margin: 0px;
 				.rightContainer {
 					margin: 0px;
-					width: 100%;
+					@include heightWidth(auto, 100%);
 					.computerGuySvgContainer {
-						width: 100vw;
-						min-width: 48vw;
+						@include heightWidth(auto, auto);
+						min-width: 40vw;
 						#computerGuy {
 						}
 					}
 					#introTextContainer {
 						min-width: 400px;
 						.boxTitle {
-							font-size: 1.5rem;
+							font-size: 2rem;
 						}
 
 						.boxText {
-							font-size: 1rem;
+							font-size: 1.5rem;
 						}
 						.corner {
 						}
@@ -809,19 +789,16 @@
 			margin: 0px 0px 2em;
 			.left-column {
 				.actionsContainer {
-					display: flex;
-					flex-direction: column;
-					justify-content: center;
-					align-items: center;
-					width: 100%;
+					@include flexCenter(column, center, center);
+					@include heightWidth(100%, 100%);
 					margin: auto;
 					.picThemeContainer {
-						display: flex;
+						@include flexCenter(row, center, center);
 						margin: 0px auto;
 						padding: 0px 1.5em;
 						.profile {
 							#profilePicture {
-								width: 100%;
+								@include heightWidth(auto, 100%);
 								max-width: 360px;
 							}
 						}
@@ -833,8 +810,7 @@
 							}
 							.themeOptionsSubContainer {
 								.theme-dot {
-									height: 50px;
-									width: 50px;
+									@include heightWidth(50px, 50px);
 									&:hover {
 									}
 								}
@@ -874,13 +850,13 @@
 						}
 					}
 					.ctaBtn {
-						width: 100%;
+						@include heightWidth(auto, 100%);
 						margin: 1em 0px;
 						.headingBtnContainer {
-							width: 100%;
+							@include heightWidth(auto, 100%);
 							min-width: 16vw;
 							.headingBtn {
-								width: 100%;
+								@include heightWidth(auto, 100%);
 								margin: 0px;
 								font-size: 2rem;
 								&:hover {
@@ -892,9 +868,9 @@
 			}
 			.right-column {
 				.rightContainer {
-					width: 100%;
+					@include heightWidth(auto, 100%);
 					.computerGuySvgContainer {
-						width: 100vw;
+						@include heightWidth(auto, 100vw);
 						min-width: 38vw;
 						#computerGuy {
 						}
@@ -938,20 +914,17 @@
 			margin: 0px 0px 2em;
 			.left-column {
 				.actionsContainer {
-					display: flex;
-					flex-direction: column;
-					justify-content: center;
-					align-items: center;
-					width: 100%;
+					@include flexCenter(column, center, center);
+					@include heightWidth(100%, 100%);
 					margin: auto;
 					.picThemeContainer {
-						display: flex;
+						@include flexCenter(row, center, center);
 						margin: 0px auto;
 						padding: 0px 1.5em;
 						.profile {
 							#profilePicture {
-								width: 100%;
-								max-width: 360px;
+								@include heightWidth(auto, 100%);
+								max-width: 400px;
 							}
 						}
 						#theme-options-wrapper {
@@ -962,8 +935,7 @@
 							}
 							.themeOptionsSubContainer {
 								.theme-dot {
-									height: 60px;
-									width: 60px;
+									@include heightWidth(70px, 70px);
 									&:hover {
 									}
 								}
@@ -991,10 +963,12 @@
 									&:hover {
 									}
 								}
+
 								#green-mode {
 									&:hover {
 									}
 								}
+
 								#blue-mode {
 									&:hover {
 									}
@@ -1003,13 +977,13 @@
 						}
 					}
 					.ctaBtn {
-						width: 100%;
+						@include heightWidth(auto, 100%);
 						margin: 1em 0px;
 						.headingBtnContainer {
-							width: 100%;
+							@include heightWidth(auto, 100%);
 							min-width: 16vw;
 							.headingBtn {
-								width: 100%;
+								@include heightWidth(auto, 100%);
 								margin: 0px;
 								font-size: 2.5rem;
 								&:hover {
@@ -1021,21 +995,21 @@
 			}
 			.right-column {
 				.rightContainer {
-					width: 100%;
+					@include heightWidth(auto, 100%);
 					.computerGuySvgContainer {
-						width: 100vw;
-						min-width: 30vw;
+						@include heightWidth(auto, auto);
+						min-width: 38vw;
 						#computerGuy {
 						}
 					}
 					#introTextContainer {
 						min-width: 500px;
 						.boxTitle {
-							font-size: 1.5rem;
+							font-size: 2.5rem;
 						}
 
 						.boxText {
-							font-size: 1rem;
+							font-size: 2rem;
 						}
 						.corner {
 						}

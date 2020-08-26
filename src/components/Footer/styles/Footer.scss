@@ -1,16 +1,14 @@
 @import '../../../breakpoints/breakpoints.scss';
+@import '../../../mixins/mixins.scss';
 
 .footerContainer {
 	color: var(--mainText);
 	background: var(--HeadingColor);
-	width: 100vw;
+	@include heightWidth(auto, 100vw);
 	font-family: 'Cabin', sans-serif;
 	.footerNav {
 		#nav {
-			display: flex;
-			justify-content: center;
-			align-items: center;
-			text-align: center;
+			@include flexCenter(row, space-evenly, center);
 			margin: 0;
 			padding: 0.5em 1em;
 			background-color: rgba(0, 0, 0, 0.25);
@@ -36,12 +34,10 @@
 		border-top: 1px solid var(--HeadingColor);
 	}
 	.footerSubContainer {
-		display: flex;
-		justify-content: space-between;
-		align-items: center;
+		@include flexCenter(row, space-between, center);
+		@include heightWidth(auto, 100vw);
 		text-align: center;
 		font-size: 1rem;
-		width: 100vw;
 		margin: 0px auto;
 		padding: 0px 2em;
 		color: var(--mainText);
@@ -56,7 +52,6 @@
 		.footerNav {
 			#nav {
 				font-size: 1rem;
-				justify-content: center;
 				li {
 					a {
 						&:hover {
@@ -71,7 +66,7 @@
 		#footerline {
 		}
 		.footerSubContainer {
-			font-size: 0.75rem;
+			font-size: 0.5rem;
 			.leftFooter {
 			}
 			.rightFooter {
@@ -83,7 +78,8 @@
 		.footerNav {
 			#nav {
 				font-size: 1rem;
-				justify-content: center;
+
+				padding: 0.25em;
 				li {
 					a {
 						&:hover {
@@ -99,6 +95,8 @@
 		}
 		.footerSubContainer {
 			font-size: 0.75rem;
+			margin: 0px;
+			padding: 0px 1em;
 			.leftFooter {
 			}
 			.rightFooter {
@@ -109,8 +107,9 @@
 	@include media('>425px', '<=tablet') {
 		.footerNav {
 			#nav {
-				font-size: 1rem;
-				justify-content: center;
+				font-size: 1.5rem;
+
+				padding: 0px 0.75em;
 				li {
 					a {
 						&:hover {
@@ -125,7 +124,7 @@
 		#footerline {
 		}
 		.footerSubContainer {
-			font-size: 0.75rem;
+			font-size: 1rem;
 			.leftFooter {
 			}
 			.rightFooter {
@@ -137,6 +136,8 @@
 		.footerNav {
 			#nav {
 				font-size: 1.5rem;
+
+				padding: 0px 2em;
 				li {
 					a {
 						&:hover {
@@ -144,7 +145,7 @@
 					}
 				}
 				.navLinesBottom {
-					margin: 0px 2.5em;
+					margin: 0px 2em;
 				}
 			}
 		}
@@ -177,7 +178,7 @@
 		#footerline {
 		}
 		.footerSubContainer {
-			font-size: 1.5rem;
+			font-size: 1rem;
 			.leftFooter {
 			}
 			.rightFooter {
@@ -189,9 +190,13 @@
 		.footerNav {
 			#nav {
 				font-size: 2rem;
+
 				li {
 					a {
 						&:hover {
+						}
+						&::after {
+							content: 'Click';
 						}
 					}
 				}

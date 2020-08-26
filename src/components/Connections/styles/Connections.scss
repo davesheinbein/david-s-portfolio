@@ -1,7 +1,8 @@
 @import '../../../breakpoints/breakpoints.scss';
+@import '../../../mixins/mixins.scss';
 
 .linkedInContainer {
-	width: 100%;
+	@include heightWidth(auto, 100%);
 	background-color: var(--secondaryColor);
 	padding: 2em 0px;
 	.iconSymbols {
@@ -35,7 +36,7 @@
 		}
 	}
 	.imagesContainer {
-		width: 100%;
+		@include heightWidth(auto, 100%);
 		max-width: 1200px;
 		margin: 0px auto;
 		display: grid;
@@ -43,7 +44,7 @@
 		.imgSubContainer {
 			padding: 1em 0px;
 			#linkedInImage {
-				width: 80%;
+				@include heightWidth(auto, 80%);
 				max-width: 1400px;
 				border-radius: 10px;
 				border: 1px solid var(--themeContainerDotBorder);
@@ -77,17 +78,21 @@
 	@include media('<=phone') {
 		.iconSymbols {
 			#linkedInSym {
+				display: none;
 				&:hover {
 				}
 			}
 			.linkedInText {
+				font-size: 1.75rem;
 			}
 			#gitHubSym {
+				display: none;
 				&:hover {
 				}
 			}
 		}
 		.imagesContainer {
+			@include flexCenter(column, center, center);
 			.imgSubContainer {
 				#linkedInImage {
 				}
@@ -104,17 +109,21 @@
 	@include media('>phone', '<=425px') {
 		.iconSymbols {
 			#linkedInSym {
+				display: none;
 				&:hover {
 				}
 			}
 			.linkedInText {
+				font-size: 2.25rem;
 			}
 			#gitHubSym {
+				display: none;
 				&:hover {
 				}
 			}
 		}
 		.imagesContainer {
+			@include flexCenter(column, center, center);
 			.imgSubContainer {
 				#linkedInImage {
 				}
@@ -136,7 +145,7 @@
 				}
 			}
 			.linkedInText {
-				font-size: 1.75rem;
+				font-size: 2.5rem;
 			}
 			#gitHubSym {
 				display: none;
@@ -163,13 +172,15 @@
 	@include media('>tablet', '<desktop') {
 		.iconSymbols {
 			#linkedInSym {
+				font-size: 4rem;
 				&:hover {
 				}
 			}
 			.linkedInText {
-				font-size: 2rem;
+				font-size: 4rem;
 			}
 			#gitHubSym {
+				font-size: 4rem;
 				&:hover {
 				}
 			}
@@ -192,13 +203,15 @@
 	@include media('>=desktop') {
 		.iconSymbols {
 			#linkedInSym {
+				font-size: 4.5rem;
 				&:hover {
 				}
 			}
 			.linkedInText {
-				font-size: 3rem;
+				font-size: 4.5rem;
 			}
 			#gitHubSym {
+				font-size: 4.5rem;
 				&:hover {
 				}
 			}
@@ -220,25 +233,28 @@
 	@include media('>=LGdesktop', 'retina2x') {
 		.iconSymbols {
 			#linkedInSym {
+				font-size: 7rem;
 				&:hover {
 				}
 			}
 			.linkedInText {
-				font-size: 4.5rem;
+				font-size: 7rem;
 			}
 			#gitHubSym {
+				font-size: 7rem;
 				&:hover {
 				}
 			}
 		}
 		.imagesContainer {
-			max-width: 1400px;
+			max-width: 1800px;
 			.imgSubContainer {
 				#linkedInImage {
 				}
 			}
 			.linkedInBtnTextContainer {
 				.linkedInBtnText {
+					font-size: 2.5rem;
 					&:hover {
 					}
 				}

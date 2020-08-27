@@ -363,7 +363,7 @@
 				}
 			}
 			.svgContainer {
-				@include topLeftAbsolute(0%, 15%);
+				@include topLeftAbsolute(0%, 20%);
 				@include heightWidth(auto, 160%);
 			}
 			.resumeDlContainer {

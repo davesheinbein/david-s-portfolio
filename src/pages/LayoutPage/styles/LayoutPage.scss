@@ -68,4 +68,147 @@ div {
 			margin: 0px auto;
 		}
 	}
+
+	@include media('<=phone') {
+		.side2 {
+			.sub-container {
+			}
+			.main-container {
+				.backgroundBox {
+					.waveA {
+						img {
+							width: 900vw;
+						}
+					}
+					.waveB {
+						img {
+							width: 900vw;
+						}
+					}
+					.fireworks {
+					}
+				}
+			}
+		}
+	}
+
+	@include media('>phone', '<=425px') {
+		.side2 {
+			.sub-container {
+			}
+			.main-container {
+				.backgroundBox {
+					.waveA {
+						img {
+							width: 800vw;
+						}
+					}
+					.waveB {
+						img {
+							width: 800vw;
+						}
+					}
+					.fireworks {
+					}
+				}
+			}
+		}
+	}
+
+	@include media('>425px', '<=tablet') {
+		.side2 {
+			.sub-container {
+			}
+			.main-container {
+				.backgroundBox {
+					.waveA {
+						img {
+							width: 800vw;
+						}
+					}
+					.waveB {
+						img {
+							width: 800vw;
+						}
+					}
+					.fireworks {
+					}
+				}
+			}
+		}
+	}
+
+	@include media('>tablet', '<desktop') {
+		.side2 {
+			.sub-container {
+			}
+			.main-container {
+				.backgroundBox {
+					top: -20%;
+					.waveA {
+						img {
+							width: 800vw;
+						}
+					}
+					.waveB {
+						img {
+							width: 800vw;
+						}
+					}
+					.fireworks {
+					}
+				}
+			}
+		}
+	}
+
+	@include media('>=desktop') {
+		.side2 {
+			.sub-container {
+			}
+			.main-container {
+				.backgroundBox {
+					top: -10%;
+					.waveA {
+						img {
+							width: 1000vw;
+						}
+					}
+					.waveB {
+						img {
+							width: 1000vw;
+						}
+					}
+					.fireworks {
+					}
+				}
+			}
+		}
+	}
+
+	@include media('>=LGdesktop', 'retina2x') {
+		.side2 {
+			.sub-container {
+			}
+			.main-container {
+				.backgroundBox {
+					top: -5%;
+					.waveA {
+						img {
+							width: 1000vw;
+							height: 40vh;
+						}
+					}
+					.waveB {
+						img {
+							width: 1000vw;
+							height: 40vh;
+						}
+					}
+					.fireworks {
+					}
+				}
+			}
+		}
+	}
 }

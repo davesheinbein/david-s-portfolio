@@ -37,8 +37,11 @@ div .side2 .main-container .backgroundBox .waveA {
   left: 0%;
   width: 100vw;
   height: 500px;
-  background: url("../../../images/backgroundWavesA.png");
-  background-size: 6000px 500px;
+  background-repeat: repeat-x;
+}
+
+div .side2 .main-container .backgroundBox .waveA img {
+  width: 800vw;
 }
 
 div .side2 .main-container .backgroundBox .waveB {
@@ -48,8 +51,11 @@ div .side2 .main-container .backgroundBox .waveB {
   left: 0%;
   width: 100vw;
   height: 500px;
-  background: url("../../../images/backgroundWavesB.png");
-  background-size: 6000px 500px;
+  background-repeat: repeat-x;
+}
+
+div .side2 .main-container .backgroundBox .waveB img {
+  width: 800vw;
 }
 
 div .side2 .main-container .backgroundBox .fireworks {
@@ -72,11 +78,5 @@ div .side1 .sub-container {
   width: 100%;
   height: 100%;
   margin: 0px auto;
-}
-
-@media screen and (max-width: 1200px) {
-  .main-container {
-    width: 100%;
-  }
 }
 /*# sourceMappingURL=LayoutPage.css.map */

@@ -7,7 +7,9 @@ import Projects from '../../components/Projects/Projects';
 import Contact from '../../components/Contact/Contact';
 import Footer from '../../components/Footer/Footer';
 import fireworks from '../../images/fireworks.gif';
-import { Spring } from 'react-spring/renderprops';
+import { Spring, animated } from 'react-spring/renderprops';
+import waveA from '../../images/backgroundWavesA.png';
+import waveB from '../../images/backgroundWavesB.png';
 import './styles/LayoutPage.css';
 
 console.log('Hello world...');
@@ -53,39 +55,43 @@ export default class Layout extends Component {
 						</Spring>
 						<div className='backgroundBox'>
 							<Spring
+								native
 								from={{
-									transform: 'translateX(-100px)',
+									transform: 'translateX(-700vw)',
 								}}
 								to={{
-									transform: 'translateX(0px)',
+									transform: 'translateX(0vw)',
 								}}
 								config={{
-									reset: true,
 									delay: 1000,
-									duration: 10000,
+									duration: 100000,
 								}}>
 								{(props) => (
-									<div
+									<animated.div
 										style={props}
-										className='waveB'></div>
+										className='waveB'>
+										<img src={waveB} alt='wave' />
+									</animated.div>
 								)}
 							</Spring>
 							<Spring
+								native
 								from={{
-									transform: 'translateX(100px)',
+									transform: 'translateX(0vw)',
 								}}
 								to={{
-									transform: 'translateX(0px)',
+									transform: 'translateX(-700vw)',
 								}}
 								config={{
-									reset: true,
 									delay: 1000,
-									duration: 10000,
+									duration: 100000,
 								}}>
 								{(props) => (
-									<div
+									<animated.div
 										style={props}
-										className='waveA'></div>
+										className='waveA'>
+										<img src={waveA} alt='wave' />
+									</animated.div>
 								)}
 							</Spring>
 							<div className='fireworks'>

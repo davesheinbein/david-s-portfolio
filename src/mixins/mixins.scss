@@ -21,14 +21,3 @@
 	margin: 0.5em;
 	content: $content;
 }
-
-@mixin wavesAnimationMix($animName) {
-	background-repeat: repeat-x;
-	animation: $animName;
-	animation-iteration-count: infinite;
-	animation-duration: 10s;
-	animation-timing-function: linear;
-	animation-delay: 10s;
-	animation-fill-mode: forwards;
-	overflow: hidden;
-}

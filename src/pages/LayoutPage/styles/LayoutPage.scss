@@ -29,10 +29,9 @@ div {
 					left: 0%;
 					width: 100vw;
 					height: 500px;
-					background: url('../../../images/backgroundWavesA.png');
-					background-size: 6000px 500px;
-					// @include wavesAnimationMix(backgroundAnimationA);
-					&:hover {
+					background-repeat: repeat-x;
+					img {
+						width: 800vw;
 					}
 				}
 				.waveB {
@@ -42,10 +41,9 @@ div {
 					left: 0%;
 					width: 100vw;
 					height: 500px;
-					background: url('../../../images/backgroundWavesB.png');
-					background-size: 6000px 500px;
-					// @include wavesAnimationMix(backgroundAnimationB);
-					&:hover {
+					background-repeat: repeat-x;
+					img {
+						width: 800vw;
 					}
 				}
 				.fireworks {
@@ -71,26 +69,3 @@ div {
 		}
 	}
 }
-
-@media screen and (max-width: 1200px) {
-	.main-container {
-		width: 100%;
-	}
-}
-
-// @keyframes backgroundAnimationA {
-// 	from {
-// 		left: -00%;
-// 	}
-// 	to {
-// 		left: 20%;
-// 	}
-// }
-// @keyframes backgroundAnimationB {
-// 	from {
-// 		transform: translateX(5000px);
-// 	}
-// 	to {
-// 		transform: translateX(0px);
-// 	}
-// }

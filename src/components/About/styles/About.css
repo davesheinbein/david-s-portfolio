@@ -564,7 +564,8 @@
   .container .subContainer .textContainer {
     height: auto;
     width: 65%;
-    margin: 0px 1em;
+    padding: 0px 1em;
+    margin: auto 1em;
   }
   .container .subContainer .textContainer .subTitle {
     font-size: 4.5rem;
@@ -632,6 +633,7 @@
     margin: auto;
   }
   .container .subContainer .textContainer {
+    height: auto;
     width: 65%;
     padding: 0px 1em;
     margin: auto 1em;

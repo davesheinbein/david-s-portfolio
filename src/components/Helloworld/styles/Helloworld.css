@@ -687,7 +687,7 @@
     height: auto;
     width: 100%;
     margin: 0px;
-    font-size: 2rem;
+    font-size: 1.75rem;
   }
   .introContainer .intro-wrapper .right-column {
     margin: 0px;
@@ -703,7 +703,8 @@
     min-width: 40vw;
   }
   .introContainer .intro-wrapper .right-column .rightContainer #introTextContainer {
-    min-width: 400px;
+    min-width: 300px;
+    max-width: 400px;
   }
   .introContainer .intro-wrapper .right-column .rightContainer #introTextContainer .boxTitle {
     font-size: 2rem;

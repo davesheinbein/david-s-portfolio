@@ -733,7 +733,7 @@
 							.headingBtn {
 								@include heightWidth(auto, 100%);
 								margin: 0px;
-								font-size: 2rem;
+								font-size: 1.75rem;
 								&:hover {
 								}
 							}
@@ -753,7 +753,8 @@
 						}
 					}
 					#introTextContainer {
-						min-width: 400px;
+						min-width: 300px;
+						max-width: 400px;
 						.boxTitle {
 							font-size: 2rem;
 						}

@@ -226,7 +226,7 @@
 	@include media('>425px', '<=tablet') {
 		.subContainer {
 			@include heightWidth(auto, 100%);
-			@include flexCenter(column, center, flex-start);
+			@include flexCenter(column, center, center);
 			margin: auto;
 			position: relative;
 			z-index: 2;

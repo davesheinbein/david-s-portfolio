@@ -667,9 +667,9 @@
 				height: 100%;
 				margin: 0px;
 				.actionsContainer {
-					margin: 0px;
 					@include heightWidth(100%, 100%);
 					@include flexCenter(column, center, center);
+					margin: auto 2em;
 					.picThemeContainer {
 						@include flexCenter(row, center, center);
 						.profile {
@@ -793,7 +793,7 @@
 				.actionsContainer {
 					@include flexCenter(column, center, center);
 					@include heightWidth(100%, 100%);
-					margin: auto;
+					margin: auto 2em;
 					.picThemeContainer {
 						@include flexCenter(row, center, center);
 						margin: 0px auto;
@@ -918,7 +918,7 @@
 				.actionsContainer {
 					@include flexCenter(column, center, center);
 					@include heightWidth(100%, 100%);
-					margin: auto;
+					margin: auto 2em;
 					.picThemeContainer {
 						@include flexCenter(row, center, center);
 						margin: 0px auto;

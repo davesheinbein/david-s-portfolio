@@ -337,6 +337,7 @@
 			margin: auto;
 			.textContainer {
 				@include heightWidth(auto, 65%);
+				margin: 0px 1em;
 				.subTitle {
 					font-size: 4.5rem;
 				}
@@ -385,6 +386,7 @@
 			@include heightWidth(auto, 100%);
 			margin: auto;
 			.textContainer {
+				padding: 0px 1em;
 				width: 65%;
 				.subTitle {
 					font-size: 7rem;

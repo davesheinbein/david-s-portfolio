@@ -85,20 +85,22 @@ div .side1 .sub-container {
 @media (max-width: 360px) {
   div .side2 .main-container .backgroundBox .waveA img {
     width: 1500vw;
-    height: 40vh;
+    height: 50vh;
   }
   div .side2 .main-container .backgroundBox .waveB img {
     width: 1500vw;
-    height: 40vh;
+    height: 50vh;
   }
 }
 
 @media (min-width: 361px) and (max-width: 425px) {
   div .side2 .main-container .backgroundBox .waveA img {
     width: 1500vw;
+    height: 50vh;
   }
   div .side2 .main-container .backgroundBox .waveB img {
     width: 1500vw;
+    height: 50vh;
   }
 }
 
@@ -108,9 +110,11 @@ div .side1 .sub-container {
   }
   div .side2 .main-container .backgroundBox .waveA img {
     width: 1500vw;
+    height: 50vh;
   }
   div .side2 .main-container .backgroundBox .waveB img {
     width: 1500vw;
+    height: 50vh;
   }
 }
 

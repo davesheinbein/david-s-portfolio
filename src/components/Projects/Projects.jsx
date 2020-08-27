@@ -4,6 +4,7 @@ import inspirations from '../../images/inspirations.png';
 import twistsofrate from '../../images/twistsofrate.png';
 import wargame from '../../images/wargame.png';
 import neonstrobe from '../../images/neonstrobe.png';
+import calcScreen from '../../images/calcScreen.png';
 import './styles/Projects.css';
 
 export default class Projects extends Component {
@@ -22,7 +23,7 @@ export default class Projects extends Component {
 								rel='noopener noreferrer'>
 								<img
 									className='thumbnail'
-									alt='checkers'
+									alt='Steed-Finder'
 									src={steedfinder}></img>
 							</a>
 							<div className='post-preview'>
@@ -57,7 +58,7 @@ export default class Projects extends Component {
 								rel='noopener noreferrer'>
 								<img
 									className='thumbnail'
-									alt='dark-game-secrets'
+									alt='Inspiratios'
 									src={inspirations}></img>
 							</a>
 							<div className='post-preview'>
@@ -91,7 +92,7 @@ export default class Projects extends Component {
 								rel='noopener noreferrer'>
 								<img
 									className='thumbnail'
-									alt='twistsofrate'
+									alt='Twists-Of-Rate'
 									src={twistsofrate}></img>
 							</a>
 							<div className='post-preview'>
@@ -126,7 +127,7 @@ export default class Projects extends Component {
 								rel='noopener noreferrer'>
 								<img
 									className='thumbnail'
-									alt='pokemon-creations'
+									alt='War-Game'
 									src={wargame}></img>
 							</a>
 							<div className='post-preview'>
@@ -158,7 +159,7 @@ export default class Projects extends Component {
 								rel='noopener noreferrer'>
 								<img
 									className='thumbnail'
-									alt='pokemon-creations'
+									alt='Neon-Strobe-Animation'
 									src={neonstrobe}></img>
 							</a>
 							<div className='post-preview'>
@@ -169,6 +170,43 @@ export default class Projects extends Component {
 									A simple css animation that creates a
 									strobe effect on letters. A flashy and
 									easy to use animation for any situation.
+								</div>
+								<div className='viewMoreBtn'>
+									<a
+										href='https://github.com/davesheinbein/neon-strobe-animation'
+										target='_blank'
+										rel='noopener noreferrer'>
+										View More{' '}
+										<i
+											className='fa fa-long-arrow-right'
+											aria-hidden='true'></i>
+									</a>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div>
+						<div className='post'>
+							<a
+								href='https://github.com/davesheinbein/neon-strobe-animation'
+								target='_blank'
+								rel='noopener noreferrer'>
+								<img
+									className='thumbnail'
+									alt='calculator'
+									src={calcScreen}
+									style={{
+										objectPosition: '50% 30%',
+									}}></img>
+							</a>
+							<div className='post-preview'>
+								<div className='post-title'>
+									Neon Strobe Animation
+								</div>
+								<div className='post-intro'>
+									A simple calculator built using React.js,
+									React-Redux, and React-spring. Using the
+									eval() method in order to calculate.
 								</div>
 								<div className='viewMoreBtn'>
 									<a

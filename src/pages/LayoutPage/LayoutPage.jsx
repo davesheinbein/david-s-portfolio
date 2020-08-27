@@ -57,14 +57,14 @@ export default class Layout extends Component {
 							<Spring
 								native
 								from={{
-									transform: 'translateX(-700vw)',
+									transform: 'translateX(-1400vw)',
 								}}
 								to={{
 									transform: 'translateX(0vw)',
 								}}
 								config={{
 									delay: 1000,
-									duration: 100000,
+									duration: 200000,
 								}}>
 								{(props) => (
 									<animated.div
@@ -80,11 +80,11 @@ export default class Layout extends Component {
 									transform: 'translateX(0vw)',
 								}}
 								to={{
-									transform: 'translateX(-700vw)',
+									transform: 'translateX(-1400vw)',
 								}}
 								config={{
 									delay: 1000,
-									duration: 100000,
+									duration: 200000,
 								}}>
 								{(props) => (
 									<animated.div

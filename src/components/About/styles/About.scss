@@ -200,9 +200,9 @@
 				height: auto;
 				z-index: -1;
 				object-fit: contain;
-				@include topLeftAbsolute(0%, -10%);
+				@include topLeftAbsolute(-5%, -10%);
 				@include flexCenter(column, center, center);
-				@include heightWidth(auto, 350%);
+				@include heightWidth(auto, 320%);
 			}
 			.resumeDlContainer {
 				@include heightWidth(auto, 100%);

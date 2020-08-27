@@ -41,7 +41,8 @@ div .side2 .main-container .backgroundBox .waveA {
 }
 
 div .side2 .main-container .backgroundBox .waveA img {
-  width: 800vw;
+  width: 1500vw;
+  height: 40vh;
 }
 
 div .side2 .main-container .backgroundBox .waveB {
@@ -55,7 +56,8 @@ div .side2 .main-container .backgroundBox .waveB {
 }
 
 div .side2 .main-container .backgroundBox .waveB img {
-  width: 800vw;
+  width: 1500vw;
+  height: 40vh;
 }
 
 div .side2 .main-container .backgroundBox .fireworks {
@@ -82,67 +84,74 @@ div .side1 .sub-container {
 
 @media (max-width: 360px) {
   div .side2 .main-container .backgroundBox .waveA img {
-    width: 900vw;
+    width: 1500vw;
+    height: 40vh;
   }
   div .side2 .main-container .backgroundBox .waveB img {
-    width: 900vw;
+    width: 1500vw;
+    height: 40vh;
   }
 }
 
 @media (min-width: 361px) and (max-width: 425px) {
   div .side2 .main-container .backgroundBox .waveA img {
-    width: 800vw;
+    width: 1500vw;
   }
   div .side2 .main-container .backgroundBox .waveB img {
-    width: 800vw;
+    width: 1500vw;
   }
 }
 
 @media (min-width: 426px) and (max-width: 768px) {
+  div .side2 .main-container .backgroundBox {
+    top: -8%;
+  }
   div .side2 .main-container .backgroundBox .waveA img {
-    width: 800vw;
+    width: 1500vw;
   }
   div .side2 .main-container .backgroundBox .waveB img {
-    width: 800vw;
+    width: 1500vw;
   }
 }
 
 @media (min-width: 769px) and (max-width: 1365px) {
   div .side2 .main-container .backgroundBox {
-    top: -20%;
+    top: -5%;
   }
   div .side2 .main-container .backgroundBox .waveA img {
-    width: 800vw;
+    width: 1500vw;
+    height: 40vh;
   }
   div .side2 .main-container .backgroundBox .waveB img {
-    width: 800vw;
+    width: 1500vw;
+    height: 40vh;
   }
 }
 
 @media (min-width: 1366px) {
   div .side2 .main-container .backgroundBox {
-    top: -10%;
+    top: 0%;
   }
   div .side2 .main-container .backgroundBox .waveA img {
-    width: 1000vw;
+    width: 1500vw;
     height: 40vh;
   }
   div .side2 .main-container .backgroundBox .waveB img {
-    width: 1000vw;
+    width: 1500vw;
     height: 40vh;
   }
 }
 
 @media (min-width: 1920px) and (-webkit-min-device-pixel-ratio: 2), (min-width: 1920px) and (min-resolution: 192dpi) {
   div .side2 .main-container .backgroundBox {
-    top: -5%;
+    top: 0%;
   }
   div .side2 .main-container .backgroundBox .waveA img {
-    width: 1200vw;
+    width: 1500vw;
     height: 40vh;
   }
   div .side2 .main-container .backgroundBox .waveB img {
-    width: 1200vw;
+    width: 1500vw;
     height: 40vh;
   }
 }

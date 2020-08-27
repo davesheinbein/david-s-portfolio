@@ -345,7 +345,7 @@
     -o-object-fit: contain;
        object-fit: contain;
     position: absolute;
-    top: 0%;
+    top: -5%;
     left: -10%;
     display: -webkit-box;
     display: -ms-flexbox;
@@ -361,7 +361,7 @@
         -ms-flex-align: center;
             align-items: center;
     height: auto;
-    width: 350%;
+    width: 320%;
   }
   .container .subContainer .resumeDlContainer {
     height: auto;

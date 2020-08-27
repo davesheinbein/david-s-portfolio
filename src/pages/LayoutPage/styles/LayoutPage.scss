@@ -31,7 +31,8 @@ div {
 					height: 500px;
 					background-repeat: repeat-x;
 					img {
-						width: 800vw;
+						width: 1500vw;
+						height: 40vh;
 					}
 				}
 				.waveB {
@@ -43,7 +44,8 @@ div {
 					height: 500px;
 					background-repeat: repeat-x;
 					img {
-						width: 800vw;
+						width: 1500vw;
+						height: 40vh;
 					}
 				}
 				.fireworks {
@@ -77,12 +79,14 @@ div {
 				.backgroundBox {
 					.waveA {
 						img {
-							width: 900vw;
+							width: 1500vw;
+							height: 40vh;
 						}
 					}
 					.waveB {
 						img {
-							width: 900vw;
+							width: 1500vw;
+							height: 40vh;
 						}
 					}
 					.fireworks {
@@ -100,12 +104,12 @@ div {
 				.backgroundBox {
 					.waveA {
 						img {
-							width: 800vw;
+							width: 1500vw;
 						}
 					}
 					.waveB {
 						img {
-							width: 800vw;
+							width: 1500vw;
 						}
 					}
 					.fireworks {
@@ -121,14 +125,15 @@ div {
 			}
 			.main-container {
 				.backgroundBox {
+					top: -8%;
 					.waveA {
 						img {
-							width: 800vw;
+							width: 1500vw;
 						}
 					}
 					.waveB {
 						img {
-							width: 800vw;
+							width: 1500vw;
 						}
 					}
 					.fireworks {
@@ -144,15 +149,17 @@ div {
 			}
 			.main-container {
 				.backgroundBox {
-					top: -20%;
+					top: -5%;
 					.waveA {
 						img {
-							width: 800vw;
+							width: 1500vw;
+							height: 40vh;
 						}
 					}
 					.waveB {
 						img {
-							width: 800vw;
+							width: 1500vw;
+							height: 40vh;
 						}
 					}
 					.fireworks {
@@ -168,16 +175,16 @@ div {
 			}
 			.main-container {
 				.backgroundBox {
-					top: -10%;
+					top: 0%;
 					.waveA {
 						img {
-							width: 1000vw;
+							width: 1500vw;
 							height: 40vh;
 						}
 					}
 					.waveB {
 						img {
-							width: 1000vw;
+							width: 1500vw;
 							height: 40vh;
 						}
 					}
@@ -194,16 +201,16 @@ div {
 			}
 			.main-container {
 				.backgroundBox {
-					top: -5%;
+					top: 0%;
 					.waveA {
 						img {
-							width: 1200vw;
+							width: 1500vw;
 							height: 40vh;
 						}
 					}
 					.waveB {
 						img {
-							width: 1200vw;
+							width: 1500vw;
 							height: 40vh;
 						}
 					}

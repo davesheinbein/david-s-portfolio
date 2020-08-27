@@ -887,8 +887,8 @@
   }
   .introContainer .intro-wrapper .right-column .rightContainer .computerGuySvgContainer {
     height: auto;
-    width: auto;
-    min-width: 38vw;
+    width: 100vw;
+    min-width: 30vw;
   }
   .introContainer .intro-wrapper .right-column .rightContainer #introTextContainer {
     min-width: 500px;

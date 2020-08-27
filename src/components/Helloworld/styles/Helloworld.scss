@@ -999,8 +999,8 @@
 				.rightContainer {
 					@include heightWidth(auto, 100%);
 					.computerGuySvgContainer {
-						@include heightWidth(auto, auto);
-						min-width: 38vw;
+						@include heightWidth(auto, 100vw);
+						min-width: 30vw;
 						#computerGuy {
 						}
 					}

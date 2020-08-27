@@ -287,6 +287,8 @@
 			z-index: 2;
 			.textContainer {
 				@include heightWidth(auto, 65%);
+				padding: 0px 1em;
+				margin: auto 1em;
 				.subTitle {
 					font-size: 4rem;
 				}
@@ -386,8 +388,9 @@
 			@include heightWidth(auto, 100%);
 			margin: auto;
 			.textContainer {
-				padding: 0px 1em;
 				width: 65%;
+				padding: 0px 1em;
+				margin: auto 1em;
 				.subTitle {
 					font-size: 7rem;
 				}

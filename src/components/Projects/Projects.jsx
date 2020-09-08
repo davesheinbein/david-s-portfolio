@@ -210,7 +210,7 @@ export default class Projects extends Component {
 								</div>
 								<div className='viewMoreBtn'>
 									<a
-										href='https://github.com/davesheinbein/neon-strobe-animation'
+										href='https://github.com/davesheinbein/calculator'
 										target='_blank'
 										rel='noopener noreferrer'>
 										View More{' '}

@@ -201,7 +201,7 @@ export default class Projects extends Component {
 							</a>
 							<div className='post-preview'>
 								<div className='post-title'>
-									Neon Strobe Animation
+									React-Redux Calculator
 								</div>
 								<div className='post-intro'>
 									A simple calculator built using React.js,

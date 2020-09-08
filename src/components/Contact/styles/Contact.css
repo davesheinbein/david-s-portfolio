@@ -89,9 +89,15 @@
   -webkit-box-shadow: 0 4px 4px var(--shadow);
   box-shadow: 0 4px 4px var(--shadow);
   font-family: 'Cabin', sans-serif;
+  -webkit-transform: scale(1);
+          transform: scale(1);
+  -webkit-transition: all 0.5s ease-in-out;
+  transition: all 0.5s ease-in-out;
 }
 
 .formContainer #contact-form #submit-btn:hover {
+  -webkit-transform: scaleY(1.1) scaleX(1.02);
+          transform: scaleY(1.1) scaleX(1.02);
   color: var(--TertiaryTextBtnText);
   background-color: var(--TertiaryTextBtnHover);
 }

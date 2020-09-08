@@ -16,7 +16,10 @@
 		#linkedInSym {
 			padding: 0px 0.5em;
 			color: var(--TertiaryTextBtn);
+			transform: scale(1);
+			transition: all 0.5s ease-in-out;
 			&:hover {
+				transform: scale(1.05);
 				color: var(--TertiaryTextBtnHover);
 			}
 		}
@@ -30,7 +33,10 @@
 		#gitHubSym {
 			padding: 0px 0.5em;
 			color: var(--TertiaryTextBtn);
+			transform: scale(1);
+			transition: all 0.5s ease-in-out;
 			&:hover {
+				transform: scale(1.05);
 				color: var(--TertiaryTextBtnHover);
 			}
 		}
@@ -43,7 +49,7 @@
 		grid-template-columns: 2fr 2fr;
 		.imgSubContainer {
 			padding: 1em 0px;
-			#linkedInImage {
+			#linkedInGitImages {
 				@include heightWidth(auto, 80%);
 				max-width: 1400px;
 				border-radius: 10px;
@@ -51,10 +57,20 @@
 				-moz-box-shadow: 0 4px 4px var(--shadow);
 				-webkit-box-shadow: 0 4px 4px var(--shadow);
 				box-shadow: 0 4px 4px var(--shadow);
+				transform: scale(1);
+				transition: all 0.5s ease-in-out;
+				&:hover {
+					transform: scale(1.05);
+				}
 			}
 		}
 		.linkedInBtnTextContainer {
 			padding: 1em 0px 0em;
+			transform: scale(1);
+			transition: all 0.5s ease-in-out;
+			&:hover {
+				transform: scale(1.05);
+			}
 			.linkedInBtnText {
 				font-size: 1.5rem;
 				font-weight: bold;

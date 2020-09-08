@@ -36,10 +36,21 @@
   font-size: 2rem;
   color: var(--mainText);
   list-style-type: none;
+  -webkit-transform: scale(1);
+          transform: scale(1);
+  -webkit-transition: all 0.5s ease-in-out;
+  transition: all 0.5s ease-in-out;
+}
+
+.headingContainer #navigation li:hover {
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
 }
 
 .headingContainer #navigation li a {
   color: var(--mainText);
+  -webkit-transition: all 0.5s ease-in-out;
+  transition: all 0.5s ease-in-out;
 }
 
 .headingContainer #navigation li a:hover {

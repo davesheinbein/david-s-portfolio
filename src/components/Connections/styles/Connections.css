@@ -32,9 +32,15 @@
 .linkedInContainer .iconSymbols #linkedInSym {
   padding: 0px 0.5em;
   color: var(--TertiaryTextBtn);
+  -webkit-transform: scale(1);
+          transform: scale(1);
+  -webkit-transition: all 0.5s ease-in-out;
+  transition: all 0.5s ease-in-out;
 }
 
 .linkedInContainer .iconSymbols #linkedInSym:hover {
+  -webkit-transform: scale(1.05);
+          transform: scale(1.05);
   color: var(--TertiaryTextBtnHover);
 }
 
@@ -49,9 +55,15 @@
 .linkedInContainer .iconSymbols #gitHubSym {
   padding: 0px 0.5em;
   color: var(--TertiaryTextBtn);
+  -webkit-transform: scale(1);
+          transform: scale(1);
+  -webkit-transition: all 0.5s ease-in-out;
+  transition: all 0.5s ease-in-out;
 }
 
 .linkedInContainer .iconSymbols #gitHubSym:hover {
+  -webkit-transform: scale(1.05);
+          transform: scale(1.05);
   color: var(--TertiaryTextBtnHover);
 }
 
@@ -70,7 +82,7 @@
   padding: 1em 0px;
 }
 
-.linkedInContainer .imagesContainer .imgSubContainer #linkedInImage {
+.linkedInContainer .imagesContainer .imgSubContainer #linkedInGitImages {
   height: auto;
   width: 80%;
   max-width: 1400px;
@@ -78,10 +90,28 @@
   border: 1px solid var(--themeContainerDotBorder);
   -webkit-box-shadow: 0 4px 4px var(--shadow);
   box-shadow: 0 4px 4px var(--shadow);
+  -webkit-transform: scale(1);
+          transform: scale(1);
+  -webkit-transition: all 0.5s ease-in-out;
+  transition: all 0.5s ease-in-out;
+}
+
+.linkedInContainer .imagesContainer .imgSubContainer #linkedInGitImages:hover {
+  -webkit-transform: scale(1.05);
+          transform: scale(1.05);
 }
 
 .linkedInContainer .imagesContainer .linkedInBtnTextContainer {
   padding: 1em 0px 0em;
+  -webkit-transform: scale(1);
+          transform: scale(1);
+  -webkit-transition: all 0.5s ease-in-out;
+  transition: all 0.5s ease-in-out;
+}
+
+.linkedInContainer .imagesContainer .linkedInBtnTextContainer:hover {
+  -webkit-transform: scale(1.05);
+          transform: scale(1.05);
 }
 
 .linkedInContainer .imagesContainer .linkedInBtnTextContainer .linkedInBtnText {

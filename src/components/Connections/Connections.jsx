@@ -29,7 +29,7 @@ function Connections() {
 						<img
 							src={linkedinImg}
 							alt='LinkedIn Headshot'
-							id='linkedInImage'></img>
+							id='linkedInGitImages'></img>
 					</a>
 					<h3 className='linkedInBtnTextContainer'>
 						<a
@@ -47,7 +47,7 @@ function Connections() {
 						<img
 							src={githubImg}
 							alt='LinkedIn Headshot'
-							id='linkedInImage'></img>
+							id='linkedInGitImages'></img>
 					</a>
 					<h3 className='linkedInBtnTextContainer'>
 						<a

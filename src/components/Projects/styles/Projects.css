@@ -35,8 +35,18 @@
 
 .projects .post-wrapper div .post {
   border: 1px solid var(--themeContainerDotBorder);
+  border-radius: 5px;
   -webkit-box-shadow: -2px 7px 21px -9px var(--shadow);
   box-shadow: -2px 7px 21px -9px var(--shadow);
+  -webkit-transform: scale(1);
+          transform: scale(1);
+  -webkit-transition: all 0.5s ease-in-out;
+  transition: all 0.5s ease-in-out;
+}
+
+.projects .post-wrapper div .post:hover {
+  -webkit-transform: scale(1.05);
+          transform: scale(1.05);
 }
 
 .projects .post-wrapper div .post a .thumbnail {
@@ -70,10 +80,16 @@
 .projects .post-wrapper div .post .post-preview .viewMoreBtn {
   padding: 0.5em 0px;
   font-family: 'Cabin', sans-serif;
+  -webkit-transform: scale(1);
+          transform: scale(1);
+  -webkit-transition: all 0.5s ease-in-out;
+  transition: all 0.5s ease-in-out;
 }
 
 .projects .post-wrapper div .post .post-preview .viewMoreBtn:hover {
-  color: black;
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+  color: var(--shadow);
 }
 
 @media (max-width: 360px) {

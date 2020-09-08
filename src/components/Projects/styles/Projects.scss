@@ -24,9 +24,15 @@
 		div {
 			.post {
 				border: 1px solid var(--themeContainerDotBorder);
+				border-radius: 5px;
 				-webkit-box-shadow: -2px 7px 21px -9px var(--shadow);
 				-moz-box-shadow: -2px 7px 21px -9px var(--shadow);
 				box-shadow: -2px 7px 21px -9px var(--shadow);
+				transform: scale(1);
+				transition: all 0.5s ease-in-out;
+				&:hover {
+					transform: scale(1.05);
+				}
 				a {
 					.thumbnail {
 						display: block;
@@ -53,8 +59,11 @@
 					.viewMoreBtn {
 						padding: 0.5em 0px;
 						font-family: 'Cabin', sans-serif;
+						transform: scale(1);
+						transition: all 0.5s ease-in-out;
 						&:hover {
-							color: black;
+							transform: scale(1.1);
+							color: var(--shadow);
 						}
 					}
 				}

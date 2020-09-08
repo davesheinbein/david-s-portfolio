@@ -163,7 +163,21 @@
   font-family: 'Cabin', sans-serif;
 }
 
-.container .subContainer .resumeDlContainer .resumeDlLink {
+.container .subContainer .resumeDlContainer .downloadContainer {
+  -webkit-transform: scale(1);
+          transform: scale(1);
+  -webkit-transition: -webkit-transform 0.5s ease-in-out;
+  transition: -webkit-transform 0.5s ease-in-out;
+  transition: transform 0.5s ease-in-out;
+  transition: transform 0.5s ease-in-out, -webkit-transform 0.5s ease-in-out;
+}
+
+.container .subContainer .resumeDlContainer .downloadContainer:hover {
+  -webkit-transform: scale(1.05);
+          transform: scale(1.05);
+}
+
+.container .subContainer .resumeDlContainer .downloadContainer .resumeDlLink {
   color: var(--TertiaryText);
   background: var(--TertiaryTextBtn);
   padding: 0.25em 0.5em;
@@ -174,16 +188,33 @@
   -webkit-box-shadow: 0 4px 4px var(--shadow);
   box-shadow: 0 4px 4px var(--shadow);
   font-family: 'Cabin', sans-serif;
+  -webkit-transform: scale(1);
+          transform: scale(1);
+  -webkit-transition: all 0.5s ease-in-out;
+  transition: all 0.5s ease-in-out;
 }
 
-.container .subContainer .resumeDlContainer .resumeDlLink:hover {
+.container .subContainer .resumeDlContainer .downloadContainer .resumeDlLink:hover {
+  -webkit-transform: scale(1.05);
+          transform: scale(1.05);
   color: var(--TertiaryTextBtnText);
   background: var(--TertiaryTextBtnHover);
   text-decoration: none;
 }
 
-.container .subContainer .resumeDlContainer .resumeDlLink .resumeIcon {
+.container .subContainer .resumeDlContainer .downloadContainer .resumeDlLink .resumeIcon {
+  -webkit-transform: scale(1);
+          transform: scale(1);
+  -webkit-transition: -webkit-transform 0.5s ease-in-out;
+  transition: -webkit-transform 0.5s ease-in-out;
+  transition: transform 0.5s ease-in-out;
+  transition: transform 0.5s ease-in-out, -webkit-transform 0.5s ease-in-out;
   font-size: 1.5rem;
+}
+
+.container .subContainer .resumeDlContainer .downloadContainer .resumeDlLink:hover {
+  -webkit-transform: scale(1.05);
+          transform: scale(1.05);
 }
 
 @media (max-width: 360px) {

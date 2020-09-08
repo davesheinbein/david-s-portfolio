@@ -82,25 +82,40 @@
 				z-index: 20;
 				font-family: 'Cabin', sans-serif;
 			}
-			.resumeDlLink {
-				color: var(--TertiaryText);
-				background: var(--TertiaryTextBtn);
-				padding: 0.25em 0.5em;
-				border-radius: 50px;
-				font-size: 1.5rem;
-				font-weight: 600;
-				line-height: 2.5;
-				-moz-box-shadow: 0 4px 4px var(--shadow);
-				-webkit-box-shadow: 0 4px 4px var(--shadow);
-				box-shadow: 0 4px 4px var(--shadow);
-				font-family: 'Cabin', sans-serif;
+			.downloadContainer {
+				transform: scale(1);
+				transition: transform 0.5s ease-in-out;
 				&:hover {
-					color: var(--TertiaryTextBtnText);
-					background: var(--TertiaryTextBtnHover);
-					text-decoration: none;
+					transform: scale(1.05);
 				}
-				.resumeIcon {
+				.resumeDlLink {
+					color: var(--TertiaryText);
+					background: var(--TertiaryTextBtn);
+					padding: 0.25em 0.5em;
+					border-radius: 50px;
 					font-size: 1.5rem;
+					font-weight: 600;
+					line-height: 2.5;
+					-moz-box-shadow: 0 4px 4px var(--shadow);
+					-webkit-box-shadow: 0 4px 4px var(--shadow);
+					box-shadow: 0 4px 4px var(--shadow);
+					font-family: 'Cabin', sans-serif;
+					transform: scale(1);
+					transition: all 0.5s ease-in-out;
+					&:hover {
+						transform: scale(1.05);
+						color: var(--TertiaryTextBtnText);
+						background: var(--TertiaryTextBtnHover);
+						text-decoration: none;
+					}
+					.resumeIcon {
+						transform: scale(1);
+						transition: transform 0.5s ease-in-out;
+						font-size: 1.5rem;
+					}
+					&:hover {
+						transform: scale(1.05);
+					}
 				}
 			}
 		}
@@ -435,4 +450,4 @@
 	}
 }
 
-@med
+@med;

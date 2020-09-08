@@ -54,16 +54,18 @@ function About() {
 						Full-Stack Developer primarily focused on MERN
 						Stack
 					</div>
-					<a
-						className='resumeDlLink'
-						href={Pdf}
-						target='_blank'
-						rel='noopener noreferrer'>
-						Resume{' '}
-						<i
-							className='fa fa-arrow-circle-o-down resumeIcon'
-							aria-hidden='true'></i>
-					</a>
+					<div className='downloadContainer'>
+						<a
+							className='resumeDlLink'
+							href={Pdf}
+							target='_blank'
+							rel='noopener noreferrer'>
+							Resume{' '}
+							<i
+								className='fa fa-arrow-circle-o-down resumeIcon'
+								aria-hidden='true'></i>
+						</a>
+					</div>
 				</h3>
 			</div>
 		</div>

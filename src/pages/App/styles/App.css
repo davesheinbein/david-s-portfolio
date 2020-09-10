@@ -1,3 +1,8 @@
+/**
+*
+* Testing
+*
+**/
 * {
   margin: 0;
   padding: 0;
@@ -9,25 +14,42 @@
   text-align: center;
   min-height: 100vh;
   background: var(--background);
+  z-index: -2;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 10vh;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+@media (max-width: 360px) {
+  .App {
+    background: var(--background);
+  }
+}
+
+@media (min-width: 361px) and (max-width: 425px) {
+  .App {
+    background: var(--backgroundA);
+  }
+}
+
+@media (min-width: 426px) and (max-width: 768px) {
+  .App {
+    background: var(--backgroundB);
+  }
+}
+
+@media (min-width: 769px) and (max-width: 1365px) {
+  .App {
+    background: var(--backgroundC);
+  }
+}
+
+@media (min-width: 1366px) {
+  .App {
+    background: var(--backgroundD);
+  }
+}
+
+@media (min-width: 1920px) and (-webkit-min-device-pixel-ratio: 2), (min-width: 1920px) and (min-resolution: 192dpi) {
+  .App {
+    background: var(--backgroundE);
+  }
 }
 /*# sourceMappingURL=App.css.map */

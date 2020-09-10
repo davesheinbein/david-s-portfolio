@@ -30,6 +30,11 @@ ${(props) => {
         --shadow: rgb(0, 0, 0, 0.75);
 
         --background: none;
+        --backgroundA: none;
+        --backgroundB: none;
+        --backgroundC: none;
+        --backgroundD: none;
+        --backgroundE: none;
         --backgroundNone: none;
         --backgroundDisplay: none;
 
@@ -81,6 +86,11 @@ ${(props) => {
           --shadow: rgb(0, 0, 0, 0.75);
 
           --background: none;
+          --backgroundA: none;
+          --backgroundB: none;
+          --backgroundC: none;
+          --backgroundD: none;
+          --backgroundE: none;
           --DisplayA: none;
           --DisplayB: none;
 
@@ -132,6 +142,11 @@ ${(props) => {
           --shadow: rgb(0, 0, 0, 0.75);
 
           --background: none;
+          --backgroundA: none;
+          --backgroundB: none;
+          --backgroundC: none;
+          --backgroundD: none;
+          --backgroundE: none;
           --DisplayA: none;
           --DisplayB: none;
 
@@ -182,6 +197,11 @@ ${(props) => {
           --shadow: rgb(255, 255, 255, 0.25);
 
           --background: none;
+          --backgroundA: none;
+          --backgroundB: none;
+          --backgroundC: none;
+          --backgroundD: none;
+          --backgroundE: none;
           --DisplayA: none;
           --DisplayB: none;
 
@@ -232,6 +252,11 @@ ${(props) => {
           --shadow: rgb(0, 0, 0, 0.5);
 
           --background: linear-gradient(180deg, rgba(0,243,255,0) 10%, rgba(0,243,255,1) 10%, rgba(0,243,255,0.5) 100%);
+          --backgroundA: linear-gradient(180deg, rgba(0,243,255,0) 10%, rgba(0,243,255,1) 10%, rgba(0,243,255,0.5) 100%);
+          --backgroundB: linear-gradient(180deg, rgba(0,243,255,0) 10%, rgba(0,243,255,1) 10%, rgba(0,243,255,0.5) 100%);
+          --backgroundC: linear-gradient(180deg, rgba(0,243,255,0) 10%, rgba(0,243,255,1) 10%, rgba(0,243,255,0.5) 100%);
+          --backgroundD: linear-gradient(180deg, rgba(0,243,255,0) 10%, rgba(0,243,255,1) 10%, rgba(0,243,255,0.5) 100%);
+          --backgroundE: linear-gradient(180deg, rgba(0,243,255,0) 10%, rgba(0,243,255,1) 10%, rgba(0,243,255,0.5) 100%);
           --DisplayA: block;
           --DisplayB: none;
 
@@ -281,7 +306,12 @@ ${(props) => {
           --previewBg: rgb(255, 187, 89, 0.5);
           --shadow: rgb(255, 255, 255, 0.5);
 
-          --background: linear-gradient(0deg, rgba(228,198,133,1) 10%, rgba(105,73,164,1) 45%, rgba(168,127,38,1) 68%, rgba(41,20,82,1) 80%, rgba(0,0,0,1) 90%, rgba(0,0,0,0) 100%);
+          --background: linear-gradient(0deg, rgba(228,198,133,1) 10%, rgba(105,73,164,1) 45%, rgba(168,127,38,1) 68%, rgba(41,20,82,1) 80%, rgba(0,0,0,1) 90%, rgba(0,0,0,0) 95%, rgba(0,0,0,01) 97%, rgba(0,0,0,01) 100%);
+          --backgroundA: linear-gradient(0deg, rgba(228,198,133,1) 10%, rgba(105,73,164,1) 45%, rgba(168,127,38,1) 68%, rgba(41,20,82,1) 80%, rgba(0,0,0,1) 90%, rgba(0,0,0,0) 95%, rgba(0,0,0,01) 98%, rgba(0,0,0,01) 100%);
+          --backgroundB: linear-gradient(0deg, rgba(228,198,133,1) 10%, rgba(105,73,164,1) 45%, rgba(168,127,38,1) 68%, rgba(41,20,82,1) 80%, rgba(0,0,0,1) 94%, rgba(0,0,0,0) 98%, rgba(0,0,0,01) 98%, rgba(0,0,0,01) 100%);
+          --backgroundC: linear-gradient(0deg, rgba(228,198,133,1) 10%, rgba(105,73,164,1) 45%, rgba(168,127,38,1) 68%, rgba(41,20,82,1) 80%, rgba(0,0,0,1) 94%, rgba(0,0,0,0) 99%, rgba(0,0,0,01) 98%, rgba(0,0,0,01) 100%);
+          --backgroundD: linear-gradient(0deg, rgba(228,198,133,1) 10%, rgba(105,73,164,1) 45%, rgba(168,127,38,1) 68%, rgba(41,20,82,1) 80%, rgba(0,0,0,1) 90%, rgba(0,0,0,0) 95%, rgba(0,0,0,01) 98%, rgba(0,0,0,01) 100%);
+          --backgroundE: linear-gradient(0deg, rgba(228,198,133,1) 10%, rgba(105,73,164,1) 45%, rgba(168,127,38,1) 68%, rgba(41,20,82,1) 80%, rgba(0,0,0,1) 90%, rgba(0,0,0,0) 95%, rgba(0,0,0,01) 98%, rgba(0,0,0,01) 100%);
           --DisplayA: none;
           --DisplayB: block;
 
@@ -332,6 +362,11 @@ ${(props) => {
           --shadow: rgb(0, 0, 0, 0.75);
 
           --background: none;
+          --backgroundA: none;
+          --backgroundB: none;
+          --backgroundC: none;
+          --backgroundD: none;
+          --backgroundE: none;
           --DisplayA: none;
           --DisplayB: none;
 

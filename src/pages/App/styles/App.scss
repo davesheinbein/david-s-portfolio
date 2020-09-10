@@ -1,3 +1,5 @@
+@import '../../../breakpoints/breakpoints.scss';
+
 * {
 	margin: 0;
 	padding: 0;
@@ -8,15 +10,28 @@
 	text-align: center;
 	min-height: 100vh;
 	background: var(--background);
-}
+	z-index: -2;
+	@include media('<=phone') {
+		background: var(--background);
+	}
 
-.App-header {
-	background-color: #282c34;
-	min-height: 10vh;
-	display: flex;
-	flex-direction: column;
-	align-items: center;
-	justify-content: center;
-	font-size: calc(10px + 2vmin);
-	color: white;
+	@include media('>phone', '<=425px') {
+		background: var(--backgroundA);
+	}
+
+	@include media('>425px', '<=tablet') {
+		background: var(--backgroundB);
+	}
+
+	@include media('>tablet', '<desktop') {
+		background: var(--backgroundC);
+	}
+
+	@include media('>=desktop') {
+		background: var(--backgroundD);
+	}
+
+	@include media('>=LGdesktop', 'retina2x') {
+		background: var(--backgroundE);
+	}
 }

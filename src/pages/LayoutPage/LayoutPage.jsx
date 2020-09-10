@@ -54,48 +54,52 @@ export default class Layout extends Component {
 							)}
 						</Spring>
 						<div className='backgroundBox'>
-							<Spring
-								native
-								from={{
-									transform: 'translateX(-1400vw)',
-								}}
-								to={{
-									transform: 'translateX(0vw)',
-								}}
-								config={{
-									delay: 1000,
-									duration: 200000,
-								}}>
-								{(props) => (
-									<animated.div
-										style={props}
-										className='waveB'>
-										<img src={waveB} alt='wave' />
-									</animated.div>
-								)}
-							</Spring>
-							<Spring
-								native
-								from={{
-									transform: 'translateX(0vw)',
-								}}
-								to={{
-									transform: 'translateX(-1400vw)',
-								}}
-								config={{
-									delay: 1000,
-									duration: 200000,
-								}}>
-								{(props) => (
-									<animated.div
-										style={props}
-										className='waveA'>
-										<img src={waveA} alt='wave' />
-									</animated.div>
-								)}
-							</Spring>
-							<div className='fireworks'>
-								<img src={fireworks} alt='fireworks' />
+							<div className='waves-container'>
+								<Spring
+									native
+									from={{
+										transform: 'translateX(-1400vw)',
+									}}
+									to={{
+										transform: 'translateX(0vw)',
+									}}
+									config={{
+										delay: 1000,
+										duration: 200000,
+									}}>
+									{(props) => (
+										<animated.div
+											style={props}
+											className='waveB'>
+											<img src={waveB} alt='wave' />
+										</animated.div>
+									)}
+								</Spring>
+								<Spring
+									native
+									from={{
+										transform: 'translateX(0vw)',
+									}}
+									to={{
+										transform: 'translateX(-1400vw)',
+									}}
+									config={{
+										delay: 1000,
+										duration: 200000,
+									}}>
+									{(props) => (
+										<animated.div
+											style={props}
+											className='waveA'>
+											<img src={waveA} alt='wave' />
+										</animated.div>
+									)}
+								</Spring>
+							</div>
+							<div className='fireworks-container'>
+								<div className='fireworks'>
+									<img src={fireworks} alt='fireworks' />
+								</div>
 							</div>
 						</div>
 					</div>

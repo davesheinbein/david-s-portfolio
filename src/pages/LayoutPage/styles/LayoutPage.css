@@ -30,7 +30,7 @@ div .side2 .main-container .backgroundBox {
   z-index: -1;
 }
 
-div .side2 .main-container .backgroundBox .waveA {
+div .side2 .main-container .backgroundBox .waves-container .waveA {
   display: var(--DisplayA);
   position: absolute;
   top: 200px;
@@ -40,12 +40,12 @@ div .side2 .main-container .backgroundBox .waveA {
   background-repeat: repeat-x;
 }
 
-div .side2 .main-container .backgroundBox .waveA img {
+div .side2 .main-container .backgroundBox .waves-container .waveA img {
   width: 1500vw;
   height: 40vh;
 }
 
-div .side2 .main-container .backgroundBox .waveB {
+div .side2 .main-container .backgroundBox .waves-container .waveB {
   display: var(--DisplayA);
   position: absolute;
   top: 200px;
@@ -55,12 +55,12 @@ div .side2 .main-container .backgroundBox .waveB {
   background-repeat: repeat-x;
 }
 
-div .side2 .main-container .backgroundBox .waveB img {
+div .side2 .main-container .backgroundBox .waves-container .waveB img {
   width: 1500vw;
   height: 40vh;
 }
 
-div .side2 .main-container .backgroundBox .fireworks {
+div .side2 .main-container .backgroundBox .fireworks-container .fireworks {
   display: var(--DisplayB);
   position: absolute;
   top: 0%;
@@ -86,11 +86,11 @@ div .side1 .sub-container {
   div .side2 .main-container .backgroundBox {
     top: 25%;
   }
-  div .side2 .main-container .backgroundBox .waveA img {
+  div .side2 .main-container .backgroundBox .waves-container .waveA img {
     width: 1500vw;
     height: 50vh;
   }
-  div .side2 .main-container .backgroundBox .waveB img {
+  div .side2 .main-container .backgroundBox .waves-container .waveB img {
     width: 1500vw;
     height: 50vh;
   }
@@ -100,11 +100,11 @@ div .side1 .sub-container {
   div .side2 .main-container .backgroundBox {
     top: 15%;
   }
-  div .side2 .main-container .backgroundBox .waveA img {
+  div .side2 .main-container .backgroundBox .waves-container .waveA img {
     width: 1500vw;
     height: 60vh;
   }
-  div .side2 .main-container .backgroundBox .waveB img {
+  div .side2 .main-container .backgroundBox .waves-container .waveB img {
     width: 1500vw;
     height: 50vh;
   }
@@ -114,11 +114,11 @@ div .side1 .sub-container {
   div .side2 .main-container .backgroundBox {
     top: -8%;
   }
-  div .side2 .main-container .backgroundBox .waveA img {
+  div .side2 .main-container .backgroundBox .waves-container .waveA img {
     width: 1500vw;
     height: 70vh;
   }
-  div .side2 .main-container .backgroundBox .waveB img {
+  div .side2 .main-container .backgroundBox .waves-container .waveB img {
     width: 1500vw;
     height: 70vh;
   }
@@ -128,11 +128,11 @@ div .side1 .sub-container {
   div .side2 .main-container .backgroundBox {
     top: -5%;
   }
-  div .side2 .main-container .backgroundBox .waveA img {
+  div .side2 .main-container .backgroundBox .waves-container .waveA img {
     width: 1500vw;
     height: 40vh;
   }
-  div .side2 .main-container .backgroundBox .waveB img {
+  div .side2 .main-container .backgroundBox .waves-container .waveB img {
     width: 1500vw;
     height: 40vh;
   }
@@ -142,11 +142,11 @@ div .side1 .sub-container {
   div .side2 .main-container .backgroundBox {
     top: 0%;
   }
-  div .side2 .main-container .backgroundBox .waveA img {
+  div .side2 .main-container .backgroundBox .waves-container .waveA img {
     width: 1500vw;
     height: 40vh;
   }
-  div .side2 .main-container .backgroundBox .waveB img {
+  div .side2 .main-container .backgroundBox .waves-container .waveB img {
     width: 1500vw;
     height: 40vh;
   }
@@ -156,11 +156,11 @@ div .side1 .sub-container {
   div .side2 .main-container .backgroundBox {
     top: 0%;
   }
-  div .side2 .main-container .backgroundBox .waveA img {
+  div .side2 .main-container .backgroundBox .waves-container .waveA img {
     width: 1500vw;
     height: 40vh;
   }
-  div .side2 .main-container .backgroundBox .waveB img {
+  div .side2 .main-container .backgroundBox .waves-container .waveB img {
     width: 1500vw;
     height: 40vh;
   }

@@ -16,12 +16,12 @@ export default class Helloworld extends Component {
 								<div className='profile'>
 									<img
 										id='profilePicSubBox'
-										src={headshotSmall}
+										src={headshot}
 										alt='headshot'></img>
 									<img
 										id='profilePicture'
-										src={headshot}
-										alt='headshot'></img>
+										src={headshotSmall}
+										alt='headshotSmall'></img>
 								</div>
 								<div id='theme-options-wrapper'>
 									<h3 className='personalizedText'>

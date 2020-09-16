@@ -23,8 +23,11 @@
 			.actionsContainer {
 				height: 100%;
 				.picThemeContainer {
+					@include heightWidth(100%, 100%);
 					.profile {
 						position: relative;
+						top: 0;
+						left: 0;
 						#profilePicture {
 							@include heightWidth(100%, 100%);
 							max-width: 360px;
@@ -33,7 +36,6 @@
 							border-radius: 5px;
 							object-fit: cover;
 							background-size: contain;
-							@include topLeftAbsolute(0%, 0%);
 							border: 3px solid
 								var(--themeContainerDotBorder);
 							-moz-box-shadow: 0 4px 4px var(--shadow);
@@ -42,6 +44,8 @@
 						}
 						#profilePicSubBox {
 							@include heightWidth(100%, 100%);
+							@include topLeftAbsolute(0%, 0%);
+							min-width: 150px;
 							max-width: 360px;
 							display: block;
 							margin: 0 auto;
@@ -329,6 +333,9 @@
 								@include heightWidth(auto, 70vw);
 							}
 							#profilePicSubBox {
+								@include heightWidth(auto, 70vw);
+								@include topLeftAbsolute(0%, 50%);
+								transform: translate(-50%, 0);
 							}
 						}
 						#theme-options-wrapper {
@@ -457,6 +464,9 @@
 								@include heightWidth(auto, 70vw);
 							}
 							#profilePicSubBox {
+								@include heightWidth(auto, 70vw);
+								@include topLeftAbsolute(0%, 50%);
+								transform: translate(-50%, 0);
 							}
 						}
 						#theme-options-wrapper {
@@ -588,6 +598,9 @@
 								@include heightWidth(auto, 70vw);
 							}
 							#profilePicSubBox {
+								@include heightWidth(auto, 70vw);
+								@include topLeftAbsolute(0%, 50%);
+								transform: translate(-50%, 0);
 							}
 						}
 						#theme-options-wrapper {

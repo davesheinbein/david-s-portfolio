@@ -38,8 +38,15 @@
   height: 100%;
 }
 
+.introContainer .intro-wrapper .left-column .actionsContainer .picThemeContainer {
+  height: 100%;
+  width: 100%;
+}
+
 .introContainer .intro-wrapper .left-column .actionsContainer .picThemeContainer .profile {
   position: relative;
+  top: 0;
+  left: 0;
 }
 
 .introContainer .intro-wrapper .left-column .actionsContainer .picThemeContainer .profile #profilePicture {
@@ -52,9 +59,6 @@
   -o-object-fit: cover;
      object-fit: cover;
   background-size: contain;
-  position: absolute;
-  top: 0%;
-  left: 0%;
   border: 3px solid var(--themeContainerDotBorder);
   -webkit-box-shadow: 0 4px 4px var(--shadow);
   box-shadow: 0 4px 4px var(--shadow);
@@ -63,6 +67,10 @@
 .introContainer .intro-wrapper .left-column .actionsContainer .picThemeContainer .profile #profilePicSubBox {
   height: 100%;
   width: 100%;
+  position: absolute;
+  top: 0%;
+  left: 0%;
+  min-width: 150px;
   max-width: 360px;
   display: block;
   margin: 0 auto;
@@ -412,6 +420,15 @@
     height: auto;
     width: 70vw;
   }
+  .introContainer .intro-wrapper .left-column .actionsContainer .picThemeContainer .profile #profilePicSubBox {
+    height: auto;
+    width: 70vw;
+    position: absolute;
+    top: 0%;
+    left: 50%;
+    -webkit-transform: translate(-50%, 0);
+            transform: translate(-50%, 0);
+  }
   .introContainer .intro-wrapper .left-column .actionsContainer .picThemeContainer #theme-options-wrapper .personalizedText {
     font-size: 1.5rem;
     margin: 1em 0px;
@@ -504,6 +521,15 @@
   .introContainer .intro-wrapper .left-column .actionsContainer .picThemeContainer .profile #profilePicture {
     height: auto;
     width: 70vw;
+  }
+  .introContainer .intro-wrapper .left-column .actionsContainer .picThemeContainer .profile #profilePicSubBox {
+    height: auto;
+    width: 70vw;
+    position: absolute;
+    top: 0%;
+    left: 50%;
+    -webkit-transform: translate(-50%, 0);
+            transform: translate(-50%, 0);
   }
   .introContainer .intro-wrapper .left-column .actionsContainer .picThemeContainer #theme-options-wrapper .personalizedText {
     font-size: 1.5rem;
@@ -600,6 +626,15 @@
   .introContainer .intro-wrapper .left-column .actionsContainer .picThemeContainer .profile #profilePicture {
     height: auto;
     width: 70vw;
+  }
+  .introContainer .intro-wrapper .left-column .actionsContainer .picThemeContainer .profile #profilePicSubBox {
+    height: auto;
+    width: 70vw;
+    position: absolute;
+    top: 0%;
+    left: 50%;
+    -webkit-transform: translate(-50%, 0);
+            transform: translate(-50%, 0);
   }
   .introContainer .intro-wrapper .left-column .actionsContainer .picThemeContainer #theme-options-wrapper .personalizedText {
     font-size: 1.5rem;

@@ -12,11 +12,10 @@ video {
 
 .NavLink {
 	color: whitesmoke;
-}
-
-.NavLink:hover {
-	color: red;
-	text-decoration: none;
+	&:hover {
+		color: rgb(249, 121, 121);
+		text-decoration: none;
+	}
 }
 
 .continueLink {

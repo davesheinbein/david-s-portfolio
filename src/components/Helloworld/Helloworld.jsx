@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import headshot from '../../images/headshot.png';
+import headshotSmall from '../../images/headshotsmall.jpg';
 import Computerguy from './Computerguy/Computerguy';
 import './styles/Helloworld.css';
 
@@ -13,6 +14,10 @@ export default class Helloworld extends Component {
 						<div className='actionsContainer'>
 							<div className='picThemeContainer'>
 								<div className='profile'>
+									<img
+										id='profilePicSubBox'
+										src={headshotSmall}
+										alt='headshot'></img>
 									<img
 										id='profilePicture'
 										src={headshot}

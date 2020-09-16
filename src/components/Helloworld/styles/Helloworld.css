@@ -38,13 +38,38 @@
   height: 100%;
 }
 
+.introContainer .intro-wrapper .left-column .actionsContainer .picThemeContainer .profile {
+  position: relative;
+}
+
 .introContainer .intro-wrapper .left-column .actionsContainer .picThemeContainer .profile #profilePicture {
+  height: 100%;
+  width: 100%;
   max-width: 360px;
   display: block;
   margin: 0 auto;
   border-radius: 5px;
   -o-object-fit: cover;
      object-fit: cover;
+  background-size: contain;
+  position: absolute;
+  top: 0%;
+  left: 0%;
+  border: 3px solid var(--themeContainerDotBorder);
+  -webkit-box-shadow: 0 4px 4px var(--shadow);
+  box-shadow: 0 4px 4px var(--shadow);
+}
+
+.introContainer .intro-wrapper .left-column .actionsContainer .picThemeContainer .profile #profilePicSubBox {
+  height: 100%;
+  width: 100%;
+  max-width: 360px;
+  display: block;
+  margin: 0 auto;
+  border-radius: 5px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  background-size: contain;
   border: 3px solid var(--themeContainerDotBorder);
   -webkit-box-shadow: 0 4px 4px var(--shadow);
   box-shadow: 0 4px 4px var(--shadow);

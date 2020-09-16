@@ -24,12 +24,30 @@
 				height: 100%;
 				.picThemeContainer {
 					.profile {
+						position: relative;
 						#profilePicture {
+							@include heightWidth(100%, 100%);
 							max-width: 360px;
 							display: block;
 							margin: 0 auto;
 							border-radius: 5px;
 							object-fit: cover;
+							background-size: contain;
+							@include topLeftAbsolute(0%, 0%);
+							border: 3px solid
+								var(--themeContainerDotBorder);
+							-moz-box-shadow: 0 4px 4px var(--shadow);
+							-webkit-box-shadow: 0 4px 4px var(--shadow);
+							box-shadow: 0 4px 4px var(--shadow);
+						}
+						#profilePicSubBox {
+							@include heightWidth(100%, 100%);
+							max-width: 360px;
+							display: block;
+							margin: 0 auto;
+							border-radius: 5px;
+							object-fit: cover;
+							background-size: contain;
 							border: 3px solid
 								var(--themeContainerDotBorder);
 							-moz-box-shadow: 0 4px 4px var(--shadow);
@@ -310,6 +328,8 @@
 							#profilePicture {
 								@include heightWidth(auto, 70vw);
 							}
+							#profilePicSubBox {
+							}
 						}
 						#theme-options-wrapper {
 							.personalizedText {
@@ -435,6 +455,8 @@
 						.profile {
 							#profilePicture {
 								@include heightWidth(auto, 70vw);
+							}
+							#profilePicSubBox {
 							}
 						}
 						#theme-options-wrapper {
@@ -565,6 +587,8 @@
 							#profilePicture {
 								@include heightWidth(auto, 70vw);
 							}
+							#profilePicSubBox {
+							}
 						}
 						#theme-options-wrapper {
 							.personalizedText {
@@ -687,6 +711,8 @@
 							#profilePicture {
 								@include heightWidth(auto, 100%);
 								max-width: 24vw;
+							}
+							#profilePicSubBox {
 							}
 						}
 						#theme-options-wrapper {
@@ -815,6 +841,8 @@
 								@include heightWidth(auto, 100%);
 								max-width: 360px;
 							}
+							#profilePicSubBox {
+							}
 						}
 						#theme-options-wrapper {
 							.personalizedText {
@@ -939,6 +967,8 @@
 							#profilePicture {
 								@include heightWidth(auto, 100%);
 								max-width: 400px;
+							}
+							#profilePicSubBox {
 							}
 						}
 						#theme-options-wrapper {

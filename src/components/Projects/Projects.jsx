@@ -18,7 +18,7 @@ export default class Projects extends Component {
 					<div>
 						<div className='post'>
 							<a
-								href='https://github.com/davesheinbein/stead-finder-horse-buliten-board'
+								href='https://horse-bulletin-board.herokuapp.com/'
 								target='_blank'
 								rel='noopener noreferrer'>
 								<img
@@ -38,7 +38,7 @@ export default class Projects extends Component {
 								</div>
 								<div className='viewMoreBtn'>
 									<a
-										href='https://github.com/davesheinbein/stead-finder-horse-buliten-board'
+										href='https://horse-bulletin-board.herokuapp.com/'
 										target='_blank'
 										rel='noopener noreferrer'>
 										View More{' '}
@@ -53,7 +53,7 @@ export default class Projects extends Component {
 					<div>
 						<div className='post'>
 							<a
-								href='https://github.com/davesheinbein/full-stack-web-app'
+								href='https://inspirations-website.herokuapp.com/'
 								target='_blank'
 								rel='noopener noreferrer'>
 								<img
@@ -72,7 +72,7 @@ export default class Projects extends Component {
 								</div>
 								<div className='viewMoreBtn'>
 									<a
-										href='https://github.com/davesheinbein/full-stack-web-app'
+										href='https://inspirations-website.herokuapp.com/'
 										target='_blank'
 										rel='noopener noreferrer'>
 										View More{' '}
@@ -87,7 +87,7 @@ export default class Projects extends Component {
 					<div>
 						<div className='post'>
 							<a
-								href='https://github.com/davesheinbein/TwistsOfRate'
+								href='https://twists-of-rate.herokuapp.com/'
 								target='_blank'
 								rel='noopener noreferrer'>
 								<img
@@ -107,7 +107,7 @@ export default class Projects extends Component {
 								</div>
 								<div className='viewMoreBtn'>
 									<a
-										href='https://github.com/davesheinbein/TwistsOfRate'
+										href='https://twists-of-rate.herokuapp.com/'
 										target='_blank'
 										rel='noopener noreferrer'>
 										View More{' '}
@@ -122,7 +122,7 @@ export default class Projects extends Component {
 					<div>
 						<div className='post'>
 							<a
-								href='https://github.com/davesheinbein/War-game'
+								href='https://davesheinbein.github.io/War-game/'
 								target='_blank'
 								rel='noopener noreferrer'>
 								<img
@@ -139,7 +139,7 @@ export default class Projects extends Component {
 								</div>
 								<div className='viewMoreBtn'>
 									<a
-										href='https://github.com/davesheinbein/War-game'
+										href='https://davesheinbein.github.io/War-game/'
 										target='_blank'
 										rel='noopener noreferrer'>
 										View More{' '}
@@ -154,7 +154,7 @@ export default class Projects extends Component {
 					<div>
 						<div className='post'>
 							<a
-								href='https://github.com/davesheinbein/neon-strobe-animation'
+								href='https://davesheinbein.github.io/neon-strobe-animation/'
 								target='_blank'
 								rel='noopener noreferrer'>
 								<img
@@ -173,7 +173,7 @@ export default class Projects extends Component {
 								</div>
 								<div className='viewMoreBtn'>
 									<a
-										href='https://github.com/davesheinbein/neon-strobe-animation'
+										href='https://davesheinbein.github.io/neon-strobe-animation/'
 										target='_blank'
 										rel='noopener noreferrer'>
 										View More{' '}
@@ -188,7 +188,7 @@ export default class Projects extends Component {
 					<div>
 						<div className='post'>
 							<a
-								href='https://github.com/davesheinbein/neon-strobe-animation'
+								href='https://calculator-ds.herokuapp.com/'
 								target='_blank'
 								rel='noopener noreferrer'>
 								<img
@@ -210,7 +210,7 @@ export default class Projects extends Component {
 								</div>
 								<div className='viewMoreBtn'>
 									<a
-										href='https://github.com/davesheinbein/calculator'
+										href='https://calculator-ds.herokuapp.com/'
 										target='_blank'
 										rel='noopener noreferrer'>
 										View More{' '}

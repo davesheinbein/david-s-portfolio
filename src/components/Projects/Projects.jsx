@@ -122,6 +122,43 @@ export default class Projects extends Component {
 					<div>
 						<div className='post'>
 							<a
+								href='https://calculator-ds.herokuapp.com/'
+								target='_blank'
+								rel='noopener noreferrer'>
+								<img
+									className='thumbnail'
+									alt='calculator'
+									src={calcScreen}
+									style={{
+										objectPosition: '50% 30%',
+									}}></img>
+							</a>
+							<div className='post-preview'>
+								<div className='post-title'>
+									React-Redux Calculator
+								</div>
+								<div className='post-intro'>
+									A simple calculator built using React.js,
+									React-Redux, and React-spring. Using the
+									eval() method in order to calculate.
+								</div>
+								<div className='viewMoreBtn'>
+									<a
+										href='https://calculator-ds.herokuapp.com/'
+										target='_blank'
+										rel='noopener noreferrer'>
+										View More{' '}
+										<i
+											className='fa fa-long-arrow-right'
+											aria-hidden='true'></i>
+									</a>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div>
+						<div className='post'>
+							<a
 								href='https://davesheinbein.github.io/War-game/'
 								target='_blank'
 								rel='noopener noreferrer'>
@@ -174,43 +211,6 @@ export default class Projects extends Component {
 								<div className='viewMoreBtn'>
 									<a
 										href='https://davesheinbein.github.io/neon-strobe-animation/'
-										target='_blank'
-										rel='noopener noreferrer'>
-										View More{' '}
-										<i
-											className='fa fa-long-arrow-right'
-											aria-hidden='true'></i>
-									</a>
-								</div>
-							</div>
-						</div>
-					</div>
-					<div>
-						<div className='post'>
-							<a
-								href='https://calculator-ds.herokuapp.com/'
-								target='_blank'
-								rel='noopener noreferrer'>
-								<img
-									className='thumbnail'
-									alt='calculator'
-									src={calcScreen}
-									style={{
-										objectPosition: '50% 30%',
-									}}></img>
-							</a>
-							<div className='post-preview'>
-								<div className='post-title'>
-									React-Redux Calculator
-								</div>
-								<div className='post-intro'>
-									A simple calculator built using React.js,
-									React-Redux, and React-spring. Using the
-									eval() method in order to calculate.
-								</div>
-								<div className='viewMoreBtn'>
-									<a
-										href='https://calculator-ds.herokuapp.com/'
 										target='_blank'
 										rel='noopener noreferrer'>
 										View More{' '}

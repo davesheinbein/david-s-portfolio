@@ -5,6 +5,7 @@ import twistsofrate from '../../images/twistsofrate.png';
 import wargame from '../../images/wargame.png';
 import neonstrobe from '../../images/neonstrobe.png';
 import calcScreen from '../../images/calcScreen.png';
+import typeScript from '../../images/typescriptQuizScreenshot.png';
 import './styles/Projects.css';
 
 export default class Projects extends Component {
@@ -122,29 +123,30 @@ export default class Projects extends Component {
 					<div>
 						<div className='post'>
 							<a
-								href='https://calculator-ds.herokuapp.com/'
+								href='https://react-typescript-quiz-app.netlify.app/'
 								target='_blank'
 								rel='noopener noreferrer'>
 								<img
 									className='thumbnail'
 									alt='calculator'
-									src={calcScreen}
+									src={typeScript}
 									style={{
 										objectPosition: '50% 30%',
 									}}></img>
 							</a>
 							<div className='post-preview'>
 								<div className='post-title'>
-									React Redux Calculator
+									React Typescript Quiz
 								</div>
 								<div className='post-intro'>
-									A simple calculator built using React.js,
-									React-Redux, and React-spring. Using the
-									eval() method in order to calculate.
+									Simple Frontend utilizing the Open Trivia
+									Database API and Styled-Components. The
+									API generates Trivia questions and
+									answers.
 								</div>
 								<div className='viewMoreBtn'>
 									<a
-										href='https://calculator-ds.herokuapp.com/'
+										href='https://react-typescript-quiz-app.netlify.app/'
 										target='_blank'
 										rel='noopener noreferrer'>
 										View More{' '}

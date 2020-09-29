@@ -5,6 +5,7 @@ import twistsofrate from '../../images/twistsofrate.png';
 import wargame from '../../images/wargame.png';
 import neonstrobe from '../../images/neonstrobe.png';
 import calcScreen from '../../images/calcScreen.png';
+import funFunct from '../../images/subHomeScreenshot.png';
 import typeScript from '../../images/typescriptQuizScreenshot.png';
 import './styles/Projects.css';
 
@@ -147,6 +148,76 @@ export default class Projects extends Component {
 								<div className='viewMoreBtn'>
 									<a
 										href='https://react-typescript-quiz-app.netlify.app/'
+										target='_blank'
+										rel='noopener noreferrer'>
+										View More{' '}
+										<i
+											className='fa fa-long-arrow-right'
+											aria-hidden='true'></i>
+									</a>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div>
+						<div className='post'>
+							<a
+								href='https://funfunctionalities.herokuapp.com/'
+								target='_blank'
+								rel='noopener noreferrer'>
+								<img
+									className='thumbnail'
+									alt='War-Game'
+									src={funFunct}></img>
+							</a>
+							<div className='post-preview'>
+								<div className='post-title'>
+									Fun Functionalities
+								</div>
+								<div className='post-intro'>
+									Application that explores different
+									functionalities and there use cases.
+									Utilizing react-spring and framer
+									libraries to create flawless animations
+									and transitions.
+								</div>
+								<div className='viewMoreBtn'>
+									<a
+										href='https://funfunctionalities.herokuapp.com/'
+										target='_blank'
+										rel='noopener noreferrer'>
+										View More{' '}
+										<i
+											className='fa fa-long-arrow-right'
+											aria-hidden='true'></i>
+									</a>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div>
+						<div className='post'>
+							<a
+								href='https://calculator-ds.herokuapp.com/'
+								target='_blank'
+								rel='noopener noreferrer'>
+								<img
+									className='thumbnail'
+									alt='calculator'
+									src={calcScreen}></img>
+							</a>
+							<div className='post-preview'>
+								<div className='post-title'>
+									React Redux Calculator
+								</div>
+								<div className='post-intro'>
+									A simple calculator built using React.js,
+									React-Redux, and React-spring. Using the
+									eval() method in order to calculate.
+								</div>
+								<div className='viewMoreBtn'>
+									<a
+										href='https://calculator-ds.herokuapp.com/'
 										target='_blank'
 										rel='noopener noreferrer'>
 										View More{' '}

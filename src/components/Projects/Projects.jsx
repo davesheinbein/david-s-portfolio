@@ -139,7 +139,7 @@ export default class Projects extends Component {
 									React Typescript Quiz
 								</div>
 								<div className='post-intro'>
-									Simple Frontend utilizing the Open Trivia
+									Simple app utilizing the Open Trivia
 									Database API and Styled-Components. The
 									API generates Trivia questions and
 									answers.

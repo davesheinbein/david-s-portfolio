@@ -7,6 +7,7 @@ import neonstrobe from '../../images/neonstrobe.png';
 import calcScreen from '../../images/calcScreen.png';
 import funFunct from '../../images/subHomeScreenshot.png';
 import typeScript from '../../images/typescriptQuizScreenshot.png';
+import netflixClone from '../../images/netflixCloneScreenshot.png';
 import './styles/Projects.css';
 
 export default class Projects extends Component {
@@ -218,6 +219,40 @@ export default class Projects extends Component {
 								<div className='viewMoreBtn'>
 									<a
 										href='https://calculator-ds.herokuapp.com/'
+										target='_blank'
+										rel='noopener noreferrer'>
+										View More{' '}
+										<i
+											className='fa fa-long-arrow-right'
+											aria-hidden='true'></i>
+									</a>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div>
+						<div className='post'>
+							<a
+								href='https://neflix-clone-ds.web.app/'
+								target='_blank'
+								rel='noopener noreferrer'>
+								<img
+									className='thumbnail'
+									alt='War-Game'
+									src={netflixClone}></img>
+							</a>
+							<div className='post-preview'>
+								<div className='post-title'>
+									Netflix Clone
+								</div>
+								<div className='post-intro'>
+									Front-End UI interface Netflix Clone.
+									Deployed to Firebase utilizing MovieDB,
+									movie-trailer, react-youtube, and more.
+								</div>
+								<div className='viewMoreBtn'>
+									<a
+										href='https://neflix-clone-ds.web.app/'
 										target='_blank'
 										rel='noopener noreferrer'>
 										View More{' '}

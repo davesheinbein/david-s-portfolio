@@ -282,8 +282,9 @@ export default class Projects extends Component {
 								</div>
 								<div className='post-intro'>
 									Front-end UI Spotify Clone built utilizing
-									React, Spotify API, SASS, and more. Hosted
-									utilizing Firebase.
+									React, Spotify API, and more. Hosted
+									utilizing Firebase. Limited functionality
+									while Spotify is also open.
 								</div>
 								<div className='viewMoreBtn'>
 									<a

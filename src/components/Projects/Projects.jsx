@@ -9,6 +9,7 @@ import funFunct from '../../images/subHomeScreenshot.png';
 import typeScript from '../../images/typescriptQuizScreenshot.png';
 import netflixClone from '../../images/netflixCloneScreenshot.png';
 import spotifyClone from '../../images/playlistScreenshot.png';
+import amazonClone from '../../images/homeScreenshot.png';
 import './styles/Projects.css';
 
 export default class Projects extends Component {
@@ -289,6 +290,41 @@ export default class Projects extends Component {
 								<div className='viewMoreBtn'>
 									<a
 										href='https://spotify-clone-ds.web.app'
+										target='_blank'
+										rel='noopener noreferrer'>
+										View More{' '}
+										<i
+											className='fa fa-long-arrow-right'
+											aria-hidden='true'></i>
+									</a>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div>
+						<div className='post'>
+							<a
+								href='https://clone-ds.web.app/'
+								target='_blank'
+								rel='noopener noreferrer'>
+								<img
+									className='thumbnail'
+									alt='War-Game'
+									src={amazonClone}></img>
+							</a>
+							<div className='post-preview'>
+								<div className='post-title'>
+									Amazon Clone
+								</div>
+								<div className='post-intro'>
+									Amazon Clone utilizing React, Redux, and
+									more. Utilizing Firebase for database,
+									user authentication, and hosting. Backend
+									built using Firebase and Axios.
+								</div>
+								<div className='viewMoreBtn'>
+									<a
+										href='https://clone-ds.web.app/'
 										target='_blank'
 										rel='noopener noreferrer'>
 										View More{' '}

@@ -8,6 +8,7 @@ import calcScreen from '../../images/calcScreen.png';
 import funFunct from '../../images/subHomeScreenshot.png';
 import typeScript from '../../images/typescriptQuizScreenshot.png';
 import netflixClone from '../../images/netflixCloneScreenshot.png';
+import spotifyClone from '../../images/playlistScreenshot.png';
 import './styles/Projects.css';
 
 export default class Projects extends Component {
@@ -253,6 +254,40 @@ export default class Projects extends Component {
 								<div className='viewMoreBtn'>
 									<a
 										href='https://neflix-clone-ds.web.app/'
+										target='_blank'
+										rel='noopener noreferrer'>
+										View More{' '}
+										<i
+											className='fa fa-long-arrow-right'
+											aria-hidden='true'></i>
+									</a>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div>
+						<div className='post'>
+							<a
+								href='https://spotify-clone-ds.web.app'
+								target='_blank'
+								rel='noopener noreferrer'>
+								<img
+									className='thumbnail'
+									alt='War-Game'
+									src={spotifyClone}></img>
+							</a>
+							<div className='post-preview'>
+								<div className='post-title'>
+									Spotify Clone
+								</div>
+								<div className='post-intro'>
+									Front-end UI Spotify Clone built utilizing
+									React, Spotify API, SASS, and more. Hosted
+									utilizing Firebase.
+								</div>
+								<div className='viewMoreBtn'>
+									<a
+										href='https://spotify-clone-ds.web.app'
 										target='_blank'
 										rel='noopener noreferrer'>
 										View More{' '}

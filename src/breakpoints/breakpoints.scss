@@ -335,3 +335,23 @@ $unit-intervals: (
 * Testing
 *
 **/
+
+
+
+// @include media('<=phone') {
+// }
+
+// @include media('>phone', '<=425px') {
+// }
+
+// @include media('>425px', '<=tablet') {
+// }
+
+// @include media('>tablet', '<desktop') {
+// }
+
+// @include media('>=desktop') {
+// }
+
+// @include media('>=LGdesktop', 'retina2x') {
+// }

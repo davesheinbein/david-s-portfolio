@@ -27,6 +27,7 @@ export default class Projects extends Component {
 								target='_blank'
 								rel='noopener noreferrer'>
 								<img
+									loading='lazy'
 									className='thumbnail'
 									alt='Steed-Finder'
 									src={steedfinder}></img>
@@ -62,6 +63,7 @@ export default class Projects extends Component {
 								target='_blank'
 								rel='noopener noreferrer'>
 								<img
+									loading='lazy'
 									className='thumbnail'
 									alt='Inspiratios'
 									src={inspirations}></img>
@@ -96,6 +98,7 @@ export default class Projects extends Component {
 								target='_blank'
 								rel='noopener noreferrer'>
 								<img
+									loading='lazy'
 									className='thumbnail'
 									alt='Twists-Of-Rate'
 									src={twistsofrate}></img>
@@ -131,6 +134,7 @@ export default class Projects extends Component {
 								target='_blank'
 								rel='noopener noreferrer'>
 								<img
+									loading='lazy'
 									className='thumbnail'
 									alt='calculator'
 									src={typeScript}
@@ -169,6 +173,7 @@ export default class Projects extends Component {
 								target='_blank'
 								rel='noopener noreferrer'>
 								<img
+									loading='lazy'
 									className='thumbnail'
 									alt='War-Game'
 									src={funFunct}></img>
@@ -205,6 +210,7 @@ export default class Projects extends Component {
 								target='_blank'
 								rel='noopener noreferrer'>
 								<img
+									loading='lazy'
 									className='thumbnail'
 									alt='calculator'
 									src={calcScreen}></img>
@@ -239,13 +245,14 @@ export default class Projects extends Component {
 								target='_blank'
 								rel='noopener noreferrer'>
 								<img
+									loading='lazy'
 									className='thumbnail'
 									alt='War-Game'
 									src={netflixClone}></img>
 							</a>
 							<div className='post-preview'>
 								<div className='post-title'>
-									Netflix Clone
+									Fakeflix - Netflix UI
 								</div>
 								<div className='post-intro'>
 									Front-End UI interface Netflix Clone.
@@ -273,6 +280,7 @@ export default class Projects extends Component {
 								target='_blank'
 								rel='noopener noreferrer'>
 								<img
+									loading='lazy'
 									className='thumbnail'
 									alt='War-Game'
 									src={spotifyClone}></img>
@@ -308,13 +316,14 @@ export default class Projects extends Component {
 								target='_blank'
 								rel='noopener noreferrer'>
 								<img
+									loading='lazy'
 									className='thumbnail'
 									alt='War-Game'
 									src={amazonClone}></img>
 							</a>
 							<div className='post-preview'>
 								<div className='post-title'>
-									Amazon Clone
+									Fake Amazon UI
 								</div>
 								<div className='post-intro'>
 									Amazon Clone utilizing React, Redux, and
@@ -343,6 +352,7 @@ export default class Projects extends Component {
 								target='_blank'
 								rel='noopener noreferrer'>
 								<img
+									loading='lazy'
 									className='thumbnail'
 									alt='War-Game'
 									src={wargame}></img>
@@ -375,6 +385,7 @@ export default class Projects extends Component {
 								target='_blank'
 								rel='noopener noreferrer'>
 								<img
+									loading='lazy'
 									className='thumbnail'
 									alt='Neon-Strobe-Animation'
 									src={neonstrobe}></img>

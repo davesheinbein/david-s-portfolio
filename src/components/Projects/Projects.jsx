@@ -287,7 +287,7 @@ export default class Projects extends Component {
 							</a>
 							<div className='post-preview'>
 								<div className='post-title'>
-									Spotify Clone
+									Fake Spotify UI
 								</div>
 								<div className='post-intro'>
 									Front-end UI Spotify Clone built utilizing

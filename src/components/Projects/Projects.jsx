@@ -290,7 +290,7 @@ export default class Projects extends Component {
 									Fake Spotify UI
 								</div>
 								<div className='post-intro'>
-									Front-end UI Spotify Clone built utilizing
+									Front-end fake Spotify UI built utilizing
 									React, Spotify API, and more. Hosted
 									utilizing Firebase. Limited functionality
 									while Spotify is also open.

@@ -10,6 +10,7 @@ import typeScript from '../../images/typescriptQuizScreenshot.png';
 import netflixClone from '../../images/netflixCloneScreenshot.png';
 import spotifyClone from '../../images/playlistScreenshot.png';
 import amazonClone from '../../images/homeScreenshot.png';
+import iMessage from '../../images/IMessageScreenshot.png';
 import './styles/Projects.css';
 
 export default class Projects extends Component {
@@ -175,7 +176,7 @@ export default class Projects extends Component {
 								<img
 									loading='lazy'
 									className='thumbnail'
-									alt='War-Game'
+									alt='fun functionalities'
 									src={funFunct}></img>
 							</a>
 							<div className='post-preview'>
@@ -247,7 +248,7 @@ export default class Projects extends Component {
 								<img
 									loading='lazy'
 									className='thumbnail'
-									alt='War-Game'
+									alt='Netflix'
 									src={netflixClone}></img>
 							</a>
 							<div className='post-preview'>
@@ -276,21 +277,57 @@ export default class Projects extends Component {
 					<div>
 						<div className='post'>
 							<a
+								href='https://i-message-ui.web.app/'
+								target='_blank'
+								rel='noopener noreferrer'>
+								<img
+									loading='lazy'
+									className='thumbnail'
+									alt='iMessage'
+									src={iMessage}></img>
+							</a>
+							<div className='post-preview'>
+								<div className='post-title'>
+									iMessage Mock UI
+								</div>
+								<div className='post-intro'>
+									Mock iMessage Frontend UI built utilizing
+									React, Redux and more. Deployed to
+									Firebase utilizing Firebase database
+									authentication.
+								</div>
+								<div className='viewMoreBtn'>
+									<a
+										href='https://i-message-ui.web.app/'
+										target='_blank'
+										rel='noopener noreferrer'>
+										View More{' '}
+										<i
+											className='fa fa-long-arrow-right'
+											aria-hidden='true'></i>
+									</a>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div>
+						<div className='post'>
+							<a
 								href='https://spotify-clone-ds.web.app'
 								target='_blank'
 								rel='noopener noreferrer'>
 								<img
 									loading='lazy'
 									className='thumbnail'
-									alt='War-Game'
+									alt='spotify'
 									src={spotifyClone}></img>
 							</a>
 							<div className='post-preview'>
 								<div className='post-title'>
-									Fake Spotify UI
+									Mock Spotify UI
 								</div>
 								<div className='post-intro'>
-									Front-end fake Spotify UI built utilizing
+									Mock Spotify Front-end UI built utilizing
 									React, Spotify API, and more. Hosted
 									utilizing Firebase. Limited functionality
 									while Spotify is also open.
@@ -318,12 +355,12 @@ export default class Projects extends Component {
 								<img
 									loading='lazy'
 									className='thumbnail'
-									alt='War-Game'
+									alt='amazon'
 									src={amazonClone}></img>
 							</a>
 							<div className='post-preview'>
 								<div className='post-title'>
-									Fake Amazon UI
+									Mock Amazon UI
 								</div>
 								<div className='post-intro'>
 									Amazon Clone utilizing React, Redux, and

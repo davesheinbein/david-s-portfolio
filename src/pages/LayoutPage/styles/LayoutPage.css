@@ -106,21 +106,21 @@ div .side1 .sub-container {
   }
   div .side2 .main-container .backgroundBox .waves-container .waveB img {
     width: 1500vw;
-    height: 50vh;
+    height: 60vh;
   }
 }
 
 @media (min-width: 426px) and (max-width: 768px) {
   div .side2 .main-container .backgroundBox {
-    top: -8%;
+    top: 10%;
   }
   div .side2 .main-container .backgroundBox .waves-container .waveA img {
     width: 1500vw;
-    height: 70vh;
+    height: 80vh;
   }
   div .side2 .main-container .backgroundBox .waves-container .waveB img {
     width: 1500vw;
-    height: 70vh;
+    height: 80vh;
   }
 }
 
@@ -130,17 +130,17 @@ div .side1 .sub-container {
   }
   div .side2 .main-container .backgroundBox .waves-container .waveA img {
     width: 1500vw;
-    height: 40vh;
+    height: 60vh;
   }
   div .side2 .main-container .backgroundBox .waves-container .waveB img {
     width: 1500vw;
-    height: 40vh;
+    height: 60vh;
   }
 }
 
 @media (min-width: 1366px) {
   div .side2 .main-container .backgroundBox {
-    top: 0%;
+    top: 5%;
   }
   div .side2 .main-container .backgroundBox .waves-container .waveA img {
     width: 1500vw;

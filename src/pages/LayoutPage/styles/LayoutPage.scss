@@ -105,6 +105,68 @@ div {
 		}
 	}
 
+	@media only screen and (min-device-width: 360px) and (max-device-width: 480px) and (-webkit-min-device-pixel-ratio: 2) {
+		.side2 {
+			background-color: var(--TertiaryTextBtnText);
+			.sub-container {
+			}
+			.main-container {
+				.backgroundBox {
+					transform: translateY(2em);
+					.waves-container {
+						.waveA {
+							img {
+								width: 1500vw;
+								min-height: 100vh;
+							}
+						}
+						.waveB {
+							img {
+								width: 1500vw;
+								min-height: 100vh;
+							}
+						}
+					}
+					.fireworks-container {
+						.fireworks {
+						}
+					}
+				}
+			}
+		}
+	}
+
+	@media only screen and (min-device-width: 100px) and (max-device-width: 351px) and (-webkit-min-device-pixel-ratio: 2) {
+		.side2 {
+			background-color: var(--TertiaryTextBtnText);
+			.sub-container {
+			}
+			.main-container {
+				.backgroundBox {
+					transform: translateY(16em);
+					.waves-container {
+						.waveA {
+							img {
+								width: 1500vw;
+								min-height: 100vh;
+							}
+						}
+						.waveB {
+							img {
+								width: 1500vw;
+								min-height: 100vh;
+							}
+						}
+					}
+					.fireworks-container {
+						.fireworks {
+						}
+					}
+				}
+			}
+		}
+	}
+
 	@include media('>phone', '<=425px') {
 		.side2 {
 			.sub-container {

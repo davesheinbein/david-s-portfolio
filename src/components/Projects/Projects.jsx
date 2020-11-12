@@ -11,6 +11,7 @@ import netflixClone from '../../images/netflixCloneScreenshot.png';
 import spotifyClone from '../../images/playlistScreenshot.png';
 import amazonClone from '../../images/homeScreenshot.png';
 import iMessage from '../../images/IMessageScreenshot.png';
+import twitch from '../../images/fakeTwitchScreenshot.png';
 import './styles/Projects.css';
 
 export default class Projects extends Component {
@@ -299,6 +300,42 @@ export default class Projects extends Component {
 								<div className='viewMoreBtn'>
 									<a
 										href='https://i-message-ui.web.app/'
+										target='_blank'
+										rel='noopener noreferrer'>
+										View More{' '}
+										<i
+											className='fa fa-long-arrow-right'
+											aria-hidden='true'></i>
+									</a>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div>
+						<div className='post'>
+							<a
+								href='https://mock-twitch-ui.web.app/'
+								target='_blank'
+								rel='noopener noreferrer'>
+								<img
+									loading='lazy'
+									className='thumbnail'
+									alt='twitch'
+									src={twitch}></img>
+							</a>
+							<div className='post-preview'>
+								<div className='post-title'>
+									Mock Twitch UI
+								</div>
+								<div className='post-intro'>
+									Mock Twitch front-end UI built with
+									React.js that simulates the UI of a
+									JohnDoe user profile with random YouTube
+									videos included.
+								</div>
+								<div className='viewMoreBtn'>
+									<a
+										href='https://mock-twitch-ui.web.app/'
 										target='_blank'
 										rel='noopener noreferrer'>
 										View More{' '}

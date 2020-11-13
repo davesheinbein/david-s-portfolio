@@ -12,6 +12,7 @@ import spotifyClone from '../../images/playlistScreenshot.png';
 import amazonClone from '../../images/homeScreenshot.png';
 import iMessage from '../../images/IMessageScreenshot.png';
 import twitch from '../../images/fakeTwitchScreenshot.png';
+import covid from '../../images/covidTrackerScreenshot.png';
 import './styles/Projects.css';
 
 export default class Projects extends Component {
@@ -25,63 +26,28 @@ export default class Projects extends Component {
 					<div>
 						<div className='post'>
 							<a
-								href='https://horse-bulletin-board.herokuapp.com/'
+								href='https://fun-functionalities.web.app/'
 								target='_blank'
 								rel='noopener noreferrer'>
 								<img
 									loading='lazy'
 									className='thumbnail'
-									alt='Steed-Finder'
-									src={steedfinder}></img>
+									alt='Twists-Of-Rate'
+									src={covid}></img>
 							</a>
 							<div className='post-preview'>
 								<div className='post-title'>
-									Steed Finder
+									Covid-19 Tracker
 								</div>
 								<div className='post-intro'>
-									An online marketplace for horses. For
-									horse enthusiasts who are looking for a
-									new horse as well as owners who want to
-									place their horse in good hands.
+									An application that tracks the global
+									Covid-19 pandemic statistics and displays
+									the data on a map that is easily
+									accessible to anyone with the link.
 								</div>
 								<div className='viewMoreBtn'>
 									<a
-										href='https://horse-bulletin-board.herokuapp.com/'
-										target='_blank'
-										rel='noopener noreferrer'>
-										View More{' '}
-										<i
-											className='fa fa-long-arrow-right'
-											aria-hidden='true'></i>
-									</a>
-								</div>
-							</div>
-						</div>
-					</div>
-					<div>
-						<div className='post'>
-							<a
-								href='https://inspirations-website.herokuapp.com/'
-								target='_blank'
-								rel='noopener noreferrer'>
-								<img
-									loading='lazy'
-									className='thumbnail'
-									alt='Inspiratios'
-									src={inspirations}></img>
-							</a>
-							<div className='post-preview'>
-								<div className='post-title'>
-									Inspirations
-								</div>
-								<div className='post-intro'>
-									A repository of Gifs and Videos. People
-									can post GIFs, Videos, and comments.
-									Utilizing full CRUD functionality.
-								</div>
-								<div className='viewMoreBtn'>
-									<a
-										href='https://inspirations-website.herokuapp.com/'
+										href='https://fun-functionalities.web.app/'
 										target='_blank'
 										rel='noopener noreferrer'>
 										View More{' '}
@@ -408,6 +374,77 @@ export default class Projects extends Component {
 								<div className='viewMoreBtn'>
 									<a
 										href='https://clone-ds.web.app/'
+										target='_blank'
+										rel='noopener noreferrer'>
+										View More{' '}
+										<i
+											className='fa fa-long-arrow-right'
+											aria-hidden='true'></i>
+									</a>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div>
+						<div className='post'>
+							<a
+								href='https://inspirations-website.herokuapp.com/'
+								target='_blank'
+								rel='noopener noreferrer'>
+								<img
+									loading='lazy'
+									className='thumbnail'
+									alt='Inspiratios'
+									src={inspirations}></img>
+							</a>
+							<div className='post-preview'>
+								<div className='post-title'>
+									Inspirations
+								</div>
+								<div className='post-intro'>
+									A repository of Gifs and Videos. People
+									can post GIFs, Videos, and comments.
+									Utilizing full CRUD functionality.
+								</div>
+								<div className='viewMoreBtn'>
+									<a
+										href='https://inspirations-website.herokuapp.com/'
+										target='_blank'
+										rel='noopener noreferrer'>
+										View More{' '}
+										<i
+											className='fa fa-long-arrow-right'
+											aria-hidden='true'></i>
+									</a>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div>
+						<div className='post'>
+							<a
+								href='https://horse-bulletin-board.herokuapp.com/'
+								target='_blank'
+								rel='noopener noreferrer'>
+								<img
+									loading='lazy'
+									className='thumbnail'
+									alt='Steed-Finder'
+									src={steedfinder}></img>
+							</a>
+							<div className='post-preview'>
+								<div className='post-title'>
+									Steed Finder
+								</div>
+								<div className='post-intro'>
+									An online marketplace for horses. For
+									horse enthusiasts who are looking for a
+									new horse as well as owners who want to
+									place their horse in good hands.
+								</div>
+								<div className='viewMoreBtn'>
+									<a
+										href='https://horse-bulletin-board.herokuapp.com/'
 										target='_blank'
 										rel='noopener noreferrer'>
 										View More{' '}

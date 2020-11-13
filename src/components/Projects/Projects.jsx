@@ -26,7 +26,7 @@ export default class Projects extends Component {
 					<div>
 						<div className='post'>
 							<a
-								href='https://fun-functionalities.web.app/'
+								href='hhttps://covid-track-er.web.app/'
 								target='_blank'
 								rel='noopener noreferrer'>
 								<img
@@ -47,7 +47,7 @@ export default class Projects extends Component {
 								</div>
 								<div className='viewMoreBtn'>
 									<a
-										href='https://fun-functionalities.web.app/'
+										href='hhttps://covid-track-er.web.app/'
 										target='_blank'
 										rel='noopener noreferrer'>
 										View More{' '}
